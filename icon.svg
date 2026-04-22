@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#fafaf7"/>
+  <rect x="48" y="48" width="416" height="416" fill="none" stroke="#1e3a5f" stroke-width="4"/>
+  <text x="256" y="280" font-family="Georgia, 'Palatino Linotype', serif" font-size="220" font-weight="700" font-style="italic" text-anchor="middle" fill="#1a1a2e">H</text>
+  <circle cx="360" cy="270" r="12" fill="#1e3a5f"/>
+  <text x="256" y="380" font-family="system-ui, sans-serif" font-size="36" font-weight="700" text-anchor="middle" fill="#595878" letter-spacing="8">RX</text>
+</svg>

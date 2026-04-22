@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<!--
+  HomeRx — Home OTC Reference (Civilian Edition)
+  © 2026 Jae H. Choi, PhD, DVSc. All rights reserved.
+  Educational reference only. Not medical advice.
+  Information derived from FDA OTC Monographs, DailyMed (NIH), and MedlinePlus (NIH).
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#fafaf7">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="HomeRx">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="HomeRx — Educational reference for common OTC medications and dietary supplements. FDA-approved uses only. Not medical advice.">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="HomeRx">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="HomeRx — Educational reference for common OTC medications and dietary supplements. FDA-approved uses only. Not medical advice.">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<title>HomeRx — OTC Reference</title>
+<style>
+  :root {
+    /* MONOCHROME + DEEP NAVY — editorial, refined */
+    --bg: #fafaf7;                /* warm off-white, paper-like */
+    --bg-elev: #f3f2ec;            /* slightly deeper paper tone */
+    --bg-card: #ffffff;             /* clean white cards pop against warm bg */
+    --border: #d9d6cc;              /* warm beige border */
+    --border-bright: #8a8578;       /* stronger divider */
+    --text: #1a1a2e;                /* deep ink — not pure black */
+    --text-body: #26263d;           /* body ink */
+    --text-dim: #595878;            /* dimmed but readable (7:1) */
+    --accent: #1e3a5f;              /* midnight navy */
+    --accent-solid: #1e3a5f;
+    --accent-bg: #e8ecf3;           /* pale navy tint */
+    --accent-dark: #0f1e33;
+    --warn: #8a5a00;                /* deep amber, almost brown */
+    --warn-bg: #f7f0dc;             /* cream paper */
+    --warn-border: #c89030;
+    --danger: #8b1a1a;               /* deep wine-red */
+    --danger-strong: #6b0f0f;
+    --danger-bg: #f5e3e3;             /* dusty rose */
+    --danger-border: #b52828;
+    --safe: #1f5c2f;                 /* forest green, not bright */
+    --safe-bg: #e8efe5;
+    --info: #2d4a7c;                 /* slightly lighter navy for supplements */
+    --info-bg: #eaeef5;
+    --font-serif: 'Iowan Old Style', 'Palatino Linotype', 'Cambria', Georgia, serif;
+    --font-base: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Noto Sans KR', system-ui, sans-serif;
+
+    --fs-base: 17px;
+    --fs-sm: 15px;
+    --fs-lg: 19px;
+    --fs-xl: 22px;
+    --fs-xxl: 28px;
+  }
+  body.text-large {
+    --fs-base: 19px; --fs-sm: 17px; --fs-lg: 22px; --fs-xl: 26px; --fs-xxl: 32px;
+  }
+  body.text-xlarge {
+    --fs-base: 22px; --fs-sm: 19px; --fs-lg: 26px; --fs-xl: 30px; --fs-xxl: 38px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    background: var(--bg); color: var(--text-body);
+    font-family: var(--font-base);
+    font-size: var(--fs-base); line-height: 1.65;
+    min-height: 100vh; overscroll-behavior: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* DISCLAIMER GATE */
+  .gate { position: fixed; inset: 0; background: var(--bg); z-index: 1000; overflow-y: auto; padding: 20px; display: flex; align-items: flex-start; justify-content: center; }
+  .gate.hidden { display: none; }
+  .gate-card { max-width: 620px; width: 100%; background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; padding: 40px 32px; margin: 20px 0; box-shadow: 0 2px 40px rgba(26,26,46,0.06); }
+  .gate-title { font-family: var(--font-serif); font-size: var(--fs-xxl); font-weight: 600; margin-bottom: 6px; color: var(--text); letter-spacing: -0.01em; line-height: 1.15; }
+  .gate-subtitle { font-size: 12px; color: var(--text-dim); margin-bottom: 28px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+  .gate-body { font-size: var(--fs-base); color: var(--text-body); margin-bottom: 28px; line-height: 1.7; }
+  .gate-body p { margin-bottom: 16px; }
+  .gate-body ul { margin: 14px 0 14px 20px; }
+  .gate-body li { margin-bottom: 8px; color: var(--text-body); }
+  .gate-body strong { color: var(--text); font-weight: 700; }
+  .gate-checks { background: var(--bg); border: 1px solid var(--border); border-radius: 2px; padding: 20px; margin-bottom: 24px; }
+  .check-row { display: flex; gap: 14px; padding: 12px 0; align-items: flex-start; cursor: pointer; min-height: 44px; }
+  .check-row input[type="checkbox"] { width: 22px; height: 22px; margin-top: 2px; accent-color: var(--accent); cursor: pointer; flex-shrink: 0; }
+  .check-row label { font-size: var(--fs-base); color: var(--text-body); cursor: pointer; line-height: 1.5; font-weight: 400; }
+  .gate-btn { width: 100%; padding: 18px; background: var(--accent-solid); color: #fafaf7; border: none; border-radius: 2px; font-size: var(--fs-base); font-weight: 600; cursor: pointer; transition: background 0.15s; min-height: 56px; text-transform: uppercase; letter-spacing: 0.1em; }
+  .gate-btn:disabled { background: var(--border); color: var(--text-dim); cursor: not-allowed; }
+  .gate-btn:not(:disabled):hover { background: var(--accent-dark); }
+  .gate-emergency { margin-top: 24px; padding: 20px; background: var(--danger-bg); border: 1px solid var(--danger-border); border-radius: 2px; font-size: var(--fs-sm); color: var(--text); line-height: 1.55; }
+  .gate-emergency strong { color: var(--danger); display: block; margin-bottom: 8px; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+
+  /* HEADER */
+  .header { position: sticky; top: 0; background: rgba(250,250,247,0.97); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 14px 16px; z-index: 100; display: flex; align-items: center; gap: 10px; }
+  .logo { font-family: var(--font-serif); font-size: var(--fs-xl); font-weight: 700; letter-spacing: -0.01em; color: var(--text); font-style: italic; }
+  .logo-dot { color: var(--accent); font-style: normal; }
+  .header-spacer { flex: 1; }
+  .header-controls { display: flex; gap: 8px; align-items: center; }
+  .text-size-toggle { display: flex; background: var(--bg-card); border: 1px solid var(--border-bright); border-radius: 2px; overflow: hidden; }
+  .ts-btn { padding: 8px 10px; background: transparent; color: var(--text-dim); border: none; cursor: pointer; font-size: var(--fs-sm); font-weight: 700; min-width: 36px; min-height: 36px; font-family: var(--font-serif); }
+  .ts-btn.active { background: var(--accent-solid); color: #fafaf7; }
+  .lang-toggle { display: flex; background: var(--bg-card); border: 1px solid var(--border-bright); border-radius: 2px; overflow: hidden; }
+  .lang-btn { padding: 8px 12px; background: transparent; color: var(--text-dim); border: none; cursor: pointer; font-size: 12px; font-weight: 700; min-height: 36px; letter-spacing: 0.1em; }
+  .lang-btn.active { background: var(--accent-solid); color: #fafaf7; }
+
+  /* EMERGENCY STRIP */
+  .emergency-strip { background: var(--bg-card); border-bottom: 1px solid var(--danger-border); border-top: 3px solid var(--danger-border); padding: 14px 16px; font-size: 13px; color: var(--text); display: flex; align-items: center; gap: 10px; font-weight: 500; line-height: 1.4; letter-spacing: 0.02em; }
+  .emergency-strip::before { content: '⚠'; color: var(--danger); font-size: 20px; }
+  .emergency-strip strong { color: var(--danger); font-weight: 700; }
+
+  /* SEARCH */
+  .search-bar { padding: 20px 16px 16px; background: var(--bg); border-bottom: 1px solid var(--border); max-width: 760px; margin: 0 auto; width: 100%; }
+  .search-input { width: 100%; padding: 16px 18px; background: var(--bg-card); border: 1px solid var(--border-bright); border-radius: 2px; color: var(--text); font-size: var(--fs-base); outline: none; transition: border-color 0.15s; font-family: var(--font-base); font-weight: 400; }
+  .search-input:focus { border-color: var(--accent); }
+  .search-input::placeholder { color: var(--text-dim); font-style: italic; }
+
+  /* CATEGORY FILTER */
+  .category-bar { display: flex; gap: 6px; padding: 12px 16px 16px; overflow-x: auto; scrollbar-width: none; background: var(--bg); border-bottom: 1px solid var(--border); max-width: 760px; margin: 0 auto; width: 100%; }
+  .category-bar::-webkit-scrollbar { display: none; }
+  .cat-btn { padding: 10px 18px; background: transparent; border: 1px solid var(--border-bright); border-radius: 2px; color: var(--text-body); font-size: 13px; font-weight: 600; white-space: nowrap; cursor: pointer; min-height: 44px; text-transform: uppercase; letter-spacing: 0.08em; transition: all 0.15s; }
+  .cat-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .cat-btn.active { background: var(--accent-solid); color: #fafaf7; border-color: var(--accent-dark); }
+
+  /* DRUG LIST */
+  .container { padding: 20px 16px 80px; max-width: 760px; margin: 0 auto; }
+  .drug-count { font-size: 13px; color: var(--text-dim); font-weight: 600; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.12em; }
+  .drug-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; margin-bottom: 14px; overflow: hidden; transition: all 0.2s; }
+  .drug-card.open { border-color: var(--accent); box-shadow: 0 4px 20px rgba(30,58,95,0.10); }
+  .drug-card.supplement { border-left: 4px solid var(--info); }
+  .drug-header { padding: 22px 22px; cursor: pointer; display: flex; align-items: flex-start; gap: 14px; min-height: 56px; }
+  .drug-main { flex: 1; min-width: 0; }
+  .drug-generic { font-family: var(--font-serif); font-size: var(--fs-xl); font-weight: 600; color: var(--text); margin-bottom: 4px; letter-spacing: -0.01em; line-height: 1.2; }
+  .drug-alt-name { font-size: var(--fs-sm); color: var(--text-dim); margin-bottom: 8px; font-weight: 400; font-style: italic; }
+  .drug-brand { font-size: 13px; color: var(--text-dim); font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; }
+  .drug-use-count { font-size: 13px; color: var(--accent); margin-top: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+  .supplement-badge { display: inline-block; font-size: 11px; padding: 3px 10px; background: var(--info-bg); color: var(--info); border: 1px solid var(--info); border-radius: 2px; font-weight: 700; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.1em; }
+  .chevron { color: var(--text-dim); font-size: 26px; transition: transform 0.2s; flex-shrink: 0; font-weight: 400; margin-top: 2px; }
+  .drug-card.open .chevron { transform: rotate(90deg); color: var(--accent); }
+
+  .drug-body { display: none; padding: 0 22px 22px; border-top: 1px solid var(--border); }
+  .drug-card.open .drug-body { display: block; }
+  .section { margin-top: 22px; }
+  .section-label { font-size: 12px; color: var(--accent); font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; letter-spacing: 0.14em; text-transform: uppercase; }
+  .section-label::before { content: ''; display: block; width: 24px; height: 1px; background: var(--accent); }
+  .section-label.warn-label { color: var(--warn); } .section-label.warn-label::before { background: var(--warn-border); }
+  .section-label.danger-label { color: var(--danger); } .section-label.danger-label::before { background: var(--danger-border); }
+
+  .use-item { background: var(--bg); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 16px 18px; border-radius: 2px; margin-bottom: 8px; font-size: var(--fs-base); }
+  .use-title { font-weight: 600; color: var(--text); margin-bottom: 6px; font-size: var(--fs-base); line-height: 1.35; }
+  .use-detail { color: var(--text-body); font-size: var(--fs-sm); line-height: 1.6; font-weight: 400; }
+
+  .dose-table { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 2px; padding: 16px 18px; font-size: var(--fs-base); }
+  .dose-row { display: flex; justify-content: space-between; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .dose-row:last-child { border-bottom: none; }
+  .dose-label { color: var(--text-dim); font-size: 13px; font-weight: 600; flex-shrink: 0; text-transform: uppercase; letter-spacing: 0.06em; }
+  .dose-value { color: var(--text); font-weight: 600; text-align: right; font-size: var(--fs-base); }
+
+  .warn-box { background: var(--warn-bg); border: 1px solid var(--warn-border); border-left: 3px solid var(--warn-border); padding: 16px 18px; border-radius: 2px; font-size: var(--fs-base); color: var(--text); line-height: 1.6; font-weight: 400; }
+  .danger-box { background: var(--danger-bg); border: 1px solid var(--danger-border); border-left: 3px solid var(--danger-border); padding: 16px 18px; border-radius: 2px; font-size: var(--fs-base); color: var(--text); line-height: 1.6; font-weight: 400; }
+
+  .interact-list { list-style: none; }
+  .interact-list li { font-size: var(--fs-sm); padding: 10px 0 10px 20px; color: var(--text-body); position: relative; line-height: 1.55; border-bottom: 1px solid var(--border); font-weight: 400; }
+  .interact-list li:last-child { border-bottom: none; }
+  .interact-list li::before { content: ''; position: absolute; left: 0; top: 18px; width: 12px; height: 1px; background: var(--accent); }
+
+  .evidence-tier { display: inline-block; padding: 2px 8px; border-radius: 2px; font-size: 11px; font-weight: 700; margin-left: 8px; text-transform: uppercase; letter-spacing: 0.08em; vertical-align: middle; }
+  .evidence-strong { background: var(--safe-bg); color: var(--safe); border: 1px solid var(--safe); }
+  .evidence-emerging { background: var(--warn-bg); color: var(--warn); border: 1px solid var(--warn-border); }
+  .evidence-limited { background: var(--bg-elev); color: var(--text-dim); border: 1px solid var(--border-bright); }
+
+  .source-note { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text-dim); font-weight: 400; font-style: italic; }
+
+  .footer { padding: 32px 16px 40px; text-align: center; border-top: 1px solid var(--border); background: var(--bg-elev); margin-top: 20px; }
+  .footer-text { font-size: 13px; color: var(--text-dim); line-height: 1.8; font-weight: 400; }
+  .footer-text strong { color: var(--warn); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .no-results { padding: 60px 20px; text-align: center; color: var(--text-dim); font-size: var(--fs-lg); font-weight: 400; font-style: italic; }
+</style>
+</head>
+<body>
+
+<!-- DISCLAIMER GATE -->
+<div class="gate" id="gate">
+  <div class="gate-card">
+    <div class="gate-title" data-en="Before You Begin" data-ko="시작 전 필독">Before You Begin</div>
+    <div class="gate-subtitle">EDUCATIONAL REFERENCE · NOT MEDICAL ADVICE</div>
+    <div class="gate-body">
+      <p data-en="This app is an educational reference for over-the-counter (OTC) medications and common dietary supplements sold in U.S. pharmacies. For medications, it shows only FDA-approved uses from public FDA OTC Monographs, DailyMed (NIH), and MedlinePlus (NIH). For supplements, it shows common uses and evidence levels from the NIH Office of Dietary Supplements."
+         data-ko="이 앱은 미국 약국에서 판매되는 일반의약품(OTC) 및 주요 식이 보충제에 대한 교육용 참고 자료입니다. 의약품은 FDA OTC 모노그래프, DailyMed(NIH), MedlinePlus(NIH)의 FDA 승인 용도만 표시합니다. 보충제는 NIH 식이보충제 사무국(ODS)의 일반적 용도 및 증거 수준을 표시합니다."></p>
+      <p data-en="<strong>Important — Supplements are NOT drugs.</strong> Dietary supplements in the U.S. are regulated as food under DSHEA 1994, not as medicine. The FDA does NOT review supplements for safety or effectiveness before they are sold. Product quality varies by brand. Look for USP-verified or NSF-certified products."
+         data-ko="<strong>중요 — 보충제는 의약품이 아닙니다.</strong> 미국의 식이 보충제는 DSHEA 1994에 의해 의약품이 아닌 식품으로 규제됩니다. FDA는 판매 전 보충제의 안전성이나 효능을 심사하지 않습니다. 제품 품질이 브랜드마다 다르니 USP 또는 NSF 인증 제품을 찾으세요."></p>
+      <p data-en="This app does NOT:" data-ko="이 앱은 다음을 하지 않습니다:"></p>
+      <ul>
+        <li data-en="Diagnose any medical condition" data-ko="질병을 진단하지 않습니다"></li>
+        <li data-en="Replace a doctor, pharmacist, or nurse" data-ko="의사, 약사, 간호사를 대체하지 않습니다"></li>
+        <li data-en="Recommend which medication or supplement you should take" data-ko="어떤 약이나 보충제를 복용해야 할지 추천하지 않습니다"></li>
+        <li data-en="Cover off-label or emergency substitute uses" data-ko="허가 외 사용이나 응급 대체 용도를 다루지 않습니다"></li>
+      </ul>
+      <p data-en="Always talk to a pharmacist before using any medication or supplement — pharmacists at CVS, Walgreens, Walmart, and most drugstores consult for free."
+         data-ko="약이나 보충제를 복용하기 전에 반드시 약사와 상담하세요 — CVS, Walgreens, Walmart 등 대부분의 약국에서 약사 상담은 무료입니다."></p>
+    </div>
+    <div class="gate-checks">
+      <div class="check-row">
+        <input type="checkbox" id="c1">
+        <label for="c1" data-en="I understand this app is for education only and is not medical advice."
+                        data-ko="이 앱이 교육 목적이며 의학적 조언이 아님을 이해합니다."></label>
+      </div>
+      <div class="check-row">
+        <input type="checkbox" id="c2">
+        <label for="c2" data-en="I will consult a pharmacist or doctor before taking any medication, especially if I have medical conditions, take other medications, am pregnant, breastfeeding, or giving medication to a child."
+                        data-ko="약을 복용하기 전에 약사나 의사와 상담하겠습니다. 특히 기존 질환이 있거나, 다른 약을 복용 중이거나, 임신·수유 중이거나, 어린이에게 투여할 경우."></label>
+      </div>
+      <div class="check-row">
+        <input type="checkbox" id="c3">
+        <label for="c3" data-en="I will call 911 for emergencies and not rely on this app."
+                        data-ko="응급 상황에서는 이 앱에 의존하지 않고 911에 전화하겠습니다."></label>
+      </div>
+    </div>
+    <button class="gate-btn" id="gate-btn" disabled data-en="Continue" data-ko="계속하기">Continue</button>
+    <div class="gate-emergency">
+      <strong data-en="EMERGENCY" data-ko="응급 상황">EMERGENCY</strong>
+      <span data-en="Chest pain · trouble breathing · severe allergic reaction · stroke signs · uncontrolled bleeding · suicidal thoughts → Call 911"
+            data-ko="가슴 통증 · 호흡 곤란 · 심한 알레르기 반응 · 뇌졸중 의심 · 멈추지 않는 출혈 · 자살 충동 → 911 전화"></span>
+      <br><br>
+      <span data-en="Poison: 1-800-222-1222 · Mental health: 988"
+            data-ko="독극물 센터: 1-800-222-1222 · 정신건강 위기: 988"></span>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">Home<span class="logo-dot">·</span>Rx</div>
+  <div class="header-spacer"></div>
+  <div class="header-controls">
+    <div class="text-size-toggle" title="Text size">
+      <button class="ts-btn active" data-size="normal" aria-label="Normal text">A</button>
+      <button class="ts-btn" data-size="large" aria-label="Large text" style="font-size:17px">A</button>
+      <button class="ts-btn" data-size="xlarge" aria-label="Extra large text" style="font-size:20px">A</button>
+    </div>
+    <div class="lang-toggle">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ko">한</button>
+    </div>
+  </div>
+</div>
+
+<div class="emergency-strip">
+  <span data-en="EMERGENCY: CALL 911 · POISON: 1-800-222-1222 · MENTAL HEALTH: 988"
+        data-ko="응급: 911 · 독극물: 1-800-222-1222 · 정신건강: 988"></span>
+</div>
+
+<div class="search-bar">
+  <input type="text" class="search-input" id="search"
+         placeholder="Search by drug or brand (e.g., Tylenol, ibuprofen)…"
+         data-ph-en="Search by drug or brand (e.g., Tylenol, ibuprofen)…"
+         data-ph-ko="약 이름이나 브랜드로 검색 (예: 타이레놀, 이부프로펜)…">
+</div>
+
+<div class="category-bar" id="categories"></div>
+
+<div class="container">
+  <div class="drug-count" id="drug-count"></div>
+  <div id="drug-list"></div>
+  <div id="no-results" class="no-results" style="display:none;"
+       data-en="No medications match your search." data-ko="검색 결과가 없습니다."></div>
+</div>
+
+<div class="footer">
+  <div class="footer-text">
+    <strong data-en="EDUCATIONAL REFERENCE ONLY · NOT MEDICAL ADVICE" data-ko="교육용 참고 자료일 뿐 · 의학적 조언 아님"></strong><br>
+    <span data-en="Sources: FDA OTC Monograph · DailyMed (NIH) · MedlinePlus (NIH)"
+          data-ko="출처: FDA OTC 모노그래프 · DailyMed(NIH) · MedlinePlus(NIH)"></span><br>
+    <span>© 2026 Jae H. Choi, PhD, DVSc · HAKOYA LLC</span><br>
+    <span data-en="Always consult a pharmacist before use." data-ko="복용 전 반드시 약사와 상담하세요."></span>
+  </div>
+</div>
+
+<script>
+// ============================================================
+//  HomeRx Drug Database — Data inserted in next step
+//  Each entry: id, generic{en,ko}, brands[], category, uses[],
+//  dose_en{}, dose_ko{}, danger_en, danger_ko, warn_en, warn_ko,
+//  interact[{en,ko}], source
+// ============================================================
+const DRUGS = [
+  // ============ PAIN & FEVER ============
+  {
+    id: 'acetaminophen',
+    generic: { en: 'Acetaminophen', ko: '아세트아미노펜' },
+    brands: ['Tylenol', 'Panadol', 'Mapap'],
+    category: 'pain',
+    uses: [
+      { title_en: 'Pain relief (mild to moderate)', title_ko: '경도~중등도 통증 완화',
+        detail_en: 'Headache, muscle aches, backache, toothache, menstrual cramps, minor arthritis pain',
+        detail_ko: '두통, 근육통, 허리 통증, 치통, 생리통, 경미한 관절염 통증' },
+      { title_en: 'Fever reduction', title_ko: '해열',
+        detail_en: 'Reduces fever in adults and children',
+        detail_ko: '성인 및 어린이의 발열을 낮춤' }
+    ],
+    dose_en: { 'Adult': '325–1000 mg every 4–6 hours', 'Max per day': '3000 mg (4000 mg only under doctor supervision)', 'Child': 'Weight-based — ask pharmacist' },
+    dose_ko: { '성인': '325~1000 mg, 4~6시간마다', '하루 최대': '3000 mg (4000 mg은 의사 감독 하에만)', '어린이': '체중 기반 — 약사에게 문의' },
+    danger_en: 'LIVER DAMAGE RISK. Exceeding the maximum dose — or combining with alcohol — can cause fatal liver failure. Many cold and flu medicines already contain acetaminophen, so always read all labels before combining products.',
+    danger_ko: '간 손상 위험. 최대 용량을 초과하거나 알코올과 병용하면 치명적인 간부전을 일으킬 수 있습니다. 감기·독감약에 이미 아세트아미노펜이 들어 있는 경우가 많으므로 여러 제품을 함께 복용하기 전에 모든 라벨을 확인하세요.',
+    warn_en: 'Avoid if you drink 3 or more alcoholic drinks daily. Ask a doctor before use if you have liver disease.',
+    warn_ko: '하루 3잔 이상 음주하는 경우 사용하지 마세요. 간 질환이 있으면 사용 전 의사와 상담하세요.',
+    interact: [
+      { en: 'Alcohol — significantly increases liver damage risk', ko: '알코올 — 간 손상 위험 크게 증가' },
+      { en: 'Warfarin — may increase bleeding risk with prolonged use', ko: '와파린 — 장기 사용 시 출혈 위험 증가' },
+      { en: 'Other acetaminophen-containing products (cold/flu combinations)', ko: '아세트아미노펜을 함유한 다른 제품 (감기·독감 복합제)' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 343 · DailyMed (NIH)'
+  },
+  {
+    id: 'ibuprofen',
+    generic: { en: 'Ibuprofen', ko: '이부프로펜' },
+    brands: ['Advil', 'Motrin'],
+    category: 'pain',
+    uses: [
+      { title_en: 'Pain relief', title_ko: '통증 완화',
+        detail_en: 'Headache, muscle aches, backache, toothache, menstrual cramps, minor arthritis pain',
+        detail_ko: '두통, 근육통, 허리 통증, 치통, 생리통, 경미한 관절염 통증' },
+      { title_en: 'Fever reduction', title_ko: '해열',
+        detail_en: 'Reduces fever in adults and children',
+        detail_ko: '성인 및 어린이의 발열을 낮춤' },
+      { title_en: 'Anti-inflammatory', title_ko: '소염 작용',
+        detail_en: 'Reduces inflammation and swelling from minor injuries or arthritis',
+        detail_ko: '경미한 부상이나 관절염으로 인한 염증과 붓기 감소' }
+    ],
+    dose_en: { 'Adult': '200–400 mg every 4–6 hours', 'Max per day (OTC)': '1200 mg', 'Take with': 'Food or milk to reduce stomach upset' },
+    dose_ko: { '성인': '200~400 mg, 4~6시간마다', '하루 최대 (OTC)': '1200 mg', '복용 방법': '위장 장애를 줄이려면 음식이나 우유와 함께' },
+    danger_en: 'HEART ATTACK AND STROKE RISK increases with long-term use or in people with heart disease. Can cause serious stomach bleeding — risk is higher if you are age 60 or older, have a history of ulcers, take blood thinners or steroids, or drink 3 or more alcoholic drinks daily.',
+    danger_ko: '심장마비 및 뇌졸중 위험이 장기 복용 또는 심장병 환자에서 증가합니다. 심각한 위장 출혈을 일으킬 수 있으며, 60세 이상, 궤양 병력, 혈액 희석제나 스테로이드 복용, 하루 3잔 이상 음주하는 경우 위험이 더 높습니다.',
+    warn_en: 'Do not use in the last 3 months of pregnancy. Avoid if you have kidney disease, heart failure, or a history of stomach ulcers.',
+    warn_ko: '임신 마지막 3개월에는 사용하지 마세요. 신장 질환, 심부전, 위궤양 병력이 있으면 사용하지 마세요.',
+    interact: [
+      { en: 'Aspirin — reduces aspirin\'s heart-protective effect', ko: '아스피린 — 아스피린의 심장 보호 효과 감소' },
+      { en: 'Blood thinners (warfarin, apixaban, rivaroxaban) — bleeding risk', ko: '혈액 희석제 (와파린, 엘리퀴스, 자렐토) — 출혈 위험' },
+      { en: 'Blood pressure medications — may reduce effectiveness', ko: '혈압약 — 효과 감소 가능' },
+      { en: 'Lithium and methotrexate — increased toxicity', ko: '리튬, 메토트렉세이트 — 독성 증가' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 343 · DailyMed (NIH)'
+  },
+  {
+    id: 'naproxen',
+    generic: { en: 'Naproxen sodium', ko: '나프록센 나트륨' },
+    brands: ['Aleve'],
+    category: 'pain',
+    uses: [
+      { title_en: 'Pain relief (longer-lasting)', title_ko: '통증 완화 (장시간 지속)',
+        detail_en: 'Headache, muscle aches, backache, toothache, menstrual cramps, minor arthritis pain; single dose lasts up to 12 hours',
+        detail_ko: '두통, 근육통, 허리 통증, 치통, 생리통, 경미한 관절염 통증; 1회 복용으로 최대 12시간 지속' },
+      { title_en: 'Fever reduction', title_ko: '해열',
+        detail_en: 'Reduces fever',
+        detail_ko: '발열을 낮춤' },
+      { title_en: 'Anti-inflammatory', title_ko: '소염 작용',
+        detail_en: 'Reduces inflammation and swelling',
+        detail_ko: '염증과 붓기를 감소' }
+    ],
+    dose_en: { 'Adult': '220 mg every 8–12 hours', 'First dose': 'May take 440 mg within first hour', 'Max per day (OTC)': '660 mg', 'Take with': 'Food or milk' },
+    dose_ko: { '성인': '220 mg, 8~12시간마다', '첫 용량': '첫 1시간 내에 440 mg까지 복용 가능', '하루 최대 (OTC)': '660 mg', '복용 방법': '음식이나 우유와 함께' },
+    danger_en: 'Same risks as ibuprofen — HEART ATTACK, STROKE, and SERIOUS STOMACH BLEEDING. Because naproxen lasts longer in the body, these risks may accumulate. Do not exceed the labeled dose.',
+    danger_ko: '이부프로펜과 동일한 위험 — 심장마비, 뇌졸중, 심각한 위장 출혈. 나프록센은 체내에 더 오래 머무르므로 이 위험이 누적될 수 있습니다. 라벨에 표시된 용량을 초과하지 마세요.',
+    warn_en: 'Do not use in the last 3 months of pregnancy. Avoid if you have kidney disease, heart failure, or ulcer history. Do not combine with ibuprofen or aspirin without doctor approval.',
+    warn_ko: '임신 마지막 3개월에는 사용하지 마세요. 신장 질환, 심부전, 궤양 병력이 있으면 사용하지 마세요. 의사 승인 없이 이부프로펜이나 아스피린과 병용하지 마세요.',
+    interact: [
+      { en: 'Aspirin — reduces aspirin\'s heart-protective effect', ko: '아스피린 — 아스피린의 심장 보호 효과 감소' },
+      { en: 'Blood thinners — bleeding risk', ko: '혈액 희석제 — 출혈 위험' },
+      { en: 'Blood pressure medications — reduced effectiveness', ko: '혈압약 — 효과 감소' },
+      { en: 'SSRI antidepressants — increased bleeding risk', ko: 'SSRI 항우울제 — 출혈 위험 증가' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 343 · DailyMed (NIH)'
+  },
+  {
+    id: 'aspirin',
+    generic: { en: 'Aspirin (acetylsalicylic acid)', ko: '아스피린 (아세틸살리실산)' },
+    brands: ['Bayer', 'Bufferin', 'Ecotrin'],
+    category: 'pain',
+    uses: [
+      { title_en: 'Pain relief', title_ko: '통증 완화',
+        detail_en: 'Headache, muscle aches, toothache, menstrual cramps, minor arthritis pain',
+        detail_ko: '두통, 근육통, 치통, 생리통, 경미한 관절염 통증' },
+      { title_en: 'Fever reduction', title_ko: '해열',
+        detail_en: 'Reduces fever in adults (NOT for children or teens with viral illness)',
+        detail_ko: '성인의 발열을 낮춤 (바이러스성 질환이 있는 어린이·청소년에게는 사용 금지)' },
+      { title_en: 'Anti-inflammatory', title_ko: '소염 작용',
+        detail_en: 'Reduces inflammation',
+        detail_ko: '염증 감소' },
+      { title_en: 'Heart attack and stroke prevention (low-dose, 81 mg)', title_ko: '심장마비·뇌졸중 예방 (저용량, 81 mg)',
+        detail_en: 'Only when specifically prescribed by your doctor — do not start on your own',
+        detail_ko: '의사가 처방한 경우에만 — 스스로 시작하지 마세요' }
+    ],
+    dose_en: { 'Adult (pain/fever)': '325–650 mg every 4 hours', 'Low-dose (preventive)': '81 mg daily — ONLY if doctor-directed', 'Max per day (OTC pain)': '4000 mg', 'Take with': 'Food or water' },
+    dose_ko: { '성인 (통증·발열)': '325~650 mg, 4시간마다', '저용량 (예방)': '하루 81 mg — 의사 지시가 있을 때만', '하루 최대 (OTC 통증)': '4000 mg', '복용 방법': '음식이나 물과 함께' },
+    danger_en: 'REYE\'S SYNDROME — Do NOT give to children or teenagers with flu, chickenpox, or any viral illness. Can cause fatal brain and liver damage. Also causes stomach bleeding and increases bleeding from any source.',
+    danger_ko: '라이 증후군 — 독감, 수두, 또는 바이러스성 질환이 있는 어린이·청소년에게 절대 투여하지 마세요. 치명적인 뇌·간 손상을 일으킬 수 있습니다. 또한 위장 출혈 및 모든 부위의 출혈을 증가시킵니다.',
+    warn_en: 'Stop 7–10 days before any surgery (talk to your surgeon first). Avoid if you have bleeding disorders, ulcers, or aspirin allergy. Do not use in last 3 months of pregnancy.',
+    warn_ko: '수술 7~10일 전에 중단하세요 (먼저 외과의와 상담). 출혈 장애, 궤양, 아스피린 알레르기가 있으면 사용하지 마세요. 임신 마지막 3개월에는 사용하지 마세요.',
+    interact: [
+      { en: 'Ibuprofen — reduces aspirin\'s heart-protective effect', ko: '이부프로펜 — 아스피린의 심장 보호 효과 감소' },
+      { en: 'Blood thinners (warfarin, apixaban) — major bleeding risk', ko: '혈액 희석제 (와파린, 엘리퀴스) — 심각한 출혈 위험' },
+      { en: 'Other NSAIDs — stomach bleeding risk', ko: '다른 NSAID — 위장 출혈 위험' },
+      { en: 'Methotrexate — increased toxicity', ko: '메토트렉세이트 — 독성 증가' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 343 · DailyMed (NIH)'
+  },
+
+  // ============ ALLERGY & COLD ============
+  {
+    id: 'diphenhydramine',
+    generic: { en: 'Diphenhydramine', ko: '디펜히드라민' },
+    brands: ['Benadryl', 'ZzzQuil', 'Unisom SleepGels'],
+    category: 'allergy',
+    uses: [
+      { title_en: 'Allergy symptom relief', title_ko: '알레르기 증상 완화',
+        detail_en: 'Runny nose, sneezing, itchy/watery eyes, itchy throat, hives, itchy rash',
+        detail_ko: '콧물, 재채기, 눈 가려움·눈물, 목 간지러움, 두드러기, 가려운 발진' },
+      { title_en: 'Nighttime sleep aid', title_ko: '야간 수면 보조',
+        detail_en: 'For occasional sleeplessness — not for long-term use',
+        detail_ko: '일시적 불면에 사용 — 장기 사용 금지' },
+      { title_en: 'Motion sickness prevention', title_ko: '멀미 예방',
+        detail_en: 'Nausea, vomiting, and dizziness from motion',
+        detail_ko: '움직임으로 인한 메스꺼움, 구토, 어지러움' },
+      { title_en: 'Cold symptom relief', title_ko: '감기 증상 완화',
+        detail_en: 'Runny nose and sneezing from the common cold',
+        detail_ko: '감기로 인한 콧물과 재채기' }
+    ],
+    dose_en: { 'Adult': '25–50 mg every 4–6 hours', 'Max per day': '300 mg', 'Sleep aid': '50 mg at bedtime', 'Child': 'Ask pharmacist — do not give under age 6 without doctor' },
+    dose_ko: { '성인': '25~50 mg, 4~6시간마다', '하루 최대': '300 mg', '수면 보조': '취침 시 50 mg', '어린이': '약사에게 문의 — 6세 미만은 의사 지시 없이 투여 금지' },
+    danger_en: 'CAUSES MARKED DROWSINESS — do not drive or operate machinery. In older adults, can cause confusion, falls, and urinary retention. Long-term use is linked to increased risk of dementia in the elderly.',
+    danger_ko: '심한 졸음을 유발합니다 — 운전이나 기계 조작 금지. 고령자에서 혼돈, 낙상, 소변 저류를 일으킬 수 있습니다. 장기 사용은 고령자의 치매 위험 증가와 관련이 있습니다.',
+    warn_en: 'Avoid if you have glaucoma, enlarged prostate, or breathing problems like asthma or COPD. Alcohol intensifies drowsiness. Not recommended for children under 6 or during pregnancy without doctor approval.',
+    warn_ko: '녹내장, 전립선 비대, 천식·COPD 같은 호흡 문제가 있으면 사용하지 마세요. 알코올은 졸음을 심화시킵니다. 6세 미만 어린이나 임신 중에는 의사 승인 없이 사용하지 마세요.',
+    interact: [
+      { en: 'Alcohol — increased drowsiness and impaired coordination', ko: '알코올 — 졸음 및 운동 조절 장애 심화' },
+      { en: 'Sleep medications, sedatives — dangerous additive sedation', ko: '수면제, 진정제 — 위험한 진정 효과 누적' },
+      { en: 'MAO inhibitors — serious interaction', ko: 'MAO 억제제 — 심각한 상호작용' },
+      { en: 'Other products containing diphenhydramine (many cold/sleep combos)', ko: '디펜히드라민을 함유한 다른 제품 (감기·수면 복합제 다수)' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 341 · DailyMed (NIH)'
+  },
+  {
+    id: 'loratadine',
+    generic: { en: 'Loratadine', ko: '로라타딘' },
+    brands: ['Claritin', 'Alavert'],
+    category: 'allergy',
+    uses: [
+      { title_en: 'Allergy symptom relief (non-drowsy)', title_ko: '알레르기 증상 완화 (졸음 없음)',
+        detail_en: 'Runny nose, sneezing, itchy/watery eyes, itchy throat or nose from hay fever and other upper respiratory allergies',
+        detail_ko: '꽃가루 알레르기 및 기타 상기도 알레르기로 인한 콧물, 재채기, 눈 가려움·눈물, 목·코 가려움' },
+      { title_en: 'Hives (urticaria)', title_ko: '두드러기',
+        detail_en: 'Relief of itching from hives',
+        detail_ko: '두드러기로 인한 가려움 완화' }
+    ],
+    dose_en: { 'Adult and child 6+': '10 mg once daily', 'Child 2–5': '5 mg once daily (syrup or chewable)', 'Duration': 'Safe for daily seasonal use' },
+    dose_ko: { '성인 및 6세 이상': '하루 1회 10 mg', '2~5세 어린이': '하루 1회 5 mg (시럽 또는 츄어블)', '사용 기간': '계절성 알레르기에 매일 사용 안전' },
+    warn_en: 'Ask a doctor before use if you have liver or kidney disease — you may need a lower dose. Generally well tolerated. Does not typically cause drowsiness, but a small percentage of people do feel drowsy.',
+    warn_ko: '간·신장 질환이 있으면 사용 전 의사와 상담하세요 — 용량 감량이 필요할 수 있습니다. 일반적으로 내약성이 좋습니다. 보통 졸음을 일으키지 않지만 소수에서 졸음을 느낄 수 있습니다.',
+    interact: [
+      { en: 'Generally few significant interactions — one of the safest antihistamines', ko: '유의미한 상호작용이 거의 없음 — 가장 안전한 항히스타민 중 하나' },
+      { en: 'Ketoconazole, erythromycin — may increase loratadine levels', ko: '케토코나졸, 에리트로마이신 — 로라타딘 농도 상승 가능' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'cetirizine',
+    generic: { en: 'Cetirizine', ko: '세티리진' },
+    brands: ['Zyrtec'],
+    category: 'allergy',
+    uses: [
+      { title_en: 'Allergy symptom relief', title_ko: '알레르기 증상 완화',
+        detail_en: 'Runny nose, sneezing, itchy/watery eyes, itchy throat or nose from hay fever and other upper respiratory allergies',
+        detail_ko: '꽃가루 알레르기 및 기타 상기도 알레르기로 인한 콧물, 재채기, 눈 가려움·눈물, 목·코 가려움' },
+      { title_en: 'Hives (urticaria)', title_ko: '두드러기',
+        detail_en: 'Relief of itching from hives',
+        detail_ko: '두드러기로 인한 가려움 완화' }
+    ],
+    dose_en: { 'Adult and child 6+': '5–10 mg once daily', 'Child 2–5': '2.5 mg once or twice daily (syrup)', 'Max per day (child 2–5)': '5 mg' },
+    dose_ko: { '성인 및 6세 이상': '하루 1회 5~10 mg', '2~5세 어린이': '하루 1~2회 2.5 mg (시럽)', '하루 최대 (2~5세)': '5 mg' },
+    warn_en: 'May cause mild drowsiness in some people — use caution when driving until you know how it affects you. Reduce dose if you have kidney or liver disease. Stopping after long-term use can cause a rebound itch.',
+    warn_ko: '일부에서 경미한 졸음을 유발할 수 있으므로 반응을 확인할 때까지 운전 시 주의하세요. 신장·간 질환이 있으면 용량을 감량하세요. 장기 사용 후 중단 시 반동 가려움이 나타날 수 있습니다.',
+    interact: [
+      { en: 'Alcohol and other sedating drugs — added drowsiness', ko: '알코올 및 기타 진정 약물 — 졸음 누적' },
+      { en: 'Theophylline — may increase cetirizine levels', ko: '테오필린 — 세티리진 농도 상승 가능' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'fexofenadine',
+    generic: { en: 'Fexofenadine', ko: '펙소페나딘' },
+    brands: ['Allegra'],
+    category: 'allergy',
+    uses: [
+      { title_en: 'Allergy symptom relief (non-drowsy)', title_ko: '알레르기 증상 완화 (졸음 없음)',
+        detail_en: 'Runny nose, sneezing, itchy/watery eyes, itchy throat or nose from seasonal allergies',
+        detail_ko: '계절성 알레르기로 인한 콧물, 재채기, 눈 가려움·눈물, 목·코 가려움' },
+      { title_en: 'Hives (urticaria)', title_ko: '두드러기',
+        detail_en: 'Relief of itching from chronic hives',
+        detail_ko: '만성 두드러기로 인한 가려움 완화' }
+    ],
+    dose_en: { 'Adult and child 12+': '60 mg twice daily OR 180 mg once daily', 'Child 6–11': '30 mg twice daily', 'Child 2–5': '30 mg twice daily (suspension)', 'Take with': 'Water only — avoid fruit juice within 4 hours' },
+    dose_ko: { '성인 및 12세 이상': '60 mg 하루 2회 또는 180 mg 하루 1회', '6~11세': '30 mg 하루 2회', '2~5세': '30 mg 하루 2회 (현탁액)', '복용 방법': '물로만 — 과일 주스는 4시간 이내 피하기' },
+    warn_en: 'Fruit juices (orange, grapefruit, apple) can reduce absorption by up to 40% — take with water only and separate from juice by 4 hours. Reduce dose if you have kidney disease.',
+    warn_ko: '과일 주스(오렌지, 자몽, 사과)는 흡수를 최대 40%까지 감소시킬 수 있습니다 — 반드시 물로만 복용하고 주스와 4시간 간격을 두세요. 신장 질환이 있으면 용량을 감량하세요.',
+    interact: [
+      { en: 'Fruit juices — reduce drug absorption', ko: '과일 주스 — 약물 흡수 감소' },
+      { en: 'Antacids containing aluminum or magnesium — reduce absorption (separate by 2 hours)', ko: '알루미늄·마그네슘 함유 제산제 — 흡수 감소 (2시간 간격 필요)' },
+      { en: 'Erythromycin, ketoconazole — may increase fexofenadine levels', ko: '에리트로마이신, 케토코나졸 — 펙소페나딘 농도 상승 가능' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'pseudoephedrine',
+    generic: { en: 'Pseudoephedrine', ko: '슈도에페드린' },
+    brands: ['Sudafed (behind-the-counter)'],
+    category: 'allergy',
+    uses: [
+      { title_en: 'Nasal congestion relief', title_ko: '코막힘 완화',
+        detail_en: 'Stuffy nose from colds, allergies, hay fever, or sinus problems',
+        detail_ko: '감기, 알레르기, 꽃가루 알레르기, 부비동 문제로 인한 코막힘' },
+      { title_en: 'Sinus and ear pressure relief', title_ko: '부비동·귀 압력 완화',
+        detail_en: 'Reduces pressure associated with congestion',
+        detail_ko: '코막힘과 관련된 압력 감소' }
+    ],
+    dose_en: { 'Adult': '30–60 mg every 4–6 hours', 'Extended release': '120 mg every 12 hours', 'Max per day': '240 mg', 'Purchase': 'Behind the counter — ID required (US federal law)' },
+    dose_ko: { '성인': '30~60 mg, 4~6시간마다', '서방형': '120 mg, 12시간마다', '하루 최대': '240 mg', '구매': '카운터 뒤 판매 — 신분증 필요 (미국 연방법)' },
+    danger_en: 'RAISES BLOOD PRESSURE AND HEART RATE. Do NOT use if you have uncontrolled high blood pressure, heart disease, hyperthyroidism, glaucoma, or enlarged prostate. Can cause insomnia, anxiety, and heart palpitations.',
+    danger_ko: '혈압과 심박수를 상승시킵니다. 조절되지 않는 고혈압, 심장병, 갑상선 기능 항진증, 녹내장, 전립선 비대가 있으면 사용하지 마세요. 불면, 불안, 심계항진을 유발할 수 있습니다.',
+    warn_en: 'Do not take within 2 hours of bedtime. Do not use for more than 7 days. In the US, purchase is federally restricted (Combat Methamphetamine Act) — you must show ID.',
+    warn_ko: '취침 2시간 이내에는 복용하지 마세요. 7일 이상 사용하지 마세요. 미국에서는 연방법에 의해 구매가 제한되어 있으며(메스암페타민 규제법) 신분증 제시가 필요합니다.',
+    interact: [
+      { en: 'MAO inhibitors — dangerous blood pressure spike (do not combine)', ko: 'MAO 억제제 — 위험한 혈압 급상승 (병용 금지)' },
+      { en: 'Blood pressure medications — reduced effectiveness', ko: '혈압약 — 효과 감소' },
+      { en: 'Stimulants, caffeine — added cardiovascular effects', ko: '각성제, 카페인 — 심혈관 효과 누적' },
+      { en: 'Tricyclic antidepressants — increased blood pressure', ko: '삼환계 항우울제 — 혈압 상승' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 341 · DailyMed (NIH)'
+  },
+  {
+    id: 'phenylephrine',
+    generic: { en: 'Phenylephrine (oral)', ko: '페닐에프린 (경구)' },
+    brands: ['Sudafed PE', 'Neo-Synephrine (nasal spray)'],
+    category: 'allergy',
+    uses: [
+      { title_en: 'Nasal congestion relief', title_ko: '코막힘 완화',
+        detail_en: 'Stuffy nose from colds, allergies, or sinus problems',
+        detail_ko: '감기, 알레르기, 부비동 문제로 인한 코막힘' }
+    ],
+    dose_en: { 'Adult (oral)': '10 mg every 4 hours', 'Max per day': '60 mg', 'Nasal spray': '2–3 sprays each nostril every 4 hours (max 3 days)', 'Availability': 'Sold without ID restriction' },
+    dose_ko: { '성인 (경구)': '10 mg, 4시간마다', '하루 최대': '60 mg', '비강 스프레이': '콧구멍당 2~3회 분무, 4시간마다 (최대 3일)', '구매': '신분증 제한 없이 판매' },
+    warn_en: 'In 2023, an FDA advisory panel concluded oral phenylephrine is NOT effective as a decongestant at approved doses — if oral phenylephrine is not working, ask your pharmacist about pseudoephedrine instead. Nasal sprays remain effective but must not be used longer than 3 days (causes rebound congestion). Avoid in high blood pressure, heart disease, or enlarged prostate.',
+    warn_ko: '2023년 FDA 자문위원회는 경구 페닐에프린이 승인된 용량에서 코막힘 해소제로 효과가 없다고 결론지었습니다 — 경구 페닐에프린이 듣지 않으면 약사에게 슈도에페드린을 문의하세요. 비강 스프레이는 여전히 효과적이지만 3일 이상 사용하면 안 됩니다 (반동성 코막힘 유발). 고혈압, 심장병, 전립선 비대에서는 사용하지 마세요.',
+    interact: [
+      { en: 'MAO inhibitors — dangerous blood pressure interaction', ko: 'MAO 억제제 — 위험한 혈압 상호작용' },
+      { en: 'Blood pressure medications — reduced effectiveness', ko: '혈압약 — 효과 감소' },
+      { en: 'Other stimulants — additive effects', ko: '다른 각성제 — 효과 누적' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 341 · DailyMed (NIH)'
+  },
+
+  // ============ COUGH & THROAT ============
+  {
+    id: 'dextromethorphan',
+    generic: { en: 'Dextromethorphan (DM)', ko: '덱스트로메토르판 (DM)' },
+    brands: ['Robitussin DM', 'Delsym', 'Mucinex DM'],
+    category: 'cough',
+    uses: [
+      { title_en: 'Cough suppressant', title_ko: '기침 억제',
+        detail_en: 'Temporarily relieves dry, non-productive cough from the common cold or minor throat/bronchial irritation',
+        detail_ko: '감기 또는 경미한 인후·기관지 자극으로 인한 마른 기침(가래 없는 기침)을 일시적으로 완화' }
+    ],
+    dose_en: { 'Adult and child 12+': '10–20 mg every 4 hours OR 30 mg every 6–8 hours', 'Extended release (Delsym)': '60 mg every 12 hours', 'Max per day': '120 mg', 'Child 6–11': 'Half adult dose — check label' },
+    dose_ko: { '성인 및 12세 이상': '10~20 mg, 4시간마다 또는 30 mg, 6~8시간마다', '서방형 (Delsym)': '60 mg, 12시간마다', '하루 최대': '120 mg', '6~11세': '성인 용량의 절반 — 라벨 확인' },
+    danger_en: 'ABUSE POTENTIAL — at very high doses dextromethorphan causes hallucinations and can be fatal. Keep away from teenagers. Do NOT combine with MAO inhibitors or SSRI antidepressants (serotonin syndrome risk). Do not give to children under 4.',
+    danger_ko: '남용 위험 — 고용량에서는 환각을 유발하며 치명적일 수 있습니다. 청소년의 손이 닿지 않는 곳에 보관하세요. MAO 억제제나 SSRI 항우울제와 절대 병용하지 마세요 (세로토닌 증후군 위험). 4세 미만에게 투여 금지.',
+    warn_en: 'Do not use for cough with excessive mucus or cough lasting more than 7 days. If cough is accompanied by fever, rash, or persistent headache, see a doctor.',
+    warn_ko: '가래가 많은 기침이나 7일 이상 지속되는 기침에는 사용하지 마세요. 기침과 함께 발열, 발진, 지속적 두통이 있으면 의사를 만나세요.',
+    interact: [
+      { en: 'MAO inhibitors — serotonin syndrome (potentially fatal)', ko: 'MAO 억제제 — 세로토닌 증후군 (치명적일 수 있음)' },
+      { en: 'SSRI/SNRI antidepressants — serotonin syndrome risk', ko: 'SSRI/SNRI 항우울제 — 세로토닌 증후군 위험' },
+      { en: 'Alcohol, sedatives — increased drowsiness', ko: '알코올, 진정제 — 졸음 증가' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 341 · DailyMed (NIH)'
+  },
+  {
+    id: 'guaifenesin',
+    generic: { en: 'Guaifenesin', ko: '구아이페네신' },
+    brands: ['Mucinex', 'Robitussin'],
+    category: 'cough',
+    uses: [
+      { title_en: 'Expectorant — loosens mucus', title_ko: '거담제 — 가래 배출 촉진',
+        detail_en: 'Helps loosen phlegm (mucus) and thin bronchial secretions so cough is more productive and airways clear',
+        detail_ko: '가래(점액)를 묽게 하고 기관지 분비물을 묽게 하여 기침으로 가래가 잘 배출되고 기도가 맑아지도록 도움' }
+    ],
+    dose_en: { 'Adult and child 12+': '200–400 mg every 4 hours', 'Extended release (Mucinex)': '600–1200 mg every 12 hours', 'Max per day': '2400 mg', 'Drink': 'Plenty of water to help mucus thin' },
+    dose_ko: { '성인 및 12세 이상': '200~400 mg, 4시간마다', '서방형 (Mucinex)': '600~1200 mg, 12시간마다', '하루 최대': '2400 mg', '수분 섭취': '물을 충분히 마셔 가래가 묽어지도록 도움' },
+    warn_en: 'Very well tolerated. If cough lasts more than 7 days, comes back, or is accompanied by fever, rash, or persistent headache, see a doctor — these may be signs of a more serious condition.',
+    warn_ko: '내약성이 매우 좋습니다. 기침이 7일 이상 지속되거나 재발하거나, 발열·발진·지속적 두통이 동반되면 의사를 만나세요 — 더 심각한 질환의 징후일 수 있습니다.',
+    interact: [
+      { en: 'Very few significant drug interactions', ko: '유의미한 약물 상호작용이 거의 없음' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 341 · DailyMed (NIH)'
+  },
+  {
+    id: 'benzocaine-lozenge',
+    generic: { en: 'Benzocaine (throat lozenge/spray)', ko: '벤조카인 (인후 로젠지/스프레이)' },
+    brands: ['Cepacol', 'Chloraseptic'],
+    category: 'cough',
+    uses: [
+      { title_en: 'Sore throat pain relief', title_ko: '인후통 완화',
+        detail_en: 'Temporarily numbs mouth and throat to relieve pain from sore throat, minor mouth irritation, or canker sores',
+        detail_ko: '인후통, 경미한 구강 자극, 구내염으로 인한 통증을 완화하기 위해 일시적으로 입과 목을 마취' },
+      { title_en: 'Minor mouth/gum irritation', title_ko: '경미한 구강·잇몸 자극',
+        detail_en: 'Relieves pain from minor mouth or gum irritation',
+        detail_ko: '경미한 구강 또는 잇몸 자극으로 인한 통증 완화' }
+    ],
+    dose_en: { 'Adult and child 5+': 'Dissolve 1 lozenge slowly in mouth; repeat every 2 hours as needed', 'Spray': '1–2 sprays, up to every 2 hours', 'Do not exceed': 'Product label maximum' },
+    dose_ko: { '성인 및 5세 이상': '로젠지 1개를 입안에서 천천히 녹임; 필요 시 2시간마다 반복', '스프레이': '1~2회 분무, 최대 2시간 간격', '초과 금지': '제품 라벨의 최대 용량' },
+    danger_en: 'METHEMOGLOBINEMIA — a rare but serious (sometimes fatal) condition where blood cannot carry oxygen. Signs: pale, gray, or blue-colored skin or lips; shortness of breath; fatigue; headache; rapid heart rate. FDA warns against use in children under 2. Stop and seek care if these signs appear.',
+    danger_ko: '메트헤모글로빈혈증 — 혈액이 산소를 운반할 수 없게 되는 드물지만 심각한(때로는 치명적인) 질환. 증상: 창백하거나 회색·청색을 띠는 피부나 입술, 호흡 곤란, 피로, 두통, 빠른 심박수. FDA는 2세 미만 어린이에게 사용하지 말 것을 경고합니다. 이러한 증상이 나타나면 즉시 중단하고 진료를 받으세요.',
+    warn_en: 'Do not use more than the label states. Not for use in children under 2. If sore throat is severe, lasts more than 2 days, or comes with high fever, rash, headache, nausea, or vomiting — see a doctor (could be strep throat).',
+    warn_ko: '라벨에 표시된 것보다 많이 사용하지 마세요. 2세 미만 어린이에게는 사용 금지. 인후통이 심하거나 2일 이상 지속되거나, 고열·발진·두통·메스꺼움·구토와 함께 나타나면 의사를 만나세요 (연쇄상구균 인두염일 수 있음).',
+    interact: [
+      { en: 'Local anesthetics — avoid using multiple benzocaine products at once', ko: '국소 마취제 — 여러 벤조카인 제품을 동시에 사용하지 말 것' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 356 · DailyMed (NIH)'
+  },
+
+  // ============ STOMACH & GI ============
+  {
+    id: 'famotidine',
+    generic: { en: 'Famotidine', ko: '파모티딘' },
+    brands: ['Pepcid', 'Pepcid AC', 'Zantac 360'],
+    category: 'gi',
+    uses: [
+      { title_en: 'Heartburn relief (H2 blocker)', title_ko: '속쓰림 완화 (H2 차단제)',
+        detail_en: 'Relieves heartburn associated with acid indigestion and sour stomach',
+        detail_ko: '위산 소화불량 및 신트림과 관련된 속쓰림 완화' },
+      { title_en: 'Heartburn prevention', title_ko: '속쓰림 예방',
+        detail_en: 'Prevents heartburn brought on by certain foods and beverages when taken 15–60 minutes before eating',
+        detail_ko: '특정 음식·음료로 인한 속쓰림을 예방하려면 식사 15~60분 전에 복용' }
+    ],
+    dose_en: { 'Adult treatment': '10–20 mg when symptoms occur', 'Prevention': '10–20 mg 15–60 minutes before eating', 'Max per day (OTC)': '40 mg', 'Max duration': 'Do not use for more than 14 days without doctor' },
+    dose_ko: { '성인 치료': '증상이 있을 때 10~20 mg', '예방': '식사 15~60분 전 10~20 mg', '하루 최대 (OTC)': '40 mg', '최대 기간': '의사 지시 없이 14일 이상 사용 금지' },
+    warn_en: 'Reduce dose if you have kidney disease. Heartburn that is severe, lasts more than 3 months, comes with chest pain or pain spreading to the arm/jaw, or comes with trouble swallowing or unexplained weight loss — see a doctor. These can be signs of a heart attack or serious illness.',
+    warn_ko: '신장 질환이 있으면 용량을 감량하세요. 속쓰림이 심하거나 3개월 이상 지속되거나, 가슴 통증 또는 팔·턱으로 퍼지는 통증과 함께 나타나거나, 삼키기 어려움이나 설명되지 않는 체중 감소와 함께 나타나면 의사를 만나세요. 심장마비나 심각한 질환의 징후일 수 있습니다.',
+    interact: [
+      { en: 'Drugs requiring stomach acid for absorption (ketoconazole, atazanavir) — reduced effect', ko: '흡수에 위산이 필요한 약물 (케토코나졸, 아타자나비르) — 효과 감소' },
+      { en: 'Generally few significant interactions compared to older H2 blockers', ko: '구형 H2 차단제에 비해 유의미한 상호작용이 적음' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'omeprazole',
+    generic: { en: 'Omeprazole', ko: '오메프라졸' },
+    brands: ['Prilosec OTC', 'Zegerid OTC'],
+    category: 'gi',
+    uses: [
+      { title_en: 'Frequent heartburn (2+ days per week)', title_ko: '잦은 속쓰림 (주 2회 이상)',
+        detail_en: 'Treats frequent heartburn — 14-day course that starts working in 1–4 days',
+        detail_ko: '잦은 속쓰림 치료 — 14일 요법으로 1~4일 내에 효과 시작' }
+    ],
+    dose_en: { 'Adult': '20 mg once daily, 30–60 minutes before breakfast', 'Duration': '14 days straight, then stop', 'Repeat course': 'Wait 4 months before another 14-day course', 'Max': 'No more than 3 courses per year without doctor' },
+    dose_ko: { '성인': '아침 식사 30~60분 전 하루 1회 20 mg', '사용 기간': '연속 14일간 복용 후 중단', '재시작': '다음 14일 요법까지 4개월 대기', '최대': '의사 지시 없이 연 3회 초과 금지' },
+    danger_en: 'LONG-TERM USE RISKS — Beyond the 14-day OTC course, long-term PPI use is associated with low magnesium, vitamin B12 deficiency, increased bone fracture risk, increased risk of C. difficile and pneumonia infections, and possible kidney issues. Do not extend on your own.',
+    danger_ko: '장기 사용 위험 — 14일 OTC 요법을 초과한 장기 PPI 사용은 저마그네슘혈증, 비타민 B12 결핍, 골절 위험 증가, 클로스트리디움 디피실·폐렴 감염 위험 증가, 신장 문제와 관련이 있습니다. 스스로 연장 복용하지 마세요.',
+    warn_en: 'Do not use for immediate relief — this drug takes 1–4 days to start working. If symptoms persist or return after 14 days, see a doctor. Chest pain, trouble swallowing, vomiting blood, or bloody/black stools — seek emergency care.',
+    warn_ko: '즉각적인 증상 완화용이 아닙니다 — 효과가 나타나는 데 1~4일이 걸립니다. 증상이 14일 후에도 지속되거나 재발하면 의사를 만나세요. 가슴 통증, 삼키기 어려움, 혈토, 혈변·흑변 — 응급 진료를 받으세요.',
+    interact: [
+      { en: 'Clopidogrel (Plavix) — reduces its heart-protective effect (major concern)', ko: '클로피도그렐 (플라빅스) — 심장 보호 효과 감소 (주요 우려)' },
+      { en: 'Methotrexate — increased toxicity', ko: '메토트렉세이트 — 독성 증가' },
+      { en: 'Warfarin — increased bleeding risk', ko: '와파린 — 출혈 위험 증가' },
+      { en: 'Drugs needing stomach acid (ketoconazole, iron, atazanavir) — reduced absorption', ko: '위산이 필요한 약물 (케토코나졸, 철분제, 아타자나비르) — 흡수 감소' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'calcium-carbonate',
+    generic: { en: 'Calcium carbonate (antacid)', ko: '탄산칼슘 (제산제)' },
+    brands: ['Tums', 'Rolaids'],
+    category: 'gi',
+    uses: [
+      { title_en: 'Fast heartburn relief', title_ko: '빠른 속쓰림 완화',
+        detail_en: 'Neutralizes stomach acid quickly — works in minutes but short-acting',
+        detail_ko: '위산을 빠르게 중화 — 몇 분 내에 작용하지만 짧게 지속됨' },
+      { title_en: 'Acid indigestion and sour stomach', title_ko: '위산 소화불량 및 신트림',
+        detail_en: 'Relieves symptoms of indigestion and upset stomach from acid',
+        detail_ko: '위산으로 인한 소화불량 및 속 불편감 완화' },
+      { title_en: 'Calcium supplement', title_ko: '칼슘 보충',
+        detail_en: 'Can be used as a dietary calcium source (check label for amount)',
+        detail_ko: '식이 칼슘 공급원으로 사용 가능 (양은 라벨 확인)' }
+    ],
+    dose_en: { 'Adult': 'Chew 2–4 tablets as symptoms occur', 'Max per day': 'Follow product label — typically do not exceed 15 Tums Regular Strength tablets', 'Timing': 'Works in 5–15 minutes, lasts 20–60 minutes' },
+    dose_ko: { '성인': '증상이 있을 때 2~4정 씹어 복용', '하루 최대': '제품 라벨에 따름 — 일반적으로 Tums Regular Strength 15정 초과 금지', '작용 시간': '5~15분 내 효과, 20~60분 지속' },
+    warn_en: 'Do not take if you have kidney disease without doctor approval. Do not take more than the label states. Chronic high-dose use can cause kidney stones, constipation, and milk-alkali syndrome. If symptoms last more than 2 weeks, see a doctor.',
+    warn_ko: '신장 질환이 있으면 의사 승인 없이 복용하지 마세요. 라벨에 표시된 것보다 많이 복용하지 마세요. 고용량 만성 사용은 신장 결석, 변비, 우유-알칼리 증후군을 유발할 수 있습니다. 증상이 2주 이상 지속되면 의사를 만나세요.',
+    interact: [
+      { en: 'Antibiotics (tetracyclines, quinolones) — reduced absorption (separate by 2 hours)', ko: '항생제 (테트라사이클린, 퀴놀론) — 흡수 감소 (2시간 간격 필요)' },
+      { en: 'Iron supplements, thyroid medication — reduced absorption', ko: '철분제, 갑상선약 — 흡수 감소' },
+      { en: 'Digoxin — altered effect', ko: '디곡신 — 효과 변화' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 331 · DailyMed (NIH)'
+  },
+  {
+    id: 'loperamide',
+    generic: { en: 'Loperamide', ko: '로페라미드' },
+    brands: ['Imodium A-D'],
+    category: 'gi',
+    uses: [
+      { title_en: 'Diarrhea control', title_ko: '설사 조절',
+        detail_en: 'Controls symptoms of diarrhea, including travelers\' diarrhea',
+        detail_ko: '여행자 설사를 포함한 설사 증상 조절' }
+    ],
+    dose_en: { 'Adult and child 12+': '4 mg after first loose stool, then 2 mg after each subsequent loose stool', 'Max per day (OTC)': '8 mg', 'Max duration': 'Do not use for more than 2 days without doctor', 'Child 6–11': 'See label — lower doses' },
+    dose_ko: { '성인 및 12세 이상': '첫 무른 변 후 4 mg, 이후 무른 변마다 2 mg', '하루 최대 (OTC)': '8 mg', '최대 기간': '의사 지시 없이 2일 이상 사용 금지', '6~11세': '라벨 참조 — 저용량' },
+    danger_en: 'SERIOUS HEART PROBLEMS AT HIGH DOSES — FDA warns that taking much more than the recommended dose (abuse) can cause fatal heart rhythm problems. Keep out of reach of teens. Do not use if you have bloody stools or black stools (may indicate serious illness). Do not use if you have a fever over 101°F — this could be an infection that diarrhea is clearing.',
+    danger_ko: '고용량에서 심각한 심장 문제 — FDA는 권장 용량을 크게 초과한 복용(남용)이 치명적인 부정맥을 일으킬 수 있다고 경고합니다. 청소년의 손이 닿지 않는 곳에 보관하세요. 혈변이나 흑변이 있으면 사용하지 마세요 (심각한 질환의 징후일 수 있음). 101°F(38.3°C) 이상의 발열이 있으면 사용하지 마세요 — 설사가 제거하고 있는 감염일 수 있습니다.',
+    warn_en: 'Stop use and see a doctor if diarrhea lasts more than 2 days, if you develop abdominal swelling or bulging, or if you have bloody/black stools. Drink plenty of fluids to prevent dehydration.',
+    warn_ko: '설사가 2일 이상 지속되거나, 복부 팽만이나 돌출이 발생하거나, 혈변·흑변이 있으면 사용을 중단하고 의사를 만나세요. 탈수 예방을 위해 수분을 충분히 섭취하세요.',
+    interact: [
+      { en: 'Quinidine, ritonavir — may increase loperamide levels (heart risk)', ko: '퀴니딘, 리토나비르 — 로페라미드 농도 상승 가능 (심장 위험)' },
+      { en: 'Other drugs that prolong QT interval — heart rhythm risk', ko: 'QT 간격을 연장하는 다른 약물 — 부정맥 위험' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'bismuth-subsalicylate',
+    generic: { en: 'Bismuth subsalicylate', ko: '비스무스 서브살리실레이트' },
+    brands: ['Pepto-Bismol', 'Kaopectate'],
+    category: 'gi',
+    uses: [
+      { title_en: 'Upset stomach', title_ko: '속 불편감',
+        detail_en: 'Relieves upset stomach, indigestion, and heartburn',
+        detail_ko: '속 불편감, 소화불량, 속쓰림 완화' },
+      { title_en: 'Nausea', title_ko: '메스꺼움',
+        detail_en: 'Relieves nausea',
+        detail_ko: '메스꺼움 완화' },
+      { title_en: 'Diarrhea', title_ko: '설사',
+        detail_en: 'Controls diarrhea',
+        detail_ko: '설사 조절' },
+      { title_en: 'Gas and fullness', title_ko: '가스 및 포만감',
+        detail_en: 'Relieves gas and feeling of fullness',
+        detail_ko: '가스와 포만감 완화' }
+    ],
+    dose_en: { 'Adult and child 12+': '30 mL or 2 tablets every 30–60 minutes as needed', 'Max per day': '8 doses (240 mL)', 'Max duration': '2 days', 'Child under 12': 'Do not use without doctor' },
+    dose_ko: { '성인 및 12세 이상': '필요 시 30~60분마다 30 mL 또는 2정', '하루 최대': '8회 (240 mL)', '최대 기간': '2일', '12세 미만': '의사 지시 없이 사용 금지' },
+    danger_en: 'REYE\'S SYNDROME — Do NOT give to children or teenagers recovering from chicken pox or flu. Contains salicylate (aspirin-like), so same Reye\'s syndrome risk applies. Can cause temporary harmless black darkening of tongue and stool.',
+    danger_ko: '라이 증후군 — 수두나 독감에서 회복 중인 어린이·청소년에게 투여하지 마세요. 살리실산염(아스피린 유사 성분)을 함유하므로 동일한 라이 증후군 위험이 적용됩니다. 혀와 대변이 일시적으로 검게 변할 수 있으며, 이는 무해합니다.',
+    warn_en: 'Avoid if you have bleeding disorders, stomach ulcers, gout, or aspirin allergy. Do not combine with other salicylates (aspirin) due to additive toxicity risk. Stop and see a doctor if symptoms worsen or you develop ringing in your ears.',
+    warn_ko: '출혈 장애, 위궤양, 통풍, 아스피린 알레르기가 있으면 사용하지 마세요. 독성 누적 위험 때문에 다른 살리실산염(아스피린)과 병용하지 마세요. 증상이 악화되거나 이명이 발생하면 중단하고 의사를 만나세요.',
+    interact: [
+      { en: 'Aspirin and other salicylates — additive toxicity', ko: '아스피린 및 기타 살리실산염 — 독성 누적' },
+      { en: 'Blood thinners — increased bleeding risk', ko: '혈액 희석제 — 출혈 위험 증가' },
+      { en: 'Tetracycline antibiotics — reduced absorption', ko: '테트라사이클린 항생제 — 흡수 감소' },
+      { en: 'Diabetes medications — may increase effect', ko: '당뇨병약 — 효과 증가 가능' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'simethicone',
+    generic: { en: 'Simethicone', ko: '시메티콘' },
+    brands: ['Gas-X', 'Mylicon', 'Phazyme'],
+    category: 'gi',
+    uses: [
+      { title_en: 'Gas pain and bloating', title_ko: '가스 통증 및 복부 팽만',
+        detail_en: 'Relieves pressure, bloating, and fullness caused by swallowed gas in the stomach and intestines',
+        detail_ko: '위와 장 내 삼킨 가스로 인한 압박감, 복부 팽만, 포만감 완화' }
+    ],
+    dose_en: { 'Adult': '40–360 mg after meals and at bedtime as needed', 'Max per day': '500 mg', 'Infant drops': 'Available for babies with gas — ask pediatrician' },
+    dose_ko: { '성인': '필요 시 식후 및 취침 시 40~360 mg', '하루 최대': '500 mg', '영유아 점적액': '가스가 있는 아기를 위해 사용 가능 — 소아과 의사에게 문의' },
+    warn_en: 'Very safe — not absorbed from the digestive tract. If symptoms are severe or persistent, see a doctor to rule out other causes.',
+    warn_ko: '매우 안전합니다 — 소화관에서 흡수되지 않습니다. 증상이 심하거나 지속되면 다른 원인을 배제하기 위해 의사를 만나세요.',
+    interact: [
+      { en: 'Essentially no drug interactions — considered one of the safest OTC medications', ko: '약물 상호작용이 거의 없음 — 가장 안전한 OTC 약 중 하나로 여겨짐' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+
+  // ============ SKIN & TOPICAL ============
+  {
+    id: 'hydrocortisone',
+    generic: { en: 'Hydrocortisone 1% (topical)', ko: '히드로코르티손 1% (외용)' },
+    brands: ['Cortizone-10', 'Cortaid'],
+    category: 'skin',
+    uses: [
+      { title_en: 'Itch relief', title_ko: '가려움 완화',
+        detail_en: 'Temporarily relieves itching from eczema, insect bites, poison ivy/oak/sumac, soap, detergents, cosmetics, jewelry, and minor skin irritations',
+        detail_ko: '습진, 벌레 물림, 옻나무, 비누, 세제, 화장품, 장신구, 경미한 피부 자극으로 인한 가려움을 일시적으로 완화' },
+      { title_en: 'Rash and inflammation', title_ko: '발진 및 염증',
+        detail_en: 'Reduces redness and swelling from minor skin inflammation',
+        detail_ko: '경미한 피부 염증으로 인한 발적과 붓기 감소' },
+      { title_en: 'Anal/genital itching (external only)', title_ko: '항문·외음부 가려움 (외부에만)',
+        detail_en: 'Relieves external anal and genital itching (do not use internally)',
+        detail_ko: '항문 및 외음부의 외부 가려움 완화 (내부 사용 금지)' }
+    ],
+    dose_en: { 'Adult and child 2+': 'Apply thin layer to affected area 3–4 times daily', 'Max duration': '7 days — if no improvement, see a doctor', 'Do not use on': 'Face, groin, or underarms for more than a few days' },
+    dose_ko: { '성인 및 2세 이상': '환부에 얇게 하루 3~4회 도포', '최대 기간': '7일 — 호전되지 않으면 의사를 만나세요', '사용 금지 부위': '얼굴, 사타구니, 겨드랑이에 며칠 이상 사용 금지' },
+    warn_en: 'Do not use on children under 2 without doctor. Do not use on infected skin, acne, or rosacea. Long-term use can thin the skin, especially on face or sensitive areas. Do not use on large areas of the body.',
+    warn_ko: '2세 미만 어린이에게는 의사 지시 없이 사용하지 마세요. 감염된 피부, 여드름, 주사피부염에 사용하지 마세요. 장기 사용은 특히 얼굴이나 민감한 부위의 피부를 얇게 만들 수 있습니다. 신체의 넓은 부위에 사용하지 마세요.',
+    interact: [
+      { en: 'Generally no significant systemic interactions at OTC strength', ko: 'OTC 농도에서 유의미한 전신 상호작용은 일반적으로 없음' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 347 · DailyMed (NIH)'
+  },
+  {
+    id: 'bacitracin-neosporin',
+    generic: { en: 'Bacitracin / Triple antibiotic ointment', ko: '바시트라신 / 삼중 항생제 연고' },
+    brands: ['Neosporin', 'Polysporin'],
+    category: 'skin',
+    uses: [
+      { title_en: 'Prevent infection in minor wounds', title_ko: '경미한 상처의 감염 예방',
+        detail_en: 'First aid to help prevent infection in minor cuts, scrapes, and burns',
+        detail_ko: '경미한 베임, 찰과상, 화상의 감염 예방을 돕는 응급 처치' }
+    ],
+    dose_en: { 'Adult and child': 'Clean area, apply thin layer 1–3 times daily, cover with sterile bandage if desired', 'Max duration': '7 days — if no healing, see a doctor' },
+    dose_ko: { '성인 및 어린이': '부위를 깨끗이 하고 얇게 하루 1~3회 도포, 원하면 멸균 붕대로 덮음', '최대 기간': '7일 — 치유되지 않으면 의사를 만나세요' },
+    warn_en: 'Do not use for more than 7 days unless directed by a doctor. Do not use on deep puncture wounds, animal bites, or serious burns — these need medical care. Neomycin (in triple antibiotic) causes allergic skin reactions in some people — if rash develops, stop use.',
+    warn_ko: '의사 지시가 없으면 7일 이상 사용하지 마세요. 깊은 자상, 동물 물림, 심한 화상에는 사용하지 마세요 — 의료 처치가 필요합니다. 네오마이신(삼중 항생제에 포함)은 일부에서 알레르기성 피부 반응을 일으킵니다 — 발진이 생기면 중단하세요.',
+    interact: [
+      { en: 'Minimal systemic absorption when used as directed', ko: '지시대로 사용 시 전신 흡수는 최소' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 333 · DailyMed (NIH)'
+  },
+  {
+    id: 'miconazole',
+    generic: { en: 'Miconazole / Clotrimazole', ko: '미코나졸 / 클로트리마졸' },
+    brands: ['Lotrimin AF', 'Monistat (vaginal)', 'Desenex'],
+    category: 'skin',
+    uses: [
+      { title_en: 'Athlete\'s foot (tinea pedis)', title_ko: '무좀 (백선)',
+        detail_en: 'Treats and relieves itching, burning, and cracking from athlete\'s foot',
+        detail_ko: '무좀으로 인한 가려움, 작열감, 갈라짐을 치료하고 완화' },
+      { title_en: 'Jock itch (tinea cruris)', title_ko: '완선',
+        detail_en: 'Treats jock itch in the groin area',
+        detail_ko: '사타구니 부위의 완선 치료' },
+      { title_en: 'Ringworm (tinea corporis)', title_ko: '어루러기/백선',
+        detail_en: 'Treats ringworm on the body',
+        detail_ko: '몸에 생기는 어루러기 치료' },
+      { title_en: 'Vaginal yeast infection', title_ko: '질 칸디다증',
+        detail_en: 'Treats vaginal candidiasis (Monistat formulations only)',
+        detail_ko: '질 칸디다증 치료 (Monistat 제형에 한함)' }
+    ],
+    dose_en: { 'Skin (cream/spray/powder)': 'Apply to clean, dry skin twice daily', 'Athlete\'s foot duration': '4 weeks', 'Jock itch / ringworm duration': '2 weeks', 'Vaginal': '1-, 3-, or 7-day courses per product label' },
+    dose_ko: { '피부 (크림/스프레이/분말)': '깨끗하고 건조한 피부에 하루 2회 도포', '무좀 기간': '4주', '완선/어루러기 기간': '2주', '질 제품': '제품 라벨에 따라 1일·3일·7일 요법' },
+    warn_en: 'Do not use in or near the eyes. For vaginal products: if this is your first yeast infection, see a doctor to confirm diagnosis — many other conditions have similar symptoms. See a doctor if no improvement in 2 weeks for skin or 3 days for vaginal use.',
+    warn_ko: '눈이나 눈 주변에 사용하지 마세요. 질 제품의 경우: 처음 칸디다증이라면 의사에게 진단 확인을 받으세요 — 다른 많은 질환이 비슷한 증상을 보입니다. 피부는 2주, 질은 3일 이내 호전되지 않으면 의사를 만나세요.',
+    interact: [
+      { en: 'Vaginal miconazole can weaken latex condoms and diaphragms — use alternate contraception during treatment', ko: '질용 미코나졸은 라텍스 콘돔과 다이어프램을 약화시킬 수 있음 — 치료 중 대체 피임법 사용' },
+      { en: 'Vaginal product may increase warfarin effect (rare but possible)', ko: '질 제품은 와파린 효과를 증가시킬 수 있음 (드물지만 가능)' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 333 · DailyMed (NIH)'
+  },
+  {
+    id: 'benzoyl-peroxide',
+    generic: { en: 'Benzoyl peroxide', ko: '벤조일 퍼옥사이드' },
+    brands: ['PanOxyl', 'Clean & Clear Persa-Gel'],
+    category: 'skin',
+    uses: [
+      { title_en: 'Acne treatment', title_ko: '여드름 치료',
+        detail_en: 'Treats acne blemishes, including pimples and blackheads; also helps prevent new acne',
+        detail_ko: '여드름(구진·면포) 치료; 새로운 여드름 예방에도 도움' }
+    ],
+    dose_en: { 'Adult and child 12+': 'Apply 2.5%, 5%, or 10% to affected area once daily at first, then increase to 2–3 times daily if tolerated', 'Start low': 'Begin with 2.5% to reduce irritation — equally effective as higher strengths' },
+    dose_ko: { '성인 및 12세 이상': '환부에 2.5%, 5% 또는 10%를 처음에는 하루 1회 도포, 내약성이 있으면 하루 2~3회로 증량', '저농도 시작': '자극을 줄이기 위해 2.5%로 시작 — 고농도와 효과는 동일' },
+    warn_en: 'Apply only to acne areas. Avoid eyes, lips, and mouth. Bleaches fabric, hair, and towels permanently — use white towels. May cause redness, dryness, peeling, or increased sun sensitivity — use sunscreen. Rare but serious allergic reaction possible (throat tightness, face swelling, hives) — stop and seek emergency care.',
+    warn_ko: '여드름 부위에만 도포하세요. 눈, 입술, 입을 피하세요. 천, 머리카락, 수건을 영구적으로 탈색시킵니다 — 흰 수건을 사용하세요. 발적, 건조, 각질, 햇빛 민감도 증가를 유발할 수 있으므로 자외선 차단제를 사용하세요. 드물지만 심각한 알레르기 반응 가능 (목 조임, 얼굴 부종, 두드러기) — 중단하고 응급 진료를 받으세요.',
+    interact: [
+      { en: 'Topical retinoids (tretinoin, adapalene) — may increase irritation if used together', ko: '국소 레티노이드 (트레티노인, 아다팔렌) — 함께 사용 시 자극 증가 가능' },
+      { en: 'Other drying acne products — excessive skin irritation', ko: '건조를 유발하는 다른 여드름 제품 — 과도한 피부 자극' }
+    ],
+    source: 'FDA OTC Monograph 21 CFR 333D · DailyMed (NIH)'
+  },
+
+  // ============ OTHER ============
+  {
+    id: 'melatonin',
+    generic: { en: 'Melatonin', ko: '멜라토닌' },
+    brands: ['Natrol', 'Nature Made', 'ZzzQuil Pure Zzzs'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Short-term sleep onset', title_ko: '단기 수면 유도', evidence: 'emerging',
+        detail_en: 'May help fall asleep faster, especially when sleep schedule is shifted (jet lag, shift work). Effect on total sleep time is small.',
+        detail_ko: '특히 수면 일정이 바뀌었을 때(시차, 교대 근무) 더 빨리 잠드는 데 도움이 될 수 있습니다. 총 수면 시간에 대한 효과는 작습니다.' },
+      { title_en: 'Jet lag', title_ko: '시차 적응', evidence: 'emerging',
+        detail_en: 'Taken at destination bedtime for several nights after travel across 2+ time zones',
+        detail_ko: '2개 이상 시간대를 가로지르는 여행 후 현지 취침 시간에 며칠간 복용' }
+    ],
+    dose_en: { 'Adult': '0.5–5 mg taken 30–60 minutes before bedtime', 'Start low': 'Lower doses (0.5–1 mg) often work as well as higher doses', 'Regulatory note': 'Sold as a dietary supplement in the US — NOT FDA-approved as a drug; quality varies by brand' },
+    dose_ko: { '성인': '취침 30~60분 전 0.5~5 mg', '저용량 시작': '저용량(0.5~1 mg)도 고용량만큼 효과적일 때가 많음', '규제 참고': '미국에서 식이 보충제로 판매 — FDA 의약품으로 승인되지 않음; 품질이 브랜드마다 다름' },
+    warn_en: 'A 2017 study found many melatonin products contained 80–500% of the labeled amount. Look for USP-verified products. Not recommended for children or pregnant women without doctor approval. Can cause drowsiness, headache, vivid dreams, and next-day grogginess. Long-term safety (beyond 3 months) is not well-studied.',
+    warn_ko: '2017년 연구에서 많은 멜라토닌 제품이 라벨 표기량의 80~500%를 함유한 것으로 밝혀졌습니다. USP 인증 제품을 찾으세요. 어린이나 임산부는 의사 승인 없이 권장되지 않습니다. 졸음, 두통, 생생한 꿈, 다음날 멍한 느낌을 유발할 수 있습니다. 3개월 이상의 장기 안전성은 충분히 연구되지 않았습니다.',
+    interact: [
+      { en: 'Blood thinners (warfarin) — may increase bleeding risk', ko: '혈액 희석제 (와파린) — 출혈 위험 증가 가능' },
+      { en: 'Sedatives, alcohol — increased drowsiness', ko: '진정제, 알코올 — 졸음 증가' },
+      { en: 'Blood pressure medications — may alter effect', ko: '혈압약 — 효과 변화 가능' },
+      { en: 'Immunosuppressants — may counteract effect', ko: '면역 억제제 — 효과 상쇄 가능' }
+    ],
+    source: 'NIH Office of Dietary Supplements · MedlinePlus (NIH)'
+  },
+  {
+    id: 'vitamin-d',
+    generic: { en: 'Vitamin D3 (cholecalciferol)', ko: '비타민 D3 (콜레칼시페롤)' },
+    brands: ['Nature Made', 'Kirkland', 'NOW Foods'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Bone health (with calcium)', title_ko: '뼈 건강 (칼슘과 함께)', evidence: 'strong',
+        detail_en: 'Needed for calcium absorption and bone mineralization; helps prevent osteoporosis and falls in older adults',
+        detail_ko: '칼슘 흡수와 뼈 미네랄화에 필요하며, 고령자의 골다공증과 낙상 예방에 도움' },
+      { title_en: 'Correction of vitamin D deficiency', title_ko: '비타민 D 결핍 교정', evidence: 'strong',
+        detail_en: 'Treats low blood levels of 25-hydroxyvitamin D (<20 ng/mL), which is common in adults who get little sun',
+        detail_ko: '혈중 25-수산화비타민 D 저하(<20 ng/mL) 치료 — 햇빛 노출이 적은 성인에서 흔함' },
+      { title_en: 'Muscle function in older adults', title_ko: '고령자 근육 기능', evidence: 'emerging',
+        detail_en: 'May reduce falls and improve muscle strength in older adults with low vitamin D',
+        detail_ko: '비타민 D가 낮은 고령자에서 낙상 감소 및 근력 개선 가능' }
+    ],
+    dose_en: { 'Maintenance (adult)': '600–800 IU (15–20 mcg) daily', 'Adult over 70': '800 IU daily (higher need)', 'Deficiency treatment': 'Doctor may prescribe 1000–5000 IU daily short-term', 'Upper limit': '4000 IU/day without doctor supervision' },
+    dose_ko: { '유지 (성인)': '하루 600~800 IU (15~20 mcg)', '70세 이상': '하루 800 IU (필요량 증가)', '결핍 치료': '의사가 단기간 하루 1000~5000 IU 처방 가능', '상한': '의사 감독 없이 하루 4000 IU 이하' },
+    warn_en: 'Doses above 4000 IU/day long-term can cause dangerously high calcium (hypercalcemia), leading to kidney stones, weakness, or confusion. Have your doctor check blood levels before taking high doses. Fat-soluble — takes weeks to see effect.',
+    warn_ko: '하루 4000 IU 이상을 장기간 복용하면 위험한 고칼슘혈증을 유발하여 신장 결석, 무력감, 혼돈을 일으킬 수 있습니다. 고용량 복용 전 의사에게 혈중 농도를 확인받으세요. 지용성 — 효과가 나타나는 데 몇 주가 걸립니다.',
+    interact: [
+      { en: 'Thiazide diuretics — increased risk of high calcium', ko: '티아지드 이뇨제 — 고칼슘혈증 위험 증가' },
+      { en: 'Digoxin — hypercalcemia can trigger heart rhythm problems', ko: '디곡신 — 고칼슘혈증이 부정맥을 유발 가능' },
+      { en: 'Steroids (prednisone) — reduce vitamin D activity', ko: '스테로이드 (프레드니손) — 비타민 D 활성 감소' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Vitamin D Fact Sheet'
+  },
+  {
+    id: 'vitamin-b12',
+    generic: { en: 'Vitamin B12 (cyanocobalamin / methylcobalamin)', ko: '비타민 B12 (시아노코발라민 / 메틸코발라민)' },
+    brands: ['Nature Made', 'Jarrow Methyl B-12'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Correction of B12 deficiency', title_ko: 'B12 결핍 교정', evidence: 'strong',
+        detail_en: 'Treats deficiency-related anemia (megaloblastic) and neurological symptoms like numbness, tingling, or memory problems',
+        detail_ko: '결핍으로 인한 빈혈(거대적아구성) 및 저림, 따끔거림, 기억력 문제 같은 신경학적 증상 치료' },
+      { title_en: 'Support for vegetarians and vegans', title_ko: '채식·비건 보충', evidence: 'strong',
+        detail_en: 'Required because B12 is not reliably found in plant foods',
+        detail_ko: 'B12는 식물성 식품에서 안정적으로 얻을 수 없으므로 필요' },
+      { title_en: 'Support for adults over 50', title_ko: '50세 이상 성인 보충', evidence: 'strong',
+        detail_en: 'NIH recommends B12 from supplements or fortified foods after age 50 due to reduced absorption from food',
+        detail_ko: 'NIH는 50세 이후 음식 흡수 감소 때문에 보충제나 강화 식품으로 B12 섭취를 권장' }
+    ],
+    dose_en: { 'Adult RDA': '2.4 mcg daily; supplements typically 500–1000 mcg daily', 'Over age 50': 'Supplement or fortified foods recommended', 'Deficiency': 'Doctor may prescribe injection or high-dose oral (1000–2000 mcg daily)' },
+    dose_ko: { '성인 RDA': '하루 2.4 mcg; 보충제는 보통 하루 500~1000 mcg', '50세 이상': '보충제나 강화 식품 권장', '결핍': '의사가 주사 또는 고용량 경구(하루 1000~2000 mcg) 처방 가능' },
+    warn_en: 'Very safe — water-soluble, excess is excreted in urine. If you have unexplained fatigue, numbness, or memory problems, see a doctor for a B12 blood test before guessing. Metformin (diabetes drug) and long-term PPIs (omeprazole) can lower B12 — check levels.',
+    warn_ko: '매우 안전 — 수용성이라 과잉분은 소변으로 배출됩니다. 원인 불명의 피로, 저림, 기억력 문제가 있으면 추측하지 말고 의사에게 B12 혈액 검사를 받으세요. 메트포르민(당뇨약)과 장기 PPI(오메프라졸)는 B12를 낮출 수 있으니 수치 확인 필요.',
+    interact: [
+      { en: 'Metformin — reduces B12 absorption (check level yearly)', ko: '메트포르민 — B12 흡수 감소 (매년 수치 확인)' },
+      { en: 'Proton pump inhibitors (omeprazole) — reduce absorption with long-term use', ko: '양성자 펌프 억제제 (오메프라졸) — 장기 사용 시 흡수 감소' },
+      { en: 'H2 blockers (famotidine) — may reduce absorption', ko: 'H2 차단제 (파모티딘) — 흡수 감소 가능' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Vitamin B12 Fact Sheet'
+  },
+  {
+    id: 'vitamin-c',
+    generic: { en: 'Vitamin C (ascorbic acid)', ko: '비타민 C (아스코르브산)' },
+    brands: ['Nature Made', 'Emergen-C', 'Airborne'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Correction of vitamin C deficiency (scurvy)', title_ko: '비타민 C 결핍 (괴혈병) 교정', evidence: 'strong',
+        detail_en: 'Required to prevent and treat scurvy (bleeding gums, poor wound healing, weakness)',
+        detail_ko: '괴혈병(잇몸 출혈, 상처 치유 불량, 무력감) 예방 및 치료에 필요' },
+      { title_en: 'Antioxidant and general nutrition', title_ko: '항산화·일반 영양', evidence: 'strong',
+        detail_en: 'Supports collagen production, iron absorption from plants, and immune cell function',
+        detail_ko: '콜라겐 생성, 식물성 철분 흡수, 면역 세포 기능 지원' },
+      { title_en: 'Duration of common cold', title_ko: '감기 지속 기간', evidence: 'limited',
+        detail_en: 'Taken regularly (not at cold onset), may shorten cold duration by about 8% in adults. Does not prevent colds in most people.',
+        detail_ko: '감기 시작 시점이 아닌 평소 복용 시 성인에서 감기 기간을 약 8% 단축 가능. 대부분의 사람에서 감기를 예방하지는 못함.' }
+    ],
+    dose_en: { 'Adult RDA': '75 mg (women) / 90 mg (men) daily', 'Typical supplement': '250–1000 mg daily', 'Upper limit': '2000 mg/day to avoid GI upset', 'Smokers': 'Need +35 mg/day' },
+    dose_ko: { '성인 RDA': '하루 75 mg (여성) / 90 mg (남성)', '일반 보충': '하루 250~1000 mg', '상한': '하루 2000 mg 이하 (위장 장애 예방)', '흡연자': '하루 +35 mg 추가 필요' },
+    warn_en: 'Doses above 2000 mg/day can cause diarrhea, nausea, and stomach cramps. High doses may increase kidney stone risk. People with hemochromatosis (iron overload) should avoid high doses.',
+    warn_ko: '하루 2000 mg 이상은 설사, 메스꺼움, 복통을 유발할 수 있습니다. 고용량은 신장 결석 위험을 증가시킬 수 있습니다. 혈색소증(철분 과잉) 환자는 고용량을 피해야 합니다.',
+    interact: [
+      { en: 'Iron supplements — vitamin C increases iron absorption (usually desired, but problematic in hemochromatosis)', ko: '철분제 — 비타민 C가 철분 흡수를 증가시킴 (일반적으로 바람직하나 혈색소증에는 문제)' },
+      { en: 'Chemotherapy — may reduce effectiveness of some treatments (ask oncologist)', ko: '항암제 — 일부 치료 효과를 감소시킬 수 있음 (종양내과 상담)' },
+      { en: 'Warfarin — high doses may reduce effect', ko: '와파린 — 고용량은 효과 감소 가능' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Vitamin C Fact Sheet'
+  },
+  {
+    id: 'magnesium',
+    generic: { en: 'Magnesium', ko: '마그네슘' },
+    brands: ['Nature Made', 'Natural Vitality Calm', 'Doctor\'s Best'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Correction of magnesium deficiency', title_ko: '마그네슘 결핍 교정', evidence: 'strong',
+        detail_en: 'Treats low magnesium (common in people on diuretics, PPIs, or with diabetes, alcoholism, or chronic diarrhea)',
+        detail_ko: '저마그네슘혈증 치료 (이뇨제, PPI 복용자, 당뇨·알코올중독·만성 설사 환자에서 흔함)' },
+      { title_en: 'Constipation (magnesium citrate/hydroxide)', title_ko: '변비 (구연산/수산화 마그네슘)', evidence: 'strong',
+        detail_en: 'Works as an osmotic laxative; draws water into the bowel',
+        detail_ko: '삼투성 하제로 작용; 장으로 수분을 끌어들임' },
+      { title_en: 'Muscle cramps and sleep quality', title_ko: '근육 경련·수면 질', evidence: 'limited',
+        detail_en: 'Often used for leg cramps and mild sleep issues; evidence is mixed but side effects are minimal at normal doses',
+        detail_ko: '다리 경련과 경미한 수면 문제에 흔히 사용; 근거는 혼재되어 있으나 일반 용량에서 부작용은 적음' }
+    ],
+    dose_en: { 'Adult RDA': '310–420 mg daily (from food + supplement)', 'Supplement upper limit': '350 mg/day of supplemental magnesium (food does not count)', 'Forms': 'Citrate, glycinate — better absorbed; oxide — cheaper but more GI side effects' },
+    dose_ko: { '성인 RDA': '하루 310~420 mg (음식 + 보충제)', '보충제 상한': '보충제로 하루 350 mg (음식은 해당 안 됨)', '형태': '구연산염, 글리신산염 — 흡수 양호; 산화물 — 저렴하나 위장 부작용 많음' },
+    danger_en: 'KIDNEY DISEASE RISK — if your kidneys do not work well, magnesium can build up to dangerous levels causing heart rhythm problems, low blood pressure, and weakness. Talk to your doctor before supplementing if you have kidney disease.',
+    danger_ko: '신장 질환 위험 — 신장 기능이 저하된 경우 마그네슘이 위험한 수준으로 축적되어 부정맥, 저혈압, 무력감을 일으킬 수 있습니다. 신장 질환이 있으면 보충 전 의사와 상담하세요.',
+    warn_en: 'Common side effects are diarrhea and stomach cramps, especially with magnesium oxide. If this happens, switch to glycinate or reduce dose.',
+    warn_ko: '흔한 부작용은 설사와 복통이며, 특히 산화마그네슘에서 잘 나타납니다. 이 경우 글리신산염으로 바꾸거나 용량을 줄이세요.',
+    interact: [
+      { en: 'Antibiotics (tetracyclines, quinolones) — reduces absorption of both (separate by 2 hours)', ko: '항생제 (테트라사이클린, 퀴놀론) — 둘 다 흡수 감소 (2시간 간격 필요)' },
+      { en: 'Bisphosphonates (osteoporosis drugs) — reduced absorption', ko: '비스포스포네이트 (골다공증약) — 흡수 감소' },
+      { en: 'Diuretics — may change magnesium levels', ko: '이뇨제 — 마그네슘 수치 변화 가능' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Magnesium Fact Sheet'
+  },
+  {
+    id: 'calcium',
+    generic: { en: 'Calcium (with vitamin D)', ko: '칼슘 (비타민 D 포함)' },
+    brands: ['Citracal', 'Caltrate', 'Os-Cal'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Bone health and osteoporosis prevention', title_ko: '뼈 건강 및 골다공증 예방', evidence: 'strong',
+        detail_en: 'Helps maintain bone mineral density, especially in postmenopausal women and older adults',
+        detail_ko: '골밀도 유지에 도움, 특히 폐경 후 여성 및 고령자' },
+      { title_en: 'Correction of calcium deficiency', title_ko: '칼슘 결핍 교정', evidence: 'strong',
+        detail_en: 'Treats low calcium in blood, often from inadequate intake or vitamin D deficiency',
+        detail_ko: '부족한 섭취나 비타민 D 결핍으로 인한 저칼슘혈증 치료' }
+    ],
+    dose_en: { 'Adult RDA': '1000–1200 mg daily (food + supplement combined)', 'Per dose': 'Absorption is best with 500 mg or less at a time — split doses', 'Forms': 'Citrate — absorbed well with or without food; Carbonate — take with food', 'Upper limit': '2500 mg/day total (2000 mg over age 50)' },
+    dose_ko: { '성인 RDA': '하루 1000~1200 mg (음식 + 보충제 합산)', '1회 복용': '1회 500 mg 이하로 나누어 복용 시 흡수 최적', '형태': '구연산염 — 식사 유무 관계없이 흡수 양호; 탄산염 — 식사와 함께 복용', '상한': '하루 총 2500 mg (50세 이상은 2000 mg)' },
+    danger_en: 'HEART DISEASE CONCERN — some studies suggest high-dose calcium supplements (but not calcium from food) may be associated with increased heart attack risk. Get calcium from food first (dairy, leafy greens, fortified foods) and supplement only to fill the gap.',
+    danger_ko: '심장병 우려 — 일부 연구는 고용량 칼슘 보충제(음식 칼슘은 제외)가 심장마비 위험 증가와 관련이 있을 수 있다고 시사합니다. 먼저 음식(유제품, 잎채소, 강화 식품)에서 칼슘을 섭취하고 부족분만 보충하세요.',
+    warn_en: 'Can cause constipation and kidney stones. Do not exceed the upper limit. Do not take on the same hour as iron, thyroid medication, or certain antibiotics.',
+    warn_ko: '변비와 신장 결석을 유발할 수 있습니다. 상한을 초과하지 마세요. 철분, 갑상선약, 특정 항생제와 같은 시간에 복용하지 마세요.',
+    interact: [
+      { en: 'Thyroid medication (levothyroxine) — separate by 4 hours', ko: '갑상선약 (레보티록신) — 4시간 간격 필요' },
+      { en: 'Iron supplements — reduced absorption', ko: '철분제 — 흡수 감소' },
+      { en: 'Antibiotics (tetracyclines, quinolones) — reduced absorption (separate by 2+ hours)', ko: '항생제 (테트라사이클린, 퀴놀론) — 흡수 감소 (2시간 이상 간격)' },
+      { en: 'Bisphosphonates — reduced absorption', ko: '비스포스포네이트 — 흡수 감소' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Calcium Fact Sheet'
+  },
+  {
+    id: 'iron',
+    generic: { en: 'Iron (ferrous sulfate/gluconate/bisglycinate)', ko: '철분 (황산철/글루콘산철/비스글리신산철)' },
+    brands: ['Slow Fe', 'Feosol', 'Nature Made'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Treatment of iron-deficiency anemia', title_ko: '철결핍성 빈혈 치료', evidence: 'strong',
+        detail_en: 'Restores iron stores in people with low hemoglobin from blood loss, heavy menstruation, pregnancy, or inadequate intake',
+        detail_ko: '출혈, 과다 월경, 임신, 섭취 부족으로 헤모글로빈이 낮은 사람의 철분 저장량 회복' },
+      { title_en: 'Prevention during pregnancy', title_ko: '임신 중 예방', evidence: 'strong',
+        detail_en: 'Recommended during pregnancy to meet increased demand (as part of prenatal vitamin)',
+        detail_ko: '증가된 요구량을 충족하기 위해 임신 중 권장 (산전 비타민에 포함)' }
+    ],
+    dose_en: { 'Adult men / postmenopausal women': '8 mg daily', 'Premenopausal women': '18 mg daily', 'Pregnancy': '27 mg daily', 'Deficiency treatment': '65–200 mg elemental iron daily (doctor-guided)', 'Take with': 'Vitamin C boosts absorption; avoid with calcium, coffee, or tea' },
+    dose_ko: { '성인 남성·폐경 후 여성': '하루 8 mg', '폐경 전 여성': '하루 18 mg', '임신 중': '하루 27 mg', '결핍 치료': '의사 지도 하에 하루 원소철 65~200 mg', '복용 방법': '비타민 C와 함께 흡수 증가; 칼슘·커피·차와 병용 피하기' },
+    danger_en: 'SERIOUS POISONING RISK IN CHILDREN — as little as one adult iron tablet can be fatal to a young child. Keep in child-proof containers. If a child swallows iron, call Poison Control (1-800-222-1222) immediately. Do not take iron unless a blood test shows you need it — too much iron damages the liver and heart.',
+    danger_ko: '어린이 중독 위험 — 성인용 철분제 1정만으로도 어린 아이에게 치명적일 수 있습니다. 어린이 보호 용기에 보관하세요. 어린이가 철분제를 삼켰으면 즉시 독극물 센터(1-800-222-1222)에 전화하세요. 혈액 검사로 필요가 확인되지 않은 경우 철분제를 복용하지 마세요 — 과잉 철분은 간과 심장을 손상시킵니다.',
+    warn_en: 'Common side effects: constipation, dark stools (harmless), nausea, stomach pain. Take with food if stomach upset, but absorption is better on empty stomach. Bisglycinate form is often gentler on the stomach.',
+    warn_ko: '흔한 부작용: 변비, 검은 변(무해), 메스꺼움, 복통. 위장 장애가 있으면 음식과 함께 복용, 단 공복 복용 시 흡수가 더 좋음. 비스글리신산염 형태가 위장에 더 부드러움.',
+    interact: [
+      { en: 'Calcium, antacids, coffee, tea, dairy — reduce absorption (separate by 2 hours)', ko: '칼슘, 제산제, 커피, 차, 유제품 — 흡수 감소 (2시간 간격)' },
+      { en: 'Thyroid medication (levothyroxine) — separate by 4 hours', ko: '갑상선약 (레보티록신) — 4시간 간격' },
+      { en: 'Antibiotics (tetracyclines, quinolones) — reduced absorption of both', ko: '항생제 (테트라사이클린, 퀴놀론) — 둘 다 흡수 감소' },
+      { en: 'Proton pump inhibitors (omeprazole) — reduce iron absorption', ko: '양성자 펌프 억제제 (오메프라졸) — 철분 흡수 감소' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Iron Fact Sheet'
+  },
+  {
+    id: 'zinc',
+    generic: { en: 'Zinc', ko: '아연' },
+    brands: ['Nature Made', 'Zicam (lozenge)', 'Cold-EEZE'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Immune function', title_ko: '면역 기능', evidence: 'strong',
+        detail_en: 'Required for normal immune cell development and function; deficiency impairs immunity',
+        detail_ko: '정상 면역 세포 발달과 기능에 필요; 결핍 시 면역 저하' },
+      { title_en: 'Duration of common cold (lozenges)', title_ko: '감기 기간 단축 (로젠지)', evidence: 'emerging',
+        detail_en: 'Zinc lozenges started within 24 hours of symptom onset may shorten cold duration by 1–2 days',
+        detail_ko: '증상 시작 24시간 이내 시작한 아연 로젠지는 감기 기간을 1~2일 단축 가능' },
+      { title_en: 'Wound healing', title_ko: '상처 치유', evidence: 'strong',
+        detail_en: 'Zinc-deficient wounds heal poorly; supplementing corrects this',
+        detail_ko: '아연 결핍 상태의 상처는 치유가 저조하며 보충으로 개선' }
+    ],
+    dose_en: { 'Adult RDA': '8 mg (women) / 11 mg (men) daily', 'Cold lozenges': '75 mg elemental zinc daily, spread across lozenges every 2 hours, for no more than 7 days', 'Upper limit': '40 mg/day long-term' },
+    dose_ko: { '성인 RDA': '하루 8 mg (여성) / 11 mg (남성)', '감기 로젠지': '원소 아연 기준 하루 75 mg을 2시간마다 나눠서, 최대 7일까지', '상한': '장기 복용 시 하루 40 mg' },
+    danger_en: 'INTRANASAL ZINC (Zicam nasal gel/spray) — FDA warned in 2009 that intranasal zinc can cause PERMANENT LOSS OF SMELL. Use only lozenge or oral forms. Long-term high-dose zinc (>40 mg/day) can cause copper deficiency, leading to anemia and nerve problems.',
+    danger_ko: '비강 아연 (Zicam 비강 젤·스프레이) — FDA는 2009년 비강 아연이 영구적 후각 상실을 일으킬 수 있다고 경고했습니다. 로젠지나 경구 형태만 사용하세요. 하루 40 mg 초과 장기 복용은 구리 결핍을 유발하여 빈혈과 신경 문제를 일으킬 수 있습니다.',
+    warn_en: 'Nausea and stomach upset are common — take with food. Zinc can have a metallic taste in lozenges.',
+    warn_ko: '메스꺼움과 위장 장애가 흔함 — 음식과 함께 복용. 로젠지에서 금속성 맛이 날 수 있습니다.',
+    interact: [
+      { en: 'Antibiotics (tetracyclines, quinolones) — reduced absorption (separate by 2 hours)', ko: '항생제 (테트라사이클린, 퀴놀론) — 흡수 감소 (2시간 간격)' },
+      { en: 'Copper — long-term high-dose zinc causes copper deficiency', ko: '구리 — 고용량 장기 복용 시 구리 결핍 유발' },
+      { en: 'Penicillamine — reduced effectiveness', ko: '페니실라민 — 효과 감소' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Zinc Fact Sheet'
+  },
+  {
+    id: 'omega3',
+    generic: { en: 'Omega-3 (EPA/DHA — fish oil)', ko: '오메가-3 (EPA/DHA — 어유)' },
+    brands: ['Nature Made', 'Nordic Naturals', 'Kirkland'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Triglyceride lowering (high-dose, prescription)', title_ko: '중성지방 감소 (고용량·처방)', evidence: 'strong',
+        detail_en: 'Prescription-strength omega-3 (4 g/day EPA+DHA) lowers very high triglycerides. OTC doses are lower and effect is smaller.',
+        detail_ko: '처방 강도 오메가-3(하루 EPA+DHA 4 g)는 매우 높은 중성지방을 낮춤. OTC 용량은 낮고 효과도 작음.' },
+      { title_en: 'General cardiovascular health', title_ko: '일반 심혈관 건강', evidence: 'emerging',
+        detail_en: 'Eating oily fish 1–2 times weekly is supported by the American Heart Association. Supplement evidence is mixed.',
+        detail_ko: '주 1~2회 기름진 생선 섭취는 미국심장협회가 권장. 보충제에 대한 근거는 혼재.' },
+      { title_en: 'Rheumatoid arthritis symptom support', title_ko: '류마티스 관절염 증상 보조', evidence: 'emerging',
+        detail_en: 'May reduce joint stiffness and tenderness as adjunct to standard therapy',
+        detail_ko: '표준 치료의 보조요법으로 관절 강직과 압통을 감소시킬 수 있음' }
+    ],
+    dose_en: { 'General health': '1000 mg fish oil daily (contains ~300 mg combined EPA+DHA)', 'AHA recommendation': '1 g EPA+DHA daily for people with heart disease (food or supplement)', 'High triglycerides': '2–4 g daily — requires doctor supervision', 'Quality': 'Look for IFOS-certified products (tested for mercury, PCBs)' },
+    dose_ko: { '일반 건강': '하루 어유 1000 mg (EPA+DHA 합산 약 300 mg 함유)', 'AHA 권장': '심장병 환자는 하루 EPA+DHA 1 g (음식 또는 보충제)', '고중성지방': '하루 2~4 g — 의사 감독 필요', '품질': 'IFOS 인증 제품(수은·PCB 검사 통과) 선택' },
+    warn_en: 'Fish burps, fishy aftertaste, and mild GI upset are common. Freezing capsules can help. High doses can increase bleeding time — stop before surgery (ask surgeon). Avoid products without third-party testing (mercury, oxidation risk).',
+    warn_ko: '생선 트림, 생선 맛, 경미한 위장 장애가 흔함. 캡슐을 얼리면 도움이 됨. 고용량은 출혈 시간을 연장할 수 있으므로 수술 전 중단(외과의 상담). 제3자 검사를 거치지 않은 제품(수은·산화 위험)은 피하세요.',
+    interact: [
+      { en: 'Blood thinners (warfarin, apixaban) — increased bleeding risk at high doses', ko: '혈액 희석제 (와파린, 엘리퀴스) — 고용량에서 출혈 위험 증가' },
+      { en: 'Aspirin, NSAIDs — additive bleeding risk', ko: '아스피린, NSAID — 출혈 위험 누적' },
+      { en: 'Blood pressure medications — may enhance effect', ko: '혈압약 — 효과 증강 가능' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Omega-3 Fact Sheet'
+  },
+  {
+    id: 'probiotics',
+    generic: { en: 'Probiotics', ko: '프로바이오틱스 (유산균)' },
+    brands: ['Culturelle', 'Florastor', 'Align'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Antibiotic-associated diarrhea prevention', title_ko: '항생제 관련 설사 예방', evidence: 'strong',
+        detail_en: 'Taking probiotics during and after a course of antibiotics reduces diarrhea risk (Saccharomyces boulardii, Lactobacillus)',
+        detail_ko: '항생제 복용 중과 직후 프로바이오틱스(Saccharomyces boulardii, 락토바실러스) 섭취 시 설사 위험 감소' },
+      { title_en: 'Acute infectious diarrhea (adults)', title_ko: '급성 감염성 설사 (성인)', evidence: 'emerging',
+        detail_en: 'Certain strains may shorten duration by about 1 day',
+        detail_ko: '특정 균주가 기간을 약 1일 단축할 수 있음' },
+      { title_en: 'IBS symptom relief', title_ko: '과민성 대장 증후군 증상 완화', evidence: 'emerging',
+        detail_en: 'Some strains help with bloating and abdominal discomfort; results vary by strain',
+        detail_ko: '일부 균주가 복부 팽만과 불편감에 도움; 균주에 따라 효과가 다름' }
+    ],
+    dose_en: { 'Typical': '1–10 billion CFU daily (check label)', 'Strain matters': 'Different strains do different things — match the strain to the use', 'Timing with antibiotics': 'Take 2+ hours apart from the antibiotic', 'Refrigeration': 'Some products require it — check label' },
+    dose_ko: { '일반': '하루 10억~100억 CFU (라벨 확인)', '균주 중요': '균주마다 효과가 다름 — 목적에 맞는 균주 선택', '항생제와 병용': '항생제와 2시간 이상 간격을 두고 복용', '냉장': '일부 제품은 냉장 보관 필요 — 라벨 확인' },
+    danger_en: 'AVOID IF IMMUNOCOMPROMISED — people with weakened immune systems (chemotherapy, transplant recipients, severe illness, catheters) have had rare but serious bloodstream infections from probiotics. Talk to your doctor first.',
+    danger_ko: '면역 저하자는 피하세요 — 면역 기능이 약화된 사람(항암치료 중, 장기이식 환자, 중증 환자, 카테터 삽입 환자)에게 드물지만 심각한 프로바이오틱스 유래 혈류 감염이 보고되었습니다. 먼저 의사와 상담하세요.',
+    warn_en: 'Mild gas and bloating in the first few days are common. Product quality varies widely — look for brands that list exact strain (not just species) and CFU guaranteed through expiration date.',
+    warn_ko: '첫 며칠간 경미한 가스와 복부 팽만이 흔함. 제품 품질이 크게 다르므로 정확한 균주(종 이름만이 아닌)와 유효기간까지 보장되는 CFU가 표기된 브랜드를 선택하세요.',
+    interact: [
+      { en: 'Antibiotics — take 2+ hours apart to avoid killing the probiotics', ko: '항생제 — 프로바이오틱스가 죽지 않도록 2시간 이상 간격' },
+      { en: 'Immunosuppressants — infection risk (avoid probiotics)', ko: '면역 억제제 — 감염 위험 (프로바이오틱스 피하기)' }
+    ],
+    source: 'NIH Office of Dietary Supplements · MedlinePlus (NIH)'
+  },
+  {
+    id: 'multivitamin',
+    generic: { en: 'Multivitamin', ko: '종합 비타민' },
+    brands: ['Centrum', 'One A Day', 'Nature Made'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Fill nutrient gaps in diet', title_ko: '식단 영양소 부족 보충', evidence: 'emerging',
+        detail_en: 'Provides small amounts of many vitamins and minerals; useful when diet is limited, restricted, or inconsistent',
+        detail_ko: '많은 비타민과 미네랄을 소량씩 제공; 식단이 제한적·비일관적일 때 유용' },
+      { title_en: 'Targeted support (age/gender specific)', title_ko: '연령·성별 맞춤 보충', evidence: 'emerging',
+        detail_en: 'Prenatal, over-50, men, women formulas adjust for life-stage needs (iron for premenopausal women, B12 for older adults)',
+        detail_ko: '산전, 50세 이상, 남성·여성용 등은 생애 단계별 필요(폐경 전 여성의 철분, 고령자의 B12)에 맞게 조정' }
+    ],
+    dose_en: { 'Typical': 'One tablet daily with food', 'Choose by life stage': 'Prenatal, men, women, over 50, etc.', 'Quality': 'USP-verified or NSF-certified products', 'Not a replacement for diet': 'Whole foods provide fiber, phytochemicals, and protein that no pill can replace' },
+    dose_ko: { '일반': '하루 1정 식사와 함께', '생애 단계 선택': '산전, 남성, 여성, 50세 이상 등', '품질': 'USP 또는 NSF 인증 제품', '식단 대체 불가': '통곡물·식품은 알약이 대체할 수 없는 식이섬유·피토케미컬·단백질을 제공' },
+    warn_en: 'Adults with no deficiency and a reasonable diet may get little benefit. Smokers should avoid high-dose beta-carotene (linked to lung cancer). People who take multiple supplements can accidentally exceed upper limits — check totals. Do not use as a substitute for prenatal vitamin if pregnant.',
+    warn_ko: '결핍이 없고 합리적인 식단을 유지하는 성인에게는 이득이 적을 수 있습니다. 흡연자는 고용량 베타카로틴(폐암 관련)을 피해야 합니다. 여러 보충제를 복용하는 사람은 상한을 초과할 수 있으므로 합산량을 확인하세요. 임신 중에는 산전 비타민을 대체하지 마세요.',
+    interact: [
+      { en: 'Iron in multivitamin — separates from thyroid medication, some antibiotics', ko: '종합 비타민의 철분 — 갑상선약, 일부 항생제와 간격 필요' },
+      { en: 'Vitamin K content — can reduce warfarin effect (keep intake consistent)', ko: '비타민 K 함량 — 와파린 효과 감소 가능 (섭취량을 일정하게 유지)' },
+      { en: 'Calcium content — see calcium entry', ko: '칼슘 함량 — 칼슘 항목 참조' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Multivitamin/Mineral Supplements'
+  },
+  {
+    id: 'folic-acid',
+    generic: { en: 'Folic acid / Folate', ko: '엽산' },
+    brands: ['Nature Made', 'Solgar'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Neural tube defect prevention (pregnancy)', title_ko: '신경관 결손 예방 (임신)', evidence: 'strong',
+        detail_en: 'CDC recommends 400 mcg daily for all women who could become pregnant; reduces risk of spina bifida and anencephaly',
+        detail_ko: 'CDC는 임신 가능성이 있는 모든 여성에게 하루 400 mcg 권장; 척추이분증 및 무뇌증 위험 감소' },
+      { title_en: 'Correction of folate deficiency', title_ko: '엽산 결핍 교정', evidence: 'strong',
+        detail_en: 'Treats megaloblastic anemia caused by low folate',
+        detail_ko: '엽산 저하로 인한 거대적아구성 빈혈 치료' },
+      { title_en: 'Support with methotrexate', title_ko: '메토트렉세이트 복용 시 보충', evidence: 'strong',
+        detail_en: 'Doctors prescribe folic acid alongside methotrexate to reduce side effects',
+        detail_ko: '의사가 메토트렉세이트의 부작용을 줄이기 위해 엽산을 함께 처방' }
+    ],
+    dose_en: { 'Women who could become pregnant': '400 mcg daily', 'Pregnancy': '600 mcg daily', 'Breastfeeding': '500 mcg daily', 'Upper limit': '1000 mcg/day from supplements and fortified foods' },
+    dose_ko: { '임신 가능 여성': '하루 400 mcg', '임신 중': '하루 600 mcg', '수유 중': '하루 500 mcg', '상한': '보충제·강화 식품으로 하루 1000 mcg' },
+    warn_en: 'High-dose folic acid can mask vitamin B12 deficiency (which causes nerve damage if untreated). If you are over 50 or at risk for B12 deficiency, have B12 checked before taking high-dose folate. Certain epilepsy medications reduce folate — ask your doctor.',
+    warn_ko: '고용량 엽산은 비타민 B12 결핍(치료하지 않으면 신경 손상 유발)을 가릴 수 있습니다. 50세 이상이거나 B12 결핍 위험이 있으면 고용량 엽산 복용 전 B12 수치를 확인하세요. 특정 뇌전증 약은 엽산을 감소시키니 의사와 상담하세요.',
+    interact: [
+      { en: 'Methotrexate — folic acid reduces side effects (intended)', ko: '메토트렉세이트 — 엽산이 부작용을 감소 (의도된 효과)' },
+      { en: 'Antiepileptic drugs (phenytoin, phenobarbital) — may lower folate', ko: '항뇌전증약 (페니토인, 페노바르비탈) — 엽산 저하 가능' },
+      { en: 'Sulfasalazine — reduces folate absorption', ko: '설파살라진 — 엽산 흡수 감소' }
+    ],
+    source: 'NIH Office of Dietary Supplements — Folate Fact Sheet · CDC'
+  },
+  {
+    id: 'coq10',
+    generic: { en: 'Coenzyme Q10 (ubiquinol/ubiquinone)', ko: '코엔자임 Q10 (유비퀴놀/유비퀴논)' },
+    brands: ['Qunol', 'Doctor\'s Best', 'Kirkland'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Statin-associated muscle symptoms', title_ko: '스타틴 관련 근육 증상', evidence: 'limited',
+        detail_en: 'Statins can lower CoQ10 levels; some patients report reduced muscle aches with supplementation, but clinical trial results are mixed',
+        detail_ko: '스타틴은 CoQ10 수치를 낮출 수 있으며, 일부 환자는 보충 시 근육통 감소를 보고하지만 임상시험 결과는 혼재' },
+      { title_en: 'Heart failure (adjunct therapy)', title_ko: '심부전 (보조 치료)', evidence: 'emerging',
+        detail_en: 'Some studies show improved symptoms and reduced hospitalizations when added to standard heart failure therapy',
+        detail_ko: '일부 연구에서 표준 심부전 치료에 추가 시 증상 개선 및 입원율 감소' },
+      { title_en: 'Migraine prevention', title_ko: '편두통 예방', evidence: 'emerging',
+        detail_en: 'May reduce migraine frequency when taken daily for preventive purposes',
+        detail_ko: '예방 목적으로 매일 복용 시 편두통 빈도 감소 가능' }
+    ],
+    dose_en: { 'Typical': '100–200 mg daily with a meal containing fat (better absorption)', 'Ubiquinol form': 'Preferred in older adults (better absorbed)', 'Patience': 'May take 4–12 weeks to see effect' },
+    dose_ko: { '일반': '지방 함유 식사와 함께 하루 100~200 mg (흡수 양호)', '유비퀴놀 형태': '고령자에게 권장 (흡수 양호)', '인내': '효과가 나타나는 데 4~12주 소요' },
+    warn_en: 'Generally well tolerated. Mild GI upset is the most common side effect. Can lower blood pressure modestly — monitor if you take blood pressure medication. Quality varies — look for USP-verified products.',
+    warn_ko: '일반적으로 내약성이 좋음. 가장 흔한 부작용은 경미한 위장 장애. 혈압을 약간 낮출 수 있으므로 혈압약을 복용 중이면 모니터링. 품질이 다양하므로 USP 인증 제품을 찾으세요.',
+    interact: [
+      { en: 'Warfarin — may reduce warfarin effect (monitor INR)', ko: '와파린 — 와파린 효과 감소 가능 (INR 모니터링)' },
+      { en: 'Blood pressure medications — additive blood pressure lowering', ko: '혈압약 — 혈압 저하 효과 누적' },
+      { en: 'Chemotherapy — possible interaction (ask oncologist)', ko: '항암제 — 상호작용 가능 (종양내과 상담)' }
+    ],
+    source: 'NIH Office of Dietary Supplements · MedlinePlus (NIH)'
+  },
+  {
+    id: 'glucosamine-chondroitin',
+    generic: { en: 'Glucosamine / Chondroitin', ko: '글루코사민 / 콘드로이틴' },
+    brands: ['Osteo Bi-Flex', 'Schiff Move Free'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Knee osteoarthritis pain', title_ko: '무릎 골관절염 통증', evidence: 'limited',
+        detail_en: 'Evidence is mixed — some studies show modest pain relief in moderate-to-severe knee osteoarthritis; large trials (GAIT) showed no clear benefit overall',
+        detail_ko: '근거는 혼재 — 중등도~중증 무릎 골관절염에서 경미한 통증 완화를 보이는 연구가 있으나, 대규모 시험(GAIT)에서는 전반적으로 명확한 이득 없음' }
+    ],
+    dose_en: { 'Typical': 'Glucosamine sulfate 1500 mg + chondroitin 1200 mg daily', 'Duration': 'If no benefit after 3 months, it likely will not work for you', 'Form matters': 'Glucosamine sulfate may work better than glucosamine hydrochloride' },
+    dose_ko: { '일반': '하루 글루코사민 설페이트 1500 mg + 콘드로이틴 1200 mg', '기간': '3개월 후 효과 없으면 본인에게 맞지 않을 가능성', '형태': '글루코사민 설페이트가 염산염보다 효과 좋을 수 있음' },
+    warn_en: 'Derived from shellfish — avoid if you have shellfish allergy (or choose plant-based glucosamine). May mildly raise blood sugar — check with doctor if diabetic. Can increase bleeding risk when combined with warfarin.',
+    warn_ko: '조개류에서 추출 — 조개 알레르기가 있으면 피하거나 식물성 글루코사민 선택. 혈당을 약간 올릴 수 있으므로 당뇨가 있으면 의사와 상담. 와파린과 병용 시 출혈 위험 증가 가능.',
+    interact: [
+      { en: 'Warfarin — increased INR and bleeding risk (important)', ko: '와파린 — INR 및 출혈 위험 증가 (중요)' },
+      { en: 'Diabetes medications — glucosamine may affect blood sugar', ko: '당뇨약 — 글루코사민이 혈당에 영향 가능' }
+    ],
+    source: 'NIH NCCIH · NIH Office of Dietary Supplements'
+  },
+  {
+    id: 'lutein',
+    generic: { en: 'Lutein + Zeaxanthin (AREDS2)', ko: '루테인 + 지아잔틴 (AREDS2)' },
+    brands: ['PreserVision AREDS2', 'Ocuvite'],
+    category: 'supplement',
+    uses: [
+      { title_en: 'Age-related macular degeneration progression', title_ko: '노인성 황반변성 진행 억제', evidence: 'strong',
+        detail_en: 'AREDS2 study showed the combination (lutein, zeaxanthin, vitamin C, E, zinc, copper) slows progression of intermediate or advanced AMD',
+        detail_ko: 'AREDS2 연구에서 복합 보충제(루테인, 지아잔틴, 비타민 C·E, 아연, 구리)가 중등도~진행성 AMD의 진행을 지연시킴을 입증' },
+      { title_en: 'General eye health', title_ko: '일반 안구 건강', evidence: 'emerging',
+        detail_en: 'May support macular pigment density and visual function; found naturally in leafy greens and egg yolks',
+        detail_ko: '황반 색소 밀도와 시각 기능을 지원할 수 있음; 잎채소와 달걀노른자에 자연적으로 함유' }
+    ],
+    dose_en: { 'AREDS2 formula': 'Lutein 10 mg + Zeaxanthin 2 mg daily (plus other AREDS2 ingredients)', 'General use': '6–20 mg lutein daily from supplement or food', 'Only for AMD risk': 'AREDS2 is specifically for intermediate/advanced AMD — not preventive in healthy eyes' },
+    dose_ko: { 'AREDS2 제형': '하루 루테인 10 mg + 지아잔틴 2 mg (기타 AREDS2 성분 포함)', '일반': '보충제나 음식으로 하루 루테인 6~20 mg', 'AMD 위험자 전용': 'AREDS2는 중등도~진행성 AMD용이며 건강한 눈에 예방 효과는 없음' },
+    warn_en: 'Very well tolerated. Smokers should NOT take beta-carotene-containing AREDS formulations (lung cancer risk) — AREDS2 replaced beta-carotene with lutein/zeaxanthin for this reason. High doses of zinc in AREDS2 can cause stomach upset.',
+    warn_ko: '내약성이 매우 좋음. 흡연자는 베타카로틴 함유 AREDS 제형을 복용하지 마세요 (폐암 위험) — AREDS2는 이런 이유로 베타카로틴을 루테인·지아잔틴으로 교체. AREDS2의 고용량 아연이 위장 장애를 유발할 수 있음.',
+    interact: [
+      { en: 'Beta-carotene — competes for absorption with lutein (separate products)', ko: '베타카로틴 — 루테인과 흡수 경쟁 (별도 복용)' },
+      { en: 'Statins — no significant interaction', ko: '스타틴 — 유의미한 상호작용 없음' }
+    ],
+    source: 'NIH NEI — AREDS2 Study · NIH Office of Dietary Supplements'
+  },
+  {
+    id: 'meclizine',
+    generic: { en: 'Meclizine', ko: '메클리진' },
+    brands: ['Bonine', 'Dramamine Less Drowsy'],
+    category: 'other',
+    uses: [
+      { title_en: 'Motion sickness prevention and treatment', title_ko: '멀미 예방 및 치료',
+        detail_en: 'Prevents and treats nausea, vomiting, and dizziness from motion (car, boat, plane)',
+        detail_ko: '움직임으로 인한 메스꺼움, 구토, 어지러움을 예방하고 치료 (자동차, 배, 비행기)' }
+    ],
+    dose_en: { 'Adult and child 12+': '25–50 mg taken 1 hour before travel', 'Repeat': 'May repeat every 24 hours as needed', 'Duration of travel': 'One dose lasts up to 24 hours' },
+    dose_ko: { '성인 및 12세 이상': '여행 1시간 전 25~50 mg', '반복': '필요 시 24시간마다 반복', '지속 시간': '1회 복용으로 최대 24시간 지속' },
+    warn_en: 'Causes drowsiness — do not drive or operate machinery until you know how it affects you. Avoid alcohol. Use caution if you have glaucoma, enlarged prostate, or breathing problems. Not for children under 12.',
+    warn_ko: '졸음을 유발합니다 — 반응을 확인할 때까지 운전이나 기계 조작을 하지 마세요. 알코올을 피하세요. 녹내장, 전립선 비대, 호흡 문제가 있으면 주의해서 사용하세요. 12세 미만에게는 사용 금지.',
+    interact: [
+      { en: 'Alcohol — increased drowsiness', ko: '알코올 — 졸음 증가' },
+      { en: 'Sleep aids, sedatives — additive sedation', ko: '수면제, 진정제 — 진정 효과 누적' },
+      { en: 'Other anticholinergics — dry mouth, urinary retention', ko: '다른 항콜린제 — 구강 건조, 소변 저류' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+  {
+    id: 'polyethylene-glycol',
+    generic: { en: 'Polyethylene glycol 3350 (PEG)', ko: '폴리에틸렌 글리콜 3350 (PEG)' },
+    brands: ['MiraLAX', 'GaviLAX'],
+    category: 'other',
+    uses: [
+      { title_en: 'Occasional constipation relief', title_ko: '일시적 변비 완화',
+        detail_en: 'Relieves occasional constipation; works by drawing water into the stool to soften it',
+        detail_ko: '일시적 변비 완화; 대변에 수분을 끌어들여 부드럽게 만드는 방식으로 작용' }
+    ],
+    dose_en: { 'Adult and child 17+': '17 g (1 capful) dissolved in 4–8 oz of liquid, once daily', 'Onset': 'Usually produces a bowel movement within 1–3 days', 'Max duration (OTC)': '7 days without doctor approval' },
+    dose_ko: { '성인 및 17세 이상': '17 g (뚜껑 1개) 분량을 120~240 mL 음료에 녹여 하루 1회', '작용 시간': '일반적으로 1~3일 내에 배변 유발', '최대 기간 (OTC)': '의사 승인 없이 7일' },
+    warn_en: 'Do not use if you have a bowel obstruction. Stop use and see a doctor if you get rectal bleeding, have no bowel movement after use, or if symptoms last longer than 7 days. May cause bloating, cramping, or diarrhea — reduce dose if this happens.',
+    warn_ko: '장폐색이 있으면 사용하지 마세요. 직장 출혈이 있거나, 사용 후 배변이 없거나, 증상이 7일 이상 지속되면 사용을 중단하고 의사를 만나세요. 복부 팽만, 경련, 설사를 유발할 수 있으며 — 이 경우 용량을 줄이세요.',
+    interact: [
+      { en: 'Generally few drug interactions — not absorbed systemically', ko: '약물 상호작용이 일반적으로 적음 — 전신 흡수되지 않음' },
+      { en: 'May affect absorption of other medications if taken at the same time — separate by 2 hours', ko: '동시 복용 시 다른 약물의 흡수에 영향 가능 — 2시간 간격을 두세요' }
+    ],
+    source: 'FDA OTC Monograph · DailyMed (NIH)'
+  },
+];
+
+const CATEGORIES = [
+  { id: 'all',       en: 'All',                ko: '전체' },
+  { id: 'pain',      en: 'Pain & Fever',       ko: '진통·해열' },
+  { id: 'allergy',   en: 'Allergy & Cold',     ko: '알레르기·감기' },
+  { id: 'cough',     en: 'Cough & Throat',     ko: '기침·목' },
+  { id: 'gi',        en: 'Stomach & GI',       ko: '위장' },
+  { id: 'skin',      en: 'Skin & Topical',     ko: '피부·외용' },
+  { id: 'other',     en: 'Other',              ko: '기타' },
+  { id: 'supplement', en: 'Supplements',       ko: '서플리먼트' }
+];
+
+let currentLang = 'en';
+let currentCategory = 'all';
+let currentSearch = '';
+
+// ============ TEXT SIZE ============
+document.querySelectorAll('.ts-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.body.classList.remove('text-large', 'text-xlarge');
+    const size = btn.dataset.size;
+    if (size === 'large') document.body.classList.add('text-large');
+    if (size === 'xlarge') document.body.classList.add('text-xlarge');
+    document.querySelectorAll('.ts-btn').forEach(b => b.classList.toggle('active', b === btn));
+  });
+});
+
+// ============ LANGUAGE ============
+function applyLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('[data-en]').forEach(el => {
+    const val = el.getAttribute('data-' + lang);
+    if (val !== null) el.innerHTML = val;
+  });
+  document.querySelectorAll('[data-ph-en]').forEach(el => {
+    el.placeholder = el.getAttribute('data-ph-' + lang);
+  });
+  document.documentElement.lang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+  renderCategories();
+  renderList();
+}
+
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => applyLang(btn.dataset.lang));
+});
+
+// ============ DISCLAIMER GATE ============
+const checks = ['c1','c2','c3'].map(id => document.getElementById(id));
+const gateBtn = document.getElementById('gate-btn');
+checks.forEach(c => c.addEventListener('change', () => {
+  gateBtn.disabled = !checks.every(x => x.checked);
+}));
+gateBtn.addEventListener('click', () => {
+  document.getElementById('gate').classList.add('hidden');
+});
+
+// ============ CATEGORIES ============
+function renderCategories() {
+  const bar = document.getElementById('categories');
+  bar.innerHTML = '';
+  CATEGORIES.forEach(cat => {
+    const b = document.createElement('button');
+    b.className = 'cat-btn' + (cat.id === currentCategory ? ' active' : '');
+    b.textContent = cat[currentLang];
+    b.addEventListener('click', () => {
+      currentCategory = cat.id;
+      renderCategories();
+      renderList();
+    });
+    bar.appendChild(b);
+  });
+}
+
+// ============ SEARCH ============
+document.getElementById('search').addEventListener('input', e => {
+  currentSearch = e.target.value.toLowerCase().trim();
+  renderList();
+});
+
+function matchesSearch(d, q) {
+  if (!q) return true;
+  const hay = [
+    d.generic.en, d.generic.ko,
+    ...(d.brands || []),
+    ...d.uses.map(u => u.title_en + ' ' + u.title_ko + ' ' + u.detail_en + ' ' + u.detail_ko)
+  ].join(' ').toLowerCase();
+  return hay.includes(q);
+}
+
+// ============ RENDER LIST ============
+function renderList() {
+  const list = document.getElementById('drug-list');
+  const noRes = document.getElementById('no-results');
+  const count = document.getElementById('drug-count');
+  list.innerHTML = '';
+
+  const filtered = DRUGS.filter(d =>
+    (currentCategory === 'all' || d.category === currentCategory) &&
+    matchesSearch(d, currentSearch)
+  );
+
+  if (filtered.length === 0) {
+    noRes.style.display = 'block';
+    count.textContent = '';
+    return;
+  }
+  noRes.style.display = 'none';
+
+  const countLabel = currentLang === 'en'
+    ? filtered.length + ' medication' + (filtered.length === 1 ? '' : 's')
+    : '약 ' + filtered.length + '개';
+  count.textContent = countLabel;
+
+  filtered.forEach(d => list.appendChild(renderCard(d)));
+}
+
+function renderCard(d) {
+  const card = document.createElement('div');
+  card.className = 'drug-card' + (d.category === 'supplement' ? ' supplement' : '');
+
+  // Build cross-language alt name (opposite of current language)
+  const altLang = currentLang === 'en' ? 'ko' : 'en';
+  const altName = d.generic[altLang];
+
+  // Header
+  const header = document.createElement('div');
+  header.className = 'drug-header';
+  const useCountLabel = currentLang === 'en'
+    ? d.uses.length + (d.category === 'supplement'
+        ? ' common use' + (d.uses.length === 1 ? '' : 's')
+        : ' FDA-approved use' + (d.uses.length === 1 ? '' : 's'))
+    : (d.category === 'supplement'
+        ? '일반적 용도 ' + d.uses.length + '개'
+        : 'FDA 승인 용도 ' + d.uses.length + '개');
+
+  const supplementBadge = d.category === 'supplement'
+    ? `<div class="supplement-badge">${currentLang === 'en' ? 'DIETARY SUPPLEMENT · NOT FDA-APPROVED DRUG' : '식이 보충제 · FDA 의약품 아님'}</div>`
+    : '';
+
+  header.innerHTML = `
+    <div class="drug-main">
+      ${supplementBadge}
+      <div class="drug-generic">${escapeHtml(d.generic[currentLang])}</div>
+      <div class="drug-alt-name">${escapeHtml(altName)}</div>
+      <div class="drug-brand">${(d.brands || []).join(' · ')}</div>
+      <div class="drug-use-count">${useCountLabel}</div>
+    </div>
+    <div class="chevron">›</div>
+  `;
+  header.addEventListener('click', () => card.classList.toggle('open'));
+  card.appendChild(header);
+
+  // Body
+  const body = document.createElement('div');
+  body.className = 'drug-body';
+
+  // Uses
+  const usesSection = document.createElement('div');
+  usesSection.className = 'section';
+  const usesLabel = d.category === 'supplement'
+    ? (currentLang === 'en' ? 'Common Uses (Evidence Level)' : '일반적 용도 (증거 수준)')
+    : (currentLang === 'en' ? 'FDA-Approved Uses' : 'FDA 승인 용도');
+  usesSection.innerHTML = `<div class="section-label">${usesLabel}</div>`;
+  d.uses.forEach(u => {
+    const item = document.createElement('div');
+    item.className = 'use-item';
+    // Evidence tier badge (supplement only)
+    let tierBadge = '';
+    if (u.evidence) {
+      const tierClass = u.evidence === 'strong' ? 'evidence-strong'
+                      : u.evidence === 'emerging' ? 'evidence-emerging'
+                      : 'evidence-limited';
+      const tierText = currentLang === 'en'
+        ? (u.evidence === 'strong' ? 'Strong evidence' : u.evidence === 'emerging' ? 'Emerging evidence' : 'Limited evidence')
+        : (u.evidence === 'strong' ? '강한 근거' : u.evidence === 'emerging' ? '제한적 근거' : '근거 부족');
+      tierBadge = `<span class="evidence-tier ${tierClass}">${tierText}</span>`;
+    }
+    item.innerHTML = `
+      <div class="use-title">${escapeHtml(u['title_' + currentLang])}${tierBadge}</div>
+      <div class="use-detail">${escapeHtml(u['detail_' + currentLang])}</div>
+    `;
+    usesSection.appendChild(item);
+  });
+  body.appendChild(usesSection);
+
+  // Dose
+  const doseData = d['dose_' + currentLang];
+  if (doseData && Object.keys(doseData).length) {
+    const doseSection = document.createElement('div');
+    doseSection.className = 'section';
+    const doseLabel = d.category === 'supplement'
+      ? (currentLang === 'en' ? 'Typical Dose (check label)' : '일반적 복용량 (라벨 확인)')
+      : (currentLang === 'en' ? 'Typical Adult Dosing (OTC Label)' : '성인 표준 복용량 (OTC 라벨)');
+    doseSection.innerHTML = `<div class="section-label">${doseLabel}</div>`;
+    const table = document.createElement('div');
+    table.className = 'dose-table';
+    Object.entries(doseData).forEach(([k, v]) => {
+      const row = document.createElement('div');
+      row.className = 'dose-row';
+      row.innerHTML = `<span class="dose-label">${escapeHtml(k)}</span><span class="dose-value">${escapeHtml(v)}</span>`;
+      table.appendChild(row);
+    });
+    doseSection.appendChild(table);
+    body.appendChild(doseSection);
+  }
+
+  // Danger
+  const dangerText = d['danger_' + currentLang];
+  if (dangerText) {
+    const ds = document.createElement('div');
+    ds.className = 'section';
+    const dsLabel = currentLang === 'en' ? 'Serious Risks' : '심각한 위험';
+    ds.innerHTML = `<div class="section-label danger-label">${dsLabel}</div><div class="danger-box">${escapeHtml(dangerText)}</div>`;
+    body.appendChild(ds);
+  }
+
+  // Warn
+  const warnText = d['warn_' + currentLang];
+  if (warnText) {
+    const ws = document.createElement('div');
+    ws.className = 'section';
+    const wsLabel = currentLang === 'en' ? 'Cautions' : '주의사항';
+    ws.innerHTML = `<div class="section-label warn-label">${wsLabel}</div><div class="warn-box">${escapeHtml(warnText)}</div>`;
+    body.appendChild(ws);
+  }
+
+  // Interactions
+  if (d.interact && d.interact.length) {
+    const is = document.createElement('div');
+    is.className = 'section';
+    const isLabel = currentLang === 'en' ? 'Interactions' : '상호작용';
+    is.innerHTML = `<div class="section-label">${isLabel}</div>`;
+    const ul = document.createElement('ul');
+    ul.className = 'interact-list';
+    d.interact.forEach(i => {
+      const li = document.createElement('li');
+      li.textContent = i[currentLang];
+      ul.appendChild(li);
+    });
+    is.appendChild(ul);
+    body.appendChild(is);
+  }
+
+  // Source
+  if (d.source) {
+    const src = document.createElement('div');
+    src.className = 'source-note';
+    src.textContent = (currentLang === 'en' ? 'Source: ' : '출처: ') + d.source;
+    body.appendChild(src);
+  }
+
+  card.appendChild(body);
+  return card;
+}
+
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+// Initial render
+applyLang('en');
+</script>
+</body>
+</html>

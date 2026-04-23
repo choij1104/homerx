@@ -300,7 +300,7 @@ const DRUGS = [
   {
     id: 'acetaminophen',
     generic: { en: 'Acetaminophen', ko: '아세트아미노펜' },
-    brands: ['Tylenol', 'Panadol', 'Mapap'],
+    brands: ['Tylenol', '타이레놀', 'Panadol', '파나돌', 'Mapap'],
     category: 'pain',
     uses: [
       { title_en: 'Pain relief (mild to moderate)', title_ko: '경도~중등도 통증 완화',
@@ -326,7 +326,7 @@ const DRUGS = [
   {
     id: 'ibuprofen',
     generic: { en: 'Ibuprofen', ko: '이부프로펜' },
-    brands: ['Advil', 'Motrin'],
+    brands: ['Advil', '애드빌', 'Motrin', '모트린', '부루펜', 'Brufen'],
     category: 'pain',
     uses: [
       { title_en: 'Pain relief', title_ko: '통증 완화',
@@ -356,7 +356,7 @@ const DRUGS = [
   {
     id: 'naproxen',
     generic: { en: 'Naproxen sodium', ko: '나프록센 나트륨' },
-    brands: ['Aleve'],
+    brands: ['Aleve', '알리브', '나프록센'],
     category: 'pain',
     uses: [
       { title_en: 'Pain relief (longer-lasting)', title_ko: '통증 완화 (장시간 지속)',
@@ -386,7 +386,7 @@ const DRUGS = [
   {
     id: 'aspirin',
     generic: { en: 'Aspirin (acetylsalicylic acid)', ko: '아스피린 (아세틸살리실산)' },
-    brands: ['Bayer', 'Bufferin', 'Ecotrin'],
+    brands: ['Bayer', '바이엘', 'Bufferin', '버퍼린', 'Ecotrin', '아스피린'],
     category: 'pain',
     uses: [
       { title_en: 'Pain relief', title_ko: '통증 완화',
@@ -421,7 +421,7 @@ const DRUGS = [
   {
     id: 'diphenhydramine',
     generic: { en: 'Diphenhydramine', ko: '디펜히드라민' },
-    brands: ['Benadryl', 'ZzzQuil', 'Unisom SleepGels'],
+    brands: ['Benadryl', '베나드릴', 'ZzzQuil', 'Unisom SleepGels', '지르텍 대체'],
     category: 'allergy',
     uses: [
       { title_en: 'Allergy symptom relief', title_ko: '알레르기 증상 완화',
@@ -454,7 +454,7 @@ const DRUGS = [
   {
     id: 'loratadine',
     generic: { en: 'Loratadine', ko: '로라타딘' },
-    brands: ['Claritin', 'Alavert'],
+    brands: ['Claritin', '클라리틴', 'Alavert'],
     category: 'allergy',
     uses: [
       { title_en: 'Allergy symptom relief (non-drowsy)', title_ko: '알레르기 증상 완화 (졸음 없음)',
@@ -477,7 +477,7 @@ const DRUGS = [
   {
     id: 'cetirizine',
     generic: { en: 'Cetirizine', ko: '세티리진' },
-    brands: ['Zyrtec'],
+    brands: ['Zyrtec', '지르텍'],
     category: 'allergy',
     uses: [
       { title_en: 'Allergy symptom relief', title_ko: '알레르기 증상 완화',
@@ -500,7 +500,7 @@ const DRUGS = [
   {
     id: 'fexofenadine',
     generic: { en: 'Fexofenadine', ko: '펙소페나딘' },
-    brands: ['Allegra'],
+    brands: ['Allegra', '알레그라'],
     category: 'allergy',
     uses: [
       { title_en: 'Allergy symptom relief (non-drowsy)', title_ko: '알레르기 증상 완화 (졸음 없음)',
@@ -524,7 +524,7 @@ const DRUGS = [
   {
     id: 'pseudoephedrine',
     generic: { en: 'Pseudoephedrine', ko: '슈도에페드린' },
-    brands: ['Sudafed (behind-the-counter)'],
+    brands: ['Sudafed', '슈다페드', '수다페드', '비염약', '코막힘약 (behind-the-counter)'],
     category: 'allergy',
     uses: [
       { title_en: 'Nasal congestion relief', title_ko: '코막힘 완화',
@@ -551,7 +551,7 @@ const DRUGS = [
   {
     id: 'phenylephrine',
     generic: { en: 'Phenylephrine (oral)', ko: '페닐에프린 (경구)' },
-    brands: ['Sudafed PE', 'Neo-Synephrine (nasal spray)'],
+    brands: ['Sudafed PE', '슈다페드 PE', 'Neo-Synephrine (nasal spray)'],
     category: 'allergy',
     uses: [
       { title_en: 'Nasal congestion relief', title_ko: '코막힘 완화',
@@ -574,7 +574,7 @@ const DRUGS = [
   {
     id: 'dextromethorphan',
     generic: { en: 'Dextromethorphan (DM)', ko: '덱스트로메토르판 (DM)' },
-    brands: ['Robitussin DM', 'Delsym', 'Mucinex DM'],
+    brands: ['Robitussin DM', '로비투신', 'Delsym', 'Mucinex DM', '기침약'],
     category: 'cough',
     uses: [
       { title_en: 'Cough suppressant', title_ko: '기침 억제',
@@ -597,7 +597,7 @@ const DRUGS = [
   {
     id: 'guaifenesin',
     generic: { en: 'Guaifenesin', ko: '구아이페네신' },
-    brands: ['Mucinex', 'Robitussin'],
+    brands: ['Mucinex', '뮤시넥스', 'Robitussin', '로비투신', '가래약', '거담제'],
     category: 'cough',
     uses: [
       { title_en: 'Expectorant — loosens mucus', title_ko: '거담제 — 가래 배출 촉진',
@@ -616,7 +616,7 @@ const DRUGS = [
   {
     id: 'benzocaine-lozenge',
     generic: { en: 'Benzocaine (throat lozenge/spray)', ko: '벤조카인 (인후 로젠지/스프레이)' },
-    brands: ['Cepacol', 'Chloraseptic'],
+    brands: ['Cepacol', '세파콜', 'Chloraseptic', '인후염 로젠지', '목캔디'],
     category: 'cough',
     uses: [
       { title_en: 'Sore throat pain relief', title_ko: '인후통 완화',
@@ -642,7 +642,7 @@ const DRUGS = [
   {
     id: 'famotidine',
     generic: { en: 'Famotidine', ko: '파모티딘' },
-    brands: ['Pepcid', 'Pepcid AC', 'Zantac 360'],
+    brands: ['Pepcid', '펩시드', 'Pepcid AC', 'Zantac 360', '잔탁', '속쓰림약'],
     category: 'gi',
     uses: [
       { title_en: 'Heartburn relief (H2 blocker)', title_ko: '속쓰림 완화 (H2 차단제)',
@@ -665,7 +665,7 @@ const DRUGS = [
   {
     id: 'omeprazole',
     generic: { en: 'Omeprazole', ko: '오메프라졸' },
-    brands: ['Prilosec OTC', 'Zegerid OTC'],
+    brands: ['Prilosec OTC', '프릴로섹', 'Zegerid OTC', '오메프라졸'],
     category: 'gi',
     uses: [
       { title_en: 'Frequent heartburn (2+ days per week)', title_ko: '잦은 속쓰림 (주 2회 이상)',
@@ -689,7 +689,7 @@ const DRUGS = [
   {
     id: 'calcium-carbonate',
     generic: { en: 'Calcium carbonate (antacid)', ko: '탄산칼슘 (제산제)' },
-    brands: ['Tums', 'Rolaids'],
+    brands: ['Tums', '텀스', 'Rolaids', '제산제'],
     category: 'gi',
     uses: [
       { title_en: 'Fast heartburn relief', title_ko: '빠른 속쓰림 완화',
@@ -716,7 +716,7 @@ const DRUGS = [
   {
     id: 'loperamide',
     generic: { en: 'Loperamide', ko: '로페라미드' },
-    brands: ['Imodium A-D'],
+    brands: ['Imodium A-D', '이모디움', '설사약'],
     category: 'gi',
     uses: [
       { title_en: 'Diarrhea control', title_ko: '설사 조절',
@@ -738,7 +738,7 @@ const DRUGS = [
   {
     id: 'bismuth-subsalicylate',
     generic: { en: 'Bismuth subsalicylate', ko: '비스무스 서브살리실레이트' },
-    brands: ['Pepto-Bismol', 'Kaopectate'],
+    brands: ['Pepto-Bismol', '펩토비스몰', 'Kaopectate', '소화제'],
     category: 'gi',
     uses: [
       { title_en: 'Upset stomach', title_ko: '속 불편감',
@@ -771,7 +771,7 @@ const DRUGS = [
   {
     id: 'simethicone',
     generic: { en: 'Simethicone', ko: '시메티콘' },
-    brands: ['Gas-X', 'Mylicon', 'Phazyme'],
+    brands: ['Gas-X', '가스엑스', 'Mylicon', 'Phazyme', '가스제거제'],
     category: 'gi',
     uses: [
       { title_en: 'Gas pain and bloating', title_ko: '가스 통증 및 복부 팽만',
@@ -792,7 +792,7 @@ const DRUGS = [
   {
     id: 'hydrocortisone',
     generic: { en: 'Hydrocortisone 1% (topical)', ko: '히드로코르티손 1% (외용)' },
-    brands: ['Cortizone-10', 'Cortaid'],
+    brands: ['Cortizone-10', '코티존', 'Cortaid', '히드로코르티손', '가려움 크림'],
     category: 'skin',
     uses: [
       { title_en: 'Itch relief', title_ko: '가려움 완화',
@@ -817,7 +817,7 @@ const DRUGS = [
   {
     id: 'bacitracin-neosporin',
     generic: { en: 'Bacitracin / Triple antibiotic ointment', ko: '바시트라신 / 삼중 항생제 연고' },
-    brands: ['Neosporin', 'Polysporin'],
+    brands: ['Neosporin', '네오스포린', 'Polysporin', '폴리스포린', '항생제 연고'],
     category: 'skin',
     uses: [
       { title_en: 'Prevent infection in minor wounds', title_ko: '경미한 상처의 감염 예방',
@@ -836,7 +836,7 @@ const DRUGS = [
   {
     id: 'miconazole',
     generic: { en: 'Miconazole / Clotrimazole', ko: '미코나졸 / 클로트리마졸' },
-    brands: ['Lotrimin AF', 'Monistat (vaginal)', 'Desenex'],
+    brands: ['Lotrimin AF', '로트리민', 'Monistat', '모니스타트', 'Desenex', '무좀약'],
     category: 'skin',
     uses: [
       { title_en: 'Athlete\'s foot (tinea pedis)', title_ko: '무좀 (백선)',
@@ -865,7 +865,7 @@ const DRUGS = [
   {
     id: 'benzoyl-peroxide',
     generic: { en: 'Benzoyl peroxide', ko: '벤조일 퍼옥사이드' },
-    brands: ['PanOxyl', 'Clean & Clear Persa-Gel'],
+    brands: ['PanOxyl', 'Clean & Clear Persa-Gel', '여드름약', '벤조일퍼옥사이드'],
     category: 'skin',
     uses: [
       { title_en: 'Acne treatment', title_ko: '여드름 치료',
@@ -887,7 +887,7 @@ const DRUGS = [
   {
     id: 'melatonin',
     generic: { en: 'Melatonin', ko: '멜라토닌' },
-    brands: ['Natrol', 'Nature Made', 'ZzzQuil Pure Zzzs'],
+    brands: ['Natrol', 'Nature Made', '네이처메이드', 'ZzzQuil Pure Zzzs', '멜라토닌', '수면보조제'],
     category: 'supplement',
     uses: [
       { title_en: 'Short-term sleep onset', title_ko: '단기 수면 유도', evidence: 'emerging',
@@ -914,7 +914,7 @@ const DRUGS = [
   {
     id: 'vitamin-d',
     generic: { en: 'Vitamin D3 (cholecalciferol)', ko: '비타민 D3 (콜레칼시페롤)' },
-    brands: ['Nature Made', 'Kirkland', 'NOW Foods'],
+    brands: ['Nature Made', '네이처메이드', 'Kirkland', '커클랜드', 'NOW Foods', '비타민 D', 'Vitamin D'],
     category: 'supplement',
     uses: [
       { title_en: 'Bone health (with calcium)', title_ko: '뼈 건강 (칼슘과 함께)', evidence: 'strong',
@@ -943,7 +943,7 @@ const DRUGS = [
   {
     id: 'vitamin-b12',
     generic: { en: 'Vitamin B12 (cyanocobalamin / methylcobalamin)', ko: '비타민 B12 (시아노코발라민 / 메틸코발라민)' },
-    brands: ['Nature Made', 'Jarrow Methyl B-12'],
+    brands: ['Nature Made', '네이처메이드', 'Jarrow Methyl B-12', '비타민 B12', 'Vitamin B12'],
     category: 'supplement',
     uses: [
       { title_en: 'Correction of B12 deficiency', title_ko: 'B12 결핍 교정', evidence: 'strong',
@@ -970,7 +970,7 @@ const DRUGS = [
   {
     id: 'vitamin-c',
     generic: { en: 'Vitamin C (ascorbic acid)', ko: '비타민 C (아스코르브산)' },
-    brands: ['Nature Made', 'Emergen-C', 'Airborne'],
+    brands: ['Nature Made', '네이처메이드', 'Emergen-C', '이머전시', 'Airborne', '비타민 C', 'Vitamin C'],
     category: 'supplement',
     uses: [
       { title_en: 'Correction of vitamin C deficiency (scurvy)', title_ko: '비타민 C 결핍 (괴혈병) 교정', evidence: 'strong',
@@ -1030,7 +1030,7 @@ const DRUGS = [
   {
     id: 'calcium',
     generic: { en: 'Calcium (with vitamin D)', ko: '칼슘 (비타민 D 포함)' },
-    brands: ['Citracal', 'Caltrate', 'Os-Cal'],
+    brands: ['Citracal', 'Caltrate', '칼트레이트', 'Os-Cal', '칼슘', 'Calcium'],
     category: 'supplement',
     uses: [
       { title_en: 'Bone health and osteoporosis prevention', title_ko: '뼈 건강 및 골다공증 예방', evidence: 'strong',
@@ -1059,7 +1059,7 @@ const DRUGS = [
   {
     id: 'iron',
     generic: { en: 'Iron (ferrous sulfate/gluconate/bisglycinate)', ko: '철분 (황산철/글루콘산철/비스글리신산철)' },
-    brands: ['Slow Fe', 'Feosol', 'Nature Made'],
+    brands: ['Slow Fe', 'Feosol', 'Nature Made', '철분제', 'Iron'],
     category: 'supplement',
     uses: [
       { title_en: 'Treatment of iron-deficiency anemia', title_ko: '철결핍성 빈혈 치료', evidence: 'strong',
@@ -1088,7 +1088,7 @@ const DRUGS = [
   {
     id: 'zinc',
     generic: { en: 'Zinc', ko: '아연' },
-    brands: ['Nature Made', 'Zicam (lozenge)', 'Cold-EEZE'],
+    brands: ['Nature Made', 'Zicam (lozenge)', '지캠', 'Cold-EEZE', '아연', 'Zinc'],
     category: 'supplement',
     uses: [
       { title_en: 'Immune function', title_ko: '면역 기능', evidence: 'strong',
@@ -1117,7 +1117,7 @@ const DRUGS = [
   {
     id: 'omega3',
     generic: { en: 'Omega-3 (EPA/DHA — fish oil)', ko: '오메가-3 (EPA/DHA — 어유)' },
-    brands: ['Nature Made', 'Nordic Naturals', 'Kirkland'],
+    brands: ['Nature Made', 'Nordic Naturals', '노르딕내추럴스', 'Kirkland', '오메가3', 'Omega 3', '어유', '피쉬오일'],
     category: 'supplement',
     uses: [
       { title_en: 'Triglyceride lowering (high-dose, prescription)', title_ko: '중성지방 감소 (고용량·처방)', evidence: 'strong',
@@ -1146,7 +1146,7 @@ const DRUGS = [
   {
     id: 'probiotics',
     generic: { en: 'Probiotics', ko: '프로바이오틱스 (유산균)' },
-    brands: ['Culturelle', 'Florastor', 'Align'],
+    brands: ['Culturelle', '컬처렐', 'Florastor', 'Align', '유산균', '프로바이오틱스'],
     category: 'supplement',
     uses: [
       { title_en: 'Antibiotic-associated diarrhea prevention', title_ko: '항생제 관련 설사 예방', evidence: 'strong',
@@ -1174,7 +1174,7 @@ const DRUGS = [
   {
     id: 'multivitamin',
     generic: { en: 'Multivitamin', ko: '종합 비타민' },
-    brands: ['Centrum', 'One A Day', 'Nature Made'],
+    brands: ['Centrum', '센트룸', 'One A Day', 'Nature Made', '종합비타민', '멀티비타민'],
     category: 'supplement',
     uses: [
       { title_en: 'Fill nutrient gaps in diet', title_ko: '식단 영양소 부족 보충', evidence: 'emerging',
@@ -1198,7 +1198,7 @@ const DRUGS = [
   {
     id: 'folic-acid',
     generic: { en: 'Folic acid / Folate', ko: '엽산' },
-    brands: ['Nature Made', 'Solgar'],
+    brands: ['Nature Made', 'Solgar', '솔가', '엽산', '폴산', 'Folic Acid'],
     category: 'supplement',
     uses: [
       { title_en: 'Neural tube defect prevention (pregnancy)', title_ko: '신경관 결손 예방 (임신)', evidence: 'strong',
@@ -1254,7 +1254,7 @@ const DRUGS = [
   {
     id: 'glucosamine-chondroitin',
     generic: { en: 'Glucosamine / Chondroitin', ko: '글루코사민 / 콘드로이틴' },
-    brands: ['Osteo Bi-Flex', 'Schiff Move Free'],
+    brands: ['Osteo Bi-Flex', 'Schiff Move Free', '글루코사민', '관절약', 'Glucosamine'],
     category: 'supplement',
     uses: [
       { title_en: 'Knee osteoarthritis pain', title_ko: '무릎 골관절염 통증', evidence: 'limited',
@@ -1276,7 +1276,7 @@ const DRUGS = [
   {
     id: 'lutein',
     generic: { en: 'Lutein + Zeaxanthin (AREDS2)', ko: '루테인 + 지아잔틴 (AREDS2)' },
-    brands: ['PreserVision AREDS2', 'Ocuvite'],
+    brands: ['PreserVision AREDS2', 'Ocuvite', '루테인', 'Lutein', '눈영양제'],
     category: 'supplement',
     uses: [
       { title_en: 'Age-related macular degeneration progression', title_ko: '노인성 황반변성 진행 억제', evidence: 'strong',
@@ -1299,7 +1299,7 @@ const DRUGS = [
   {
     id: 'vitamin-e',
     generic: { en: 'Vitamin E (alpha-tocopherol)', ko: '비타민 E (알파토코페롤)' },
-    brands: ['Nature Made', 'Solgar', 'NOW Foods'],
+    brands: ['Nature Made', 'Solgar', 'NOW Foods', '비타민 E', 'Vitamin E', '토코페롤'],
     category: 'supplement',
     uses: [
       { title_en: 'Correction of vitamin E deficiency', title_ko: '비타민 E 결핍 교정', evidence: 'strong',
@@ -1328,7 +1328,7 @@ const DRUGS = [
   {
     id: 'vitamin-k2',
     generic: { en: 'Vitamin K2 (menaquinone)', ko: '비타민 K2 (메나퀴논)' },
-    brands: ['Life Extension', 'NOW Foods MK-7', 'Jarrow MK-7'],
+    brands: ['Life Extension', 'NOW Foods MK-7', 'Jarrow MK-7', '비타민 K2', 'Vitamin K2', 'MK-7'],
     category: 'supplement',
     uses: [
       { title_en: 'Bone health (with vitamin D and calcium)', title_ko: '뼈 건강 (비타민 D·칼슘과 함께)', evidence: 'emerging',
@@ -1354,7 +1354,7 @@ const DRUGS = [
   {
     id: 'nac',
     generic: { en: 'N-acetylcysteine (NAC)', ko: 'N-아세틸시스테인 (NAC)' },
-    brands: ['NOW Foods', 'Jarrow', 'Life Extension'],
+    brands: ['NOW Foods', 'Jarrow', 'Life Extension', 'NAC', '엔에이씨'],
     category: 'supplement',
     uses: [
       { title_en: 'Acetaminophen overdose antidote (hospital)', title_ko: '아세트아미노펜 과다복용 해독제 (병원)', evidence: 'strong',
@@ -1383,7 +1383,7 @@ const DRUGS = [
   {
     id: 'turmeric',
     generic: { en: 'Turmeric / Curcumin', ko: '강황 / 커큐민' },
-    brands: ['NOW Foods', 'Gaia Herbs', 'Qunol'],
+    brands: ['NOW Foods', 'Gaia Herbs', 'Qunol', '강황', '커큐민', 'Turmeric', 'Curcumin', '울금'],
     category: 'supplement',
     uses: [
       { title_en: 'Osteoarthritis pain (modest benefit)', title_ko: '골관절염 통증 (경미한 이득)', evidence: 'emerging',
@@ -1539,7 +1539,7 @@ const DRUGS = [
   {
     id: 'collagen',
     generic: { en: 'Collagen peptides (hydrolyzed collagen)', ko: '콜라겐 펩타이드 (가수분해 콜라겐)' },
-    brands: ['Vital Proteins', 'Great Lakes', 'Ancient Nutrition'],
+    brands: ['Vital Proteins', 'Great Lakes', 'Ancient Nutrition', '콜라겐', 'Collagen'],
     category: 'supplement',
     uses: [
       { title_en: 'Skin elasticity and hydration', title_ko: '피부 탄력·수분', evidence: 'emerging',
@@ -1564,7 +1564,7 @@ const DRUGS = [
   {
     id: 'beauty-combo-warning',
     generic: { en: 'Beauty / Weight-Loss / Energy Combination Supplements — Safety Warning', ko: '미용·다이어트·에너지 복합 보충제 — 안전 경고' },
-    brands: ['"Hair, Skin, Nails" gummies', 'Slimming / Detox / Fat-burner capsules', 'Energy / Pre-workout blends'],
+    brands: ['"Hair, Skin, Nails" gummies', '헤어 스킨 네일', '미용 보충제', 'Slimming / Detox / Fat-burner capsules', '다이어트 보충제', 'Energy / Pre-workout blends', '에너지 부스터'],
     category: 'supplement',
     uses: [
       { title_en: 'Marketed for hair growth, glowing skin, weight loss, energy', title_ko: '모발 성장, 피부 광채, 체중 감량, 에너지 증진 용도로 홍보', evidence: 'limited',
@@ -1590,7 +1590,7 @@ const DRUGS = [
   {
     id: 'meclizine',
     generic: { en: 'Meclizine', ko: '메클리진' },
-    brands: ['Bonine', 'Dramamine Less Drowsy'],
+    brands: ['Bonine', '보닌', 'Dramamine', '드라마민', '멀미약'],
     category: 'other',
     uses: [
       { title_en: 'Motion sickness prevention and treatment', title_ko: '멀미 예방 및 치료',
@@ -1611,7 +1611,7 @@ const DRUGS = [
   {
     id: 'polyethylene-glycol',
     generic: { en: 'Polyethylene glycol 3350 (PEG)', ko: '폴리에틸렌 글리콜 3350 (PEG)' },
-    brands: ['MiraLAX', 'GaviLAX'],
+    brands: ['MiraLAX', '미라락스', 'GaviLAX', '변비약'],
     category: 'other',
     uses: [
       { title_en: 'Occasional constipation relief', title_ko: '일시적 변비 완화',
@@ -1631,7 +1631,7 @@ const DRUGS = [
   {
     id: 'fluticasone',
     generic: { en: 'Fluticasone propionate (nasal spray)', ko: '플루티카손 프로피오네이트 (비강 스프레이)' },
-    brands: ['Flonase', 'Flonase Sensimist'],
+    brands: ['Flonase', '플로네이즈', 'Flonase Sensimist', '코 스프레이', '알레르기 스프레이'],
     category: 'allergy',
     uses: [
       { title_en: 'Nasal allergy symptom control', title_ko: '비강 알레르기 증상 조절',
@@ -1654,7 +1654,7 @@ const DRUGS = [
   {
     id: 'oxymetazoline',
     generic: { en: 'Oxymetazoline (nasal spray)', ko: '옥시메타졸린 (비강 스프레이)' },
-    brands: ['Afrin', 'Vicks Sinex'],
+    brands: ['Afrin', '아프린', 'Vicks Sinex', '코막힘 스프레이'],
     category: 'allergy',
     uses: [
       { title_en: 'Fast relief of nasal congestion', title_ko: '빠른 코막힘 완화',
@@ -1676,7 +1676,7 @@ const DRUGS = [
   {
     id: 'bisacodyl',
     generic: { en: 'Bisacodyl (stimulant laxative)', ko: '비사코딜 (자극성 하제)' },
-    brands: ['Dulcolax', 'Correctol'],
+    brands: ['Dulcolax', '둘코락스', 'Correctol', '변비약', '하제'],
     category: 'gi',
     uses: [
       { title_en: 'Short-term constipation relief', title_ko: '단기 변비 완화',
@@ -1699,7 +1699,7 @@ const DRUGS = [
   {
     id: 'ors',
     generic: { en: 'Oral rehydration solution (ORS)', ko: '경구 수액 보충제' },
-    brands: ['Pedialyte', 'DripDrop', 'Liquid I.V.'],
+    brands: ['Pedialyte', '페디아라이트', 'DripDrop', 'Liquid I.V.', '수액', '탈수 보충제'],
     category: 'gi',
     uses: [
       { title_en: 'Dehydration from diarrhea or vomiting', title_ko: '설사·구토로 인한 탈수',
@@ -1722,7 +1722,7 @@ const DRUGS = [
   {
     id: 'aquaphor',
     generic: { en: 'Petrolatum-based ointment (Aquaphor/petroleum jelly)', ko: '바세린 계열 연고' },
-    brands: ['Aquaphor', 'Vaseline', 'CeraVe Healing Ointment'],
+    brands: ['Aquaphor', '아쿠아포', 'Vaseline', '바세린', 'CeraVe Healing Ointment', '보습 연고'],
     category: 'skin',
     uses: [
       { title_en: 'Skin protection and moisture barrier', title_ko: '피부 보호 및 수분 장벽',
@@ -1750,7 +1750,7 @@ const DRUGS = [
   {
     id: 'artificial-tears',
     generic: { en: 'Artificial tears (lubricant eye drops)', ko: '인공눈물 (눈 윤활제)' },
-    brands: ['Systane', 'Refresh Tears', 'Blink Tears'],
+    brands: ['Systane', '시스테인', 'Refresh Tears', '리프레쉬', 'Blink Tears', '인공눈물'],
     category: 'other',
     uses: [
       { title_en: 'Dry eye symptom relief', title_ko: '안구건조증 완화',
@@ -1773,7 +1773,7 @@ const DRUGS = [
   {
     id: 'carbamide-peroxide',
     generic: { en: 'Carbamide peroxide (ear wax removal)', ko: '카바마이드 퍼옥사이드 (귀지 제거)' },
-    brands: ['Debrox', 'Murine Ear Drops'],
+    brands: ['Debrox', '데브록스', 'Murine Ear Drops', '귀지제거'],
     category: 'other',
     uses: [
       { title_en: 'Ear wax softening and removal', title_ko: '귀지 연화 및 제거',
@@ -1792,7 +1792,7 @@ const DRUGS = [
   {
     id: 'nicotine-replacement',
     generic: { en: 'Nicotine replacement therapy (NRT)', ko: '니코틴 대체 요법 (금연 보조)' },
-    brands: ['Nicorette (gum/lozenge)', 'NicoDerm CQ (patch)', 'Nicotrol'],
+    brands: ['Nicorette (gum/lozenge)', '니코레트', 'NicoDerm CQ (patch)', '금연패치', 'Nicotrol', '금연보조제'],
     category: 'other',
     uses: [
       { title_en: 'Smoking cessation aid', title_ko: '금연 보조',
@@ -1813,7 +1813,7 @@ const DRUGS = [
   {
     id: 'lidocaine-patch',
     generic: { en: 'Lidocaine patch 4% (topical pain)', ko: '리도카인 패치 4% (국소 통증)' },
-    brands: ['Salonpas Lidocaine', 'Aspercreme with Lidocaine', 'IcyHot Lidocaine'],
+    brands: ['Salonpas Lidocaine', '살론파스', 'Aspercreme with Lidocaine', 'IcyHot Lidocaine', '파스', '통증 패치'],
     category: 'pain',
     uses: [
       { title_en: 'Minor muscle and joint pain', title_ko: '경미한 근육·관절 통증',
@@ -1838,7 +1838,7 @@ const DRUGS = [
   {
     id: 'mucinex-d',
     generic: { en: 'Guaifenesin + Pseudoephedrine (Mucinex D)', ko: '구아이페네신 + 슈도에페드린 (복합제)' },
-    brands: ['Mucinex D', 'Mucinex Sinus-Max'],
+    brands: ['Mucinex D', '뮤시넥스 D', 'Mucinex Sinus-Max', '코막힘 가래약'],
     category: 'cough',
     uses: [
       { title_en: 'Chest congestion + nasal congestion', title_ko: '가슴 답답함 + 코막힘',
@@ -1955,13 +1955,15 @@ function renderCategories() {
 })();
 
 function matchesSearch(d, q) {
-  if (!q) return true;
-  const hay = [
-    d.generic.en, d.generic.ko,
-    ...(d.brands || []),
-    ...d.uses.map(u => u.title_en + ' ' + u.title_ko + ' ' + u.detail_en + ' ' + u.detail_ko)
-  ].join(' ').toLowerCase();
-  return hay.includes(q);
+  // Priority-based search. Returns score: 3=name/brand, 2=use title, 1=use detail, 0=no match
+  if (!q) return 3;
+  const nameHay = [d.generic.en, d.generic.ko, ...(d.brands || [])].join(' ').toLowerCase();
+  if (nameHay.includes(q)) return 3;
+  const useTitleHay = d.uses.map(u => u.title_en + ' ' + u.title_ko).join(' ').toLowerCase();
+  if (useTitleHay.includes(q)) return 2;
+  const detailHay = d.uses.map(u => u.detail_en + ' ' + u.detail_ko).join(' ').toLowerCase();
+  if (detailHay.includes(q)) return 1;
+  return 0;
 }
 
 // ============ RENDER LIST ============
@@ -1971,10 +1973,14 @@ function renderList() {
   const count = document.getElementById('drug-count');
   list.innerHTML = '';
 
-  const filtered = DRUGS.filter(d =>
-    (currentCategory === 'all' || d.category === currentCategory) &&
-    matchesSearch(d, currentSearch)
-  );
+  // Score each drug, filter out non-matches, sort by priority
+  const scored = DRUGS
+    .filter(d => currentCategory === 'all' || d.category === currentCategory)
+    .map(d => ({ drug: d, score: matchesSearch(d, currentSearch) }))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score);  // Highest score first
+
+  const filtered = scored.map(x => x.drug);
 
   if (filtered.length === 0) {
     noRes.style.display = 'block';

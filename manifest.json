@@ -1,7 +1,7 @@
 {
   "name": "HomeRx",
   "short_name": "HomeRx",
-  "description": "Educational reference for OTC medications and dietary supplements",
+  "description": "Free multilingual safety guide for U.S. pharmacy OTC medicines and dietary supplements",
   "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",

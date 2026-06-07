@@ -711,7 +711,7 @@ const i18n = {
     notice1Title: "목적", notice1: "이민자, 고령자, 보호자, 유학생이 미국 약국의 OTC 제품 라벨과 성분명을 이해하도록 돕습니다.",
     notice2Title: "안전", notice2: "혈압약, 당뇨약, 항응고제, 수면제, 항우울제 등을 복용 중이면 OTC나 보충제도 먼저 약사에게 확인하세요.",
     notice3Title: "중복 성분", notice3: "감기약, 진통제, 수면 보조제를 여러 개 함께 먹으면 acetaminophen, NSAID, 항히스타민제가 겹칠 수 있습니다.",
-    searchLabel: "검색", searchPlaceholder: "증상, 성분, 브랜드 검색: Tylenol, ibuprofen, allergy, melatonin",
+    searchLabel: "검색", searchPlaceholder: "증상, 성분, 브랜드 검색: Tylenol, ibuprofen, 어지러움, 통풍, dizziness, gout",
     symptomTitle: "증상별 OTC 안내", symptomIntro: "흔한 증상은 약국 OTC로 도움을 받을 수 있지만, 오래 지속되거나 심하면 진료가 필요합니다. 아래 내용은 선택을 대신하지 않고 약사와 대화할 기준을 제공합니다.",
     empty: "검색 결과가 없습니다. 브랜드명 대신 성분명이나 증상명으로 다시 찾아보세요.",
     olderTitle: "고령자·만성질환자 안전 체크", olderIntro: "나이가 많거나 여러 약을 복용 중이면 흔한 OTC도 졸림, 낙상, 혈압 상승, 출혈, 신장 부담을 만들 수 있습니다.",
@@ -758,7 +758,7 @@ const i18n = {
     notice1Title: "Purpose", notice1: "Helps immigrants, elders, caregivers, and students understand U.S. pharmacy labels and ingredient names.",
     notice2Title: "Safety", notice2: "If you take blood pressure, diabetes, blood thinner, sleep, or depression medicines, ask a pharmacist before using OTC products or supplements.",
     notice3Title: "Duplicate ingredients", notice3: "Cold, pain, and sleep products can overlap in acetaminophen, NSAIDs, or antihistamines.",
-    searchLabel: "Search", searchPlaceholder: "Search symptom, ingredient, brand: Tylenol, ibuprofen, allergy, melatonin",
+    searchLabel: "Search", searchPlaceholder: "Search symptom, ingredient, brand: Tylenol, ibuprofen, dizziness, gout, motion sickness",
     symptomTitle: "OTC guide by symptom", symptomIntro: "Many common symptoms can be helped by OTC products, but severe or persistent symptoms need medical care. This guide supports pharmacy conversations; it does not choose for you.",
     empty: "No results. Try an ingredient name or symptom instead of a brand.",
     olderTitle: "Safety checks for older adults and chronic conditions", olderIntro: "Age, multiple medicines, and chronic disease can turn common OTC products into risks for sedation, falls, blood pressure, bleeding, kidney stress, or liver injury.",
@@ -805,7 +805,7 @@ const i18n = {
     notice1Title: "目的", notice1: "移民、高齢者、介護者、学生が米国薬局のラベルと成分名を理解するのを助けます。",
     notice2Title: "安全", notice2: "血圧、糖尿病、抗凝固、睡眠、抗うつ薬を使用中ならOTCやサプリの前に薬剤師へ。",
     notice3Title: "重複成分", notice3: "かぜ薬、痛み止め、睡眠補助薬でacetaminophen、NSAID、抗ヒスタミンが重なることがあります。",
-    searchLabel: "検索", searchPlaceholder: "症状・成分・ブランド: Tylenol, ibuprofen, allergy, melatonin",
+    searchLabel: "検索", searchPlaceholder: "症状・成分・ブランド: Tylenol, ibuprofen, めまい, 痛風, dizziness, gout",
     symptomTitle: "症状別OTCガイド", symptomIntro: "よくある症状はOTCで助けられることがありますが、重い・長引く場合は医療機関へ。この資料は薬剤師との相談を助けるものです。",
     empty: "結果がありません。ブランド名ではなく成分名や症状で検索してください。",
     olderTitle: "高齢者・慢性疾患の安全チェック", olderIntro: "高齢、複数の薬、慢性疾患では、眠気、転倒、血圧上昇、出血、腎臓・肝臓への負担が問題になります。",
@@ -838,6 +838,8 @@ const tabs = [
   { id: "oral", ko: "구강", en: "Oral", ja: "口腔" },
   { id: "women", ko: "여성", en: "Women's", ja: "女性" },
   { id: "child", ko: "어린이", en: "Children", ja: "小児" },
+  { id: "dizzy", ko: "어지러움·멀미", en: "Dizziness", ja: "めまい" },
+  { id: "gout", ko: "통풍·발가락", en: "Gout & toe", ja: "痛風・足指" },
   { id: "firstaid", ko: "응급처치", en: "First aid", ja: "応急処置" }
 ];
 
@@ -883,7 +885,13 @@ const otc = [
   { cat: "firstaid", title: "Hydrogen peroxide", brands: "3% hydrogen peroxide", use: { ko: "상처 세척용으로 흔히 보이지만 반복 사용은 피함", en: "Commonly seen for wound cleaning, but repeated use is discouraged", ja: "創傷洗浄に使われがちだが反復使用は避ける" }, safety: { ko: "상처는 흐르는 물과 비누로 씻는 것이 보통 더 적절합니다.", en: "Running water and soap are usually better for wound cleaning.", ja: "流水と石けんでの洗浄が通常より適切。" }, tags: ["hydrogen peroxide", "wound", "first aid"] },
   { cat: "firstaid", title: "Povidone-iodine", brands: "Betadine", use: { ko: "작은 상처 주변 소독", en: "Antiseptic around minor wounds", ja: "小さな傷周囲の消毒" }, safety: { ko: "깊은 상처, 넓은 화상, 요오드 알레르기, 갑상선질환은 상담.", en: "Ask with deep wounds, large burns, iodine allergy, or thyroid disease.", ja: "深い傷、広範囲熱傷、ヨウ素アレルギー、甲状腺疾患は相談。" }, tags: ["Betadine", "iodine", "wound"] },
   { cat: "firstaid", title: "Burn gel / aloe vera", brands: "Solarcaine, aloe gel", use: { ko: "가벼운 햇볕 화상·피부 진정", en: "Mild sunburn and skin soothing", ja: "軽い日焼け・皮膚鎮静" }, safety: { ko: "물집이 넓거나 얼굴·손·생식기 화상, 전기·화학 화상은 진료.", en: "Seek care for large blisters, face/hands/genitals, electrical, or chemical burns.", ja: "大きな水疱、顔・手・陰部、電気・化学熱傷は受診。" }, tags: ["burn", "aloe", "sunburn"] },
-  { cat: "firstaid", title: "Oral antihistamine for allergic reaction", brands: "Benadryl, cetirizine", use: { ko: "가벼운 두드러기·가려움 완화", en: "Mild hives and itching relief", ja: "軽いじんましん・かゆみ緩和" }, safety: { ko: "호흡곤란, 입술·혀 붓기, 어지러움은 항히스타민제 기다리지 말고 911.", en: "For breathing trouble, lip/tongue swelling, or dizziness, call 911 instead of waiting.", ja: "呼吸困難、唇・舌の腫れ、めまいは待たずに911。" }, tags: ["allergic reaction", "hives", "Benadryl", "cetirizine"] }
+  { cat: "firstaid", title: "Oral antihistamine for allergic reaction", brands: "Benadryl, cetirizine", use: { ko: "가벼운 두드러기·가려움 완화", en: "Mild hives and itching relief", ja: "軽いじんましん・かゆみ緩和" }, safety: { ko: "호흡곤란, 입술·혀 붓기, 어지러움은 항히스타민제 기다리지 말고 911.", en: "For breathing trouble, lip/tongue swelling, or dizziness, call 911 instead of waiting.", ja: "呼吸困難、唇・舌の腫れ、めまいは待たずに911。" }, tags: ["allergic reaction", "hives", "Benadryl", "cetirizine"] },
+  { cat: "dizzy", title: "Meclizine", brands: "Bonine, Dramamine Less Drowsy", use: { ko: "멀미와 어지러움(현기증) 일시적 완화", en: "Temporary relief of motion sickness and dizziness (vertigo)", ja: "乗り物酔いとめまいの一時的緩和" }, safety: { ko: "졸림, 입마름, 고령자 낙상 위험. 녹내장, 전립선비대, 운전 시 주의. 새로 생긴 심한 어지러움, 가슴통증, 식은땀, 한쪽 마비, 말 어눌함은 911.", en: "Drowsiness, dry mouth, fall risk in older adults. Caution with glaucoma, enlarged prostate, or driving. New severe dizziness with chest pain, cold sweats, one-sided weakness, or slurred speech: call 911.", ja: "眠気、口の渇き、高齢者の転倒注意。緑内障、前立腺肥大、運転に注意。新たな強いめまいに胸痛・冷や汗・片側麻痺・ろれつ困難を伴えば911。" }, tags: ["dizziness", "vertigo", "motion sickness", "Bonine", "Dramamine", "meclizine", "어지러움", "멀미"] },
+  { cat: "dizzy", title: "Dimenhydrinate", brands: "Dramamine Original", use: { ko: "멀미로 인한 메스꺼움·구토·어지러움", en: "Nausea, vomiting, and dizziness from motion sickness", ja: "乗り物酔いによる吐き気・嘔吐・めまい" }, safety: { ko: "강한 졸림, 고령자 혼동·낙상 위험. 술·수면제와 병용 금지. 어지러움이 휴식해도 반복되거나 청력 변화·심한 두통이 동반되면 진료.", en: "Strong drowsiness; confusion and fall risk in older adults. Do not combine with alcohol or sedatives. Seek care if dizziness keeps returning at rest or comes with hearing change or severe headache.", ja: "強い眠気、高齢者の混乱・転倒。酒・鎮静薬と併用しない。安静時もめまいが続く、聴力変化や激しい頭痛を伴う場合は受診。" }, tags: ["dizziness", "nausea", "motion sickness", "Dramamine", "dimenhydrinate", "어지러움", "멀미"] },
+  { cat: "pain", title: "Topical menthol / methyl salicylate", brands: "Bengay, Icy Hot, Salonpas", use: { ko: "근육통, 삠, 국소 부위 통증에 바르거나 붙임", en: "Applied to localized muscle aches, strains, and sore areas", ja: "筋肉痛、捻挫、局所の痛みに塗布・貼付" }, safety: { ko: "상처·발진 부위, 가열 패드와 함께 사용 금지. aspirin 알레르기는 methyl salicylate 주의. 12세 미만, 넓은 부위 장시간 사용은 상담.", en: "Do not use on broken skin or rashes, or with a heating pad. Methyl salicylate caution with aspirin allergy. Ask before large-area or long use, or under age 12.", ja: "傷・発疹部位、加熱パッド併用は不可。aspirinアレルギーはmethyl salicylate注意。12歳未満や広範囲・長時間は相談。" }, tags: ["localized pain", "muscle ache", "Bengay", "Icy Hot", "Salonpas", "menthol", "국소 통증", "근육통"] },
+  { cat: "pain", title: "Lidocaine 4% patch / cream", brands: "Aspercreme Lidocaine, Salonpas Lidocaine", use: { ko: "국소 부위의 통증을 일시적으로 마비시켜 완화", en: "Temporary numbing relief for localized pain", ja: "局所の痛みを一時的にしびれさせて緩和" }, safety: { ko: "넓은 부위·여러 장 동시 사용, 가열, 상처 부위 금지. 간질환, 심장약 복용자, 임신은 상담. 어린이는 사용 전 상담.", en: "Avoid large areas, multiple patches at once, heat, or broken skin. Ask with liver disease, heart medicines, or pregnancy. Ask before use in children.", ja: "広範囲・複数枚同時、加熱、傷部位は避ける。肝疾患、心臓薬、妊娠は相談。小児は使用前に相談。" }, tags: ["localized pain", "numbing", "lidocaine", "Aspercreme", "국소 통증"] },
+  { cat: "gout", title: "Naproxen (gout flare)", brands: "Aleve", use: { ko: "통풍 발작의 통증·염증 단기 완화(발가락 등)", en: "Short-term pain and inflammation relief in a gout flare (e.g., big toe)", ja: "痛風発作の痛み・炎症の短期緩和（足の親指など）" }, safety: { ko: "위궤양, 신장질환, 심부전, 항응고제, 고혈압은 주의. 통풍은 재발·만성화되므로 진단과 예방 치료(예: allopurinol)는 의사 진료가 필요. 첫 발작, 발열 동반, 한 관절이 빨갛게 붓고 심한 통증은 감염 감별을 위해 진료.", en: "Caution with ulcers, kidney disease, heart failure, blood thinners, or high blood pressure. Gout recurs, so diagnosis and preventive therapy (e.g., allopurinol) need a doctor. See a clinician for a first attack, fever, or a hot swollen painful joint to rule out infection.", ja: "胃潰瘍、腎疾患、心不全、抗凝固薬、高血圧は注意。痛風は再発するため診断と予防治療（allopurinol等）は受診が必要。初回発作、発熱、関節が赤く腫れて激痛なら感染除外のため受診。" }, tags: ["gout", "toe pain", "flare", "Aleve", "naproxen", "통풍", "발가락"] },
+  { cat: "gout", title: "Ibuprofen (gout flare)", brands: "Advil, Motrin", use: { ko: "통풍 발작의 통증·염증 단기 완화 대안", en: "Alternative short-term relief for gout flare pain and inflammation", ja: "痛風発作の痛み・炎症の短期緩和の代替" }, safety: { ko: "naproxen과 같은 NSAID 주의사항 적용. 다른 NSAID와 중복 복용 금지. 통풍 예방·요산 관리는 OTC가 아니라 의사 처방 영역.", en: "Same NSAID cautions as naproxen apply. Do not double up with other NSAIDs. Gout prevention and uric-acid control are prescription, not OTC.", ja: "naproxenと同じNSAID注意。他のNSAIDと重複しない。痛風予防・尿酸管理は処方であってOTCではない。" }, tags: ["gout", "toe pain", "flare", "Advil", "Motrin", "ibuprofen", "통풍", "발가락"] }
 ];
 
 const supplements = [
@@ -914,15 +922,15 @@ const supplements = [
 
 const urgentLists = {
   ko: {
-    urgent911: ["가슴통증 또는 심한 호흡곤란", "얼굴·입술·혀가 붓고 숨쉬기 어려운 알레르기", "한쪽 얼굴 처짐, 팔 힘 빠짐, 말이 어눌함", "의식 저하, 경련, 멈추지 않는 출혈", "약물 과다복용 또는 자살 생각"],
+    urgent911: ["가슴통증 또는 심한 호흡곤란", "갑작스러운 식은땀과 함께 가슴 압박감·메스꺼움·실신감", "얼굴·입술·혀가 붓고 숨쉬기 어려운 알레르기", "한쪽 얼굴 처짐, 팔 힘 빠짐, 말이 어눌함", "의식 저하, 경련, 멈추지 않는 출혈", "약물 과다복용 또는 자살 생각"],
     urgentCare: ["열이 3일 이상 지속되거나 매우 높음", "소아, 임신, 고령자, 면역저하자의 증상", "심한 탈수, 피 섞인 설사, 흑변", "감기 증상이 10일 이상 지속되거나 악화", "새 약 복용 후 발진, 붓기, 심한 어지러움"]
   },
   en: {
-    urgent911: ["Chest pain or severe trouble breathing", "Swelling of face, lips, or tongue with breathing trouble", "Face drooping, arm weakness, or speech trouble", "Loss of consciousness, seizure, or uncontrolled bleeding", "Medication overdose or suicidal thoughts"],
+    urgent911: ["Chest pain or severe trouble breathing", "Sudden cold sweats with chest pressure, nausea, or feeling faint", "Swelling of face, lips, or tongue with breathing trouble", "Face drooping, arm weakness, or speech trouble", "Loss of consciousness, seizure, or uncontrolled bleeding", "Medication overdose or suicidal thoughts"],
     urgentCare: ["Fever lasting more than 3 days or very high fever", "Symptoms in children, pregnancy, older adults, or immunocompromised people", "Severe dehydration, bloody diarrhea, or black stool", "Cold symptoms lasting more than 10 days or getting worse", "Rash, swelling, or severe dizziness after a new medicine"]
   },
   ja: {
-    urgent911: ["胸痛または強い呼吸困難", "顔・唇・舌の腫れと呼吸困難", "顔のゆがみ、腕の脱力、話しにくさ", "意識低下、けいれん、止まらない出血", "薬の過量服用または自殺念慮"],
+    urgent911: ["胸痛または強い呼吸困難", "突然の冷や汗と胸の圧迫感・吐き気・気が遠くなる感じ", "顔・唇・舌の腫れと呼吸困難", "顔のゆがみ、腕の脱力、話しにくさ", "意識低下、けいれん、止まらない出血", "薬の過量服用または自殺念慮"],
     urgentCare: ["発熱が3日以上続く、または非常に高い", "小児、妊娠、高齢者、免疫低下者の症状", "重い脱水、血便、黒色便", "かぜ症状が10日以上続く・悪化", "新しい薬の後の発疹、腫れ、強いめまい"]
   }
 };

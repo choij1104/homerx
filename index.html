@@ -987,16 +987,26 @@ function renderTabs() {
 }
 
 function matches(item) {
-  const haystack = [item.title, item.brands, item.use.ko, item.use.en, item.use.ja, item.safety.ko, item.safety.en, item.safety.ja, ...(item.tags || [])].join(" ").toLowerCase();
-  return haystack.includes(query);
+  const ev = item.evidence || {};
+  const parts = [item.title, item.brands, ev.ko, ev.en, ev.ja,
+                 item.use.ko, item.use.en, item.use.ja,
+                 item.safety.ko, item.safety.en, item.safety.ja,
+                 ...(item.tags || [])].filter(Boolean);
+  return parts.join(" ").toLowerCase().includes(query);
+}
+
+let otcShown = 0, suppShown = 0;
+
+function updateEmpty() {
+  document.getElementById("empty").classList.toggle("hidden", (otcShown + suppShown) !== 0);
 }
 
 function renderCards() {
   const cards = document.getElementById("cards");
-  const empty = document.getElementById("empty");
   cards.innerHTML = "";
   const results = otc.filter(item => (filter === "all" || item.cat === filter) && matches(item));
-  empty.classList.toggle("hidden", results.length !== 0);
+  otcShown = results.length;
+  updateEmpty();
   results.forEach(item => {
     const card = document.createElement("article");
     card.className = "card expandable";
@@ -1030,7 +1040,14 @@ function renderCards() {
 function renderSupplements() {
   const wrap = document.getElementById("supplementCards");
   wrap.innerHTML = "";
-  supplements.forEach(item => {
+  const results = supplements.filter(matches);
+  suppShown = results.length;
+  updateEmpty();
+  if (!results.length) {
+    wrap.innerHTML = `<p class="notice">${t("empty")}</p>`;
+    return;
+  }
+  results.forEach(item => {
     const card = document.createElement("article");
     card.className = "card supplement expandable";
     card.tabIndex = 0;
@@ -1113,6 +1130,7 @@ document.querySelectorAll(".gate-lang button").forEach(btn => btn.addEventListen
 document.getElementById("search").addEventListener("input", event => {
   query = event.target.value.trim().toLowerCase();
   renderCards();
+  renderSupplements();
 });
 
 const gateChecks = ["gate-c1", "gate-c2", "gate-c3", "gate-c4"].map(id => document.getElementById(id));

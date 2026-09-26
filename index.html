@@ -198,7 +198,7 @@
   }
   .lang button {
     min-width: 44px;
-    min-height: 38px;
+    min-height: 44px;
     border: 0;
     border-left: 1px solid var(--line);
     background: transparent;
@@ -340,8 +340,8 @@
     overflow-x: auto;
   }
   .tab {
-    min-height: 42px;
-    padding: 9px 13px;
+    min-height: 44px;
+    padding: 10px 13px;
     border: 1px solid #8d8a80;
     background: transparent;
     color: var(--ink);
@@ -421,8 +421,8 @@
     margin-top: 12px;
   }
   .open-key {
-    min-height: 38px;
-    padding: 7px 12px;
+    min-height: 44px;
+    padding: 10px 12px;
     border: 1px solid var(--navy);
     background: transparent;
     color: var(--navy);
@@ -1061,6 +1061,7 @@ function renderSupplements() {
 
 function attachCardToggle(card) {
   const button = card.querySelector(".open-key");
+  card.setAttribute("role", "button");
   const toggle = () => {
     const isOpen = card.classList.toggle("open");
     button.textContent = isOpen ? cardLabels[lang].close : cardLabels[lang].open;

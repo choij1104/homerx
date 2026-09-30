@@ -1,7 +1,7 @@
 # HomeRx — OTC 의약품·보충제 참조 웹앱
 
 **배포:** https://choij1104.github.io/homerx/
-**저자:** Jae H. Choi, PhD, DVSc · HAKOYA LLC, San Antonio, Texas
+**저자:** HAKOYA LLC dba Auravyx Systems, San Antonio, Texas
 **언어:** English / 한국어 / 日本語
 
 ---
@@ -85,7 +85,7 @@ or physician before use.
 
 ## 저작권 및 라이선스 (Copyright & License)
 
-**Copyright © 2026 Jae H. Choi, PhD, DVSc. All rights reserved.**
+**Copyright © 2026 HAKOYA LLC dba Auravyx Systems. All rights reserved.**
 Developed and maintained by **HAKOYA LLC**, San Antonio, Texas, USA.
 
 본 소프트웨어와 콘텐츠는 **개인·교육·비영리** 용도의 참조에 한해

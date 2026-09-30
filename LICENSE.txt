@@ -1,9 +1,9 @@
-Copyright © 2026 HAKOYA LLC dba Auravyx Systems. All rights reserved.
+Copyright © 2026 HAKOYA LLC. All rights reserved.
 
 PROPRIETARY AND CONFIDENTIAL
 
 This software and its source code are the confidential and proprietary
-information of HAKOYA LLC dba Auravyx Systems ("the Owner"). You shall not
+information of HAKOYA LLC ("the Owner"). You shall not
 disclose such confidential information and shall use it only in
 accordance with the terms of the agreement you entered into with the
 Owner.

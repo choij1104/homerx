@@ -121,9 +121,9 @@
 "ask_doctor": [],
 "ask_pharmacist": [
 {
-"en": "Levothyroxine (separate by 4 hours), quinolone antibiotics such as ciprofloxacin (separate by 2 hours), dolutegravir, or lithium",
-"ko": "레보티록신(4시간 간격), 시프로플록사신 같은 퀴놀론 항생제(2시간 간격), 돌루테그라비르, 리튬",
-"ja": "レボチロキシン（4時間あける）、シプロフロキサシンなどのキノロン系抗菌薬（2時間あける）、ドルテグラビル、リチウム"
+"en": "Levothyroxine (separate by 4 hours), quinolone antibiotics such as ciprofloxacin (separate by 2 hours), dolutegravir (take it 2 hours before or 6 hours after calcium), or lithium",
+"ko": "레보티록신(4시간 간격), 시프로플록사신 같은 퀴놀론 항생제(2시간 간격), 돌루테그라비르(칼슘 2시간 전 또는 6시간 후), 리튬",
+"ja": "レボチロキシン（4時間あける）、シプロフロキサシンなどのキノロン系抗菌薬（2時間あける）、ドルテグラビル（カルシウムの2時間前か6時間後）、リチウム"
 }
 ],
 "stop_use": [],

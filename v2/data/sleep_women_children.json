@@ -646,6 +646,144 @@
 "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af64fc2f-c027-4a68-b368-ee06744a2452"
 }
 ]
+},
+{
+"aka": [
+"Midol Complete",
+"period pain",
+"생리통",
+"生理痛"
+],
+"brands": [
+"Midol Complete",
+"store brand menstrual complete"
+],
+"active": [
+{
+"ingredient": "acetaminophen",
+"strength": "500 mg per caplet",
+"purpose": {
+"en": "Pain reliever",
+"ko": "진통제",
+"ja": "鎮痛薬"
+}
+},
+{
+"ingredient": "caffeine",
+"strength": "60 mg per caplet",
+"purpose": {
+"en": "Diuretic",
+"ko": "이뇨제",
+"ja": "利尿薬"
+}
+},
+{
+"ingredient": "pyrilamine",
+"strength": "15 mg (maleate) per caplet",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 2 caplets with water every 6 hours as needed.",
+"ko": "12세 이상: 필요하면 6시간마다 물과 함께 2정.",
+"ja": "12歳以上: 必要に応じ6時間ごとに水で2錠。"
+},
+"max_daily": {
+"en": "6 caplets in 24 hours.",
+"ko": "24시간에 6정.",
+"ja": "24時間で6錠。"
+},
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "With any other medicine containing acetaminophen (prescription or OTC)",
+"ko": "아세트아미노펜이 든 다른 약(처방약·일반약)과 함께",
+"ja": "アセトアミノフェンを含む他の薬（処方薬・市販薬）と一緒に"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver disease",
+"ko": "간 질환",
+"ja": "肝臓病"
+},
+{
+"en": "Glaucoma; a breathing problem such as emphysema or chronic bronchitis; trouble urinating from an enlarged prostate",
+"ko": "녹내장, 폐기종·만성 기관지염 같은 호흡 문제, 전립선 비대로 인한 배뇨 곤란",
+"ja": "緑内障、肺気腫・慢性気管支炎などの呼吸の問題、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Warfarin, or sedatives or tranquilizers",
+"ko": "와파린, 또는 진정제·신경안정제",
+"ja": "ワルファリン、または鎮静薬・精神安定薬"
+}
+],
+"stop_use": [
+{
+"en": "Pain gets worse or lasts more than 10 days; fever gets worse or lasts more than 3 days; new symptoms, redness or swelling",
+"ko": "통증이 악화되거나 10일 넘게, 열이 악화되거나 3일 넘게 지속; 새 증상, 발적, 부기",
+"ja": "痛みが悪化または10日を超える、熱が悪化または3日を超える、新しい症状、赤み、腫れ"
+},
+{
+"en": "Skin reddening, blisters or rash — get medical help right away",
+"ko": "피부 붉어짐, 물집, 발진 — 즉시 진료",
+"ja": "皮膚の赤み、水ぶくれ、発疹 — すぐ受診"
+}
+],
+"key_warning": {
+"en": "Contains acetaminophen: severe liver damage may occur above 4,000 mg in 24 hours, with other acetaminophen products, or with 3+ drinks a day. May cause drowsiness. Limit other caffeine.",
+"ko": "아세트아미노펜이 들어 있습니다: 24시간 4,000 mg 초과, 다른 아세트아미노펜 제품과 함께, 하루 3잔 이상 음주 시 심각한 간 손상이 생길 수 있습니다. 졸릴 수 있으며, 다른 카페인 섭취를 줄이세요.",
+"ja": "アセトアミノフェンを含みます: 24時間で4,000 mg超、他のアセトアミノフェン製品との併用、1日3杯以上の飲酒で重い肝障害が起こることがあります。眠くなることがあり、他のカフェインは控えてください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"liver",
+"alcohol",
+"sedation",
+"glaucoma",
+"prostate",
+"blood_thinner"
+],
+"classes": [
+"acetaminophen",
+"sedating_antihistamine"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "menstrual-complete",
+"kind": "otc",
+"category": "womens",
+"name": {
+"en": "Menstrual pain relief (acetaminophen + caffeine + pyrilamine)",
+"ko": "생리통약(아세트아미노펜+카페인+피릴라민)",
+"ja": "生理痛薬（アセトアミノフェン+カフェイン+ピリラミン）"
+},
+"uses": {
+"en": "Temporarily relieves period-related bloating, water-weight gain, cramps, headache, backache, tiredness and muscle aches.",
+"ko": "생리와 관련된 붓기, 수분 체중 증가, 생리통, 두통, 요통, 피로, 근육통을 일시적으로 완화합니다.",
+"ja": "生理に伴うむくみ、水分による体重増加、生理痛、頭痛、腰痛、だるさ、筋肉痛を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Menstrual Complete Pain Relief (acetaminophen 500 mg, caffeine 60 mg, pyrilamine 15 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=210efe01-3cf4-404c-84b0-314615467ace"
+}
+]
 }
 ]
 }

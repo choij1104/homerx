@@ -1,0 +1,1703 @@
+{
+"entries": [
+{
+"aka": [
+"Pepcid",
+"H2 blocker",
+"acid reducer",
+"위산 억제제",
+"胃薬"
+],
+"brands": [
+"Pepcid AC",
+"store brand acid reducer"
+],
+"active": [
+{
+"ingredient": "famotidine",
+"strength": "10 mg or 20 mg per tablet",
+"purpose": {
+"en": "Acid reducer",
+"ko": "위산 억제제",
+"ja": "胃酸抑制薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+ (20 mg tablet): to relieve, swallow 1 tablet with a glass of water — do not chew. To prevent, take 1 tablet with water 10 to 60 minutes before the food or drink that causes heartburn.",
+"ko": "12세 이상(20 mg정): 완화 — 물 한 컵과 1정을 씹지 말고 삼키세요. 예방 — 속쓰림을 일으키는 음식·음료 10~60분 전에 1정.",
+"ja": "12歳以上（20 mg錠）: 症状をやわらげる — 水と1錠をかまずに飲む。予防 — 原因となる飲食の10〜60分前に1錠。"
+},
+"max_daily": {
+"en": "2 tablets in 24 hours; no more than 14 days unless a doctor says so.",
+"ko": "24시간에 2정, 의사 지시 없이 14일 넘게 쓰지 마세요.",
+"ja": "24時間で2錠まで。医師の指示がなければ14日まで。"
+},
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "If allergic to famotidine or other acid reducers",
+"ko": "파모티딘이나 다른 위산 억제제에 알레르기가 있을 때",
+"ja": "ファモチジンや他の胃酸抑制薬にアレルギーがある"
+},
+{
+"en": "Trouble or pain swallowing, vomiting blood, or bloody or black stools — see a doctor",
+"ko": "삼키기 어렵거나 아플 때, 피를 토할 때, 피가 섞이거나 검은 변 — 진료를 받으세요",
+"ja": "飲み込みにくい・痛い、吐血、血の混じった便や黒い便 — 受診してください"
+},
+{
+"en": "With other acid reducers",
+"ko": "다른 위산 억제제와 함께",
+"ja": "他の胃酸抑制薬と一緒に"
+}
+],
+"ask_doctor": [
+{
+"en": "Heartburn for more than 3 months",
+"ko": "3개월 넘은 속쓰림",
+"ja": "3か月を超える胸やけ"
+},
+{
+"en": "Heartburn with lightheadedness, sweating or dizziness; chest or shoulder pain with shortness of breath, sweating, pain spreading to arms, neck or shoulders; frequent chest pain",
+"ko": "어지럼·식은땀을 동반한 속쓰림, 숨참·식은땀·팔·목·어깨로 퍼지는 통증을 동반한 가슴·어깨 통증, 잦은 가슴 통증",
+"ja": "ふらつき・冷や汗を伴う胸やけ、息切れ・冷や汗・腕や首や肩に広がる痛みを伴う胸や肩の痛み、頻繁な胸の痛み"
+},
+{
+"en": "Frequent wheezing (especially with heartburn), unexplained weight loss, nausea or vomiting, or stomach pain",
+"ko": "잦은 쌕쌕거림(특히 속쓰림과 함께), 설명되지 않는 체중 감소, 메스꺼움·구토, 복통",
+"ja": "頻繁なぜん鳴（特に胸やけと一緒）、原因不明の体重減少、吐き気・嘔吐、腹痛"
+},
+{
+"en": "Kidney disease",
+"ko": "신장 질환",
+"ja": "腎臓病"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine (acid reducers/antacids can interact with some)",
+"ko": "처방약을 복용 중인 경우(위산 억제제·제산제는 일부 처방약과 상호작용할 수 있음)",
+"ja": "処方薬を飲んでいる場合（胃酸を抑える薬・制酸薬は一部の処方薬と相互作用することがあります）"
+}
+],
+"stop_use": [
+{
+"en": "Heartburn continues or gets worse",
+"ko": "속쓰림이 계속되거나 악화될 때",
+"ja": "胸やけが続く・悪化する"
+},
+{
+"en": "You need it for more than 14 days",
+"ko": "14일 넘게 필요할 때",
+"ja": "14日を超えて必要"
+}
+],
+"key_warning": {
+"en": "Chest pain with sweating, shortness of breath, or pain spreading to the arm, neck or jaw may be a heart attack, not heartburn — call 911.",
+"ko": "식은땀, 숨참, 팔·목·턱으로 퍼지는 통증을 동반한 가슴 통증은 속쓰림이 아니라 심장마비일 수 있습니다 — 911에 전화하세요.",
+"ja": "冷や汗、息切れ、腕・首・あごに広がる痛みを伴う胸の痛みは胸やけではなく心臓発作かもしれません — 911に電話してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"kidney"
+],
+"classes": [
+"h2_blocker"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "famotidine",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Famotidine",
+"ko": "파모티딘",
+"ja": "ファモチジン"
+},
+"uses": {
+"en": "Relieves heartburn from acid indigestion and sour stomach, and prevents it when taken before foods or drinks that cause it.",
+"ko": "위산 과다·신트림으로 인한 속쓰림을 완화하고, 속쓰림을 일으키는 음식·음료 전에 먹으면 예방합니다.",
+"ja": "胃酸過多・すっぱいげっぷによる胸やけをやわらげ、原因となる飲食の前に飲むと予防します。"
+},
+"sources": [
+{
+"title": "DailyMed — Pepcid AC Maximum Strength (famotidine 20 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14406cd8-468b-403d-9be2-43decd304214"
+}
+]
+},
+{
+"aka": [
+"Prilosec",
+"PPI",
+"proton pump inhibitor",
+"양성자펌프억제제"
+],
+"brands": [
+"Prilosec OTC",
+"store brand omeprazole 20 mg"
+],
+"active": [
+{
+"ingredient": "omeprazole",
+"strength": "20 mg per delayed-release tablet",
+"purpose": {
+"en": "Acid reducer",
+"ko": "위산 억제제",
+"ja": "胃酸抑制薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults 18+: 1 tablet a day, every 24 hours, for 14 days. Swallow whole with water in the morning before eating; do not chew or crush.",
+"ko": "18세 이상: 하루 1정, 24시간마다, 14일간. 아침 식사 전에 물과 함께 통째로 삼키고 씹거나 부수지 마세요.",
+"ja": "18歳以上: 1日1錠を24時間ごとに14日間。朝食前に水で丸ごと飲み、かんだり砕いたりしないでください。"
+},
+"max_daily": {
+"en": "1 tablet a day. Repeat a 14-day course no more often than every 4 months unless a doctor directs.",
+"ko": "하루 1정. 14일 요법은 의사 지시 없이 4개월에 한 번까지만 반복.",
+"ja": "1日1錠。14日間の治療は、医師の指示がなければ4か月に1回まで。"
+},
+"children": {
+"en": "Under 18: ask a doctor. Heartburn in children may be a sign of a serious condition.",
+"ko": "18세 미만: 의사에게 물어보세요. 아이의 속쓰림은 심각한 질환의 신호일 수 있습니다.",
+"ja": "18歳未満: 医師に相談。子どもの胸やけは重い病気のサインのことがあります。"
+},
+"do_not_use": [
+{
+"en": "If allergic to omeprazole",
+"ko": "오메프라졸에 알레르기가 있을 때",
+"ja": "オメプラゾールにアレルギーがある"
+},
+{
+"en": "Trouble or pain swallowing, vomiting blood, or bloody or black stools — see a doctor",
+"ko": "삼키기 어렵거나 아플 때, 피를 토할 때, 피가 섞이거나 검은 변 — 진료를 받으세요",
+"ja": "飲み込みにくい・痛い、吐血、血の混じった便や黒い便 — 受診してください"
+},
+{
+"en": "Heartburn with lightheadedness, sweating or dizziness; chest or shoulder pain with shortness of breath, sweating, pain spreading to arms, neck or shoulders; frequent chest pain",
+"ko": "어지럼·식은땀을 동반한 속쓰림, 숨참·식은땀·팔·목·어깨로 퍼지는 통증을 동반한 가슴·어깨 통증, 잦은 가슴 통증",
+"ja": "ふらつき・冷や汗を伴う胸やけ、息切れ・冷や汗・腕や首や肩に広がる痛みを伴う胸や肩の痛み、頻繁な胸の痛み"
+}
+],
+"ask_doctor": [
+{
+"en": "Heartburn for more than 3 months",
+"ko": "3개월 넘은 속쓰림",
+"ja": "3か月を超える胸やけ"
+},
+{
+"en": "Frequent wheezing (especially with heartburn), unexplained weight loss, nausea or vomiting, or stomach pain",
+"ko": "잦은 쌕쌕거림(특히 속쓰림과 함께), 설명되지 않는 체중 감소, 메스꺼움·구토, 복통",
+"ja": "頻繁なぜん鳴（特に胸やけと一緒）、原因不明の体重減少、吐き気・嘔吐、腹痛"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine (acid reducers/antacids can interact with some)",
+"ko": "처방약을 복용 중인 경우(위산 억제제·제산제는 일부 처방약과 상호작용할 수 있음)",
+"ja": "処方薬を飲んでいる場合（胃酸を抑える薬・制酸薬は一部の処方薬と相互作用することがあります）"
+}
+],
+"stop_use": [
+{
+"en": "Heartburn continues or worsens, or you need it more than 14 days or more than one course every 4 months",
+"ko": "속쓰림이 계속·악화되거나, 14일 넘게 또는 4개월에 2번 이상 필요할 때",
+"ja": "胸やけが続く・悪化する、14日を超えて、または4か月に2回以上必要"
+},
+{
+"en": "Diarrhea, rash or joint pain",
+"ko": "설사, 발진, 관절통",
+"ja": "下痢、発疹、関節痛"
+},
+{
+"en": "Skin reddening, blisters or rash — stop and get medical help right away",
+"ko": "피부 붉어짐, 물집, 발진 — 중단하고 즉시 진료",
+"ja": "皮膚の赤み、水ぶくれ、発疹 — 中止してすぐ受診"
+}
+],
+"key_warning": {
+"en": "Chest pain with sweating, shortness of breath, or pain spreading to the arm, neck or jaw may be a heart attack, not heartburn — call 911.",
+"ko": "식은땀, 숨참, 팔·목·턱으로 퍼지는 통증을 동반한 가슴 통증은 속쓰림이 아니라 심장마비일 수 있습니다 — 911에 전화하세요.",
+"ja": "冷や汗、息切れ、腕・首・あごに広がる痛みを伴う胸の痛みは胸やけではなく心臓発作かもしれません — 911に電話してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [
+"ppi"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "omeprazole",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Omeprazole (14-day course)",
+"ko": "오메프라졸(14일 요법)",
+"ja": "オメプラゾール（14日間）"
+},
+"uses": {
+"en": "Treats frequent heartburn (2 or more days a week). Not for immediate relief — it may take 1 to 4 days for full effect.",
+"ko": "잦은 속쓰림(주 2일 이상)을 치료합니다. 즉각적인 완화용이 아니며, 충분한 효과에 1~4일 걸릴 수 있습니다.",
+"ja": "頻繁な胸やけ（週2日以上）の治療薬です。すぐ効く薬ではなく、十分な効果まで1〜4日かかることがあります。"
+},
+"sources": [
+{
+"title": "DailyMed — Prilosec OTC (omeprazole 20 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=77ed80a2-a482-4838-ac55-4865b5c31d9f"
+}
+]
+},
+{
+"aka": [
+"Tums",
+"antacid",
+"제산제",
+"制酸薬"
+],
+"brands": [
+"Tums Extra Strength",
+"store brand antacid"
+],
+"active": [
+{
+"ingredient": "calcium carbonate",
+"strength": "750 mg per chewable tablet (Extra Strength)",
+"purpose": {
+"en": "Antacid",
+"ko": "제산제",
+"ja": "制酸薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: chew 2 to 4 tablets as symptoms occur, or as a doctor directs.",
+"ko": "12세 이상: 증상이 있을 때 2~4정을 씹어 드세요. 또는 의사 지시대로.",
+"ja": "12歳以上: 症状があるとき2〜4錠をかんで飲む。または医師の指示どおり。"
+},
+"max_daily": {
+"en": "No more than 10 tablets in 24 hours (6 if pregnant). Do not use the maximum dose for more than 2 weeks unless a doctor supervises.",
+"ko": "24시간에 10정(임신 중 6정)까지. 의사 감독 없이 최대 용량을 2주 넘게 쓰지 마세요.",
+"ja": "24時間で10錠まで（妊娠中は6錠）。医師の管理なしに最大量を2週間を超えて使わないでください。"
+},
+"children": {
+"en": "The label gives directions only for ages 12 and up.",
+"ko": "라벨에는 12세 이상 용법만 있습니다.",
+"ja": "ラベルの用法は12歳以上のみです。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine (acid reducers/antacids can interact with some)",
+"ko": "처방약을 복용 중인 경우(위산 억제제·제산제는 일부 처방약과 상호작용할 수 있음)",
+"ja": "処方薬を飲んでいる場合（胃酸を抑える薬・制酸薬は一部の処方薬と相互作用することがあります）"
+}
+],
+"stop_use": [
+{
+"en": "Symptoms last more than 2 weeks",
+"ko": "증상이 2주 넘게 지속될 때",
+"ja": "症状が2週間を超えて続く"
+}
+],
+"key_warning": {
+"en": "Antacids can change how some prescription medicines are absorbed — ask the pharmacist about timing.",
+"ko": "제산제는 일부 처방약의 흡수를 바꿀 수 있습니다 — 복용 시간 간격을 약사에게 물어보세요.",
+"ja": "制酸薬は一部の処方薬の吸収を変えることがあります — 飲む間隔を薬剤師に聞いてください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "If pregnant, no more than 6 tablets in 24 hours.",
+"ko": "임신 중에는 24시간에 6정까지.",
+"ja": "妊娠中は24時間で6錠まで。"
+},
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "calcium-carbonate-antacid",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Calcium carbonate antacid",
+"ko": "탄산칼슘 제산제",
+"ja": "炭酸カルシウム制酸薬"
+},
+"uses": {
+"en": "Relieves heartburn, acid indigestion, sour stomach, and upset stomach from these.",
+"ko": "속쓰림, 위산 과다, 신트림과 이로 인한 속 불편을 완화합니다.",
+"ja": "胸やけ、胃酸過多、すっぱいげっぷと、それによる胃の不快感をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Tums Extra Strength (calcium carbonate 750 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3988e3f8-b276-43a0-bdd3-01ddd422c986"
+}
+]
+},
+{
+"aka": [
+"Imodium",
+"anti-diarrheal",
+"지사제",
+"下痢止め"
+],
+"brands": [
+"Imodium A-D",
+"store brand anti-diarrheal"
+],
+"active": [
+{
+"ingredient": "loperamide HCl",
+"strength": "2 mg per caplet",
+"purpose": {
+"en": "Anti-diarrheal",
+"ko": "지사제",
+"ja": "止瀉薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 2 caplets after the first loose stool, then 1 caplet after each later loose stool. Drink plenty of clear fluids.",
+"ko": "12세 이상: 첫 묽은 변 후 2정, 이후 묽은 변마다 1정. 맑은 수분을 충분히 드세요.",
+"ja": "12歳以上: 最初の軟便の後に2錠、その後は軟便ごとに1錠。透明な水分を十分にとってください。"
+},
+"max_daily": {
+"en": "No more than 4 caplets in 24 hours.",
+"ko": "24시간에 4정까지.",
+"ja": "24時間で4錠まで。"
+},
+"children": {
+"en": "Ages 6–11: follow the age/weight table on the package. Ages 2–5: ask a doctor. Under 2: do not use.",
+"ko": "6~11세: 포장의 나이·체중 표를 따르세요. 2~5세: 의사에게 물어보세요. 2세 미만: 사용 금지.",
+"ja": "6〜11歳: 箱の年齢・体重表に従う。2〜5歳: 医師に相談。2歳未満: 使用しない。"
+},
+"do_not_use": [
+{
+"en": "If you have had a rash or other allergic reaction to loperamide",
+"ko": "로페라미드에 발진 등 알레르기 반응이 있었던 경우",
+"ja": "ロペラミドで発疹などのアレルギー反応が出たことがある"
+},
+{
+"en": "If you have bloody or black stool",
+"ko": "피가 섞이거나 검은 변이 있을 때",
+"ja": "血の混じった便や黒い便がある"
+}
+],
+"ask_doctor": [
+{
+"en": "Fever or mucus in the stool",
+"ko": "열, 변에 점액",
+"ja": "発熱、便に粘液"
+},
+{
+"en": "A history of liver disease",
+"ko": "간 질환 병력",
+"ja": "肝臓病の既往"
+},
+{
+"en": "A history of abnormal heart rhythm",
+"ko": "부정맥 병력",
+"ja": "不整脈の既往"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine",
+"ko": "처방약을 복용 중인 경우",
+"ja": "処方薬を飲んでいる場合"
+}
+],
+"stop_use": [
+{
+"en": "Symptoms get worse or diarrhea lasts more than 2 days",
+"ko": "증상이 악화되거나 설사가 2일 넘게 지속될 때",
+"ja": "症状が悪化する、または下痢が2日を超えて続く"
+},
+{
+"en": "Your belly swells or bulges",
+"ko": "배가 붓거나 불룩해질 때",
+"ja": "おなかが張る・ふくらむ"
+}
+],
+"key_warning": {
+"en": "Taking more than directed can cause serious heart problems or death. In an overdose, call Poison Control (1-800-222-1222) right away. May cause tiredness, drowsiness or dizziness.",
+"ko": "정해진 양보다 많이 먹으면 심각한 심장 문제나 사망을 일으킬 수 있습니다. 과다 복용 시 즉시 중독센터(1-800-222-1222)에 전화하세요. 피로, 졸음, 어지러움이 생길 수 있습니다.",
+"ja": "決められた量より多く飲むと重い心臓の問題や死亡につながることがあります。飲みすぎたらすぐ中毒センター（1-800-222-1222）へ。だるさ、眠気、めまいが出ることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"liver",
+"heart",
+"sedation",
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "loperamide",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Loperamide",
+"ko": "로페라미드",
+"ja": "ロペラミド"
+},
+"uses": {
+"en": "Controls symptoms of diarrhea, including travelers' diarrhea.",
+"ko": "여행자 설사를 포함한 설사 증상을 조절합니다.",
+"ja": "旅行者下痢を含む下痢の症状をおさえます。"
+},
+"sources": [
+{
+"title": "DailyMed — Imodium A-D (loperamide HCl 2 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01da76d0-1979-4c45-9d39-c72ae4e4ffe2"
+}
+]
+},
+{
+"aka": [
+"Pepto-Bismol",
+"pink stomach medicine",
+"펩토비스몰"
+],
+"brands": [
+"Pepto-Bismol",
+"Kaopectate",
+"store brand stomach relief"
+],
+"active": [
+{
+"ingredient": "bismuth subsalicylate",
+"strength": "262 mg per chewable tablet",
+"purpose": {
+"en": "Upset stomach reliever / antidiarrheal",
+"ko": "위장 불편 완화제/지사제",
+"ja": "胃の不快感緩和薬・止瀉薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: chew or dissolve 2 tablets every ½ to 1 hour as needed. Use until diarrhea stops, but no more than 2 days. Drink plenty of clear fluids.",
+"ko": "12세 이상: 필요하면 30분~1시간마다 2정을 씹거나 녹여 드세요. 설사가 멈출 때까지, 단 2일 이내. 맑은 수분을 충분히 드세요.",
+"ja": "12歳以上: 必要に応じ30分〜1時間ごとに2錠をかむか溶かす。下痢が止まるまで、ただし2日まで。透明な水分を十分にとる。"
+},
+"max_daily": {
+"en": "No more than 8 doses (16 tablets) in 24 hours; no more than 2 days.",
+"ko": "24시간에 8회(16정)까지, 2일 이내.",
+"ja": "24時間で8回（16錠）まで、2日まで。"
+},
+"children": {
+"en": "Under 12: ask a doctor. Children and teenagers who have or are recovering from chickenpox or flu-like symptoms should not use this (Reye's syndrome).",
+"ko": "12세 미만: 의사에게 물어보세요. 수두나 독감 같은 증상이 있거나 회복 중인 어린이·청소년은 쓰면 안 됩니다(라이 증후군).",
+"ja": "12歳未満: 医師に相談。水ぼうそうやインフルエンザのような症状がある、または回復中の子ども・10代は使わないでください（ライ症候群）。"
+},
+"do_not_use": [
+{
+"en": "If allergic to salicylates, including aspirin, or taking other salicylate products",
+"ko": "아스피린 등 살리실산염에 알레르기가 있거나 다른 살리실산염 제품을 먹고 있을 때",
+"ja": "アスピリンなどサリチル酸系にアレルギーがある、または他のサリチル酸系製品を飲んでいる"
+},
+{
+"en": "An ulcer, a bleeding problem, or bloody or black stool",
+"ko": "궤양, 출혈 문제, 피가 섞이거나 검은 변",
+"ja": "潰瘍、出血の問題、血の混じった便や黒い便"
+}
+],
+"ask_doctor": [
+{
+"en": "Fever or mucus in the stool",
+"ko": "열, 변에 점액",
+"ja": "発熱、便に粘液"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Medicine for blood thinning (anticoagulation), diabetes, gout or arthritis",
+"ko": "혈액 희석(항응고), 당뇨, 통풍, 관절염 약",
+"ja": "血液をさらさらにする薬（抗凝固薬）、糖尿病、痛風、関節炎の薬"
+}
+],
+"stop_use": [
+{
+"en": "Symptoms get worse or last more than 2 days",
+"ko": "증상이 악화되거나 2일 넘게 지속될 때",
+"ja": "症状が悪化する、または2日を超える"
+},
+{
+"en": "Ringing in the ears or loss of hearing",
+"ko": "귀울림이나 청력 감소",
+"ja": "耳鳴りや聞こえにくさ"
+}
+],
+"key_warning": {
+"en": "Contains a salicylate (aspirin relative) — do not combine with aspirin, and check with a pharmacist if you take a blood thinner. A dark tongue or stool is harmless and temporary.",
+"ko": "살리실산염(아스피린 계열)이 들어 있습니다 — 아스피린과 함께 먹지 말고, 혈액 희석제를 먹고 있으면 약사에게 확인하세요. 혀나 변이 검게 되는 것은 일시적이고 무해합니다.",
+"ja": "サリチル酸系（アスピリンの仲間）を含みます — アスピリンと併用せず、血液をさらさらにする薬を飲んでいれば薬剤師に確認を。舌や便が黒くなるのは一時的で無害です。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"bleeding",
+"blood_thinner",
+"diabetes",
+"children"
+],
+"classes": [
+"salicylate"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "bismuth-subsalicylate",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Bismuth subsalicylate",
+"ko": "차살리실산 비스무트",
+"ja": "次サリチル酸ビスマス"
+},
+"uses": {
+"en": "Relieves travelers' diarrhea, diarrhea, and upset stomach from overeating and drinking, including heartburn, indigestion, nausea, gas, belching and fullness.",
+"ko": "여행자 설사, 설사, 과식·과음으로 인한 속 불편(속쓰림, 소화불량, 메스꺼움, 가스, 트림, 더부룩함)을 완화합니다.",
+"ja": "旅行者下痢、下痢、食べすぎ・飲みすぎによる胃の不快感（胸やけ、消化不良、吐き気、ガス、げっぷ、膨満感）をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Pepto Bismol chewable tablets (bismuth subsalicylate 262 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=033bccc6-6e81-487f-91fe-9d7cc465e1b2"
+}
+]
+},
+{
+"aka": [
+"MiraLAX",
+"PEG",
+"osmotic laxative",
+"변비약",
+"便秘薬"
+],
+"brands": [
+"MiraLAX",
+"store brand clearlax"
+],
+"active": [
+{
+"ingredient": "polyethylene glycol 3350",
+"strength": "17 g per dose",
+"purpose": {
+"en": "Osmotic laxative",
+"ko": "삼투성 변비약",
+"ja": "浸透圧性下剤"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 17+: once a day, stir 17 g (one packet, or the cap filled to the line) into 4 to 8 oz of any drink until fully dissolved, then drink. Do not drink if there are clumps. Do not mix with starch-based thickeners.",
+"ko": "17세 이상: 하루 1번, 17 g(1포 또는 뚜껑 표시선까지)을 음료 4~8온스(약 120~240 mL)에 완전히 녹여 마시세요. 덩어리가 있으면 마시지 마세요. 전분계 점도증진제와 섞지 마세요.",
+"ja": "17歳以上: 1日1回、17 g（1包、またはキャップの線まで）を飲み物4〜8オンス（約120〜240 mL）に完全に溶かして飲む。かたまりがあれば飲まない。でんぷん系のとろみ剤と混ぜない。"
+},
+"max_daily": {
+"en": "Once a day; no more than 7 days.",
+"ko": "하루 1번, 7일 이내.",
+"ja": "1日1回、7日まで。"
+},
+"children": {
+"en": "16 and under: ask a doctor.",
+"ko": "16세 이하: 의사에게 물어보세요.",
+"ja": "16歳以下: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "If allergic to polyethylene glycol",
+"ko": "폴리에틸렌글리콜에 알레르기가 있을 때",
+"ja": "ポリエチレングリコールにアレルギーがある"
+},
+{
+"en": "If you have kidney disease, unless a doctor directs",
+"ko": "신장 질환이 있으면(의사 지시가 없는 한)",
+"ja": "腎臓病がある場合（医師の指示がない限り）"
+}
+],
+"ask_doctor": [
+{
+"en": "Nausea, vomiting or belly pain",
+"ko": "메스꺼움, 구토, 복통",
+"ja": "吐き気、嘔吐、腹痛"
+},
+{
+"en": "A sudden change in bowel habits lasting over 2 weeks",
+"ko": "2주 넘게 지속된 갑작스러운 배변 습관 변화",
+"ja": "2週間を超えて続く急な便通の変化"
+},
+{
+"en": "Irritable bowel syndrome",
+"ko": "과민성 대장 증후군",
+"ja": "過敏性腸症候群"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine",
+"ko": "처방약을 복용 중인 경우",
+"ja": "処方薬を飲んでいる場合"
+}
+],
+"stop_use": [
+{
+"en": "Rectal bleeding, or nausea, bloating, cramping or belly pain gets worse",
+"ko": "항문 출혈, 또는 메스꺼움·더부룩함·경련·복통이 악화될 때",
+"ja": "肛門からの出血、または吐き気・張り・けいれん・腹痛の悪化"
+},
+{
+"en": "Diarrhea",
+"ko": "설사",
+"ja": "下痢"
+},
+{
+"en": "You need a laxative for more than 1 week",
+"ko": "변비약이 1주 넘게 필요할 때",
+"ja": "下剤が1週間を超えて必要"
+}
+],
+"key_warning": {
+"en": "Rectal bleeding or worsening belly pain can be serious — stop and see a doctor.",
+"ko": "항문 출혈이나 악화되는 복통은 심각할 수 있습니다 — 중단하고 진료를 받으세요.",
+"ja": "肛門からの出血や悪化する腹痛は重大なことがあります — 中止して受診してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"kidney"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "peg-3350",
+"kind": "otc",
+"category": "laxative",
+"name": {
+"en": "Polyethylene glycol 3350 (PEG)",
+"ko": "폴리에틸렌글리콜 3350",
+"ja": "ポリエチレングリコール3350"
+},
+"uses": {
+"en": "Relieves occasional constipation. Generally produces a bowel movement in 1 to 3 days.",
+"ko": "가끔 생기는 변비를 완화합니다. 보통 1~3일 안에 배변합니다.",
+"ja": "ときどきの便秘をやわらげます。通常1〜3日で排便があります。"
+},
+"sources": [
+{
+"title": "DailyMed — MiraLAX (polyethylene glycol 3350) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d69ce3d4-7ca4-4fe3-b49e-6655e48d6963"
+}
+]
+},
+{
+"aka": [
+"Senokot",
+"stimulant laxative",
+"센나",
+"センナ"
+],
+"brands": [
+"Senokot",
+"store brand senna laxative"
+],
+"active": [
+{
+"ingredient": "sennosides",
+"strength": "8.6 mg per tablet",
+"purpose": {
+"en": "Stimulant laxative",
+"ko": "자극성 변비약",
+"ja": "刺激性下剤"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: start with 2 tablets once a day, preferably at bedtime.",
+"ko": "12세 이상: 처음엔 하루 1번 2정, 가능하면 자기 전에.",
+"ja": "12歳以上: 最初は1日1回2錠、なるべく就寝前に。"
+},
+"max_daily": {
+"en": "No more than 4 tablets twice a day; not longer than 1 week unless a doctor directs.",
+"ko": "1회 4정, 하루 2번까지. 의사 지시 없이 1주 넘게 쓰지 마세요.",
+"ja": "1回4錠を1日2回まで。医師の指示なく1週間を超えないこと。"
+},
+"children": {
+"en": "Ages 2–11: use the age table on the package. Under 2: ask a doctor.",
+"ko": "2~11세: 포장의 나이별 표를 따르세요. 2세 미만: 의사에게 물어보세요.",
+"ja": "2〜11歳: 箱の年齢表に従う。2歳未満: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "For longer than 1 week unless directed by a doctor",
+"ko": "의사 지시 없이 1주 넘게",
+"ja": "医師の指示なく1週間を超えて"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach pain, nausea or vomiting",
+"ko": "복통, 메스꺼움, 구토",
+"ja": "腹痛、吐き気、嘔吐"
+},
+{
+"en": "A sudden change in bowel habits lasting more than 2 weeks",
+"ko": "2주 넘게 지속된 갑작스러운 배변 습관 변화",
+"ja": "2週間を超えて続く急な便通の変化"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Rectal bleeding, or no bowel movement after using it — may be serious",
+"ko": "항문 출혈, 또는 복용 후에도 배변이 없을 때 — 심각할 수 있음",
+"ja": "肛門からの出血、または使っても排便がない — 重大なことがあります"
+}
+],
+"key_warning": {
+"en": "Stimulant laxatives are for short-term use — no longer than 1 week unless a doctor directs. Rectal bleeding needs a doctor.",
+"ko": "자극성 변비약은 짧게 쓰는 약입니다 — 의사 지시 없이 1주를 넘기지 마세요. 항문 출혈은 진료가 필요합니다.",
+"ja": "刺激性下剤は短期間用です — 医師の指示なく1週間を超えないでください。肛門からの出血は受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [
+"stimulant_laxative"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "senna",
+"kind": "otc",
+"category": "laxative",
+"name": {
+"en": "Senna (sennosides)",
+"ko": "센나(센노사이드)",
+"ja": "センナ（センノシド）"
+},
+"uses": {
+"en": "Relieves occasional constipation; generally produces a bowel movement in 6 to 12 hours.",
+"ko": "가끔 생기는 변비를 완화하며 보통 6~12시간 안에 배변합니다.",
+"ja": "ときどきの便秘をやわらげ、通常6〜12時間で排便があります。"
+},
+"sources": [
+{
+"title": "DailyMed — Senna (sennosides 8.6 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3a0938e-dbdb-4988-aa1e-78564948d6a0"
+}
+]
+},
+{
+"aka": [
+"Dulcolax",
+"stimulant laxative",
+"둘코락스"
+],
+"brands": [
+"Dulcolax",
+"store brand bisacodyl"
+],
+"active": [
+{
+"ingredient": "bisacodyl",
+"strength": "5 mg per tablet",
+"purpose": {
+"en": "Stimulant laxative",
+"ko": "자극성 변비약",
+"ja": "刺激性下剤"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 1 to 3 tablets once a day with a glass of water. Swallow whole — do not chew or crush. Do not take within 1 hour after an antacid or milk.",
+"ko": "12세 이상: 하루 1번 1~3정을 물 한 컵과 함께. 씹거나 부수지 말고 통째로 삼키세요. 제산제나 우유를 먹은 뒤 1시간 안에는 먹지 마세요.",
+"ja": "12歳以上: 1日1回1〜3錠を水と一緒に。かんだり砕いたりせず丸ごと飲む。制酸薬や牛乳の後1時間以内は飲まない。"
+},
+"max_daily": {
+"en": "3 tablets, once a day.",
+"ko": "하루 1번, 3정까지.",
+"ja": "1日1回、3錠まで。"
+},
+"children": {
+"en": "Ages 6–11: 1 tablet once a day. Under 6: ask a doctor.",
+"ko": "6~11세: 하루 1번 1정. 6세 미만: 의사에게 물어보세요.",
+"ja": "6〜11歳: 1日1回1錠。6歳未満: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "If you cannot swallow the tablet without chewing",
+"ko": "씹지 않고 삼킬 수 없을 때",
+"ja": "かまずに飲み込めない場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach pain, nausea or vomiting",
+"ko": "복통, 메스꺼움, 구토",
+"ja": "腹痛、吐き気、嘔吐"
+},
+{
+"en": "A sudden change in bowel habits lasting more than 2 weeks",
+"ko": "2주 넘게 지속된 갑작스러운 배변 습관 변화",
+"ja": "2週間を超えて続く急な便通の変化"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Rectal bleeding, or no bowel movement after using it — may be serious",
+"ko": "항문 출혈, 또는 복용 후에도 배변이 없을 때 — 심각할 수 있음",
+"ja": "肛門からの出血、または使っても排便がない — 重大なことがあります"
+},
+{
+"en": "You need a laxative for more than 1 week",
+"ko": "변비약이 1주 넘게 필요할 때",
+"ja": "下剤が1週間を超えて必要"
+}
+],
+"key_warning": {
+"en": "May cause stomach discomfort, faintness and cramps. Stimulant laxatives are for short-term use — no longer than 1 week unless a doctor directs. Rectal bleeding needs a doctor.",
+"ko": "복부 불편, 어지럼(실신감), 경련이 생길 수 있습니다. 자극성 변비약은 짧게 쓰는 약입니다 — 의사 지시 없이 1주를 넘기지 마세요. 항문 출혈은 진료가 필요합니다.",
+"ja": "腹部の不快感、気が遠くなる感じ、けいれんが起こることがあります。刺激性下剤は短期間用です — 医師の指示なく1週間を超えないでください。肛門からの出血は受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [
+"stimulant_laxative"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "bisacodyl",
+"kind": "otc",
+"category": "laxative",
+"name": {
+"en": "Bisacodyl",
+"ko": "비사코딜",
+"ja": "ビサコジル"
+},
+"uses": {
+"en": "Relieves occasional constipation and irregularity; generally produces a bowel movement in 6 to 12 hours.",
+"ko": "가끔 생기는 변비를 완화하며 보통 6~12시간 안에 배변합니다.",
+"ja": "ときどきの便秘をやわらげ、通常6〜12時間で排便があります。"
+},
+"sources": [
+{
+"title": "DailyMed — Dulcolax Stimulant Laxative (bisacodyl 5 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e0dcae0f-6dca-4700-a415-de2274e6f779"
+}
+]
+},
+{
+"aka": [
+"Colace",
+"stool softener",
+"변 연화제"
+],
+"brands": [
+"Colace",
+"store brand stool softener"
+],
+"active": [
+{
+"ingredient": "docusate sodium",
+"strength": "100 mg per softgel",
+"purpose": {
+"en": "Stool softener laxative",
+"ko": "변 연화 변비약",
+"ja": "便軟化下剤"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 1 to 3 softgels (100–300 mg) a day, all at once or divided.",
+"ko": "12세 이상: 하루 1~3캡슐(100~300 mg), 한 번에 또는 나누어.",
+"ja": "12歳以上: 1日1〜3カプセル（100〜300 mg）、1回または分けて。"
+},
+"max_daily": {
+"en": "3 softgels (300 mg) a day.",
+"ko": "하루 3캡슐(300 mg).",
+"ja": "1日3カプセル（300 mg）。"
+},
+"children": {
+"en": "Ages 2–11: 1 softgel a day. Under 2: ask a doctor.",
+"ko": "2~11세: 하루 1캡슐. 2세 미만: 의사에게 물어보세요.",
+"ja": "2〜11歳: 1日1カプセル。2歳未満: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "If you are taking mineral oil, unless a doctor directs",
+"ko": "미네랄 오일을 복용 중이면(의사 지시가 없는 한)",
+"ja": "ミネラルオイルを飲んでいる場合（医師の指示がない限り）"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach pain, nausea or vomiting",
+"ko": "복통, 메스꺼움, 구토",
+"ja": "腹痛、吐き気、嘔吐"
+},
+{
+"en": "A sudden change in bowel habits lasting more than 2 weeks",
+"ko": "2주 넘게 지속된 갑작스러운 배변 습관 변화",
+"ja": "2週間を超えて続く急な便通の変化"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Rectal bleeding, or no bowel movement after using it — may be serious",
+"ko": "항문 출혈, 또는 복용 후에도 배변이 없을 때 — 심각할 수 있음",
+"ja": "肛門からの出血、または使っても排便がない — 重大なことがあります"
+},
+{
+"en": "You need a laxative for more than 1 week",
+"ko": "변비약이 1주 넘게 필요할 때",
+"ja": "下剤が1週間を超えて必要"
+}
+],
+"key_warning": {
+"en": "Do not combine with mineral oil. See a doctor for rectal bleeding.",
+"ko": "미네랄 오일과 함께 먹지 마세요. 항문 출혈 시 진료를 받으세요.",
+"ja": "ミネラルオイルと併用しないこと。肛門からの出血は受診を。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "docusate",
+"kind": "otc",
+"category": "laxative",
+"name": {
+"en": "Docusate sodium (stool softener)",
+"ko": "도큐세이트 나트륨(변 연화제)",
+"ja": "ドクサートナトリウム（便軟化剤）"
+},
+"uses": {
+"en": "Relieves occasional constipation; generally produces a bowel movement in 12 to 72 hours.",
+"ko": "가끔 생기는 변비를 완화하며 보통 12~72시간 안에 배변합니다.",
+"ja": "ときどきの便秘をやわらげ、通常12〜72時間で排便があります。"
+},
+"sources": [
+{
+"title": "DailyMed — Stool Softener (docusate sodium 100 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e87768d5-7ffe-44a6-a2d0-44f3c538ed67"
+}
+]
+},
+{
+"aka": [
+"Metamucil",
+"fiber laxative",
+"차전자피",
+"サイリウム"
+],
+"brands": [
+"Metamucil",
+"store brand fiber therapy"
+],
+"active": [
+{
+"ingredient": "psyllium husk",
+"strength": "about 3.4 g per dose",
+"purpose": {
+"en": "Fiber laxative",
+"ko": "섬유질 변비약",
+"ja": "食物繊維下剤"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 1 dose stirred into at least 8 oz (240 mL) of water or other liquid; drink right away. Up to 3 times a day. New users: start with 1 dose a day.",
+"ko": "12세 이상: 1회분을 물이나 음료 8온스(240 mL) 이상에 저어 바로 마시세요. 하루 3번까지. 처음이면 하루 1번부터.",
+"ja": "12歳以上: 1回分を水など8オンス（240 mL）以上に混ぜてすぐ飲む。1日3回まで。初めての人は1日1回から。"
+},
+"max_daily": {
+"en": "3 doses a day.",
+"ko": "하루 3번.",
+"ja": "1日3回。"
+},
+"children": {
+"en": "Ages 6–11: half a dose in 8 oz of liquid, up to 3 times a day. Under 6: ask a doctor.",
+"ko": "6~11세: 반 회분을 음료 8온스에, 하루 3번까지. 6세 미만: 의사에게 물어보세요.",
+"ja": "6〜11歳: 半量を飲み物8オンスに、1日3回まで。6歳未満: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "If you have trouble swallowing",
+"ko": "삼키기 어려운 경우",
+"ja": "飲み込みにくい場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach pain, nausea or vomiting",
+"ko": "복통, 메스꺼움, 구토",
+"ja": "腹痛、吐き気、嘔吐"
+},
+{
+"en": "A sudden change in bowel habits lasting more than 2 weeks",
+"ko": "2주 넘게 지속된 갑작스러운 배변 습관 변화",
+"ja": "2週間を超えて続く急な便通の変化"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Other medicines — take psyllium at least 2 hours before or after them",
+"ko": "다른 약 — 차전자피는 다른 약과 최소 2시간 간격을 두세요",
+"ja": "他の薬 — サイリウムは他の薬と2時間以上あけて"
+}
+],
+"stop_use": [
+{
+"en": "Constipation lasts more than 7 days",
+"ko": "변비가 7일 넘게 지속될 때",
+"ja": "便秘が7日を超えて続く"
+},
+{
+"en": "Rectal bleeding, or no bowel movement after using it — may be serious",
+"ko": "항문 출혈, 또는 복용 후에도 배변이 없을 때 — 심각할 수 있음",
+"ja": "肛門からの出血、または使っても排便がない — 重大なことがあります"
+}
+],
+"key_warning": {
+"en": "Without enough liquid it can swell and block the throat and cause choking. Get help right away for chest pain, vomiting, or trouble swallowing or breathing after taking it.",
+"ko": "물이 부족하면 부풀어 목을 막아 질식을 일으킬 수 있습니다. 복용 후 가슴 통증, 구토, 삼키기·숨쉬기 어려움이 있으면 즉시 도움을 받으세요.",
+"ja": "水分が足りないとふくらんでのどをふさぎ、窒息することがあります。飲んだ後に胸の痛み、嘔吐、飲み込み・呼吸の困難があればすぐ助けを。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "psyllium",
+"kind": "otc",
+"category": "laxative",
+"name": {
+"en": "Psyllium fiber",
+"ko": "차전자피 섬유",
+"ja": "サイリウム（オオバコ）食物繊維"
+},
+"uses": {
+"en": "Relieves occasional constipation; generally produces a bowel movement in 12 to 72 hours.",
+"ko": "가끔 생기는 변비를 완화하며 보통 12~72시간 안에 배변합니다.",
+"ja": "ときどきの便秘をやわらげ、通常12〜72時間で排便があります。"
+},
+"sources": [
+{
+"title": "DailyMed — Metamucil Therapy for Regularity (psyllium husk) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=12d030b0-df97-4dd6-88ba-e9fe863c95ea"
+}
+]
+},
+{
+"aka": [
+"Bonine",
+"motion sickness",
+"멀미약",
+"酔い止め"
+],
+"brands": [
+"Bonine",
+"Dramamine Less Drowsy",
+"store brand motion sickness"
+],
+"active": [
+{
+"ingredient": "meclizine HCl",
+"strength": "25 mg per tablet",
+"purpose": {
+"en": "Antiemetic",
+"ko": "구토 억제제",
+"ja": "制吐薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 1 to 2 tablets once a day, taken 1 hour before travel starts. Chewable tablets: chew or crush completely before swallowing.",
+"ko": "12세 이상: 출발 1시간 전에 하루 1번 1~2정. 씹는 정제는 완전히 씹거나 부숴서 삼키세요.",
+"ja": "12歳以上: 出発1時間前に1日1回1〜2錠。チュアブル錠はよくかむか砕いてから飲む。"
+},
+"max_daily": {
+"en": "Once a day (1 to 2 tablets).",
+"ko": "하루 1번(1~2정).",
+"ja": "1日1回（1〜2錠）。"
+},
+"children": {
+"en": "Under 12: do not use unless a doctor directs.",
+"ko": "12세 미만: 의사 지시 없이는 사용 금지.",
+"ja": "12歳未満: 医師の指示がなければ使用しない。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Glaucoma; a breathing problem such as emphysema or chronic bronchitis; trouble urinating from an enlarged prostate",
+"ko": "녹내장, 폐기종·만성 기관지염 같은 호흡 문제, 전립선 비대로 인한 배뇨 곤란",
+"ja": "緑内障、肺気腫・慢性気管支炎などの呼吸の問題、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives or tranquilizers",
+"ko": "진정제나 신경안정제",
+"ja": "鎮静薬や精神安定薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Drowsiness may occur. Avoid alcohol; be careful driving or using machinery. Alcohol, sedatives and tranquilizers make drowsiness worse.",
+"ko": "졸릴 수 있습니다. 술을 피하고 운전·기계 조작에 주의하세요. 술, 진정제, 신경안정제는 졸음을 더 심하게 합니다.",
+"ja": "眠くなることがあります。飲酒を避け、運転や機械の操作に注意してください。酒、鎮静薬、精神安定薬は眠気を強めます。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"sedation",
+"glaucoma",
+"prostate",
+"alcohol"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "meclizine",
+"kind": "otc",
+"category": "motion",
+"name": {
+"en": "Meclizine",
+"ko": "메클리진",
+"ja": "メクリジン"
+},
+"uses": {
+"en": "Prevents and treats nausea, vomiting or dizziness from motion sickness.",
+"ko": "멀미로 인한 메스꺼움, 구토, 어지러움을 예방·치료합니다.",
+"ja": "乗り物酔いによる吐き気、嘔吐、めまいを予防・治療します。"
+},
+"sources": [
+{
+"title": "DailyMed — Bonine (meclizine HCl 25 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ad3d66ca-a52c-43ba-b9e2-6269b8a413a9"
+}
+]
+},
+{
+"aka": [
+"Gas-X",
+"anti-gas",
+"가스제거제",
+"ガス"
+],
+"brands": [
+"Gas-X Extra Strength",
+"store brand gas relief"
+],
+"active": [
+{
+"ingredient": "simethicone",
+"strength": "125 mg per softgel",
+"purpose": {
+"en": "Antigas",
+"ko": "가스 제거제",
+"ja": "消泡剤"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: swallow 1 or 2 softgels with water as needed, after meals and at bedtime.",
+"ko": "12세 이상: 필요할 때 식후와 자기 전에 1~2캡슐을 물과 함께.",
+"ja": "12歳以上: 必要に応じ食後と就寝前に1〜2カプセルを水で。"
+},
+"max_daily": {
+"en": "4 softgels in 24 hours unless a doctor directs.",
+"ko": "의사 지시 없이 24시간에 4캡슐까지.",
+"ja": "医師の指示がなければ24時間で4カプセルまで。"
+},
+"children": {
+"en": "The label gives directions only for ages 12 and up.",
+"ko": "라벨에는 12세 이상 용법만 있습니다.",
+"ja": "ラベルの用法は12歳以上のみです。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [],
+"key_warning": {
+"en": "Gas pain with fever, vomiting, or severe or lasting belly pain needs a doctor, not gas medicine.",
+"ko": "열, 구토, 심하거나 오래가는 복통을 동반한 가스 통증은 가스약이 아니라 진료가 필요합니다.",
+"ja": "発熱、嘔吐、強い・長引く腹痛を伴う場合はガス薬ではなく受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "simethicone",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Simethicone (gas relief)",
+"ko": "시메티콘(가스 완화)",
+"ja": "シメチコン（ガス抜き）"
+},
+"uses": {
+"en": "Relieves pressure, bloating and fullness commonly called gas.",
+"ko": "흔히 가스라고 하는 압박감, 더부룩함, 팽만감을 완화합니다.",
+"ja": "いわゆるガスによる圧迫感、張り、膨満感をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Gas-X Extra Strength (simethicone 125 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa4a3b07-591b-4445-aa67-b17ba1e67d5c"
+}
+]
+},
+{
+"aka": [
+"Dramamine",
+"motion sickness",
+"멀미약",
+"酔い止め"
+],
+"brands": [
+"Dramamine Original Formula",
+"store brand motion sickness relief"
+],
+"active": [
+{
+"ingredient": "dimenhydrinate",
+"strength": "50 mg per tablet",
+"purpose": {
+"en": "Antiemetic",
+"ko": "구토 억제제",
+"ja": "制吐薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 1 to 2 tablets every 4 to 6 hours. Take the first dose ½ to 1 hour before travel.",
+"ko": "12세 이상: 4~6시간마다 1~2정. 첫 복용은 출발 30분~1시간 전.",
+"ja": "12歳以上: 4〜6時間ごとに1〜2錠。最初は出発30分〜1時間前に。"
+},
+"max_daily": {
+"en": "8 tablets in 24 hours.",
+"ko": "24시간에 8정.",
+"ja": "24時間で8錠。"
+},
+"children": {
+"en": "Ages 2–11: use the age table on the package (smaller doses). Under 2: only if a doctor directs.",
+"ko": "2~11세: 포장의 나이별 표(더 적은 양)를 따르세요. 2세 미만: 의사 지시가 있을 때만.",
+"ja": "2〜11歳: 箱の年齢表（少ない量）に従う。2歳未満: 医師の指示があるときのみ。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Glaucoma; a breathing problem such as emphysema or chronic bronchitis; trouble urinating from an enlarged prostate",
+"ko": "녹내장, 폐기종·만성 기관지염 같은 호흡 문제, 전립선 비대로 인한 배뇨 곤란",
+"ja": "緑内障、肺気腫・慢性気管支炎などの呼吸の問題、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives or tranquilizers",
+"ko": "진정제나 신경안정제",
+"ja": "鎮静薬や精神安定薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Marked drowsiness may occur. Avoid alcohol; be careful driving. Alcohol, sedatives and tranquilizers can make dizziness worse.",
+"ko": "심한 졸음이 올 수 있습니다. 술을 피하고 운전에 주의하세요. 술, 진정제, 신경안정제는 어지러움을 더 심하게 합니다.",
+"ja": "強い眠気が出ることがあります。飲酒を避け、運転に注意。酒、鎮静薬、精神安定薬はめまいを強めます。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a doctor before use.",
+"ko": "사용 전 의사에게 물어보세요.",
+"ja": "使用前に医師に相談してください。"
+},
+"flags": [
+"sedation",
+"glaucoma",
+"prostate",
+"alcohol"
+],
+"classes": [
+"sedating_antihistamine"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "dimenhydrinate",
+"kind": "otc",
+"category": "motion",
+"name": {
+"en": "Dimenhydrinate",
+"ko": "디멘히드리네이트",
+"ja": "ジメンヒドリナート"
+},
+"uses": {
+"en": "Prevents and treats nausea, vomiting or dizziness from motion sickness.",
+"ko": "멀미로 인한 메스꺼움, 구토, 어지러움을 예방·치료합니다.",
+"ja": "乗り物酔いによる吐き気、嘔吐、めまいを予防・治療します。"
+},
+"sources": [
+{
+"title": "DailyMed — Dramamine Original Formula (dimenhydrinate 50 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9302a5a-295a-4501-9332-e3f5eb387362"
+}
+]
+},
+{
+"aka": [
+"milk of magnesia",
+"Phillips",
+"수산화마그네슘",
+"マグミット"
+],
+"brands": [
+"Phillips' Milk of Magnesia",
+"store brand milk of magnesia"
+],
+"active": [
+{
+"ingredient": "magnesium hydroxide",
+"strength": "400 mg per 5 mL",
+"purpose": {
+"en": "Saline laxative / antacid",
+"ko": "염류성 변비약/제산제",
+"ja": "塩類下剤・制酸薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+ — laxative: 30 to 60 mL (2 to 4 tablespoons) once a day, preferably at bedtime, with a full glass (8 oz) of liquid. Antacid: 5 to 15 mL (1 to 3 teaspoons).",
+"ko": "12세 이상 — 변비약: 하루 1번 30~60 mL(2~4큰술), 가능하면 자기 전, 물 한 컵(8온스)과 함께. 제산제: 5~15 mL(1~3작은술).",
+"ja": "12歳以上 — 下剤: 1日1回30〜60 mL（大さじ2〜4）、なるべく就寝前にコップ1杯（8オンス）の水分と。制酸薬: 5〜15 mL（小さじ1〜3）。"
+},
+"max_daily": {
+"en": "Laxative: 60 mL in 24 hours; no more than 1 week.",
+"ko": "변비약: 24시간에 60 mL, 1주 이내.",
+"ja": "下剤: 24時間で60 mL、1週間まで。"
+},
+"children": {
+"en": "Laxative, ages 6–11: 15 to 30 mL. Under 6: ask a doctor. Antacid under 12: ask a doctor.",
+"ko": "변비약 6~11세: 15~30 mL. 6세 미만: 의사에게 물어보세요. 제산제 12세 미만: 의사에게.",
+"ja": "下剤 6〜11歳: 15〜30 mL。6歳未満: 医師に相談。制酸薬 12歳未満: 医師に相談。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Kidney disease, or a magnesium-restricted diet",
+"ko": "신장 질환, 또는 마그네슘 제한 식이",
+"ja": "腎臓病、またはマグネシウム制限食"
+},
+{
+"en": "Stomach pain, nausea or vomiting, or a sudden change in bowel habits lasting over 14 days",
+"ko": "복통, 메스꺼움·구토, 14일 넘게 지속된 갑작스러운 배변 습관 변화",
+"ja": "腹痛、吐き気・嘔吐、14日を超える急な便通の変化"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine (antacids can interact with some)",
+"ko": "처방약을 복용 중인 경우(제산제는 일부 처방약과 상호작용할 수 있음)",
+"ja": "処方薬を飲んでいる場合（制酸薬は一部の処方薬と相互作用することがあります）"
+}
+],
+"stop_use": [
+{
+"en": "Rectal bleeding, or no bowel movement after using it",
+"ko": "항문 출혈, 또는 복용 후에도 배변이 없을 때",
+"ja": "肛門からの出血、または使っても排便がない"
+},
+{
+"en": "You need a laxative for more than 1 week",
+"ko": "변비약이 1주 넘게 필요할 때",
+"ja": "下剤が1週間を超えて必要"
+}
+],
+"key_warning": {
+"en": "Ask a doctor first if you have kidney disease — magnesium can build up.",
+"ko": "신장 질환이 있으면 먼저 의사에게 물어보세요 — 마그네슘이 몸에 쌓일 수 있습니다.",
+"ja": "腎臓病があれば先に医師に相談を — マグネシウムがたまることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"kidney"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "magnesium-hydroxide",
+"kind": "otc",
+"category": "laxative",
+"name": {
+"en": "Milk of magnesia (magnesium hydroxide)",
+"ko": "마그밀/수산화마그네슘",
+"ja": "酸化マグネシウム系（水酸化マグネシウム）"
+},
+"uses": {
+"en": "Laxative: occasional constipation, usually within ½ to 6 hours. Antacid: heartburn, sour or upset stomach, acid indigestion.",
+"ko": "변비약: 가끔 생기는 변비, 보통 30분~6시간 안에 배변. 제산제: 속쓰림, 신트림, 속 불편, 위산 과다.",
+"ja": "下剤: ときどきの便秘、通常30分〜6時間で排便。制酸薬: 胸やけ、胃のむかつき、胃酸過多。"
+},
+"sources": [
+{
+"title": "DailyMed — Milk of Magnesia (magnesium hydroxide 400 mg/5 mL) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2de868a0-c652-473c-8b61-636083b7f757"
+}
+]
+},
+{
+"aka": [
+"Maalox",
+"Mylanta",
+"liquid antacid",
+"물 제산제"
+],
+"brands": [
+"Maalox",
+"Mylanta",
+"store brand antacid liquid"
+],
+"active": [
+{
+"ingredient": "aluminum hydroxide",
+"strength": "200 mg per 5 mL",
+"purpose": {
+"en": "Antacid",
+"ko": "제산제",
+"ja": "制酸薬"
+}
+},
+{
+"ingredient": "magnesium hydroxide",
+"strength": "200 mg per 5 mL",
+"purpose": {
+"en": "Antacid",
+"ko": "제산제",
+"ja": "制酸薬"
+}
+},
+{
+"ingredient": "simethicone",
+"strength": "20 mg per 5 mL",
+"purpose": {
+"en": "Antigas",
+"ko": "가스 제거제",
+"ja": "消泡剤"
+}
+}
+],
+"directions_adult": {
+"en": "Shake well. Adults and children 12+: 2 to 4 teaspoons (10 to 20 mL) up to 4 times a day, or as a doctor directs.",
+"ko": "잘 흔드세요. 12세 이상: 2~4작은술(10~20 mL), 하루 최대 4번, 또는 의사 지시대로.",
+"ja": "よく振る。12歳以上: 小さじ2〜4（10〜20 mL）を1日4回まで、または医師の指示どおり。"
+},
+"max_daily": {
+"en": "16 teaspoons (80 mL) in 24 hours; do not use the maximum dose for more than 2 weeks unless a doctor directs.",
+"ko": "24시간에 16작은술(80 mL). 의사 지시 없이 최대 용량을 2주 넘게 쓰지 마세요.",
+"ja": "24時間で小さじ16（80 mL）。医師の指示なく最大量を2週間を超えて使わないこと。"
+},
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Kidney disease, or a magnesium-restricted diet",
+"ko": "신장 질환, 또는 마그네슘 제한 식이",
+"ja": "腎臓病、またはマグネシウム制限食"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine (antacids can interact with some)",
+"ko": "처방약을 복용 중인 경우(제산제는 일부 처방약과 상호작용할 수 있음)",
+"ja": "処方薬を飲んでいる場合（制酸薬は一部の処方薬と相互作用することがあります）"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Ask a doctor first if you have kidney disease. Antacids can change how some prescription medicines are absorbed.",
+"ko": "신장 질환이 있으면 먼저 의사에게 물어보세요. 제산제는 일부 처방약의 흡수를 바꿀 수 있습니다.",
+"ja": "腎臓病があれば先に医師に相談を。制酸薬は一部の処方薬の吸収を変えることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"kidney"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "al-mg-simethicone",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Antacid + anti-gas liquid (aluminum/magnesium hydroxide + simethicone)",
+"ko": "제산·가스 제거 물약(수산화알루미늄·마그네슘+시메티콘)",
+"ja": "制酸・ガス抜き液（水酸化アルミニウム・マグネシウム+シメチコン）"
+},
+"uses": {
+"en": "Relieves acid indigestion, heartburn, sour or upset stomach, and gas pressure and bloating.",
+"ko": "위산 과다, 속쓰림, 신트림·속 불편, 가스로 인한 압박감과 더부룩함을 완화합니다.",
+"ja": "胃酸過多、胸やけ、胃のむかつき、ガスによる圧迫感と張りをやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Maalox Antacid (aluminum hydroxide, magnesium hydroxide, simethicone) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e2a14762-3860-44c3-a3ea-5dbc45f4b1d5"
+}
+]
+},
+{
+"aka": [
+"oral rehydration solution",
+"ORS",
+"Pedialyte",
+"dehydration",
+"탈수",
+"경구수액",
+"経口補水液",
+"脱水"
+],
+"brands": [
+"Pedialyte",
+"store brand oral electrolyte solution"
+],
+"active": [],
+"directions_adult": {
+"en": "Sip fluids often. Diarrhea medicines (loperamide, bismuth subsalicylate) treat symptoms only — fluids still come first. Do not use loperamide alone if you have bloody diarrhea or diarrhea with fever.",
+"ko": "수분을 자주 조금씩 드세요. 지사제(로페라미드, 차살리실산 비스무트)는 증상만 줄일 뿐이며 수분 보충이 먼저입니다. 피가 섞인 설사나 열을 동반한 설사에는 로페라미드만 단독으로 쓰지 마세요.",
+"ja": "こまめに少しずつ水分をとってください。下痢止め（ロペラミド、次サリチル酸ビスマス）は症状を抑えるだけで、まず水分補給です。血便や発熱を伴う下痢にロペラミドだけを使わないでください。"
+},
+"max_daily": null,
+"children": {
+"en": "Infants and young children dehydrate faster — start fluids early and call the child's doctor.",
+"ko": "영유아는 더 빨리 탈수됩니다 — 일찍 수분을 주고 아이의 의사에게 연락하세요.",
+"ja": "乳幼児は脱水になりやすいです — 早めに水分を与え、子どもの医師に連絡してください。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Bloody or black stool, or diarrhea with fever",
+"ko": "피가 섞이거나 검은 변, 또는 열을 동반한 설사",
+"ja": "血の混じった便や黒い便、または発熱を伴う下痢"
+},
+{
+"en": "Diarrhea lasting more than 2 days on OTC medicine, or more than 2 weeks in total",
+"ko": "일반약을 써도 2일 넘게, 또는 전체로 2주 넘게 지속되는 설사",
+"ja": "市販薬を使っても2日を超える、または全体で2週間を超える下痢"
+}
+],
+"key_warning": {
+"en": "Bloody diarrhea or diarrhea with fever needs a doctor. Young children and older adults dehydrate faster.",
+"ko": "피가 섞인 설사나 열을 동반한 설사는 진료가 필요합니다. 어린아이와 노인은 더 빨리 탈수됩니다.",
+"ja": "血便や発熱を伴う下痢は受診が必要です。幼い子どもと高齢者は脱水になりやすいです。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children",
+"seniors"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "diarrhea-fluids",
+"kind": "guide",
+"category": "stomach",
+"name": {
+"en": "Diarrhea — fluids first (oral rehydration)",
+"ko": "설사 — 수분 보충이 먼저(경구 수액)",
+"ja": "下痢 — まず水分補給（経口補水）"
+},
+"uses": {
+"en": "Diarrhea drains water and salts from the body. Replacing them matters most for young children, older adults and people with chronic illness. For mild diarrhea any liquid you like, including sports drinks, can keep you hydrated. For heavy fluid loss, an oral rehydration solution (ORS) is best. Large amounts of very sweet drinks such as soda can make diarrhea worse.",
+"ko": "설사는 몸의 물과 염분을 빼앗습니다. 특히 어린아이, 노인, 만성질환자에게 보충이 중요합니다. 가벼운 설사에는 스포츠음료를 포함해 마시기 편한 음료면 됩니다. 수분 손실이 많으면 경구 수액(ORS)이 가장 좋습니다. 탄산음료처럼 아주 단 음료를 많이 마시면 설사가 심해질 수 있습니다.",
+"ja": "下痢は体の水分と塩分を奪います。特に幼い子ども、高齢者、持病のある人では補給が大切です。軽い下痢ならスポーツドリンクを含め飲みやすいもので構いません。水分が大きく失われたときは経口補水液（ORS）が最適です。炭酸飲料のようなとても甘い飲み物を大量に飲むと下痢が悪化することがあります。"
+},
+"sources": [
+{
+"title": "CDC Yellow Book — Travelers' Diarrhea",
+"url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html"
+},
+{
+"title": "DailyMed — Imodium A-D (loperamide) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01da76d0-1979-4c45-9d39-c72ae4e4ffe2"
+},
+{
+"title": "DailyMed — Pepto Bismol (bismuth subsalicylate) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=033bccc6-6e81-487f-91fe-9d7cc465e1b2"
+}
+]
+}
+]
+}

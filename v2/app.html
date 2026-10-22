@@ -101,7 +101,7 @@ p{margin:.4em 0}
 .facts h3{font:800 1em/1.3 var(--label);margin:0 0 3px}
 .facts h4{font:700 .95em/1.3 var(--label);margin:8px 0 2px}
 .facts .ai{display:flex;justify-content:space-between;gap:12px;font-weight:700}
-.facts .ai span:last-child{font-weight:400;text-align:right}
+.facts .ai span:last-child{font-weight:400;text-align:right;flex:0 0 auto;max-width:48%}
 .facts ul{margin:2px 0 4px;padding-left:1.15em}
 .facts li{margin:2px 0}
 .facts .warn-lead{background:var(--stop-bg);color:var(--stop);font-weight:700;padding:8px 10px;margin:6px 0;border-left:5px solid var(--stop)}
@@ -314,7 +314,7 @@ const UI = {
   active:"Active ingredient",purpose:"Purpose",uses:"Uses",warnings:"Warnings",doNotUse:"Do not use",askDoctor:"Ask a doctor before use if you have",
   askPharm:"Ask a doctor or pharmacist before use if you are taking",stopUse:"Stop use and ask a doctor if",pregnancy:"If pregnant or breast-feeding",
   keepAway:"Keep out of reach of children. In case of overdose, get medical help or contact Poison Control (1-800-222-1222) right away.",
-  directions:"Directions",adults:"Adults",maxDay:"Maximum",children:"Children",intake:"General intake",upper:"Upper limit",
+  varies:"amount differs by product; read your label",directions:"Directions",adults:"Adults",maxDay:"Maximum",children:"Children",intake:"General intake",upper:"Upper limit",
   evidence:"What the evidence says",older:"For adults 65 and older",forYou:"Because of your health profile",
   addCab:"Add to my cabinet",inCab:"In my cabinet ✓",showPharm:"Show the pharmacist",sources:"Sources",verified:"Checked against sources on",
   alsoCalled:"Also called",seenAs:"Seen in U.S. stores as",
@@ -347,7 +347,7 @@ const UI = {
   active:"유효성분",purpose:"용도",uses:"효능",warnings:"경고",doNotUse:"사용하지 마세요",askDoctor:"이런 질환이 있으면 사용 전 의사와 상담",
   askPharm:"이런 약을 드시면 사용 전 의사·약사와 상담",stopUse:"이런 경우 사용을 멈추고 의사와 상담",pregnancy:"임신·수유 중이라면",
   keepAway:"어린이 손이 닿지 않게 보관하세요. 너무 많이 먹었으면 바로 의료 도움을 받거나 Poison Control(1-800-222-1222)에 연락하세요.",
-  directions:"복용법",adults:"성인",maxDay:"최대량",children:"어린이",intake:"일반 권장 섭취량",upper:"상한 섭취량",
+  varies:"함량은 제품마다 다르니 라벨을 확인하세요",directions:"복용법",adults:"성인",maxDay:"최대량",children:"어린이",intake:"일반 권장 섭취량",upper:"상한 섭취량",
   evidence:"연구 결과는 어떤가",older:"65세 이상이라면",forYou:"내 건강 상태와 관련된 경고",
   addCab:"내 약통에 넣기",inCab:"내 약통에 있음 ✓",showPharm:"약사에게 보여주기",sources:"출처",verified:"출처 확인 날짜",
   alsoCalled:"다른 이름",seenAs:"미국 매장 상품명",
@@ -380,7 +380,7 @@ const UI = {
   active:"有効成分",purpose:"目的",uses:"効能",warnings:"注意",doNotUse:"使用しないでください",askDoctor:"次の病気がある場合は使用前に医師に相談",
   askPharm:"次の薬を使用中なら使用前に医師・薬剤師に相談",stopUse:"次の場合は使用をやめて医師に相談",pregnancy:"妊娠中・授乳中の方",
   keepAway:"子どもの手の届かない所に保管してください。飲みすぎた場合はすぐに医療機関かPoison Control（1-800-222-1222）へ。",
-  directions:"用法",adults:"成人",maxDay:"最大量",children:"子ども",intake:"一般的な摂取目安",upper:"上限量",
+  varies:"含有量は製品ごとに違うのでラベルを確認",directions:"用法",adults:"成人",maxDay:"最大量",children:"子ども",intake:"一般的な摂取目安",upper:"上限量",
   evidence:"研究でわかっていること",older:"65歳以上の方",forYou:"あなたの健康状態に関係する注意",
   addCab:"薬箱に入れる",inCab:"薬箱にあり ✓",showPharm:"薬剤師に見せる",sources:"出典",verified:"出典確認日",
   alsoCalled:"別名",seenAs:"米国の店頭での名前",
@@ -534,7 +534,7 @@ function openDetail(id){
   h.push(`<div class="facts"><div class="title">${esc(guide?T("factsGuide"):sup?T("factsSupp"):T("factsDrug"))}<small>${esc(T("factsNote"))}</small></div>`);
   if((e.active||[]).length){
     h.push(`<div class="blk"><div class="ai"><span>${esc(T("active"))}</span><span>${esc(T("purpose"))}</span></div>`+
-      e.active.map(a=>`<div class="ai" style="font-weight:400"><span>${esc(a.ingredient)}${a.strength?" "+esc(a.strength):""}</span><span>${esc(L(a.purpose))}</span></div>`).join("")+`</div>`);
+      e.active.map(a=>`<div class="ai" style="font-weight:400"><span>${sup?esc(L(e.name))+" — "+esc(T("varies")):esc(a.ingredient)+(a.strength?" "+esc(a.strength):"")}</span><span>${esc(L(a.purpose))}</span></div>`).join("")+`</div>`);
   }
   if(e.uses)h.push(`<div class="blk"><h3>${esc(T("uses"))}</h3><p>${esc(L(e.uses))}</p></div>`);
   const w=[];

@@ -18,6 +18,7 @@ name: Android build (Google Play)
 on:
   push:
     branches: [android-build]
+    paths-ignore: ["android/listing/**", "android/PLAY.md"]
   workflow_dispatch:
     inputs:
       version_name:

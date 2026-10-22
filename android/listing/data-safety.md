@@ -3,8 +3,10 @@
 Basis, checked in the built bundle and the AAB:
 - index.html makes no network request (no fetch/XHR/WebSocket/beacon, no external script, font,
   stylesheet or image). build-store.py fails the build if one is added.
-- No localStorage, sessionStorage, IndexedDB or cookies. Language choice, search text and the
-  disclaimer confirmation live only in memory and are gone when the app closes.
+- v2 keeps the cabinet (product list and expiry dates), ticked health conditions, language, text
+  size and notice confirmation in the WebView's localStorage on the device only (key prefix
+  `homerx2.`). Nothing is transmitted, so under Play's definition this is not "collected"
+  (data processed only on the device is not collection). Uninstalling or clearing app data removes it.
 - No analytics, crash reporting, ads or third-party SDKs. The app uses no Capacitor plugins.
 - AndroidManifest permissions: `INTERNET` only (declared by Capacitor's template for its local
   web server). No location, camera, contacts, storage, phone or account permissions.

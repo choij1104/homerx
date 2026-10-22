@@ -1698,6 +1698,133 @@
 "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=033bccc6-6e81-487f-91fe-9d7cc465e1b2"
 }
 ]
+},
+{
+"aka": [
+"Nexium",
+"PPI",
+"proton pump inhibitor",
+"넥시움"
+],
+"brands": [
+"Nexium 24HR",
+"store brand esomeprazole 20 mg"
+],
+"active": [
+{
+"ingredient": "esomeprazole",
+"strength": "20 mg per delayed-release capsule",
+"purpose": {
+"en": "Acid reducer",
+"ko": "위산 억제제",
+"ja": "胃酸抑制薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults 18+: 1 capsule a day, every 24 hours, for 14 days. Swallow whole with a glass of water in the morning before eating; do not crush or chew.",
+"ko": "18세 이상: 하루 1캡슐, 24시간마다, 14일간. 아침 식사 전 물 한 컵과 통째로 삼키고 부수거나 씹지 마세요.",
+"ja": "18歳以上: 1日1カプセルを24時間ごとに14日間。朝食前にコップ1杯の水で丸ごと飲み、砕いたりかんだりしない。"
+},
+"max_daily": {
+"en": "1 capsule a day. Repeat a 14-day course no more often than every 4 months unless a doctor directs.",
+"ko": "하루 1캡슐. 14일 요법은 의사 지시 없이 4개월에 한 번까지만 반복.",
+"ja": "1日1カプセル。14日間の治療は、医師の指示がなければ4か月に1回まで。"
+},
+"children": {
+"en": "Under 18: ask a doctor. Heartburn in children may be a sign of a serious condition.",
+"ko": "18세 미만: 의사에게 물어보세요. 아이의 속쓰림은 심각한 질환의 신호일 수 있습니다.",
+"ja": "18歳未満: 医師に相談。子どもの胸やけは重い病気のサインのことがあります。"
+},
+"do_not_use": [
+{
+"en": "If allergic to esomeprazole",
+"ko": "에소메프라졸에 알레르기가 있을 때",
+"ja": "エソメプラゾールにアレルギーがある"
+},
+{
+"en": "Trouble or pain swallowing, vomiting blood, or bloody or black stools — see a doctor",
+"ko": "삼키기 어렵거나 아플 때, 피를 토할 때, 피가 섞이거나 검은 변 — 진료를 받으세요",
+"ja": "飲み込みにくい・痛い、吐血、血の混じった便や黒い便 — 受診してください"
+},
+{
+"en": "Heartburn with lightheadedness, sweating or dizziness; chest or shoulder pain with shortness of breath, sweating, pain spreading to arms, neck or shoulders; frequent chest pain",
+"ko": "어지럼·식은땀을 동반한 속쓰림, 숨참·식은땀·팔·목·어깨로 퍼지는 통증을 동반한 가슴·어깨 통증, 잦은 가슴 통증",
+"ja": "ふらつき・冷や汗を伴う胸やけ、息切れ・冷や汗・腕や首や肩に広がる痛みを伴う胸や肩の痛み、頻繁な胸の痛み"
+}
+],
+"ask_doctor": [
+{
+"en": "Heartburn for more than 3 months",
+"ko": "3개월 넘은 속쓰림",
+"ja": "3か月を超える胸やけ"
+},
+{
+"en": "Frequent wheezing (especially with heartburn), unexplained weight loss, nausea or vomiting, or stomach pain",
+"ko": "잦은 쌕쌕거림(특히 속쓰림과 함께), 설명되지 않는 체중 감소, 메스꺼움·구토, 복통",
+"ja": "頻繁なぜん鳴（特に胸やけと一緒）、原因不明の体重減少、吐き気・嘔吐、腹痛"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any prescription medicine (acid reducers/antacids can interact with some)",
+"ko": "처방약을 복용 중인 경우(위산 억제제·제산제는 일부 처방약과 상호작용할 수 있음)",
+"ja": "処方薬を飲んでいる場合（胃酸を抑える薬・制酸薬は一部の処方薬と相互作用することがあります）"
+}
+],
+"stop_use": [
+{
+"en": "Heartburn continues or worsens, or you need it more than 14 days or more than one course every 4 months",
+"ko": "속쓰림이 계속·악화되거나, 14일 넘게 또는 4개월에 2번 이상 필요할 때",
+"ja": "胸やけが続く・悪化する、14日を超えて、または4か月に2回以上必要"
+},
+{
+"en": "Diarrhea, rash or joint pain",
+"ko": "설사, 발진, 관절통",
+"ja": "下痢、発疹、関節痛"
+},
+{
+"en": "Skin reddening, blisters or rash — stop and get medical help right away",
+"ko": "피부 붉어짐, 물집, 발진 — 중단하고 즉시 진료",
+"ja": "皮膚の赤み、水ぶくれ、発疹 — 中止してすぐ受診"
+}
+],
+"key_warning": {
+"en": "Chest pain with sweating, shortness of breath, or pain spreading to the arm, neck or jaw may be a heart attack, not heartburn — call 911.",
+"ko": "식은땀, 숨참, 팔·목·턱으로 퍼지는 통증을 동반한 가슴 통증은 속쓰림이 아니라 심장마비일 수 있습니다 — 911에 전화하세요.",
+"ja": "冷や汗、息切れ、腕・首・あごに広がる痛みを伴う胸の痛みは胸やけではなく心臓発作かもしれません — 911に電話してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [
+"ppi"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "esomeprazole",
+"kind": "otc",
+"category": "stomach",
+"name": {
+"en": "Esomeprazole (14-day course)",
+"ko": "에소메프라졸(14일 요법)",
+"ja": "エソメプラゾール（14日間）"
+},
+"uses": {
+"en": "Treats frequent heartburn (2 or more days a week). Not for immediate relief — it may take 1 to 4 days for full effect.",
+"ko": "잦은 속쓰림(주 2일 이상)을 치료합니다. 즉각적인 완화용이 아니며, 충분한 효과에 1~4일 걸릴 수 있습니다.",
+"ja": "頻繁な胸やけ（週2日以上）の治療薬です。すぐ効く薬ではなく、十分な効果まで1〜4日かかることがあります。"
+},
+"sources": [
+{
+"title": "DailyMed — Nexium 24HR (esomeprazole 20 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4513934d-0cf0-40fc-a348-b4e75a33b094"
+}
+]
 }
 ]
 }

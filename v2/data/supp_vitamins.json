@@ -729,6 +729,86 @@
 }
 ],
 "kind": "supplement"
+},
+{
+"aka": [
+"vitamin B7",
+"hair and nail vitamin",
+"비오틴",
+"ビオチン"
+],
+"brands": [
+"store brand biotin",
+"hair-skin-nail vitamins"
+],
+"active": [
+{
+"ingredient": "biotin",
+"strength": "varies by product (often far above daily needs)",
+"purpose": {
+"en": "Vitamin",
+"ko": "비타민",
+"ja": "ビタミン"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "No upper limit has been set.",
+"ko": "상한이 정해져 있지 않습니다.",
+"ja": "上限は定められていません。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Seizure medicines",
+"ko": "경련약",
+"ja": "てんかんの薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Tell your doctor or lab you take biotin before blood tests — it can make some results wrong.",
+"ko": "혈액검사 전 비오틴을 먹고 있다고 의사나 검사실에 알리세요 — 일부 결과가 틀릴 수 있습니다.",
+"ja": "血液検査の前にビオチンを飲んでいることを医師や検査室に伝えてください — 一部の結果が誤ることがあります。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"thyroid"
+],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 30 mcg a day for adults (35 mcg while breastfeeding). Biotin above the recommended amount can cause false results on some lab tests, such as thyroid hormone tests. Long-term seizure medicines can lower biotin levels.",
+"ko": "권장량: 성인 하루 30 mcg(수유 중 35 mcg). 권장량보다 많은 비오틴은 갑상선 호르몬 같은 일부 혈액검사 결과를 틀리게 만들 수 있습니다. 경련약을 오래 먹으면 비오틴 수치가 낮아질 수 있습니다.",
+"ja": "推奨量: 成人1日30 mcg（授乳中35 mcg）。推奨量を超えるビオチンは甲状腺ホルモンなど一部の血液検査の結果を誤らせることがあります。てんかんの薬を長く飲むとビオチンが減ることがあります。"
+},
+"verified": "2026-10-22",
+"id": "biotin",
+"category": "supplement_vitamin",
+"name": {
+"en": "Biotin",
+"ko": "비오틴",
+"ja": "ビオチン"
+},
+"uses": {
+"en": "Needed to turn food into energy. Deficiency is rare.",
+"ko": "음식을 에너지로 바꾸는 데 필요합니다. 결핍은 드뭅니다.",
+"ja": "食べ物をエネルギーに変えるのに必要です。欠乏はまれです。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Biotin Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/"
+}
+],
+"kind": "supplement"
 }
 ]
 }

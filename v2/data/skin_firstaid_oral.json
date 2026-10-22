@@ -852,6 +852,348 @@
 "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=61929c97-bd6b-0d7c-e053-2991aa0aa571"
 }
 ]
+},
+{
+"aka": [
+"Betadine",
+"iodine",
+"빨간약",
+"ポビドンヨード",
+"イソジン"
+],
+"brands": [
+"Betadine",
+"store brand povidone-iodine"
+],
+"active": [
+{
+"ingredient": "povidone-iodine",
+"strength": "10% (1% available iodine)",
+"purpose": {
+"en": "First aid antiseptic",
+"ko": "응급 소독제",
+"ja": "応急消毒薬"
+}
+}
+],
+"directions_adult": {
+"en": "Clean the area. Apply a small amount 1 to 3 times a day. May cover with a sterile bandage once dry.",
+"ko": "상처를 깨끗이 하고 하루 1~3번 소량을 바르세요. 마른 뒤 멸균 밴드로 덮어도 됩니다.",
+"ja": "傷をきれいにし、1日1〜3回少量を塗る。乾いてから滅菌ばんそうこうで覆ってもよい。"
+},
+"max_daily": {
+"en": "3 times a day; no longer than 1 week unless a doctor directs.",
+"ko": "하루 3번, 의사 지시 없이 1주 이내.",
+"ja": "1日3回、医師の指示がなければ1週間まで。"
+},
+"children": null,
+"do_not_use": [
+{
+"en": "In the eyes or over large areas of the body",
+"ko": "눈에, 또는 몸의 넓은 부위에",
+"ja": "目に、または体の広い範囲に"
+},
+{
+"en": "Longer than 1 week unless a doctor directs",
+"ko": "의사 지시 없이 1주 넘게",
+"ja": "医師の指示なく1週間を超えて"
+}
+],
+"ask_doctor": [
+{
+"en": "Deep or puncture wounds, animal bites, or serious burns",
+"ko": "깊거나 찔린 상처, 동물에 물린 상처, 심한 화상",
+"ja": "深い傷や刺し傷、動物にかまれた傷、重いやけど"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "The wound does not improve or gets worse",
+"ko": "상처가 낫지 않거나 악화될 때",
+"ja": "傷が治らない・悪化する"
+}
+],
+"key_warning": {
+"en": "For minor wounds only. Animal bites, puncture wounds and serious burns need a doctor.",
+"ko": "가벼운 상처에만 쓰세요. 동물에 물린 상처, 찔린 상처, 심한 화상은 진료가 필요합니다.",
+"ja": "軽い傷だけに使ってください。動物にかまれた傷、刺し傷、重いやけどは受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "povidone-iodine",
+"kind": "otc",
+"category": "first_aid",
+"name": {
+"en": "Povidone-iodine 10% antiseptic",
+"ko": "포비돈 요오드 10% 소독약",
+"ja": "ポビドンヨード10%消毒薬"
+},
+"uses": {
+"en": "First aid to help prevent infection in minor cuts, scrapes and burns.",
+"ko": "가벼운 베인 상처, 긁힌 상처, 화상의 감염 예방 응급처치.",
+"ja": "軽い切り傷、すり傷、やけどの感染予防の応急手当。"
+},
+"sources": [
+{
+"title": "DailyMed — Povidone Iodine Solution First Aid Antiseptic Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c2f07152-d7fb-4b1f-be77-c94618d5abd6"
+}
+]
+},
+{
+"aka": [
+"peroxide",
+"과산화수소",
+"オキシドール"
+],
+"brands": [
+"store brand hydrogen peroxide 3%"
+],
+"active": [
+{
+"ingredient": "hydrogen peroxide",
+"strength": "3%",
+"purpose": {
+"en": "First aid antiseptic / oral debriding agent",
+"ko": "응급 소독제/구강 세정제",
+"ja": "応急消毒薬・口腔洗浄薬"
+}
+}
+],
+"directions_adult": {
+"en": "First aid: clean the area and apply a small amount 1 to 3 times a day. Mouth rinse (ages 2+): mix with an equal amount of water, swish for at least 1 minute and spit out — do not swallow; up to 4 times a day.",
+"ko": "응급처치: 상처를 닦고 하루 1~3번 소량을 바르세요. 입 헹굼(2세 이상): 같은 양의 물과 섞어 1분 이상 머금고 뱉으세요 — 삼키지 마세요. 하루 4번까지.",
+"ja": "応急手当: 傷をきれいにし1日1〜3回少量を塗る。うがい（2歳以上）: 同量の水で薄め、1分以上口に含んで吐き出す — 飲み込まない。1日4回まで。"
+},
+"max_daily": {
+"en": "No longer than 1 week; mouth sores: see a dentist or doctor if not better in 7 days.",
+"ko": "1주 이내. 입안 통증이 7일 안에 낫지 않으면 치과의사·의사에게.",
+"ja": "1週間まで。口の痛みが7日で良くならなければ歯科医・医師へ。"
+},
+"children": {
+"en": "Mouth rinse: under 2 ask a dentist or doctor; supervise children under 12.",
+"ko": "입 헹굼: 2세 미만은 치과의사·의사에게 묻고, 12세 미만은 지켜보세요.",
+"ja": "うがい: 2歳未満は歯科医・医師に相談、12歳未満は見守る。"
+},
+"do_not_use": [
+{
+"en": "In the eyes or over large areas of the body",
+"ko": "눈에, 또는 몸의 넓은 부위에",
+"ja": "目に、または体の広い範囲に"
+},
+{
+"en": "Longer than 1 week",
+"ko": "1주 넘게",
+"ja": "1週間を超えて"
+}
+],
+"ask_doctor": [
+{
+"en": "Deep or puncture wounds, animal bites, or serious burns",
+"ko": "깊거나 찔린 상처, 동물에 물린 상처, 심한 화상",
+"ja": "深い傷や刺し傷、動物にかまれた傷、重いやけど"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Swelling, rash or fever; or irritation, pain or redness continues or worsens",
+"ko": "부기, 발진, 열; 또는 자극·통증·발적이 계속·악화될 때",
+"ja": "腫れ、発疹、発熱、または刺激・痛み・赤みが続く・悪化する"
+}
+],
+"key_warning": {
+"en": "Do not swallow. If swallowed, call Poison Control (1-800-222-1222).",
+"ko": "삼키지 마세요. 삼켰다면 중독센터(1-800-222-1222)에 전화하세요.",
+"ja": "飲み込まないでください。飲んだら中毒センター（1-800-222-1222）へ。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "hydrogen-peroxide",
+"kind": "otc",
+"category": "first_aid",
+"name": {
+"en": "Hydrogen peroxide 3%",
+"ko": "과산화수소 3%",
+"ja": "過酸化水素3%（オキシドール）"
+},
+"uses": {
+"en": "Helps prevent infection in minor cuts, scrapes and burns; as a diluted mouth rinse, helps remove mucus and secretions from an occasional sore mouth.",
+"ko": "가벼운 상처·화상의 감염 예방을 돕고, 희석한 입 헹굼으로 가끔 생기는 입안 통증의 점액·분비물 제거를 돕습니다.",
+"ja": "軽い傷・やけどの感染予防を助け、薄めたうがいで、ときどきの口の痛みの粘液・分泌物を取り除くのを助けます。"
+},
+"sources": [
+{
+"title": "DailyMed — Hydrogen Peroxide 3% Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e19228e9-6f87-456e-a222-f979a234d589"
+}
+]
+},
+{
+"aka": [
+"burn gel",
+"aloe",
+"sunburn",
+"화상연고",
+"やけど"
+],
+"brands": [
+"store brand burn relief aloe gel"
+],
+"active": [
+{
+"ingredient": "lidocaine",
+"strength": "0.5% (HCl)",
+"purpose": {
+"en": "External analgesic",
+"ko": "외용 진통제",
+"ja": "外用鎮痛薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 2+: apply to the affected area no more than 3 to 4 times a day.",
+"ko": "성인 및 2세 이상: 하루 3~4번 이하로 해당 부위에 바르세요.",
+"ja": "大人と2歳以上: 患部に1日3〜4回まで塗る。"
+},
+"max_daily": {
+"en": "3 to 4 times a day.",
+"ko": "하루 3~4번.",
+"ja": "1日3〜4回。"
+},
+"children": {
+"en": "Under 2: ask a doctor.",
+"ko": "2세 미만: 의사에게 물어보세요.",
+"ja": "2歳未満: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "In large amounts, especially over raw or blistered skin",
+"ko": "많은 양을, 특히 벗겨지거나 물집 잡힌 피부에",
+"ja": "大量に、特にただれた・水ぶくれの皮膚に"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "It gets worse, lasts more than 7 days, or clears and comes back within a few days",
+"ko": "악화되거나 7일 넘게 지속되거나, 나았다가 며칠 안에 재발할 때",
+"ja": "悪化する、7日を超えて続く、または治っても数日で再発する"
+}
+],
+"key_warning": {
+"en": "For minor burns only. Do not use large amounts on raw or blistered skin; serious burns need medical care.",
+"ko": "가벼운 화상에만 쓰세요. 벗겨지거나 물집 잡힌 피부에 많이 바르지 말고, 심한 화상은 진료가 필요합니다.",
+"ja": "軽いやけどだけに使ってください。ただれた・水ぶくれの皮膚に大量に塗らず、重いやけどは受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "burn-gel-lidocaine",
+"kind": "otc",
+"category": "first_aid",
+"name": {
+"en": "Burn relief gel (lidocaine + aloe)",
+"ko": "화상 젤(리도카인+알로에)",
+"ja": "やけど用ジェル（リドカイン+アロエ）"
+},
+"uses": {
+"en": "Temporarily relieves pain and itching from sunburn, minor burns, insect bites, minor cuts, scrapes and skin irritation.",
+"ko": "햇볕 화상, 가벼운 화상, 벌레 물림, 가벼운 상처, 피부 자극의 통증과 가려움을 일시적으로 완화합니다.",
+"ja": "日焼け、軽いやけど、虫さされ、軽い傷、皮膚の刺激による痛みとかゆみを一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Good Sense Burn Relief Aloe (lidocaine HCl 0.5%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a7f629-a88d-b49d-e053-2995a90a49fa"
+}
+]
+},
+{
+"aka": [
+"anticavity toothpaste",
+"Crest",
+"불소",
+"フッ素"
+],
+"brands": [
+"Crest Cavity Protection",
+"Colgate",
+"store brand anticavity toothpaste"
+],
+"active": [
+{
+"ingredient": "sodium fluoride",
+"strength": "0.243% (0.15% w/v fluoride ion)",
+"purpose": {
+"en": "Anticavity",
+"ko": "충치 예방",
+"ja": "むし歯予防"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 2+: brush thoroughly after meals or at least twice a day, or as a dentist directs. Do not swallow.",
+"ko": "성인 및 2세 이상: 식후 또는 하루 최소 2번 꼼꼼히 닦으세요. 또는 치과의사 지시대로. 삼키지 마세요.",
+"ja": "大人と2歳以上: 食後または1日2回以上しっかりみがく。または歯科医の指示どおり。飲み込まない。"
+},
+"max_daily": null,
+"children": {
+"en": "Under 6: use a pea-sized amount and supervise brushing. Under 2: ask a dentist.",
+"ko": "6세 미만: 완두콩만큼만 쓰고 양치를 지켜보세요. 2세 미만: 치과의사에게 물어보세요.",
+"ja": "6歳未満: 豆粒大を使い、歯みがきを見守る。2歳未満: 歯科医に相談。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [],
+"key_warning": {
+"en": "Keep away from children under 6. If more than the amount used for brushing is swallowed, call Poison Control (1-800-222-1222).",
+"ko": "6세 미만 아이 손이 닿지 않게 하세요. 양치에 쓰는 양보다 많이 삼켰다면 중독센터(1-800-222-1222)에 전화하세요.",
+"ja": "6歳未満の子どもの手の届かない所に。歯みがきに使う量より多く飲み込んだら中毒センター（1-800-222-1222）へ。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "fluoride-toothpaste",
+"kind": "otc",
+"category": "oral",
+"name": {
+"en": "Fluoride toothpaste",
+"ko": "불소 치약",
+"ja": "フッ素入り歯みがき"
+},
+"uses": {
+"en": "Helps protect teeth and roots against cavities.",
+"ko": "치아와 치아 뿌리를 충치로부터 보호합니다.",
+"ja": "歯と歯の根をむし歯から守ります。"
+},
+"sources": [
+{
+"title": "DailyMed — Crest Cavity Protection (sodium fluoride 0.243%) Drug Facts",
+"url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23851360-e30e-dd97-e063-6394a90a5474"
+}
+]
 }
 ]
 }

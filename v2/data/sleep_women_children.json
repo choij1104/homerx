@@ -785,6 +785,262 @@
 "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=210efe01-3cf4-404c-84b0-314615467ace"
 }
 ]
+},
+{
+"aka": [
+"AZO",
+"urinary pain",
+"UTI pain",
+"방광염",
+"膀胱炎"
+],
+"brands": [
+"AZO Urinary Pain Relief",
+"store brand urinary pain relief"
+],
+"active": [
+{
+"ingredient": "phenazopyridine",
+"strength": "99.5 mg (HCl) per tablet",
+"purpose": {
+"en": "Urinary tract analgesic",
+"ko": "요로 진통제",
+"ja": "尿路鎮痛薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 2 tablets 3 times a day with or after meals, with a full glass of water.",
+"ko": "12세 이상: 하루 3번 2정씩, 식사와 함께 또는 식후에 물 한 컵과 함께.",
+"ja": "12歳以上: 1日3回2錠、食事と一緒か食後にコップ1杯の水で。"
+},
+"max_daily": {
+"en": "No more than 2 days (12 tablets) without a doctor.",
+"ko": "의사 상담 없이 2일(12정)까지.",
+"ja": "医師に相談せず2日（12錠）まで。"
+},
+"children": {
+"en": "Under 12: only if a doctor says so.",
+"ko": "12세 미만: 의사가 권할 때만.",
+"ja": "12歳未満: 医師が勧めるときのみ。"
+},
+"do_not_use": [
+{
+"en": "If you have G6PD deficiency, unless a doctor approves",
+"ko": "G6PD 결핍증이 있으면(의사 승인 없이는)",
+"ja": "G6PD欠乏症がある場合（医師の許可がなければ）"
+}
+],
+"ask_doctor": [
+{
+"en": "Kidney disease",
+"ko": "신장 질환",
+"ja": "腎臓病"
+},
+{
+"en": "Allergies to foods, preservatives or dyes, or a past reaction to phenazopyridine",
+"ko": "음식·보존료·색소 알레르기, 또는 페나조피리딘 반응 경험",
+"ja": "食品・保存料・色素のアレルギー、またはフェナゾピリジンでの反応歴"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Symptoms last more than 2 days, or you suspect a side effect",
+"ko": "증상이 2일 넘게 지속되거나 부작용이 의심될 때",
+"ja": "症状が2日を超える、または副作用が疑われる"
+}
+],
+"key_warning": {
+"en": "Pain relief only — it does not treat the infection; see a provider for a suspected UTI. Turns urine reddish-orange and can stain clothes and soft contact lenses. Its label states FDA has not found this drug safe and effective.",
+"ko": "통증만 줄이며 감염을 치료하지 않습니다 — 요로감염이 의심되면 진료를 받으세요. 소변이 붉은 주황색이 되고 옷과 소프트 렌즈를 물들일 수 있습니다. 라벨에는 FDA가 이 약의 안전성과 효과를 인정하지 않았다고 적혀 있습니다.",
+"ja": "痛みを抑えるだけで感染は治しません — 尿路感染症が疑われたら受診を。尿が赤みがかったオレンジ色になり、服やソフトコンタクトレンズを染めることがあります。ラベルにはFDAがこの薬を安全で有効と認めていないと書かれています。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"kidney",
+"stomach"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "phenazopyridine",
+"kind": "otc",
+"category": "womens",
+"name": {
+"en": "Phenazopyridine (urinary pain relief)",
+"ko": "페나조피리딘(배뇨통 완화)",
+"ja": "フェナゾピリジン（排尿痛の緩和）"
+},
+"uses": {
+"en": "Relieves urinary pain, burning, urgency and frequency from a urinary tract infection. It does not treat the infection.",
+"ko": "요로감염으로 인한 배뇨통, 화끈거림, 급한 소변, 잦은 소변을 완화합니다. 감염 자체를 치료하지는 않습니다.",
+"ja": "尿路感染症による排尿痛、しみる感じ、尿意切迫、頻尿をやわらげます。感染そのものは治しません。"
+},
+"sources": [
+{
+"title": "DailyMed — AZO Urinary Pain Relief Maximum Strength (phenazopyridine 99.5 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4874fe2-d98b-4b5c-baad-d75070947842"
+},
+{
+"title": "NCCIH — Cranberry (people with a suspected UTI should see a health care provider)",
+"url": "https://www.nccih.nih.gov/health/cranberry"
+}
+]
+},
+{
+"aka": [
+"children's cold medicine",
+"honey for cough",
+"children's Tylenol",
+"children's Motrin",
+"어린이 감기약",
+"子どもの風邪薬"
+],
+"brands": [
+"Children's Tylenol",
+"Children's Motrin",
+"Children's Advil"
+],
+"active": [],
+"directions_adult": {
+"en": "Rest and fluids; a clean cool-mist humidifier; saline drops and a suction bulb for young children. For fever, young children can take children's acetaminophen or ibuprofen — ask the child's provider for the right dose and follow the label. No throat lozenges under age 4.",
+"ko": "휴식과 수분, 깨끗한 냉가습기, 어린아이는 식염수 점비액과 코 흡입기. 열에는 어린이용 아세트아미노펜이나 이부프로펜을 쓸 수 있으며, 정확한 용량은 아이의 의료인에게 묻고 라벨을 따르세요. 4세 미만은 목캔디(트로키) 금지.",
+"ja": "休息と水分、清潔な加湿器（冷却ミスト）、幼い子には生理食塩水の点鼻と鼻吸い器。熱には子ども用アセトアミノフェンかイブプロフェンが使えます。正しい量は子どもの医療者に聞き、ラベルに従ってください。4歳未満にのど飴（トローチ）は使わない。"
+},
+"max_daily": null,
+"children": {
+"en": "Dose by the child's product label or the provider's advice — never use an adult product for a child.",
+"ko": "아이용 제품 라벨이나 의료인 안내대로 주세요 — 어른 약을 아이에게 쓰지 마세요.",
+"ja": "子ども用製品のラベルか医療者の指示どおりに — 大人用の薬を子どもに使わないでください。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Trouble breathing or fast breathing, or signs of dehydration",
+"ko": "숨쉬기 힘들거나 빠른 호흡, 탈수 증상",
+"ja": "呼吸が苦しい・速い、脱水の兆候"
+},
+{
+"en": "Fever lasting more than 4 days, or symptoms lasting more than 10 days without getting better",
+"ko": "4일 넘는 열, 또는 10일 넘게 나아지지 않는 증상",
+"ja": "4日を超える発熱、または10日を超えて良くならない症状"
+},
+{
+"en": "Fever or cough that improves and then comes back or gets worse",
+"ko": "열이나 기침이 좋아졌다가 다시 나빠질 때",
+"ja": "熱やせきが良くなった後に再び悪化する"
+}
+],
+"key_warning": {
+"en": "No OTC cough and cold medicine under age 6. No honey under age 1. Trouble breathing needs care right away.",
+"ko": "6세 미만은 일반 감기·기침약 금지. 1세 미만은 꿀 금지. 숨쉬기 힘들면 즉시 진료.",
+"ja": "6歳未満に市販のかぜ・せき薬は使わない。1歳未満にはちみつは与えない。呼吸が苦しければすぐ受診。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "kids-cold-fever",
+"kind": "guide",
+"category": "children",
+"name": {
+"en": "Children's colds, coughs and fever — what helps",
+"ko": "아이 감기·기침·열 — 도움이 되는 것",
+"ja": "子どものかぜ・せき・熱 — 役立つこと"
+},
+"uses": {
+"en": "OTC cough and cold medicines are not recommended for children under 6 — they can cause serious, sometimes life-threatening side effects. Honey can help a cough in children 1 year and older; never give honey to a baby under 1. Antibiotics do not help colds.",
+"ko": "6세 미만 아이에게는 일반 감기·기침약을 권하지 않습니다 — 심각하고 때로는 생명을 위협하는 부작용이 생길 수 있습니다. 꿀은 1세 이상 아이의 기침에 도움이 될 수 있으며, 1세 미만 아기에게는 절대 주지 마세요. 항생제는 감기에 도움이 되지 않습니다.",
+"ja": "6歳未満の子どもには市販のかぜ・せき薬は勧められません — 重く、時に命にかかわる副作用が起こることがあります。はちみつは1歳以上の子どものせきに役立つことがあり、1歳未満の赤ちゃんには絶対に与えないでください。抗菌薬はかぜには効きません。"
+},
+"sources": [
+{
+"title": "CDC — Manage Common Cold",
+"url": "https://www.cdc.gov/common-cold/treatment/index.html"
+}
+]
+},
+{
+"aka": [
+"gout",
+"통풍",
+"痛風"
+],
+"brands": [],
+"active": [],
+"directions_adult": {
+"en": "Ask your provider about the right dose — gout attacks may need more than the OTC label dose, and some people need prescription medicines (colchicine, steroids). Long term: cut down alcohol, especially beer.",
+"ko": "적절한 용량은 의료인에게 물어보세요 — 통풍 발작에는 일반약 라벨 용량보다 더 필요할 수 있고, 일부는 처방약(콜히친, 스테로이드)이 필요합니다. 장기적으로는 술, 특히 맥주를 줄이세요.",
+"ja": "正しい量は医療者に相談してください — 痛風発作には市販薬ラベルより多い量が必要なことがあり、処方薬（コルヒチン、ステロイド）が必要な人もいます。長期的には飲酒、特にビールを減らしましょう。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Symptoms of a gout attack (see your provider), or lumps (tophi) under the skin",
+"ko": "통풍 발작 증상(진료 필요), 또는 피부 아래 덩어리(통풍결절)",
+"ja": "痛風発作の症状（受診を）、または皮膚の下のしこり（痛風結節）"
+},
+{
+"en": "Fever with a hot, swollen joint",
+"ko": "뜨겁고 부은 관절과 함께 열이 날 때",
+"ja": "熱く腫れた関節とともに発熱がある"
+}
+],
+"key_warning": {
+"en": "NSAIDs are not safe for everyone (kidney disease, ulcers, heart disease, blood thinners). Check with your provider before taking more than the label dose.",
+"ko": "NSAID는 누구에게나 안전하지 않습니다(신장 질환, 궤양, 심장병, 혈액 희석제). 라벨보다 많이 먹기 전에 의료인에게 확인하세요.",
+"ja": "NSAIDは誰にでも安全ではありません（腎臓病、潰瘍、心臓病、抗凝固薬）。ラベルより多く飲む前に医療者に確認を。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"kidney",
+"stomach",
+"heart",
+"blood_thinner"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "gout-flare",
+"kind": "guide",
+"category": "pain",
+"name": {
+"en": "Gout attack — first steps",
+"ko": "통풍 발작 — 첫 대처",
+"ja": "痛風発作 — 最初の対応"
+},
+"uses": {
+"en": "A gout attack causes sudden, severe joint pain and swelling, often in the big toe. Treat it as soon as it starts: NSAIDs such as ibuprofen or naproxen are often used when symptoms begin. Pain often eases within 12 hours and is usually gone within 48 hours.",
+"ko": "통풍 발작은 흔히 엄지발가락 등 관절에 갑자기 심한 통증과 부기를 일으킵니다. 시작되면 바로 대처하세요: 증상이 시작될 때 이부프로펜이나 나프록센 같은 NSAID를 흔히 씁니다. 통증은 보통 12시간 안에 줄고 48시간 안에 사라집니다.",
+"ja": "痛風発作は、多くは足の親指などの関節に突然の強い痛みと腫れを起こします。始まったらすぐ対処を：症状が出たときにイブプロフェンやナプロキセンなどのNSAIDがよく使われます。痛みは多くは12時間以内に和らぎ、通常48時間以内に治まります。"
+},
+"sources": [
+{
+"title": "MedlinePlus — Gout (Medical Encyclopedia)",
+"url": "https://medlineplus.gov/ency/article/000422.htm"
+},
+{
+"title": "DailyMed — Advil (ibuprofen 200 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=772360bd-8631-4d24-b4db-5a7e6e1d9a13"
+}
+]
 }
 ]
 }

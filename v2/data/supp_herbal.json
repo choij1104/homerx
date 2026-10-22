@@ -1,0 +1,1060 @@
+{
+"entries": [
+{
+"aka": [
+"melatonin gummies",
+"sleep supplement",
+"멜라토닌",
+"メラトニン"
+],
+"brands": [
+"Natrol",
+"Nature Made Melatonin",
+"store brand melatonin"
+],
+"active": [
+{
+"ingredient": "melatonin",
+"strength": "varies by product (labels are often inaccurate)",
+"purpose": {
+"en": "Hormone supplement",
+"ko": "호르몬 보충제",
+"ja": "ホルモンサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": {
+"en": "Ask a health care provider before giving it to a child. Many young children have swallowed flavored melatonin (gummies) — store it out of reach and sight.",
+"ko": "아이에게 주기 전에 의료인에게 물어보세요. 많은 어린아이가 맛이 나는 멜라토닌(젤리)을 삼키는 사고가 있었습니다 — 보이지 않고 손이 닿지 않는 곳에 두세요.",
+"ja": "子どもに与える前に医療者に相談を。多くの幼児が味つきメラトニン（グミ）を誤飲しています — 見えない・届かない所に保管してください。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Blood thinners, or if you have epilepsy (needs medical supervision)",
+"ko": "혈액 희석제, 또는 뇌전증이 있는 경우(의료 감독 필요)",
+"ja": "血液をさらさらにする薬、またはてんかんがある場合（医療者の管理が必要）"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Keep melatonin gummies away from children. Older adults may feel drowsy the next day.",
+"ko": "멜라토닌 젤리는 아이에게서 멀리 두세요. 노인은 다음 날 졸릴 수 있습니다.",
+"ja": "メラトニングミは子どもから遠ざけてください。高齢者は翌日眠気が残ることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Research in pregnancy and breastfeeding is lacking — talk with your provider.",
+"ko": "임신·수유 중 연구가 부족합니다 — 의료인과 상의하세요.",
+"ja": "妊娠・授乳中の研究は不足しています — 医療者に相談を。"
+},
+"flags": [
+"sedation",
+"seniors",
+"children",
+"blood_thinner"
+],
+"classes": [],
+"supplement_note": {
+"en": "Short-term use appears safe for most adults; side effects include headache, dizziness, nausea and sleepiness. It may stay active longer in older adults and cause daytime drowsiness; the American Academy of Sleep Medicine recommends against it in people with dementia. Tested products, including gummies, often contain much more or less than the label says. For chronic insomnia, cognitive behavioral therapy (CBT-I) is the recommended first treatment.",
+"ko": "대부분의 성인에게 단기 사용은 안전해 보이며, 두통, 어지러움, 메스꺼움, 졸음이 생길 수 있습니다. 노인에게는 더 오래 작용해 낮 졸음을 일으킬 수 있고, 미국수면의학회는 치매 환자에게 쓰지 말 것을 권고합니다. 검사한 제품(젤리 포함)은 라벨보다 훨씬 많거나 적게 들어 있는 경우가 많습니다. 만성 불면증의 첫 치료로는 인지행동치료(CBT-I)가 권장됩니다.",
+"ja": "多くの成人で短期使用は安全とみられ、頭痛、めまい、吐き気、眠気が出ることがあります。高齢者では長く作用して日中の眠気を起こすことがあり、米国睡眠医学会は認知症の人には使わないよう勧めています。調べた製品（グミを含む）はラベルより大幅に多い・少ないことがよくあります。慢性不眠の最初の治療には認知行動療法（CBT-I）が勧められます。"
+},
+"verified": "2026-10-22",
+"id": "melatonin",
+"category": "supplement_other",
+"name": {
+"en": "Melatonin",
+"ko": "멜라토닌",
+"ja": "メラトニン"
+},
+"uses": {
+"en": "May help jet lag. Not recommended for long-term (chronic) insomnia; evidence for shift work is weak.",
+"ko": "시차 적응에 도움이 될 수 있습니다. 만성 불면증에는 권장되지 않으며, 교대 근무에 대한 근거는 약합니다.",
+"ja": "時差ぼけに役立つ可能性があります。慢性不眠には勧められず、交代勤務への根拠は弱いです。"
+},
+"sources": [
+{
+"title": "NCCIH — Melatonin: What You Need To Know",
+"url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"hypericum",
+"세인트존스워트",
+"セイヨウオトギリソウ"
+],
+"brands": [
+"store brand St. John's wort"
+],
+"active": [
+{
+"ingredient": "St. John's wort (Hypericum perforatum)",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "ANY prescription medicine — especially birth control pills, antidepressants, warfarin, heart medicines (digoxin), seizure medicines, HIV medicines, transplant medicines (cyclosporine), cancer medicines, or simvastatin",
+"ko": "모든 처방약 — 특히 경구 피임약, 항우울제, 와파린, 심장약(디곡신), 경련약, HIV 약, 장기이식 약(사이클로스포린), 항암제, 심바스타틴",
+"ja": "すべての処方薬 — 特に経口避妊薬、抗うつ薬、ワルファリン、心臓の薬（ジゴキシン）、てんかんの薬、HIVの薬、移植の薬（シクロスポリン）、抗がん剤、シンバスタチン"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Can make birth control pills, blood thinners, heart, HIV, transplant and cancer medicines stop working. Always tell your pharmacist you take it.",
+"ko": "경구 피임약, 혈액 희석제, 심장약, HIV·장기이식·항암제의 효과를 없앨 수 있습니다. 먹고 있다면 반드시 약사에게 알리세요.",
+"ja": "経口避妊薬、血液をさらさらにする薬、心臓・HIV・移植・抗がん剤を効かなくすることがあります。飲んでいることを必ず薬剤師に伝えてください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "May be unsafe in pregnancy (possible birth defect risk).",
+"ko": "임신 중 안전하지 않을 수 있습니다(선천 결손 위험 가능).",
+"ja": "妊娠中は安全でない可能性があります（先天異常のリスク）。"
+},
+"flags": [
+"blood_thinner",
+"heart",
+"pregnancy"
+],
+"classes": [],
+"supplement_note": {
+"en": "It can interact in dangerous, sometimes life-threatening ways with many medicines by weakening them. With some antidepressants it can cause serious serotonin side effects. Side effects: diarrhea, dizziness, trouble sleeping, restlessness, tingling skin, and severe sun reactions at high doses. Depression needs a clinician — do not use this instead of care.",
+"ko": "많은 약의 효과를 떨어뜨려 위험하고 때로는 생명을 위협하는 상호작용을 일으킬 수 있습니다. 일부 항우울제와 함께 먹으면 심각한 세로토닌 부작용이 생길 수 있습니다. 부작용: 설사, 어지러움, 불면, 안절부절, 피부 저림, 고용량에서 심한 햇빛 반응. 우울증은 진료가 필요하며 이것으로 대신하지 마세요.",
+"ja": "多くの薬の効果を弱め、危険で時に命にかかわる相互作用を起こすことがあります。一部の抗うつ薬と併用すると重いセロトニン関連の副作用が起こることがあります。副作用: 下痢、めまい、不眠、落ち着かなさ、皮膚のチクチク感、高用量で強い日光反応。うつは受診が必要で、これで代用しないでください。"
+},
+"verified": "2026-10-22",
+"id": "st-johns-wort",
+"category": "supplement_herbal",
+"name": {
+"en": "St. John's wort",
+"ko": "세인트존스워트(서양고추나물)",
+"ja": "セントジョーンズワート"
+},
+"uses": {
+"en": "May help mild to moderate depression (about as well as standard antidepressants in studies up to 12 weeks). Unclear for severe depression.",
+"ko": "가벼운~중등도 우울증에 도움이 될 수 있습니다(12주까지의 연구에서 표준 항우울제와 비슷). 심한 우울증에는 불분명합니다.",
+"ja": "軽度〜中等度のうつに役立つ可能性があります（12週間までの研究で標準的な抗うつ薬と同程度）。重いうつには不明です。"
+},
+"sources": [
+{
+"title": "NCCIH — St. John's Wort",
+"url": "https://www.nccih.nih.gov/health/st-johns-wort"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"lactobacillus",
+"유산균",
+"乳酸菌",
+"Culturelle"
+],
+"brands": [
+"Culturelle",
+"Align",
+"store brand probiotic"
+],
+"active": [
+{
+"ingredient": "live microorganisms (various strains)",
+"strength": "varies by product",
+"purpose": {
+"en": "Probiotic",
+"ko": "프로바이오틱",
+"ja": "プロバイオティクス"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": {
+"en": "Do not give to premature infants. Ask the child's doctor first.",
+"ko": "미숙아에게 주지 마세요. 먼저 아이의 의사에게 물어보세요.",
+"ja": "早産児には与えないでください。まず子どもの医師に相談を。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "A weakened immune system or a serious illness",
+"ko": "면역 저하나 중병",
+"ja": "免疫の低下や重い病気"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [],
+"key_warning": {
+"en": "Not for premature babies or people who are seriously ill or immunocompromised without a doctor's advice.",
+"ko": "미숙아, 중병 또는 면역이 약한 사람은 의사 조언 없이 쓰지 마세요.",
+"ja": "早産児、重い病気や免疫が弱い人は医師の助言なしに使わないでください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": {
+"en": "Long history of apparently safe use in healthy people. Risk is higher with serious illness or a weakened immune system; the FDA warned in 2023 that premature infants given probiotics are at risk of severe, possibly fatal infections. Some products have contained microbes not listed on the label.",
+"ko": "건강한 사람에게는 오랫동안 안전하게 쓰여 왔습니다. 중병이나 면역 저하가 있으면 위험이 더 크며, FDA는 2023년 미숙아에게 프로바이오틱스를 주면 심각하고 치명적일 수 있는 감염 위험이 있다고 경고했습니다. 일부 제품에는 라벨에 없는 미생물이 들어 있었습니다.",
+"ja": "健康な人では長く安全に使われてきました。重い病気や免疫低下があるとリスクが高く、FDAは2023年、早産児にプロバイオティクスを与えると重い、命にかかわる感染の危険があると警告しました。ラベルにない微生物が入っていた製品もあります。"
+},
+"verified": "2026-10-22",
+"id": "probiotics",
+"category": "supplement_other",
+"name": {
+"en": "Probiotics",
+"ko": "프로바이오틱스(유산균)",
+"ja": "プロバイオティクス"
+},
+"uses": {
+"en": "Taken with antibiotics, may lower the chance of antibiotic-associated diarrhea (moderate-quality evidence). Which strains, doses and who benefits are still unclear.",
+"ko": "항생제와 함께 먹으면 항생제 관련 설사 가능성을 낮출 수 있습니다(중간 수준 근거). 어떤 균주, 용량, 누구에게 도움이 되는지는 아직 불분명합니다.",
+"ja": "抗菌薬と一緒にとると抗菌薬関連下痢の可能性を下げるかもしれません（中程度の根拠）。どの菌株・量・誰に効くかはまだ不明です。"
+},
+"sources": [
+{
+"title": "NCCIH — Probiotics: What You Need To Know",
+"url": "https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"curcumin",
+"강황",
+"울금",
+"ウコン"
+],
+"brands": [
+"store brand turmeric curcumin"
+],
+"active": [
+{
+"ingredient": "turmeric or curcumin",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Any medicine — some herbs and medicines interact",
+"ko": "모든 약 — 일부 허브는 약과 상호작용함",
+"ja": "すべての薬 — 一部のハーブは薬と相互作用します"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Liver injury has been reported. Stop if you notice dark urine or yellow skin or eyes.",
+"ko": "간 손상이 보고되었습니다. 짙은 소변이나 피부·눈이 노래지면 중단하세요.",
+"ja": "肝障害が報告されています。濃い色の尿や皮膚・白目の黄色に気づいたら中止を。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Turmeric supplements may be unsafe in pregnancy.",
+"ko": "임신 중 강황 보충제는 안전하지 않을 수 있습니다.",
+"ja": "妊娠中のウコンのサプリは安全でない可能性があります。"
+},
+"flags": [
+"liver",
+"pregnancy"
+],
+"classes": [],
+"supplement_note": {
+"en": "Usual oral forms are likely safe at recommended amounts for up to 2–3 months; may cause nausea, reflux, stomach upset, diarrhea or constipation. Liver injury has been reported, especially with highly absorbable curcumin products. Stop and call your provider for tiredness, nausea, poor appetite, dark urine or yellow skin/eyes.",
+"ko": "일반적인 경구 제품은 권장량으로 2~3개월까지는 안전할 가능성이 높으며, 메스꺼움, 역류, 속 불편, 설사, 변비가 생길 수 있습니다. 특히 흡수율을 높인 커큐민 제품에서 간 손상이 보고되었습니다. 피로, 메스꺼움, 식욕 저하, 짙은 소변, 피부·눈 황달이 있으면 중단하고 의료인에게 연락하세요.",
+"ja": "一般的な飲み薬タイプは推奨量で2〜3か月までは安全とみられ、吐き気、逆流、胃の不快感、下痢、便秘が出ることがあります。特に吸収を高めたクルクミン製品で肝障害が報告されています。だるさ、吐き気、食欲低下、濃い色の尿、皮膚や白目の黄色があれば中止して医療者へ。"
+},
+"verified": "2026-10-22",
+"id": "turmeric",
+"category": "supplement_herbal",
+"name": {
+"en": "Turmeric / curcumin",
+"ko": "강황/커큐민",
+"ja": "ウコン（ターメリック）/クルクミン"
+},
+"uses": {
+"en": "Early evidence for knee osteoarthritis pain and stiffness, but not enough to conclude it helps any condition.",
+"ko": "무릎 골관절염 통증·뻣뻣함에 초기 근거가 있지만, 어떤 질환에 도움이 된다고 결론 내리기에는 부족합니다.",
+"ja": "ひざの変形性関節症の痛みやこわばりに初期の根拠はありますが、どの病気に効くと結論するには不十分です。"
+},
+"sources": [
+{
+"title": "NCCIH — Turmeric",
+"url": "https://www.nccih.nih.gov/health/turmeric"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"ginkgo biloba",
+"은행잎",
+"イチョウ"
+],
+"brands": [
+"store brand ginkgo biloba"
+],
+"active": [
+{
+"ingredient": "ginkgo leaf extract",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Warfarin or other blood thinners (more bleeding), or any other medicine",
+"ko": "와파린 등 혈액 희석제(출혈 증가), 또는 다른 약",
+"ja": "ワルファリンなど血液をさらさらにする薬（出血が増える）、またはその他の薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "May increase bleeding with blood thinners.",
+"ko": "혈액 희석제와 함께 먹으면 출혈이 늘 수 있습니다.",
+"ja": "血液をさらさらにする薬と一緒だと出血が増えることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "May be unsafe in pregnancy (early labor or extra bleeding at delivery).",
+"ko": "임신 중 안전하지 않을 수 있습니다(조산이나 분만 시 출혈 증가).",
+"ja": "妊娠中は安全でない可能性があります（早産や分娩時の出血増加）。"
+},
+"flags": [
+"bleeding",
+"blood_thinner",
+"pregnancy"
+],
+"classes": [],
+"supplement_note": {
+"en": "Leaf extract is generally well tolerated; common side effects are dizziness, stomach upset and headache. Fresh ginkgo seeds are toxic when eaten.",
+"ko": "잎 추출물은 대체로 잘 견디며, 흔한 부작용은 어지러움, 속 불편, 두통입니다. 생 은행 열매는 먹으면 독성이 있습니다.",
+"ja": "葉のエキスはおおむね問題なく使え、よくある副作用はめまい、胃の不調、頭痛です。生のぎんなんを食べると有毒です。"
+},
+"verified": "2026-10-22",
+"id": "ginkgo",
+"category": "supplement_herbal",
+"name": {
+"en": "Ginkgo",
+"ko": "은행잎 추출물",
+"ja": "イチョウ葉エキス"
+},
+"uses": {
+"en": "No conclusive evidence that it helps any condition. Large studies found it did not prevent dementia in older adults.",
+"ko": "어떤 질환에도 확실한 효과 근거가 없습니다. 대규모 연구에서 노인의 치매를 예방하지 못했습니다.",
+"ja": "どの病気にも確かな効果の根拠はありません。大規模研究で高齢者の認知症を予防しませんでした。"
+},
+"sources": [
+{
+"title": "NCCIH — Ginkgo",
+"url": "https://www.nccih.nih.gov/health/ginkgo"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"glucosamine",
+"chondroitin",
+"joint supplement",
+"관절 영양제",
+"関節サプリ"
+],
+"brands": [
+"Osteo Bi-Flex",
+"Move Free",
+"store brand glucosamine chondroitin"
+],
+"active": [
+{
+"ingredient": "glucosamine and/or chondroitin",
+"strength": "varies by product",
+"purpose": {
+"en": "Dietary supplement",
+"ko": "건강기능 보충제",
+"ja": "サプリメント"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Warfarin (bleeding risk)",
+"ko": "와파린(출혈 위험)",
+"ja": "ワルファリン（出血の危険）"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "If you take warfarin, ask before using. People with diabetes should watch blood sugar.",
+"ko": "와파린을 먹는다면 먼저 물어보세요. 당뇨가 있으면 혈당을 확인하세요.",
+"ja": "ワルファリンを飲んでいれば先に相談を。糖尿病の人は血糖に注意してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Little is known about safety in pregnancy or breastfeeding.",
+"ko": "임신·수유 중 안전성은 거의 알려져 있지 않습니다.",
+"ja": "妊娠・授乳中の安全性はほとんど分かっていません。"
+},
+"flags": [
+"blood_thinner",
+"diabetes"
+],
+"classes": [],
+"supplement_note": {
+"en": "No major safety problems in large studies. Both have been linked to more bleeding in people taking warfarin. Glucosamine may raise blood sugar in some people.",
+"ko": "대규모 연구에서 큰 안전 문제는 없었습니다. 와파린 복용자에게서 둘 다 출혈 증가와 관련이 있었습니다. 글루코사민은 일부 사람의 혈당을 올릴 수 있습니다.",
+"ja": "大規模研究で大きな安全上の問題はありませんでした。ワルファリンを飲む人ではどちらも出血の増加と関連しています。グルコサミンは一部の人で血糖を上げることがあります。"
+},
+"verified": "2026-10-22",
+"id": "glucosamine-chondroitin",
+"category": "supplement_other",
+"name": {
+"en": "Glucosamine and chondroitin",
+"ko": "글루코사민·콘드로이틴",
+"ja": "グルコサミン・コンドロイチン"
+},
+"uses": {
+"en": "Taken for osteoarthritis. Results are mixed and expert guidelines disagree; the American College of Rheumatology recommends against them for knee osteoarthritis.",
+"ko": "골관절염에 먹습니다. 연구 결과가 엇갈리고 전문가 지침도 다르며, 미국류마티스학회는 무릎 골관절염에 권하지 않습니다.",
+"ja": "変形性関節症のためにとられます。結果はまちまちで専門家の指針も分かれ、米国リウマチ学会はひざの変形性関節症には勧めていません。"
+},
+"sources": [
+{
+"title": "NCCIH — Glucosamine and Chondroitin for Osteoarthritis: What You Need To Know",
+"url": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"CoQ10",
+"ubiquinone",
+"코큐텐",
+"コエンザイム"
+],
+"brands": [
+"store brand CoQ10"
+],
+"active": [
+{
+"ingredient": "coenzyme q10",
+"strength": "varies by product",
+"purpose": {
+"en": "Dietary supplement",
+"ko": "건강기능 보충제",
+"ja": "サプリメント"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Warfarin, insulin, or cancer treatment",
+"ko": "와파린, 인슐린, 암 치료",
+"ja": "ワルファリン、インスリン、がん治療"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "If you take warfarin or insulin, ask before using CoQ10.",
+"ko": "와파린이나 인슐린을 쓰고 있다면 코엔자임 Q10 전에 물어보세요.",
+"ja": "ワルファリンやインスリンを使っていれば、CoQ10の前に相談を。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"blood_thinner",
+"diabetes"
+],
+"classes": [],
+"supplement_note": {
+"en": "No serious side effects reported; mild trouble sleeping or stomach upset can occur. It may interact with warfarin and insulin and may not be compatible with some cancer treatments.",
+"ko": "심각한 부작용은 보고되지 않았고, 가벼운 불면이나 속 불편이 생길 수 있습니다. 와파린·인슐린과 상호작용할 수 있고 일부 암 치료와 맞지 않을 수 있습니다.",
+"ja": "重い副作用は報告されていませんが、軽い不眠や胃の不調が起こることがあります。ワルファリンやインスリンと相互作用する可能性があり、一部のがん治療と合わないことがあります。"
+},
+"verified": "2026-10-22",
+"id": "coq10",
+"category": "supplement_other",
+"name": {
+"en": "Coenzyme Q10 (CoQ10)",
+"ko": "코엔자임 Q10",
+"ja": "コエンザイムQ10"
+},
+"uses": {
+"en": "Research is inconclusive for heart failure, does not support it for statin muscle pain, and suggests no meaningful effect on blood pressure.",
+"ko": "심부전에 대한 연구는 결론이 나지 않았고, 스타틴 근육통에는 근거가 없으며, 혈압에는 의미 있는 효과가 없는 것으로 보입니다.",
+"ja": "心不全への研究は結論が出ておらず、スタチンの筋肉痛には根拠がなく、血圧には意味のある効果はなさそうです。"
+},
+"sources": [
+{
+"title": "NCCIH — Coenzyme Q10",
+"url": "https://www.nccih.nih.gov/health/coenzyme-q10"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"Korean ginseng",
+"Panax ginseng",
+"인삼",
+"홍삼",
+"高麗人参"
+],
+"brands": [
+"store brand ginseng",
+"red ginseng products"
+],
+"active": [
+{
+"ingredient": "asian ginseng (panax ginseng)",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": {
+"en": "Some experts advise against use in children.",
+"ko": "일부 전문가는 어린이에게 쓰지 말라고 권합니다.",
+"ja": "一部の専門家は子どもへの使用を勧めていません。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Diabetes, or an autoimmune disease",
+"ko": "당뇨, 또는 자가면역 질환",
+"ja": "糖尿病、または自己免疫疾患"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any medicine, especially blood thinners or diabetes medicine",
+"ko": "모든 약, 특히 혈액 희석제나 당뇨약",
+"ja": "すべての薬、特に血液をさらさらにする薬や糖尿病の薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Can lower blood sugar and affect clotting — ask first if you have diabetes or take a blood thinner.",
+"ko": "혈당을 낮추고 혈액 응고에 영향을 줄 수 있습니다 — 당뇨가 있거나 혈액 희석제를 먹는다면 먼저 물어보세요.",
+"ja": "血糖を下げ、血液凝固に影響することがあります — 糖尿病や血液をさらさらにする薬がある人は先に相談を。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "May be unsafe in pregnancy.",
+"ko": "임신 중 안전하지 않을 수 있습니다.",
+"ja": "妊娠中は安全でない可能性があります。"
+},
+"flags": [
+"diabetes",
+"blood_thinner",
+"pregnancy",
+"children",
+"liver"
+],
+"classes": [],
+"supplement_note": {
+"en": "Short-term use (up to 6 months) appears safe for most people; long-term safety is uncertain. Most common side effect is trouble sleeping; rarely severe rash, liver damage or severe allergic reaction. It may lower blood sugar, worsen autoimmune disorders, and interfere with blood clotting.",
+"ko": "단기(최대 6개월) 사용은 대부분 안전해 보이나 장기 안전성은 불확실합니다. 가장 흔한 부작용은 불면이며, 드물게 심한 발진, 간 손상, 심한 알레르기 반응이 생깁니다. 혈당을 낮추고, 자가면역 질환을 악화시키며, 혈액 응고를 방해할 수 있습니다.",
+"ja": "短期（最長6か月）の使用は多くの人で安全とみられますが、長期の安全性は不明です。最も多い副作用は不眠で、まれに重い発疹、肝障害、重いアレルギー反応があります。血糖を下げ、自己免疫疾患を悪化させ、血液凝固を妨げることがあります。"
+},
+"verified": "2026-10-22",
+"id": "ginseng",
+"category": "supplement_herbal",
+"name": {
+"en": "Asian ginseng",
+"ko": "인삼(고려인삼)",
+"ja": "高麗人参（オタネニンジン）"
+},
+"uses": {
+"en": "Evidence is limited (mostly small, short studies). Small possible benefits for fatigue; blood sugar findings in diabetes are conflicting.",
+"ko": "근거가 제한적입니다(대부분 작고 짧은 연구). 피로에 작은 효과 가능성이 있고, 당뇨 혈당에 대한 결과는 엇갈립니다.",
+"ja": "根拠は限られています（多くは小規模で短期の研究）。疲労に小さな効果の可能性があり、糖尿病の血糖への結果はまちまちです。"
+},
+"sources": [
+{
+"title": "NCCIH — Asian Ginseng",
+"url": "https://www.nccih.nih.gov/health/asian-ginseng"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"garlic",
+"Kyolic",
+"마늘",
+"ニンニク"
+],
+"brands": [
+"Kyolic",
+"store brand garlic"
+],
+"active": [
+{
+"ingredient": "garlic",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Blood thinners, aspirin, or any other medicine; upcoming surgery",
+"ko": "혈액 희석제, 아스피린, 다른 약; 예정된 수술",
+"ja": "血液をさらさらにする薬、アスピリン、その他の薬；予定している手術"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Tell your doctor before surgery — garlic supplements may increase bleeding.",
+"ko": "수술 전 의사에게 알리세요 — 마늘 보충제는 출혈을 늘릴 수 있습니다.",
+"ja": "手術前に医師に伝えてください — ニンニクサプリは出血を増やすことがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Amounts above food levels may not be safe in pregnancy or breastfeeding.",
+"ko": "음식보다 많은 양은 임신·수유 중 안전하지 않을 수 있습니다.",
+"ja": "食事より多い量は妊娠・授乳中に安全でない可能性があります。"
+},
+"flags": [
+"bleeding",
+"blood_thinner",
+"pregnancy"
+],
+"classes": [],
+"supplement_note": {
+"en": "Used safely in studies up to 7 years. Side effects: breath and body odor, belly pain, gas, nausea, allergic reactions. It may increase bleeding risk — important before surgery or with blood thinners or aspirin.",
+"ko": "최대 7년 연구에서 안전하게 쓰였습니다. 부작용: 입·몸 냄새, 복통, 가스, 메스꺼움, 알레르기 반응. 출혈 위험을 높일 수 있으니 수술 전이나 혈액 희석제·아스피린 복용 시 중요합니다.",
+"ja": "最長7年の研究で安全に使われています。副作用: 口臭・体臭、腹痛、ガス、吐き気、アレルギー反応。出血の危険を高めることがあり、手術前や抗凝固薬・アスピリン使用時に重要です。"
+},
+"verified": "2026-10-22",
+"id": "garlic-supplement",
+"category": "supplement_herbal",
+"name": {
+"en": "Garlic supplement",
+"ko": "마늘 보충제",
+"ja": "ニンニクサプリ"
+},
+"uses": {
+"en": "May lower total and LDL cholesterol a small amount in people with high cholesterol, and blood pressure slightly in people with high blood pressure.",
+"ko": "콜레스테롤이 높은 사람의 총·LDL 콜레스테롤을 조금, 고혈압인 사람의 혈압을 약간 낮출 수 있습니다.",
+"ja": "コレステロールが高い人の総・LDLコレステロールを少し、高血圧の人の血圧をわずかに下げる可能性があります。"
+},
+"sources": [
+{
+"title": "NCCIH — Garlic",
+"url": "https://www.nccih.nih.gov/health/garlic"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"cranberry pills",
+"UTI",
+"크랜베리",
+"クランベリー"
+],
+"brands": [
+"AZO Cranberry",
+"store brand cranberry"
+],
+"active": [
+{
+"ingredient": "cranberry",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Warfarin or any other medicine",
+"ko": "와파린이나 다른 약",
+"ja": "ワルファリンやその他の薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "If you think you have a UTI (burning, urgency, fever, back pain), see a provider — do not use cranberry instead of treatment.",
+"ko": "요로감염이 의심되면(화끈거림, 급한 소변, 열, 허리 통증) 진료를 받으세요 — 치료 대신 크랜베리를 쓰지 마세요.",
+"ja": "尿路感染症が疑われたら（しみる痛み、尿意切迫、発熱、腰の痛み）受診を — 治療の代わりにクランベリーを使わないでください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"blood_thinner"
+],
+"classes": [],
+"supplement_note": {
+"en": "Very large amounts may cause stomach upset and diarrhea, especially in young children. Evidence on an interaction with warfarin is conflicting.",
+"ko": "아주 많이 먹으면 특히 어린아이에게 속 불편과 설사가 생길 수 있습니다. 와파린과의 상호작용 근거는 엇갈립니다.",
+"ja": "とても多くとると、特に幼い子どもで胃の不調や下痢が起こります。ワルファリンとの相互作用の根拠はまちまちです。"
+},
+"verified": "2026-10-22",
+"id": "cranberry",
+"category": "supplement_herbal",
+"name": {
+"en": "Cranberry",
+"ko": "크랜베리",
+"ja": "クランベリー"
+},
+"uses": {
+"en": "May lower the chance of repeat urinary tract infections in some women (about 25% in studies), but results are inconsistent. It does not treat a UTI you already have.",
+"ko": "일부 여성에서 요로감염 재발 가능성을 낮출 수 있으나(연구상 약 25%) 결과가 일정하지 않습니다. 이미 생긴 요로감염을 치료하지는 못합니다.",
+"ja": "一部の女性で尿路感染症の再発を減らす可能性がありますが（研究で約25%）、結果は一定しません。すでにかかっている尿路感染症は治せません。"
+},
+"sources": [
+{
+"title": "NCCIH — Cranberry",
+"url": "https://www.nccih.nih.gov/health/cranberry"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"EGCG",
+"green tea pills",
+"녹차추출물",
+"緑茶カテキン"
+],
+"brands": [
+"store brand green tea extract"
+],
+"active": [
+{
+"ingredient": "green tea extract (catechins, caffeine)",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Nadolol, atorvastatin, raloxifene, or any other medicine",
+"ko": "나돌롤, 아토르바스타틴, 랄록시펜, 다른 약",
+"ja": "ナドロール、アトルバスタチン、ラロキシフェン、その他の薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Liver injury has been reported with extract pills. Stop and see a doctor for dark urine, yellow skin or eyes, or belly pain.",
+"ko": "추출물 알약에서 간 손상이 보고되었습니다. 짙은 소변, 피부·눈 황달, 복통이 있으면 중단하고 진료를 받으세요.",
+"ja": "エキスの錠剤で肝障害が報告されています。濃い色の尿、皮膚・白目の黄色、腹痛があれば中止して受診を。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Contains caffeine — keep caffeine moderate in pregnancy and ask your provider.",
+"ko": "카페인이 들어 있습니다 — 임신 중 카페인은 적당히 하고 의료인에게 물어보세요.",
+"ja": "カフェインを含みます — 妊娠中はカフェインを控えめにし、医療者に相談を。"
+},
+"flags": [
+"liver",
+"bp",
+"heart"
+],
+"classes": [],
+"supplement_note": {
+"en": "Liver injury has been reported, mainly with green tea extract pills. Extracts can also cause nausea, constipation, belly discomfort and higher blood pressure. High doses can lower levels of nadolol (a heart medicine); extract can lower atorvastatin levels. Contains caffeine. Green tea as a drink has no reported safety concerns for adults.",
+"ko": "주로 녹차 추출물 알약에서 간 손상이 보고되었습니다. 추출물은 메스꺼움, 변비, 복부 불편, 혈압 상승도 일으킬 수 있습니다. 고용량은 나돌롤(심장약) 농도를, 추출물은 아토르바스타틴 농도를 낮출 수 있습니다. 카페인이 들어 있습니다. 음료로 마시는 녹차는 성인에게 안전 문제가 보고되지 않았습니다.",
+"ja": "主に緑茶エキスの錠剤で肝障害が報告されています。エキスは吐き気、便秘、腹部の不快感、血圧上昇も起こすことがあります。高用量はナドロール（心臓の薬）の濃度を、エキスはアトルバスタチンの濃度を下げることがあります。カフェインを含みます。飲み物としての緑茶は成人で安全上の問題は報告されていません。"
+},
+"verified": "2026-10-22",
+"id": "green-tea-extract",
+"category": "supplement_herbal",
+"name": {
+"en": "Green tea extract",
+"ko": "녹차 추출물",
+"ja": "緑茶エキス"
+},
+"uses": {
+"en": "Taken for weight loss; catechins and caffeine may have only a modest effect.",
+"ko": "체중 감량에 먹지만, 카테킨과 카페인의 효과는 크지 않을 수 있습니다.",
+"ja": "減量目的でとられますが、カテキンとカフェインの効果はわずかなことがあります。"
+},
+"sources": [
+{
+"title": "NCCIH — Green Tea",
+"url": "https://www.nccih.nih.gov/health/green-tea"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"prostate supplement",
+"쏘팔메토",
+"ノコギリヤシ"
+],
+"brands": [
+"store brand saw palmetto"
+],
+"active": [
+{
+"ingredient": "saw palmetto",
+"strength": "varies by product",
+"purpose": {
+"en": "Herbal supplement",
+"ko": "허브 보충제",
+"ja": "ハーブサプリ"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Any medicine",
+"ko": "모든 약",
+"ja": "すべての薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "New urinary problems in men need a doctor's check — do not rely on saw palmetto.",
+"ko": "남성의 새로운 배뇨 문제는 진료가 필요합니다 — 쏘팔메토에 의존하지 마세요.",
+"ja": "男性の新しい排尿の問題は受診が必要です — ノコギリヤシに頼らないでください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "May be unsafe in pregnancy or breastfeeding.",
+"ko": "임신·수유 중 안전하지 않을 수 있습니다.",
+"ja": "妊娠・授乳中は安全でない可能性があります。"
+},
+"flags": [
+"prostate"
+],
+"classes": [],
+"supplement_note": {
+"en": "Generally well tolerated (studies up to 3 years); mild, infrequent stomach symptoms, dizziness and headache. It does not appear to change PSA test results.",
+"ko": "대체로 잘 견딥니다(최대 3년 연구). 드물게 가벼운 위장 증상, 어지러움, 두통. PSA 검사 결과를 바꾸지 않는 것으로 보입니다.",
+"ja": "おおむね問題なく使えます（最長3年の研究）。まれに軽い胃腸症状、めまい、頭痛。PSA検査の結果は変えないようです。"
+},
+"verified": "2026-10-22",
+"id": "saw-palmetto",
+"category": "supplement_herbal",
+"name": {
+"en": "Saw palmetto",
+"ko": "쏘팔메토",
+"ja": "ノコギリヤシ"
+},
+"uses": {
+"en": "Taken for urinary symptoms of an enlarged prostate, but research shows it is probably not helpful (little or no benefit).",
+"ko": "전립선 비대로 인한 배뇨 증상에 먹지만, 연구상 아마 도움이 되지 않습니다(효과가 거의 없음).",
+"ja": "前立腺肥大による排尿症状にとられますが、研究ではおそらく役に立ちません（効果はほとんどない）。"
+},
+"sources": [
+{
+"title": "NCCIH — Saw Palmetto",
+"url": "https://www.nccih.nih.gov/health/saw-palmetto"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"creatine monohydrate",
+"크레아틴",
+"クレアチン"
+],
+"brands": [
+"store brand creatine monohydrate"
+],
+"active": [
+{
+"ingredient": "creatine monohydrate",
+"strength": "varies by product",
+"purpose": {
+"en": "Dietary supplement",
+"ko": "건강기능 보충제",
+"ja": "サプリメント"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": null,
+"children": {
+"en": "Performance supplements are generally for adults; teens should talk with a provider first.",
+"ko": "운동 보충제는 일반적으로 성인용이며, 청소년은 먼저 의료인과 상의하세요.",
+"ja": "運動用サプリは一般に成人向けで、10代は先に医療者に相談を。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Any medical condition",
+"ko": "질환이 있는 경우",
+"ja": "持病がある場合"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [],
+"key_warning": {
+"en": "Expect a little water weight gain. Talk with a provider first if you have a medical condition.",
+"ko": "약간의 수분 체중 증가가 정상입니다. 질환이 있다면 먼저 의료인과 상의하세요.",
+"ja": "少しの水分による体重増加は普通です。持病があれば先に医療者に相談を。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": {
+"en": "Studies often used about 20 g a day (in 4 portions) for 5–7 days, then 3–5 g a day. Safe for healthy adults for weeks to months and seems safe for several years. Usually causes some weight gain from water; rarely muscle stiffness, cramps or stomach upset. Performance supplements are generally for adults only.",
+"ko": "연구에서는 보통 5~7일간 하루 약 20 g(4번 나눠)을 먹은 뒤 하루 3~5 g을 먹었습니다. 건강한 성인에게 몇 주~몇 달 안전하며 수년간도 안전해 보입니다. 보통 수분 때문에 체중이 조금 늘고, 드물게 근육 뻣뻣함, 경련, 속 불편이 있습니다. 운동 보충제는 일반적으로 성인용입니다.",
+"ja": "研究では5〜7日間1日約20 g（4回に分ける）、その後1日3〜5 gが多く使われました。健康な成人で数週〜数か月安全で、数年も安全とみられます。水分で体重が少し増えるのが普通で、まれに筋肉のこわばり、けいれん、胃の不調があります。運動用サプリは一般に成人向けです。"
+},
+"verified": "2026-10-22",
+"id": "creatine",
+"category": "supplement_other",
+"name": {
+"en": "Creatine",
+"ko": "크레아틴",
+"ja": "クレアチン"
+},
+"uses": {
+"en": "Can increase strength and power for repeated short bursts of intense activity (such as sprinting or weight lifting); little value for endurance exercise.",
+"ko": "짧고 강한 운동을 반복할 때(단거리 달리기, 웨이트) 근력과 순발력을 높일 수 있으며, 지구력 운동에는 거의 도움이 되지 않습니다.",
+"ja": "短く激しい運動のくり返し（短距離走、ウエイトトレーニング）で筋力とパワーを高めることがあり、持久運動にはほとんど役立ちません。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Dietary Supplements for Exercise and Athletic Performance (consumer)",
+"url": "https://ods.od.nih.gov/pdf/factsheets/ExercisePerformance-Consumer.pdf"
+}
+],
+"kind": "supplement"
+}
+]
+}

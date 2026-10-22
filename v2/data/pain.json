@@ -1,0 +1,1508 @@
+{
+"entries": [
+{
+"id": "acetaminophen",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Acetaminophen",
+"ko": "아세트아미노펜",
+"ja": "アセトアミノフェン"
+},
+"aka": [
+"paracetamol",
+"APAP",
+"타이레놀",
+"タイレノール"
+],
+"brands": [
+"Tylenol",
+"Mapap",
+"store brand acetaminophen"
+],
+"active": [
+{
+"ingredient": "acetaminophen",
+"strength": "500 mg per caplet (Extra Strength)",
+"purpose": {
+"en": "Pain reliever / fever reducer",
+"ko": "진통제 / 해열제",
+"ja": "鎮痛薬 / 解熱薬"
+}
+}
+],
+"uses": {
+"en": "Temporarily relieves minor aches and pains from the common cold, headache, backache, minor arthritis pain, toothache, muscle aches, and menstrual cramps; temporarily reduces fever.",
+"ko": "감기, 두통, 허리 통증, 가벼운 관절염 통증, 치통, 근육통, 생리통의 가벼운 통증을 일시적으로 덜어 주고, 열을 일시적으로 내립니다.",
+"ja": "かぜ、頭痛、腰痛、軽い関節炎の痛み、歯痛、筋肉痛、生理痛などの軽い痛みを一時的にやわらげ、熱を一時的に下げます。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over (500 mg caplets): 2 caplets every 6 hours while symptoms last. Do not use for more than 10 days unless a doctor tells you to.",
+"ko": "성인 및 12세 이상 (500 mg 캐플릿): 증상이 있는 동안 6시간마다 2정. 의사의 지시 없이 10일 넘게 쓰지 마세요.",
+"ja": "成人と12歳以上（500 mgカプレット）: 症状がある間、6時間ごとに2錠。医師の指示なしに10日を超えて使わないでください。"
+},
+"max_daily": {
+"en": "Do not take more than 6 caplets (3,000 mg) in 24 hours unless directed by a doctor. Severe liver damage may occur above 4,000 mg in 24 hours.",
+"ko": "의사 지시가 없으면 24시간에 6정(3,000 mg)을 넘기지 마세요. 24시간에 4,000 mg을 넘으면 심한 간 손상이 생길 수 있습니다.",
+"ja": "医師の指示がなければ24時間で6錠（3,000 mg）を超えないでください。24時間で4,000 mgを超えると重い肝障害が起こることがあります。"
+},
+"children": {
+"en": "Under 12: ask a doctor. Use only a product made for children, with its own dosing chart.",
+"ko": "12세 미만: 의사에게 물어보세요. 어린이용 제품과 그 제품의 용량표만 사용하세요.",
+"ja": "12歳未満: 医師に相談してください。子ども用の製品とその用量表だけを使ってください。"
+},
+"do_not_use": [
+{
+"en": "With any other medicine that contains acetaminophen (prescription or nonprescription). If you are not sure, ask a pharmacist.",
+"ko": "아세트아미노펜이 들어 있는 다른 약(처방약·일반약)과 함께 쓰지 마세요. 잘 모르면 약사에게 물어보세요.",
+"ja": "アセトアミノフェンを含む他の薬（処方薬・市販薬）と一緒に使わないでください。わからなければ薬剤師に。"
+},
+{
+"en": "If you are allergic to acetaminophen.",
+"ko": "아세트아미노펜에 알레르기가 있으면 쓰지 마세요.",
+"ja": "アセトアミノフェンにアレルギーがある場合。"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver disease",
+"ko": "간 질환",
+"ja": "肝臓の病気"
+}
+],
+"ask_pharmacist": [
+{
+"en": "The blood thinner warfarin",
+"ko": "혈액 희석제 와파린(warfarin)",
+"ja": "血液をサラサラにする薬ワルファリン（warfarin）"
+}
+],
+"stop_use": [
+{
+"en": "Pain gets worse or lasts more than 10 days",
+"ko": "통증이 심해지거나 10일 넘게 계속될 때",
+"ja": "痛みが悪化する、または10日以上続く"
+},
+{
+"en": "Fever gets worse or lasts more than 3 days",
+"ko": "열이 심해지거나 3일 넘게 계속될 때",
+"ja": "熱が悪化する、または3日以上続く"
+},
+{
+"en": "New symptoms, redness or swelling",
+"ko": "새로운 증상, 붉어짐이나 붓기가 생길 때",
+"ja": "新しい症状、赤みや腫れが出た"
+},
+{
+"en": "Skin reddening, blisters or rash (stop and get medical help right away)",
+"ko": "피부가 붉어지거나 물집·발진이 생길 때 (즉시 멈추고 진료를 받으세요)",
+"ja": "皮膚の赤み・水ぶくれ・発疹（すぐに中止し受診）"
+}
+],
+"key_warning": {
+"en": "Liver warning: severe liver damage can happen if you take more than the label allows, take it with other acetaminophen products (many cold and flu medicines contain it), or drink 3 or more alcoholic drinks a day.",
+"ko": "간 경고: 정해진 양보다 많이 먹거나, 아세트아미노펜이 든 다른 약(감기약에 많이 들어 있음)과 함께 먹거나, 하루 3잔 이상 술을 마시면 심한 간 손상이 생길 수 있습니다.",
+"ja": "肝臓の警告: 決められた量より多く飲む、アセトアミノフェンを含む他の薬（かぜ薬に多い）と一緒に飲む、1日3杯以上飲酒する、のいずれかで重い肝障害が起こることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"liver",
+"alcohol",
+"blood_thinner"
+],
+"classes": [
+"acetaminophen"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Tylenol Extra Strength (acetaminophen 500 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f653262-b931-7d42-e063-6394a90adddd&audience=consumer"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "ibuprofen",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Ibuprofen",
+"ko": "이부프로펜",
+"ja": "イブプロフェン"
+},
+"aka": [
+"NSAID",
+"이지엔6",
+"イブ"
+],
+"brands": [
+"Advil",
+"Motrin IB",
+"store brand ibuprofen"
+],
+"active": [
+{
+"ingredient": "ibuprofen",
+"strength": "200 mg per tablet",
+"purpose": {
+"en": "Pain reliever / fever reducer (NSAID)",
+"ko": "진통제 / 해열제 (NSAID)",
+"ja": "鎮痛薬 / 解熱薬（NSAID）"
+}
+}
+],
+"uses": {
+"en": "Temporarily relieves minor aches and pains from headache, toothache, backache, menstrual cramps, the common cold, muscle aches and minor arthritis pain; temporarily reduces fever.",
+"ko": "두통, 치통, 허리 통증, 생리통, 감기, 근육통, 가벼운 관절염 통증을 일시적으로 덜어 주고 열을 일시적으로 내립니다.",
+"ja": "頭痛、歯痛、腰痛、生理痛、かぜ、筋肉痛、軽い関節炎の痛みを一時的にやわらげ、熱を一時的に下げます。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over: 1 tablet every 4 to 6 hours while symptoms last; if 1 tablet does not help, 2 tablets may be used. Use the smallest dose that works. Take with food or milk if your stomach is upset.",
+"ko": "성인 및 12세 이상: 증상이 있는 동안 4~6시간마다 1정. 1정으로 듣지 않으면 2정까지 가능. 효과가 있는 가장 적은 양을 쓰세요. 속이 불편하면 음식이나 우유와 함께 드세요.",
+"ja": "成人と12歳以上: 症状がある間、4〜6時間ごとに1錠。1錠で効かなければ2錠まで。効く最小量を使い、胃が不快なら食べ物か牛乳と一緒に。"
+},
+"max_daily": {
+"en": "Do not exceed 6 tablets (1,200 mg) in 24 hours unless directed by a doctor.",
+"ko": "의사 지시가 없으면 24시간에 6정(1,200 mg)을 넘기지 마세요.",
+"ja": "医師の指示がなければ24時間で6錠（1,200 mg）を超えないでください。"
+},
+"children": {
+"en": "Under 12: ask a doctor. Use only a product made for children, with its own dosing chart.",
+"ko": "12세 미만: 의사에게 물어보세요. 어린이용 제품과 그 용량표만 사용하세요.",
+"ja": "12歳未満: 医師に相談。子ども用製品とその用量表だけを使ってください。"
+},
+"do_not_use": [
+{
+"en": "If you have ever had an allergic reaction to any other pain reliever or fever reducer",
+"ko": "다른 진통제·해열제에 알레르기 반응이 있었던 적이 있으면",
+"ja": "他の鎮痛薬・解熱薬でアレルギー反応が出たことがある場合"
+},
+{
+"en": "Right before or after heart surgery",
+"ko": "심장 수술 직전이나 직후",
+"ja": "心臓手術の直前・直後"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach bleeding risk: age 60 or older, past stomach ulcers or bleeding, taking a blood thinner or steroid, other NSAIDs, or 3 or more alcoholic drinks a day",
+"ko": "위출혈 위험: 60세 이상, 위궤양·출혈 경험, 혈액 희석제나 스테로이드 복용, 다른 NSAID 복용, 하루 3잔 이상 음주",
+"ja": "胃出血のリスク: 60歳以上、胃潰瘍・出血の既往、血液をサラサラにする薬やステロイド、他のNSAID、1日3杯以上の飲酒"
+},
+{
+"en": "Stomach problems such as heartburn",
+"ko": "속쓰림 같은 위장 문제",
+"ja": "胸やけなどの胃の不調"
+},
+{
+"en": "High blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or a past stroke",
+"ko": "고혈압, 심장 질환, 간경변, 신장 질환, 천식, 뇌졸중 경험",
+"ja": "高血圧、心臓病、肝硬変、腎臓病、ぜんそく、脳卒中の既往"
+},
+{
+"en": "You take a diuretic (water pill)",
+"ko": "이뇨제(물약)를 복용 중",
+"ja": "利尿薬を使用中"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Aspirin for heart attack or stroke — ibuprofen may reduce its benefit",
+"ko": "심장마비·뇌졸중 예방용 아스피린 — 이부프로펜이 효과를 떨어뜨릴 수 있음",
+"ja": "心筋梗塞・脳卒中予防のアスピリン — イブプロフェンが効果を弱めることがある"
+},
+{
+"en": "Any other medicine, or you are under a doctor's care for a serious condition",
+"ko": "다른 약을 먹고 있거나 중한 질환으로 진료 중",
+"ja": "他の薬を使用中、または重い病気で治療中"
+}
+],
+"stop_use": [
+{
+"en": "Signs of stomach bleeding: feeling faint, vomiting blood, bloody or black stools, stomach pain that does not get better",
+"ko": "위출혈 징후: 어지러워 쓰러질 것 같음, 피를 토함, 피가 섞이거나 검은 변, 낫지 않는 복통",
+"ja": "胃出血の兆候: 気が遠くなる、吐血、血便や黒い便、治らない腹痛"
+},
+{
+"en": "Signs of heart problems or stroke: chest pain, trouble breathing, weakness on one side, slurred speech, leg swelling — get help right away",
+"ko": "심장·뇌졸중 징후: 가슴 통증, 숨참, 한쪽 힘 빠짐, 말이 어눌함, 다리 붓기 — 즉시 도움을 받으세요",
+"ja": "心臓・脳卒中の兆候: 胸の痛み、息苦しさ、片側の脱力、ろれつが回らない、足のむくみ — すぐに助けを"
+},
+{
+"en": "Pain lasts more than 10 days or fever more than 3 days",
+"ko": "통증이 10일, 열이 3일 넘게 계속될 때",
+"ja": "痛みが10日以上、熱が3日以上続く"
+}
+],
+"key_warning": {
+"en": "NSAIDs (except aspirin) increase the risk of heart attack, heart failure and stroke, and can cause severe stomach bleeding. Do not take with other NSAIDs such as naproxen or aspirin products unless a doctor says so.",
+"ko": "NSAID(아스피린 제외)는 심장마비, 심부전, 뇌졸중 위험을 높이고 심한 위출혈을 일으킬 수 있습니다. 의사 지시 없이 나프록센이나 아스피린 같은 다른 NSAID와 함께 먹지 마세요.",
+"ja": "NSAID（アスピリン以外）は心筋梗塞、心不全、脳卒中のリスクを高め、重い胃出血を起こすことがあります。医師の指示なしにナプロキセンやアスピリンなど他のNSAIDと一緒に飲まないでください。"
+},
+"older_adults": {
+"en": "The label lists age 60 or older as a higher risk for stomach bleeding. The American Geriatrics Society lists ibuprofen and naproxen for short-term use only in older adults and advises avoiding them with heart failure or kidney disease.",
+"ko": "라벨은 60세 이상을 위출혈 고위험으로 적고 있습니다. 미국노인의학회는 노인에게 이부프로펜·나프록센은 단기간만 쓰고, 심부전이나 신장 질환이 있으면 피하라고 합니다.",
+"ja": "ラベルは60歳以上を胃出血の高リスクとしています。米国老年医学会は高齢者のイブプロフェン・ナプロキセンは短期間のみとし、心不全や腎臓病があれば避けるよう勧めています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use. Do not use at 20 weeks of pregnancy or later unless a doctor tells you to; it may harm the unborn child or cause problems during delivery.",
+"ko": "사용 전 의료인에게 물어보세요. 의사 지시 없이 임신 20주 이후에는 쓰지 마세요. 태아에게 해롭거나 출산에 문제를 일으킬 수 있습니다.",
+"ja": "使用前に医療専門家に相談。医師の指示がなければ妊娠20週以降は使わないでください。胎児に害を与えたり出産に影響することがあります。"
+},
+"flags": [
+"stomach",
+"bleeding",
+"blood_thinner",
+"heart",
+"bp",
+"kidney",
+"liver",
+"asthma",
+"seniors",
+"pregnancy",
+"alcohol"
+],
+"classes": [
+"nsaid"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Advil (ibuprofen 200 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=772360bd-8631-4d24-b4db-5a7e6e1d9a13"
+},
+{
+"title": "AGS Health in Aging Foundation — Alternatives for Medications Listed in the AGS Beers Criteria (April 2023)",
+"url": "https://www.healthinaging.org/sites/default/files/media/pdf/HIA-LearnMore-BEERS-alternatives23.pdf"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "naproxen",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Naproxen sodium",
+"ko": "나프록센 나트륨",
+"ja": "ナプロキセンナトリウム"
+},
+"aka": [
+"naproxen",
+"NSAID",
+"탁센",
+"ナロンエース"
+],
+"brands": [
+"Aleve",
+"store brand naproxen sodium"
+],
+"active": [
+{
+"ingredient": "naproxen sodium",
+"strength": "220 mg per tablet (naproxen 200 mg)",
+"purpose": {
+"en": "Pain reliever / fever reducer (NSAID)",
+"ko": "진통제 / 해열제 (NSAID)",
+"ja": "鎮痛薬 / 解熱薬（NSAID）"
+}
+}
+],
+"uses": {
+"en": "Temporarily relieves minor pain from arthritis, muscle aches, backache, menstrual cramps, headache, toothache and the common cold; temporarily reduces fever.",
+"ko": "관절염, 근육통, 허리 통증, 생리통, 두통, 치통, 감기의 가벼운 통증을 일시적으로 덜어 주고 열을 일시적으로 내립니다.",
+"ja": "関節炎、筋肉痛、腰痛、生理痛、頭痛、歯痛、かぜの軽い痛みを一時的にやわらげ、熱を一時的に下げます。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over: 1 tablet every 8 to 12 hours while symptoms last. For the first dose you may take 2 tablets within the first hour. Drink a full glass of water with each dose. Use the smallest dose that works.",
+"ko": "성인 및 12세 이상: 증상이 있는 동안 8~12시간마다 1정. 첫 복용 때만 첫 1시간 안에 2정까지 가능. 매번 물 한 컵과 함께. 효과가 있는 가장 적은 양을 쓰세요.",
+"ja": "成人と12歳以上: 症状がある間、8〜12時間ごとに1錠。初回のみ最初の1時間以内に2錠まで可。毎回コップ1杯の水で。効く最小量を。"
+},
+"max_daily": {
+"en": "No more than 2 tablets in any 8 to 12 hour period, and no more than 3 tablets in 24 hours.",
+"ko": "8~12시간 동안 2정, 24시간 동안 3정을 넘기지 마세요.",
+"ja": "8〜12時間で2錠、24時間で3錠を超えないでください。"
+},
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "If you have ever had an allergic reaction to another pain reliever or fever reducer",
+"ko": "다른 진통제·해열제에 알레르기 반응이 있었던 적이 있으면",
+"ja": "他の鎮痛薬・解熱薬でアレルギー反応が出たことがある場合"
+},
+{
+"en": "Right before or after heart surgery",
+"ko": "심장 수술 직전이나 직후",
+"ja": "心臓手術の直前・直後"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach bleeding risk: age 60 or older, past ulcers or bleeding, blood thinner or steroid, other NSAIDs, 3 or more drinks a day",
+"ko": "위출혈 위험: 60세 이상, 궤양·출혈 경험, 혈액 희석제·스테로이드, 다른 NSAID, 하루 3잔 이상 음주",
+"ja": "胃出血のリスク: 60歳以上、潰瘍・出血の既往、血液をサラサラにする薬・ステロイド、他のNSAID、1日3杯以上の飲酒"
+},
+{
+"en": "Heartburn or other stomach problems",
+"ko": "속쓰림 등 위장 문제",
+"ja": "胸やけなど胃の不調"
+},
+{
+"en": "High blood pressure, heart disease, liver cirrhosis, kidney disease, or asthma",
+"ko": "고혈압, 심장 질환, 간경변, 신장 질환, 천식",
+"ja": "高血圧、心臓病、肝硬変、腎臓病、ぜんそく"
+},
+{
+"en": "You take a diuretic",
+"ko": "이뇨제 복용 중",
+"ja": "利尿薬を使用中"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any other medicine, or you are under a doctor's care for a serious condition",
+"ko": "다른 약을 먹고 있거나 중한 질환으로 진료 중",
+"ja": "他の薬を使用中、または重い病気で治療中"
+}
+],
+"stop_use": [
+{
+"en": "Signs of stomach bleeding: feeling faint, vomiting blood, bloody or black stools, stomach pain that does not get better",
+"ko": "위출혈 징후: 쓰러질 것 같음, 피를 토함, 피 섞인 변이나 검은 변, 낫지 않는 복통",
+"ja": "胃出血の兆候: 気が遠くなる、吐血、血便や黒い便、治らない腹痛"
+},
+{
+"en": "Trouble swallowing, or the pill feels stuck in your throat",
+"ko": "삼키기 어렵거나 알약이 목에 걸린 느낌",
+"ja": "飲み込みにくい、錠剤がのどにつかえる感じ"
+},
+{
+"en": "Pain lasts more than 10 days or fever more than 3 days, or new symptoms",
+"ko": "통증 10일·열 3일 넘게 지속, 또는 새로운 증상",
+"ja": "痛み10日以上・熱3日以上、または新しい症状"
+}
+],
+"key_warning": {
+"en": "An NSAID: it can cause severe stomach bleeding, and using more or longer than directed may raise the risk of heart attack or stroke. Do not combine with ibuprofen or aspirin products.",
+"ko": "NSAID입니다. 심한 위출혈을 일으킬 수 있고, 정해진 것보다 많이 또는 오래 쓰면 심장마비·뇌졸중 위험이 커질 수 있습니다. 이부프로펜이나 아스피린 제품과 함께 쓰지 마세요.",
+"ja": "NSAIDです。重い胃出血を起こすことがあり、決められた量・期間を超えると心筋梗塞や脳卒中のリスクが高まることがあります。イブプロフェンやアスピリン製品と併用しないでください。"
+},
+"older_adults": {
+"en": "The label lists age 60 or older as a higher risk for stomach bleeding. The American Geriatrics Society lists ibuprofen and naproxen for short-term use only in older adults and advises avoiding them with heart failure or kidney disease.",
+"ko": "라벨은 60세 이상을 위출혈 고위험으로 적고 있습니다. 미국노인의학회는 노인에게 이부프로펜·나프록센은 단기간만 쓰고, 심부전이나 신장 질환이 있으면 피하라고 합니다.",
+"ja": "ラベルは60歳以上を胃出血の高リスクとしています。米国老年医学会は高齢者のイブプロフェン・ナプロキセンは短期間のみとし、心不全や腎臓病があれば避けるよう勧めています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use. The label says to avoid it in the last 3 months of pregnancy unless a doctor directs; newer NSAID labels say 20 weeks or later — ask your doctor.",
+"ko": "사용 전 의료인에게 물어보세요. 이 라벨은 임신 마지막 3개월에는 의사 지시 없이 피하라고 하며, 최신 NSAID 라벨은 임신 20주 이후로 적고 있습니다 — 의사에게 확인하세요.",
+"ja": "使用前に医療専門家に相談。このラベルは妊娠最後の3か月は医師の指示なしに避けるよう記載し、新しいNSAIDラベルは妊娠20週以降としています — 医師に確認を。"
+},
+"flags": [
+"stomach",
+"bleeding",
+"blood_thinner",
+"heart",
+"bp",
+"kidney",
+"liver",
+"asthma",
+"seniors",
+"pregnancy",
+"alcohol"
+],
+"classes": [
+"nsaid"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Aleve (naproxen sodium 220 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00ef5b30-71d0-4cb4-84a3-48c67d1cea2a"
+},
+{
+"title": "DailyMed — Aleve tablet (warnings section)",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46e7b298-9e19-49b6-be71-e4fdcb09a5d4"
+},
+{
+"title": "DailyMed — Advil Drug Facts (NSAID 20-week pregnancy wording)",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=772360bd-8631-4d24-b4db-5a7e6e1d9a13"
+},
+{
+"title": "AGS Health in Aging Foundation — Alternatives for Medications Listed in the AGS Beers Criteria (April 2023)",
+"url": "https://www.healthinaging.org/sites/default/files/media/pdf/HIA-LearnMore-BEERS-alternatives23.pdf"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "aspirin",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Aspirin",
+"ko": "아스피린",
+"ja": "アスピリン"
+},
+"aka": [
+"acetylsalicylic acid",
+"ASA",
+"바이엘 아스피린",
+"バファリン"
+],
+"brands": [
+"Bayer Genuine Aspirin",
+"Ecotrin",
+"Bayer Aspirin Regimen (81 mg)"
+],
+"active": [
+{
+"ingredient": "aspirin",
+"strength": "325 mg per tablet",
+"purpose": {
+"en": "Pain reliever / fever reducer (NSAID)",
+"ko": "진통제 / 해열제 (NSAID)",
+"ja": "鎮痛薬 / 解熱薬（NSAID）"
+}
+}
+],
+"uses": {
+"en": "Temporary relief of headache, muscle pain, toothache, menstrual pain, pain and fever of colds, and minor arthritis pain. Low-dose (81 mg) aspirin for the heart is used only under a doctor's direction.",
+"ko": "두통, 근육통, 치통, 생리통, 감기의 통증과 열, 가벼운 관절염 통증을 일시적으로 덜어 줍니다. 심장 예방용 저용량(81 mg) 아스피린은 의사 지시가 있을 때만 씁니다.",
+"ja": "頭痛、筋肉痛、歯痛、生理痛、かぜの痛みと熱、軽い関節炎の痛みを一時的にやわらげます。心臓のための低用量（81 mg）アスピリンは医師の指示がある場合だけ使います。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over (325 mg): 1 or 2 tablets every 4 hours, or 3 tablets every 6 hours. Drink a full glass of water with each dose.",
+"ko": "성인 및 12세 이상 (325 mg): 4시간마다 1~2정, 또는 6시간마다 3정. 매번 물 한 컵과 함께.",
+"ja": "成人と12歳以上（325 mg）: 4時間ごとに1〜2錠、または6時間ごとに3錠。毎回コップ1杯の水で。"
+},
+"max_daily": {
+"en": "Do not exceed 12 tablets (325 mg) in 24 hours.",
+"ko": "24시간에 12정(325 mg)을 넘기지 마세요.",
+"ja": "24時間で12錠（325 mg）を超えないでください。"
+},
+"children": {
+"en": "Under 12: ask a doctor. Reye's syndrome: children and teenagers who have or are recovering from chickenpox or flu-like symptoms should not use this product.",
+"ko": "12세 미만: 의사에게 물어보세요. 라이 증후군: 수두나 독감 같은 증상이 있거나 회복 중인 어린이·청소년은 쓰지 마세요.",
+"ja": "12歳未満: 医師に相談。ライ症候群: 水ぼうそうやインフルエンザのような症状がある、または回復中の子ども・10代は使わないでください。"
+},
+"do_not_use": [
+{
+"en": "If you are allergic to aspirin or any other pain reliever or fever reducer",
+"ko": "아스피린이나 다른 진통제·해열제에 알레르기가 있으면",
+"ja": "アスピリンや他の鎮痛薬・解熱薬にアレルギーがある場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach bleeding risk: age 60 or older, past ulcers or bleeding, blood thinner or steroid, other NSAIDs, 3 or more drinks a day",
+"ko": "위출혈 위험: 60세 이상, 궤양·출혈 경험, 혈액 희석제·스테로이드, 다른 NSAID, 하루 3잔 이상 음주",
+"ja": "胃出血のリスク: 60歳以上、潰瘍・出血の既往、血液をサラサラにする薬・ステロイド、他のNSAID、1日3杯以上の飲酒"
+},
+{
+"en": "Heartburn or other stomach problems; high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma; you take a diuretic",
+"ko": "속쓰림 등 위장 문제, 고혈압, 심장 질환, 간경변, 신장 질환, 천식, 이뇨제 복용",
+"ja": "胸やけなど胃の不調、高血圧、心臓病、肝硬変、腎臓病、ぜんそく、利尿薬の使用"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Prescription medicines for gout, diabetes or arthritis",
+"ko": "통풍, 당뇨, 관절염 처방약",
+"ja": "痛風、糖尿病、関節炎の処方薬"
+}
+],
+"stop_use": [
+{
+"en": "Signs of stomach bleeding: feeling faint, vomiting blood, bloody or black stools, stomach pain that does not get better",
+"ko": "위출혈 징후: 쓰러질 것 같음, 피를 토함, 피 섞인 변이나 검은 변, 낫지 않는 복통",
+"ja": "胃出血の兆候: 気が遠くなる、吐血、血便や黒い便、治らない腹痛"
+},
+{
+"en": "Ringing in the ears or loss of hearing",
+"ko": "귀울림이나 청력 저하",
+"ja": "耳鳴りや聞こえにくさ"
+},
+{
+"en": "Pain lasts more than 10 days or fever more than 3 days, redness or swelling, or new symptoms",
+"ko": "통증 10일·열 3일 넘게 지속, 붉어짐·붓기, 새로운 증상",
+"ja": "痛み10日以上・熱3日以上、赤み・腫れ、新しい症状"
+}
+],
+"key_warning": {
+"en": "Aspirin can cause severe stomach bleeding and thins the blood. Never give it to children or teenagers with chickenpox or flu-like illness (Reye's syndrome). Daily low-dose aspirin is a doctor's decision.",
+"ko": "아스피린은 심한 위출혈을 일으킬 수 있고 피를 묽게 합니다. 수두나 독감 같은 병을 앓는 어린이·청소년에게 절대 주지 마세요(라이 증후군). 매일 먹는 저용량 아스피린은 의사가 정할 일입니다.",
+"ja": "アスピリンは重い胃出血を起こすことがあり、血を固まりにくくします。水ぼうそうやインフルエンザのような病気の子ども・10代には絶対に与えないでください（ライ症候群）。毎日の低用量アスピリンは医師が決めることです。"
+},
+"older_adults": {
+"en": "The label lists age 60 or older as a higher risk for stomach bleeding.",
+"ko": "라벨은 60세 이상을 위출혈 위험이 높은 경우로 적고 있습니다.",
+"ja": "ラベルは60歳以上を胃出血のリスクが高い人としています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use. Do not use in the last 3 months of pregnancy unless a doctor specifically directs.",
+"ko": "사용 전 의료인에게 물어보세요. 의사의 특별한 지시 없이 임신 마지막 3개월에는 쓰지 마세요.",
+"ja": "使用前に医療専門家に相談。医師の特別な指示がなければ妊娠最後の3か月は使わないでください。"
+},
+"flags": [
+"stomach",
+"bleeding",
+"blood_thinner",
+"bp",
+"heart",
+"kidney",
+"liver",
+"asthma",
+"seniors",
+"pregnancy",
+"alcohol",
+"children",
+"diabetes"
+],
+"classes": [
+"salicylate"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Bayer Genuine Aspirin (325 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44a08904-68b9-4d06-a28d-21aae3d6140c"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "diclofenac-gel",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Diclofenac sodium 1% gel",
+"ko": "디클로페낙 나트륨 1% 겔",
+"ja": "ジクロフェナクナトリウム1%ゲル"
+},
+"aka": [
+"diclofenac",
+"볼타렌",
+"ボルタレン"
+],
+"brands": [
+"Voltaren Arthritis Pain",
+"store brand diclofenac gel"
+],
+"active": [
+{
+"ingredient": "diclofenac sodium",
+"strength": "1% gel",
+"purpose": {
+"en": "Arthritis pain reliever (NSAID)",
+"ko": "관절염 진통제 (NSAID)",
+"ja": "関節炎の鎮痛薬（NSAID）"
+}
+}
+],
+"uses": {
+"en": "Temporary relief of arthritis pain in the hands, wrists, elbows, feet, ankles or knees. It may take up to 7 days to work; it is not for immediate relief.",
+"ko": "손, 손목, 팔꿈치, 발, 발목, 무릎의 관절염 통증을 일시적으로 덜어 줍니다. 효과가 나타나기까지 최대 7일 걸릴 수 있으며, 즉시 효과용이 아닙니다.",
+"ja": "手、手首、ひじ、足、足首、ひざの関節炎の痛みを一時的にやわらげます。効くまで最大7日かかることがあり、即効性はありません。"
+},
+"directions_adult": {
+"en": "Adults 18 and over: use the dosing card. Upper body (hand, wrist, elbow): 2 g (2.25 inches) per area; lower body (foot, ankle, knee): 4 g (4.5 inches) per area. Apply 4 times a day to clean, dry, unbroken skin. Do not cover with a bandage or use with heat.",
+"ko": "18세 이상 성인: 동봉된 계량 카드를 사용하세요. 상체(손, 손목, 팔꿈치): 부위당 2 g(2.25인치), 하체(발, 발목, 무릎): 부위당 4 g(4.5인치). 깨끗하고 마른 상처 없는 피부에 하루 4번. 붕대로 덮거나 찜질과 함께 쓰지 마세요.",
+"ja": "18歳以上: 付属の計量カードを使用。上半身（手・手首・ひじ）: 1か所2 g（2.25インチ）、下半身（足・足首・ひざ）: 1か所4 g（4.5インチ）。清潔で乾いた傷のない皮膚に1日4回。包帯で覆ったり温熱と併用しないでください。"
+},
+"max_daily": {
+"en": "No more than 2 body areas at the same time, 4 times a day, for up to 21 days unless a doctor directs.",
+"ko": "한 번에 2부위까지, 하루 4번, 의사 지시가 없으면 최대 21일.",
+"ja": "同時に2か所まで、1日4回、医師の指示がなければ最長21日。"
+},
+"children": {
+"en": "Not for use under 18 unless a doctor directs; safety and effectiveness are not known.",
+"ko": "의사 지시가 없으면 18세 미만은 쓰지 마세요. 안전성과 효과가 확인되지 않았습니다.",
+"ja": "医師の指示がなければ18歳未満は使用しないでください。安全性・有効性は確認されていません。"
+},
+"do_not_use": [
+{
+"en": "If you have had an allergic reaction to any other pain reliever or fever reducer",
+"ko": "다른 진통제·해열제에 알레르기 반응이 있었던 적이 있으면",
+"ja": "他の鎮痛薬・解熱薬でアレルギー反応が出たことがある場合"
+},
+{
+"en": "On strains, sprains, bruises or sports injuries",
+"ko": "삔 곳, 접질린 곳, 멍, 운동 부상에는",
+"ja": "筋違い、ねんざ、打ち身、スポーツのけがには"
+},
+{
+"en": "Right before or after heart surgery; on more than 2 body areas at once; in the eyes, nose or mouth",
+"ko": "심장 수술 직전·직후, 한 번에 2부위 초과, 눈·코·입에는",
+"ja": "心臓手術の直前・直後、同時に2か所を超えて、目・鼻・口には"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach bleeding risk factors or stomach problems such as heartburn",
+"ko": "위출혈 위험 요인이나 속쓰림 같은 위장 문제",
+"ja": "胃出血のリスク要因や胸やけなど胃の不調"
+},
+{
+"en": "High blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or a past stroke; you take a diuretic",
+"ko": "고혈압, 심장 질환, 간경변, 신장 질환, 천식, 뇌졸중 경험, 이뇨제 복용",
+"ja": "高血圧、心臓病、肝硬変、腎臓病、ぜんそく、脳卒中の既往、利尿薬の使用"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Any other medicine, or you are under a doctor's care for a serious condition",
+"ko": "다른 약을 먹고 있거나 중한 질환으로 진료 중",
+"ja": "他の薬を使用中、または重い病気で治療中"
+}
+],
+"stop_use": [
+{
+"en": "Pain gets worse or lasts more than 21 days; redness, swelling, fever or skin irritation",
+"ko": "통증이 심해지거나 21일 넘게 지속, 붉어짐·붓기·열·피부 자극",
+"ja": "痛みが悪化または21日以上続く、赤み・腫れ・発熱・皮膚の刺激"
+},
+{
+"en": "Signs of stomach bleeding, heart problems or stroke (chest pain, trouble breathing, leg swelling, weakness on one side, slurred speech)",
+"ko": "위출혈, 심장 문제, 뇌졸중 징후 (가슴 통증, 숨참, 다리 붓기, 한쪽 힘 빠짐, 말이 어눌함)",
+"ja": "胃出血、心臓の問題、脳卒中の兆候（胸の痛み、息苦しさ、足のむくみ、片側の脱力、ろれつが回らない）"
+}
+],
+"key_warning": {
+"en": "Even on the skin this is an NSAID: liver damage, stomach bleeding, heart attack and stroke warnings still apply, especially with overuse or with other diclofenac or NSAID products.",
+"ko": "피부에 바르는 약이어도 NSAID입니다. 너무 많이 쓰거나 다른 디클로페낙·NSAID 제품과 함께 쓰면 간 손상, 위출혈, 심장마비, 뇌졸중 경고가 그대로 적용됩니다.",
+"ja": "皮膚に塗る薬でもNSAIDです。使いすぎたり他のジクロフェナク・NSAID製品と併用すると、肝障害、胃出血、心筋梗塞、脳卒中の警告がそのまま当てはまります。"
+},
+"older_adults": {
+"en": "The label lists age 60 or older as a higher risk for stomach bleeding.",
+"ko": "라벨은 60세 이상을 위출혈 위험이 높은 경우로 적고 있습니다.",
+"ja": "ラベルは60歳以上を胃出血のリスクが高い人としています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use. Do not use at 20 weeks of pregnancy or later unless a doctor directs.",
+"ko": "사용 전 의료인에게 물어보세요. 의사 지시 없이 임신 20주 이후에는 쓰지 마세요.",
+"ja": "使用前に医療専門家に相談。医師の指示がなければ妊娠20週以降は使わないでください。"
+},
+"flags": [
+"stomach",
+"bleeding",
+"blood_thinner",
+"heart",
+"bp",
+"kidney",
+"liver",
+"asthma",
+"seniors",
+"pregnancy",
+"alcohol"
+],
+"classes": [
+"nsaid"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Voltaren Arthritis Pain (diclofenac sodium 1% gel) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=30a94282-0892-442a-aa10-6525cbd4fe88"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "lidocaine-patch",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Lidocaine 4% patch",
+"ko": "리도카인 4% 패치",
+"ja": "リドカイン4%パッチ"
+},
+"aka": [
+"lidocaine"
+],
+"brands": [
+"Aspercreme with Lidocaine",
+"Salonpas Lidocaine",
+"store brand lidocaine 4% patch"
+],
+"active": [
+{
+"ingredient": "lidocaine",
+"strength": "4%",
+"purpose": {
+"en": "Topical anesthetic",
+"ko": "국소 마취제",
+"ja": "局所麻酔薬"
+}
+}
+],
+"uses": {
+"en": "Temporary relief of pain.",
+"ko": "통증을 일시적으로 덜어 줍니다.",
+"ja": "痛みを一時的にやわらげます。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over: clean and dry the area, apply one patch; not more than 3 to 4 times a day. Wash hands after applying or removing.",
+"ko": "성인 및 12세 이상: 부위를 깨끗이 말리고 패치 1장을 붙입니다. 하루 3~4번을 넘기지 마세요. 붙이거나 뗀 뒤 손을 씻으세요.",
+"ja": "成人と12歳以上: 患部を清潔に乾かし1枚貼ります。1日3〜4回まで。貼る・はがす後は手を洗ってください。"
+},
+"max_daily": {
+"en": "One patch at a time; not more than 3 to 4 times a day.",
+"ko": "한 번에 1장, 하루 3~4번까지.",
+"ja": "一度に1枚、1日3〜4回まで。"
+},
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "On wounds or irritated or damaged skin",
+"ko": "상처나 자극받은·손상된 피부에는",
+"ja": "傷や荒れた・傷んだ皮膚には"
+},
+{
+"en": "More than 1 patch at a time, or with other pain-relief creams or patches",
+"ko": "한 번에 2장 이상, 또는 다른 진통 크림·패치와 함께",
+"ja": "一度に2枚以上、または他の鎮痛クリーム・パッチと一緒に"
+},
+{
+"en": "With a heating pad; do not expose the area to heat or direct sun or bandage tightly",
+"ko": "찜질기와 함께 쓰지 말고, 열·직사광선에 노출하거나 꽉 묶지 마세요",
+"ja": "温熱パッドと併用しない。熱や直射日光に当てたり、きつく巻かないでください"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Condition worsens or lasts more than 7 days, or comes back within a few days",
+"ko": "증상이 나빠지거나 7일 넘게 지속되거나 며칠 안에 다시 생길 때",
+"ja": "悪化する、7日以上続く、数日で再発する"
+},
+{
+"en": "Redness, severe burning pain, swelling or blistering where applied",
+"ko": "붙인 곳이 붉어지거나 심하게 화끈거리거나 붓거나 물집이 생길 때",
+"ja": "貼った所の赤み、強い焼けるような痛み、腫れ、水ぶくれ"
+}
+],
+"key_warning": {
+"en": "Use one patch at a time and never with heat — heat increases how much lidocaine enters the skin.",
+"ko": "한 번에 1장만, 열과 함께 쓰지 마세요.",
+"ja": "一度に1枚だけ、熱と一緒に使わないでください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Aspercreme with Lidocaine (lidocaine 4% patch) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7ad8efa9-7031-4cd0-be1d-6dee63091fd1"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "capsaicin-cream",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Capsaicin cream",
+"ko": "캡사이신 크림",
+"ja": "カプサイシンクリーム"
+},
+"aka": [
+"capsaicin",
+"chili pepper cream"
+],
+"brands": [
+"Capzasin",
+"store brand capsaicin cream"
+],
+"active": [
+{
+"ingredient": "capsaicin",
+"strength": "0.025% to 0.1% (product shown: 0.1%)",
+"purpose": {
+"en": "Topical analgesic",
+"ko": "국소 진통제",
+"ja": "外用鎮痛薬"
+}
+}
+],
+"uses": {
+"en": "Relief of minor aches and pains of muscles and joints from arthritis, simple backache, strains, bruises and sprains.",
+"ko": "관절염, 단순 요통, 근육 결림, 멍, 삔 곳의 가벼운 근육·관절 통증을 덜어 줍니다.",
+"ja": "関節炎、腰痛、筋違い、打ち身、ねんざによる筋肉・関節の軽い痛みをやわらげます。"
+},
+"directions_adult": {
+"en": "Adults over 18: massage into the painful area until absorbed, no more than 3 to 4 times a day. Wash hands with soap and water after applying. A burning feeling is common at first and usually fades over several days.",
+"ko": "18세 초과 성인: 아픈 부위에 흡수될 때까지 문지르고, 하루 3~4번을 넘기지 마세요. 바른 뒤 비누로 손을 씻으세요. 처음에는 화끈거림이 흔하며 며칠이 지나면 보통 줄어듭니다.",
+"ja": "18歳超: 痛む所に吸収されるまですり込み、1日3〜4回まで。塗った後は石けんで手を洗う。最初は焼けるような感じがよくあり、数日で弱まります。"
+},
+"max_daily": {
+"en": "No more than 3 to 4 times a day.",
+"ko": "하루 3~4번까지.",
+"ja": "1日3〜4回まで。"
+},
+"children": {
+"en": "18 or younger: do not use; consult a doctor.",
+"ko": "18세 이하: 쓰지 말고 의사와 상담하세요.",
+"ja": "18歳以下: 使用せず医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "On wounds or damaged skin; with a heating pad",
+"ko": "상처나 손상된 피부, 찜질기와 함께",
+"ja": "傷や傷んだ皮膚、温熱パッドとの併用"
+},
+{
+"en": "If you are allergic to chili peppers",
+"ko": "고추에 알레르기가 있으면",
+"ja": "唐辛子にアレルギーがある場合"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Redness, irritation, or severe burning",
+"ko": "붉어짐, 자극, 심한 화끈거림",
+"ja": "赤み、刺激、強い焼けるような感じ"
+},
+{
+"en": "Condition worsens or lasts more than 7 days",
+"ko": "증상이 나빠지거나 7일 넘게 지속",
+"ja": "悪化する、7日以上続く"
+}
+],
+"key_warning": {
+"en": "Keep it away from the eyes, nose and mouth — wash your hands well after every use.",
+"ko": "눈·코·입에 닿지 않게 하고, 쓸 때마다 손을 잘 씻으세요.",
+"ja": "目・鼻・口に触れないよう、使うたびに手をよく洗ってください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Capsaicin HP Arthritis Pain Relief (capsaicin 0.1%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4dedfc37-fead-410d-a5d4-48a4de8fc432"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "methyl-salicylate-patch",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Menthol + methyl salicylate patch",
+"ko": "멘톨 + 살리실산메틸 파스",
+"ja": "メントール＋サリチル酸メチル貼付剤"
+},
+"aka": [
+"Salonpas",
+"파스",
+"サロンパス",
+"methyl salicylate",
+"menthol"
+],
+"brands": [
+"Salonpas Pain Relief Patch",
+"Bengay patch",
+"Icy Hot"
+],
+"active": [
+{
+"ingredient": "methyl salicylate",
+"strength": "10% (Salonpas Pain Relief Patch)",
+"purpose": {
+"en": "Topical analgesic (NSAID)",
+"ko": "국소 진통제 (NSAID)",
+"ja": "外用鎮痛薬（NSAID）"
+}
+},
+{
+"ingredient": "menthol",
+"strength": "3%",
+"purpose": {
+"en": "Topical analgesic",
+"ko": "국소 진통제",
+"ja": "外用鎮痛薬"
+}
+}
+],
+"uses": {
+"en": "Temporarily relieves mild to moderate muscle and joint pain from strains, sprains, simple backache, arthritis and bruises.",
+"ko": "근육 결림, 삔 곳, 단순 요통, 관절염, 멍의 가벼운~중간 근육·관절 통증을 일시적으로 덜어 줍니다.",
+"ja": "筋違い、ねんざ、腰痛、関節炎、打ち身による軽度〜中等度の筋肉・関節痛を一時的にやわらげます。"
+},
+"directions_adult": {
+"en": "Adults 18 and over: one patch at a time on clean, dry skin for up to 8 to 12 hours; if pain continues, a second patch for up to another 8 to 12 hours. Remove the old patch first.",
+"ko": "18세 이상: 깨끗하고 마른 피부에 한 번에 1장, 최대 8~12시간. 통증이 계속되면 두 번째 패치를 최대 8~12시간 더. 새 패치 전에 이전 패치를 떼세요.",
+"ja": "18歳以上: 清潔で乾いた皮膚に一度に1枚、最長8〜12時間。痛みが続けば2枚目をさらに8〜12時間。前の1枚をはがしてから。"
+},
+"max_daily": {
+"en": "No more than 2 patches a day, and no more than 3 days in a row.",
+"ko": "하루 2장까지, 연속 3일까지.",
+"ja": "1日2枚まで、連続3日まで。"
+},
+"children": {
+"en": "Under 18: do not use.",
+"ko": "18세 미만: 쓰지 마세요.",
+"ja": "18歳未満: 使用しないでください。"
+},
+"do_not_use": [
+{
+"en": "On the face, rashes, wounds or damaged skin",
+"ko": "얼굴, 발진, 상처, 손상된 피부",
+"ja": "顔、発疹、傷、傷んだ皮膚"
+},
+{
+"en": "If you are allergic to aspirin or other NSAIDs",
+"ko": "아스피린이나 다른 NSAID에 알레르기가 있으면",
+"ja": "アスピリンや他のNSAIDにアレルギーがある場合"
+},
+{
+"en": "With a heating pad, when sweating, or right before or after heart surgery",
+"ko": "찜질기와 함께, 땀이 날 때, 심장 수술 직전·직후",
+"ja": "温熱パッドと併用、汗をかいている時、心臓手術の直前・直後"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach bleeding risk: age 60 or older, past ulcers or bleeding, blood thinner or steroid, other NSAIDs, 3 or more alcoholic drinks a day",
+"ko": "위출혈 위험: 60세 이상, 궤양·출혈 경험, 혈액 희석제·스테로이드, 다른 NSAID, 하루 3잔 이상 음주",
+"ja": "胃出血のリスク: 60歳以上、潰瘍・出血の既往、血液をサラサラにする薬・ステロイド、他のNSAID、1日3杯以上の飲酒"
+},
+{
+"en": "High blood pressure, heart disease or kidney disease; you take a diuretic",
+"ko": "고혈압, 심장 질환, 신장 질환, 이뇨제 복용",
+"ja": "高血圧、心臓病、腎臓病、利尿薬の使用"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Signs of stomach bleeding: feeling faint, vomiting blood, bloody or black stools, stomach pain that does not get better",
+"ko": "위출혈 징후: 쓰러질 것 같음, 피를 토함, 피 섞인 변이나 검은 변, 낫지 않는 복통",
+"ja": "胃出血の兆候: 気が遠くなる、吐血、血便や黒い便、治らない腹痛"
+},
+{
+"en": "Rash, itching or skin irritation; symptoms last more than 3 days",
+"ko": "발진, 가려움, 피부 자극, 증상이 3일 넘게 지속",
+"ja": "発疹、かゆみ、皮膚の刺激、症状が3日以上続く"
+}
+],
+"key_warning": {
+"en": "Methyl salicylate is an NSAID (aspirin family) absorbed through the skin: stomach bleeding warnings apply, and do not combine with other NSAIDs or use if you are allergic to aspirin.",
+"ko": "살리실산메틸은 피부로 흡수되는 NSAID(아스피린 계열)입니다. 위출혈 경고가 적용되며, 다른 NSAID와 함께 쓰거나 아스피린 알레르기가 있으면 쓰지 마세요.",
+"ja": "サリチル酸メチルは皮膚から吸収されるNSAID（アスピリンの仲間）です。胃出血の注意が当てはまり、他のNSAIDとの併用やアスピリンアレルギーの方の使用は避けてください。"
+},
+"older_adults": {
+"en": "The label lists age 60 or older as a higher risk for stomach bleeding.",
+"ko": "라벨은 60세 이상을 위출혈 위험이 높은 경우로 적고 있습니다.",
+"ja": "ラベルは60歳以上を胃出血のリスクが高い人としています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use. Do not use at 20 weeks of pregnancy or later unless a doctor directs.",
+"ko": "사용 전 의료인에게 물어보세요. 의사 지시 없이 임신 20주 이후에는 쓰지 마세요.",
+"ja": "使用前に医療専門家に相談。医師の指示がなければ妊娠20週以降は使わないでください。"
+},
+"flags": [
+"stomach",
+"bleeding",
+"blood_thinner",
+"bp",
+"heart",
+"kidney",
+"seniors",
+"pregnancy",
+"alcohol"
+],
+"classes": [
+"salicylate"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Salonpas Pain Relief Patch (menthol 3%, methyl salicylate 10%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=724bc4d3-0bc1-4275-a23b-4bbc62fbc0d2"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "excedrin",
+"kind": "otc",
+"category": "pain",
+"name": {
+"en": "Acetaminophen + aspirin + caffeine",
+"ko": "아세트아미노펜 + 아스피린 + 카페인",
+"ja": "アセトアミノフェン＋アスピリン＋カフェイン"
+},
+"aka": [
+"Excedrin",
+"headache combination",
+"엑세드린"
+],
+"brands": [
+"Excedrin Extra Strength",
+"Excedrin Migraine",
+"store brand headache relief"
+],
+"active": [
+{
+"ingredient": "acetaminophen",
+"strength": "250 mg",
+"purpose": {
+"en": "Pain reliever",
+"ko": "진통제",
+"ja": "鎮痛薬"
+}
+},
+{
+"ingredient": "aspirin",
+"strength": "250 mg",
+"purpose": {
+"en": "Pain reliever (NSAID)",
+"ko": "진통제 (NSAID)",
+"ja": "鎮痛薬（NSAID）"
+}
+},
+{
+"ingredient": "caffeine",
+"strength": "65 mg",
+"purpose": {
+"en": "Pain reliever aid",
+"ko": "진통 보조",
+"ja": "鎮痛補助"
+}
+}
+],
+"uses": {
+"en": "Temporarily relieves minor aches and pains from headache, colds, arthritis, muscle aches, toothache, and menstrual cramps.",
+"ko": "두통, 감기, 관절염, 근육통, 치통, 생리통의 가벼운 통증을 일시적으로 덜어 줍니다.",
+"ja": "頭痛、かぜ、関節炎、筋肉痛、歯痛、生理痛の軽い痛みを一時的にやわらげます。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over: 2 caplets every 6 hours with a full glass of water.",
+"ko": "성인 및 12세 이상: 6시간마다 2정, 물 한 컵과 함께.",
+"ja": "成人と12歳以上: 6時間ごとに2錠、コップ1杯の水で。"
+},
+"max_daily": {
+"en": "Not more than 8 caplets in 24 hours.",
+"ko": "24시간에 8정을 넘기지 마세요.",
+"ja": "24時間で8錠を超えないでください。"
+},
+"children": {
+"en": "Under 12: ask a doctor. Children and teenagers recovering from chickenpox or flu-like symptoms should not use it (Reye's syndrome).",
+"ko": "12세 미만: 의사에게 물어보세요. 수두나 독감 같은 증상에서 회복 중인 어린이·청소년은 쓰지 마세요(라이 증후군).",
+"ja": "12歳未満: 医師に相談。水ぼうそうやインフルエンザのような症状から回復中の子ども・10代は使わないでください（ライ症候群）。"
+},
+"do_not_use": [
+{
+"en": "With any other medicine containing acetaminophen",
+"ko": "아세트아미노펜이 든 다른 약과 함께",
+"ja": "アセトアミノフェンを含む他の薬と一緒に"
+},
+{
+"en": "If you have had an allergic reaction to acetaminophen, aspirin or another pain reliever",
+"ko": "아세트아미노펜, 아스피린, 다른 진통제에 알레르기 반응이 있었으면",
+"ja": "アセトアミノフェン、アスピリン、他の鎮痛薬でアレルギー反応があった場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver disease, stomach problems, high blood pressure, heart disease, liver cirrhosis, kidney disease or asthma",
+"ko": "간 질환, 위장 문제, 고혈압, 심장 질환, 간경변, 신장 질환, 천식",
+"ja": "肝臓病、胃の不調、高血圧、心臓病、肝硬変、腎臓病、ぜんそく"
+},
+{
+"en": "Stomach bleeding risk: age 60 or older, past ulcers or bleeding, blood thinner or steroid, other NSAIDs, 3 or more alcoholic drinks a day",
+"ko": "위출혈 위험: 60세 이상, 궤양·출혈 경험, 혈액 희석제·스테로이드, 다른 NSAID, 하루 3잔 이상 음주",
+"ja": "胃出血のリスク: 60歳以上、潰瘍・出血の既往、血液をサラサラにする薬・ステロイド、他のNSAID、1日3杯以上の飲酒"
+},
+{
+"en": "You take a diuretic",
+"ko": "이뇨제 복용",
+"ja": "利尿薬の使用"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Prescription medicines for diabetes, gout or arthritis, or any other medicine",
+"ko": "당뇨, 통풍, 관절염 처방약이나 다른 약",
+"ja": "糖尿病、痛風、関節炎の処方薬、その他の薬"
+}
+],
+"stop_use": [
+{
+"en": "Signs of stomach bleeding: feeling faint, vomiting blood, bloody or black stools, stomach pain that does not get better",
+"ko": "위출혈 징후: 쓰러질 것 같음, 피를 토함, 피 섞인 변이나 검은 변, 낫지 않는 복통",
+"ja": "胃出血の兆候: 気が遠くなる、吐血、血便や黒い便、治らない腹痛"
+},
+{
+"en": "Ringing in the ears or hearing loss",
+"ko": "귀울림이나 청력 저하",
+"ja": "耳鳴りや聞こえにくさ"
+},
+{
+"en": "Pain lasts more than 10 days or fever more than 3 days",
+"ko": "통증 10일·열 3일 넘게 지속",
+"ja": "痛み10日以上・熱3日以上続く"
+}
+],
+"key_warning": {
+"en": "Two pain relievers in one pill: count the acetaminophen toward your daily limit, and the aspirin can cause stomach bleeding. The dose has about as much caffeine as a cup of coffee.",
+"ko": "한 알에 진통제가 두 가지 들어 있습니다. 아세트아미노펜은 하루 총량에 포함해 계산하고, 아스피린은 위출혈을 일으킬 수 있습니다. 1회분에 커피 한 잔 정도의 카페인이 있습니다.",
+"ja": "1錠に鎮痛薬が2種類入っています。アセトアミノフェンは1日の総量に含めて数え、アスピリンは胃出血を起こすことがあります。1回分にコーヒー1杯ほどのカフェインがあります。"
+},
+"older_adults": {
+"en": "The label lists age 60 or older as a higher risk for stomach bleeding.",
+"ko": "라벨은 60세 이상을 위출혈 위험이 높은 경우로 적고 있습니다.",
+"ja": "ラベルは60歳以上を胃出血のリスクが高い人としています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use. Avoid aspirin in the last 3 months of pregnancy unless a doctor directs.",
+"ko": "사용 전 의료인에게 물어보세요. 의사 지시 없이 임신 마지막 3개월에는 아스피린을 피하세요.",
+"ja": "使用前に医療専門家に相談。医師の指示がなければ妊娠最後の3か月はアスピリンを避けてください。"
+},
+"flags": [
+"liver",
+"stomach",
+"bleeding",
+"blood_thinner",
+"bp",
+"heart",
+"kidney",
+"asthma",
+"seniors",
+"pregnancy",
+"alcohol",
+"children",
+"diabetes"
+],
+"classes": [
+"acetaminophen",
+"salicylate"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Excedrin Extra Strength Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f0f8b3c-c226-4a3a-af46-a708f345e4f5"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "acetaminophen-pm",
+"kind": "otc",
+"category": "sleep",
+"name": {
+"en": "Acetaminophen PM (with diphenhydramine)",
+"ko": "아세트아미노펜 PM (디펜히드라민 포함)",
+"ja": "アセトアミノフェンPM（ジフェンヒドラミン配合）"
+},
+"aka": [
+"Tylenol PM",
+"night pain reliever"
+],
+"brands": [
+"Tylenol PM Extra Strength",
+"store brand Pain Relief PM"
+],
+"active": [
+{
+"ingredient": "acetaminophen",
+"strength": "500 mg",
+"purpose": {
+"en": "Pain reliever",
+"ko": "진통제",
+"ja": "鎮痛薬"
+}
+},
+{
+"ingredient": "diphenhydramine",
+"strength": "25 mg (HCl)",
+"purpose": {
+"en": "Nighttime sleep aid",
+"ko": "수면 보조",
+"ja": "睡眠補助"
+}
+}
+],
+"uses": {
+"en": "Short-term relief of occasional headaches and minor aches and pains with sleeplessness.",
+"ko": "잠을 못 이룰 때 동반되는 가끔의 두통과 가벼운 통증을 단기간 덜어 줍니다.",
+"ja": "眠れない時に伴うときどきの頭痛や軽い痛みを短期間やわらげます。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over: 2 caplets at bedtime.",
+"ko": "성인 및 12세 이상: 잠자기 전 2정.",
+"ja": "成人と12歳以上: 寝る前に2錠。"
+},
+"max_daily": {
+"en": "Do not take more than 2 caplets in 24 hours.",
+"ko": "24시간에 2정을 넘기지 마세요.",
+"ja": "24時間で2錠を超えないでください。"
+},
+"children": {
+"en": "Under 12: do not use.",
+"ko": "12세 미만: 쓰지 마세요.",
+"ja": "12歳未満: 使用しないでください。"
+},
+"do_not_use": [
+{
+"en": "With any other medicine containing acetaminophen",
+"ko": "아세트아미노펜이 든 다른 약과 함께",
+"ja": "アセトアミノフェンを含む他の薬と一緒に"
+},
+{
+"en": "With any other diphenhydramine product, even one used on the skin",
+"ko": "다른 디펜히드라민 제품(피부에 바르는 것 포함)과 함께",
+"ja": "他のジフェンヒドラミン製品（皮膚に塗るものも含む）と一緒に"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver disease; emphysema or chronic bronchitis; trouble urinating from an enlarged prostate; glaucoma",
+"ko": "간 질환, 폐기종·만성 기관지염, 전립선 비대로 소변보기 어려움, 녹내장",
+"ja": "肝臓病、肺気腫・慢性気管支炎、前立腺肥大による排尿困難、緑内障"
+}
+],
+"ask_pharmacist": [
+{
+"en": "The blood thinner warfarin; sedatives or tranquilizers",
+"ko": "혈액 희석제 와파린, 진정제·신경안정제",
+"ja": "ワルファリン、鎮静薬・精神安定薬"
+}
+],
+"stop_use": [
+{
+"en": "Sleeplessness lasts more than 2 weeks — it can be a sign of another illness",
+"ko": "불면이 2주 넘게 계속될 때 — 다른 병의 신호일 수 있음",
+"ja": "不眠が2週間以上続く — 他の病気のサインのことがある"
+},
+{
+"en": "Pain lasts more than 10 days or fever more than 3 days",
+"ko": "통증 10일·열 3일 넘게 지속",
+"ja": "痛み10日以上・熱3日以上続く"
+}
+],
+"key_warning": {
+"en": "This is the same acetaminophen as Tylenol plus a drowsy antihistamine. Do not add another acetaminophen product, and expect drowsiness the next morning in older adults.",
+"ko": "타이레놀과 같은 아세트아미노펜에 졸리는 항히스타민제가 더해진 약입니다. 다른 아세트아미노펜 제품을 더하지 마세요. 어르신은 다음 날 아침까지 졸릴 수 있습니다.",
+"ja": "タイレノールと同じアセトアミノフェンに眠くなる抗ヒスタミン薬を加えた薬です。他のアセトアミノフェン製品を重ねないでください。高齢の方は翌朝まで眠気が残ることがあります。"
+},
+"older_adults": {
+"en": "Diphenhydramine is a first-generation antihistamine on the American Geriatrics Society Beers Criteria list of medicines older adults should avoid.",
+"ko": "디펜히드라민은 미국노인의학회 Beers 기준에서 노인이 피해야 할 1세대 항히스타민제로 올라 있습니다.",
+"ja": "ジフェンヒドラミンは米国老年医学会のBeers基準で高齢者が避けるべき第一世代抗ヒスタミン薬に挙げられています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"liver",
+"alcohol",
+"blood_thinner",
+"glaucoma",
+"prostate",
+"sedation",
+"seniors"
+],
+"classes": [
+"acetaminophen",
+"sedating_antihistamine",
+"sleep_aid"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Tylenol PM Extra Strength Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=639f4e01-9723-a619-e053-2991aa0a549a"
+},
+{
+"title": "AGS Health in Aging Foundation — Alternatives for Medications Listed in the AGS Beers Criteria (April 2023)",
+"url": "https://www.healthinaging.org/sites/default/files/media/pdf/HIA-LearnMore-BEERS-alternatives23.pdf"
+}
+],
+"verified": "2026-10-22"
+},
+{
+"id": "ibuprofen-pm",
+"kind": "otc",
+"category": "sleep",
+"name": {
+"en": "Ibuprofen PM (with diphenhydramine)",
+"ko": "이부프로펜 PM (디펜히드라민 포함)",
+"ja": "イブプロフェンPM（ジフェンヒドラミン配合）"
+},
+"aka": [
+"Advil PM",
+"Motrin PM"
+],
+"brands": [
+"Advil PM",
+"store brand Ibuprofen PM"
+],
+"active": [
+{
+"ingredient": "ibuprofen",
+"strength": "200 mg",
+"purpose": {
+"en": "Pain reliever (NSAID)",
+"ko": "진통제 (NSAID)",
+"ja": "鎮痛薬（NSAID）"
+}
+},
+{
+"ingredient": "diphenhydramine",
+"strength": "38 mg (citrate)",
+"purpose": {
+"en": "Nighttime sleep aid",
+"ko": "수면 보조",
+"ja": "睡眠補助"
+}
+}
+],
+"uses": {
+"en": "Relief of occasional sleeplessness that comes with minor aches and pains.",
+"ko": "가벼운 통증과 함께 오는 가끔의 불면을 덜어 줍니다.",
+"ja": "軽い痛みに伴うときどきの不眠をやわらげます。"
+},
+"directions_adult": {
+"en": "Adults and children 12 and over: 2 caplets at bedtime. Take with food or milk if your stomach is upset.",
+"ko": "성인 및 12세 이상: 잠자기 전 2정. 속이 불편하면 음식이나 우유와 함께.",
+"ja": "成人と12歳以上: 寝る前に2錠。胃が不快なら食べ物か牛乳と一緒に。"
+},
+"max_daily": {
+"en": "Do not take more than 2 caplets in 24 hours.",
+"ko": "24시간에 2정을 넘기지 마세요.",
+"ja": "24時間で2錠を超えないでください。"
+},
+"children": {
+"en": "Under 12: do not use.",
+"ko": "12세 미만: 쓰지 마세요.",
+"ja": "12歳未満: 使用しないでください。"
+},
+"do_not_use": [
+{
+"en": "If you have sleeplessness without pain, or do not have time for a full night's sleep",
+"ko": "통증 없이 잠만 못 자는 경우, 또는 밤잠을 충분히 잘 시간이 없을 때",
+"ja": "痛みのない不眠、または十分な睡眠時間がない時"
+},
+{
+"en": "With any other diphenhydramine product; right before or after heart surgery",
+"ko": "다른 디펜히드라민 제품과 함께, 심장 수술 직전·직후",
+"ja": "他のジフェンヒドラミン製品と一緒に、心臓手術の直前・直後"
+}
+],
+"ask_doctor": [
+{
+"en": "Stomach bleeding risk: age 60 or older, past ulcers or bleeding, blood thinner or steroid, other NSAIDs, 3 or more alcoholic drinks a day",
+"ko": "위출혈 위험: 60세 이상, 궤양·출혈 경험, 혈액 희석제·스테로이드, 다른 NSAID, 하루 3잔 이상 음주",
+"ja": "胃出血のリスク: 60歳以上、潰瘍・出血の既往、血液をサラサラにする薬・ステロイド、他のNSAID、1日3杯以上の飲酒"
+},
+{
+"en": "High blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, emphysema or chronic bronchitis, glaucoma, or trouble urinating from an enlarged prostate",
+"ko": "고혈압, 심장 질환, 간경변, 신장 질환, 천식, 폐기종·만성 기관지염, 녹내장, 전립선 비대로 인한 배뇨 곤란",
+"ja": "高血圧、心臓病、肝硬変、腎臓病、ぜんそく、肺気腫・慢性気管支炎、緑内障、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives, tranquilizers, another sleep aid or antihistamine; aspirin for heart attack or stroke",
+"ko": "진정제, 신경안정제, 다른 수면제나 항히스타민제, 심장 예방용 아스피린",
+"ja": "鎮静薬、精神安定薬、他の睡眠薬・抗ヒスタミン薬、心臓予防のアスピリン"
+}
+],
+"stop_use": [
+{
+"en": "Signs of stomach bleeding: feeling faint, vomiting blood, bloody or black stools, stomach pain that does not get better",
+"ko": "위출혈 징후: 쓰러질 것 같음, 피를 토함, 피 섞인 변이나 검은 변, 낫지 않는 복통",
+"ja": "胃出血の兆候: 気が遠くなる、吐血、血便や黒い便、治らない腹痛"
+},
+{
+"en": "Sleeplessness lasts more than 2 weeks; pain lasts more than 10 days",
+"ko": "불면 2주 이상, 통증 10일 이상 지속",
+"ja": "不眠が2週間以上、痛みが10日以上続く"
+}
+],
+"key_warning": {
+"en": "An NSAID plus a drowsy antihistamine: the stomach-bleeding and heart warnings of ibuprofen apply, and you will be drowsy — avoid alcohol and driving.",
+"ko": "NSAID에 졸리는 항히스타민제가 더해진 약입니다. 이부프로펜의 위출혈·심장 경고가 그대로 적용되고 졸리게 됩니다 — 술과 운전을 피하세요.",
+"ja": "NSAIDに眠くなる抗ヒスタミン薬を加えた薬です。イブプロフェンの胃出血・心臓の注意がそのまま当てはまり、眠くなります — 飲酒と運転は避けてください。"
+},
+"older_adults": {
+"en": "Diphenhydramine is on the AGS Beers Criteria list of medicines older adults should avoid, and AGS advises avoiding NSAIDs such as ibuprofen with heart failure or kidney disease. The label lists age 60 or older as a higher stomach-bleeding risk.",
+"ko": "디펜히드라민은 AGS Beers 기준에서 노인이 피해야 할 약이며, AGS는 심부전·신장 질환이 있으면 이부프로펜 같은 NSAID를 피하라고 합니다. 라벨은 60세 이상을 위출혈 고위험으로 적고 있습니다.",
+"ja": "ジフェンヒドラミンはAGS Beers基準で高齢者が避けるべき薬で、AGSは心不全・腎臓病があればイブプロフェンなどのNSAIDを避けるよう勧めています。ラベルは60歳以上を胃出血の高リスクとしています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use. Do not use ibuprofen in the last 3 months of pregnancy unless a doctor directs.",
+"ko": "사용 전 의료인에게 물어보세요. 의사 지시 없이 임신 마지막 3개월에는 쓰지 마세요.",
+"ja": "使用前に医療専門家に相談。医師の指示がなければ妊娠最後の3か月は使わないでください。"
+},
+"flags": [
+"stomach",
+"bleeding",
+"blood_thinner",
+"bp",
+"heart",
+"kidney",
+"asthma",
+"glaucoma",
+"prostate",
+"sedation",
+"seniors",
+"pregnancy",
+"alcohol"
+],
+"classes": [
+"nsaid",
+"sedating_antihistamine",
+"sleep_aid"
+],
+"supplement_note": null,
+"sources": [
+{
+"title": "DailyMed — Advil PM Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a3c30dd2-75f3-4f8b-88d7-4a63dea5bad7"
+},
+{
+"title": "AGS Health in Aging Foundation — Alternatives for Medications Listed in the AGS Beers Criteria (April 2023)",
+"url": "https://www.healthinaging.org/sites/default/files/media/pdf/HIA-LearnMore-BEERS-alternatives23.pdf"
+}
+],
+"verified": "2026-10-22"
+}
+]
+}

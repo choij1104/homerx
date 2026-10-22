@@ -25,7 +25,7 @@ import os, re, shutil, sys
 AND = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # .../android
 ROOT = os.path.dirname(AND)
 OUT = os.path.join(AND, "www")
-ASSETS = ("manifest.json", "icon.svg", "icon-192.png", "icon-512.png")
+ASSETS = ("manifest.json", "icon.svg", "icon-192.png", "icon-512.png", "privacy.html")
 FORBIDDEN = ("NAMRU", "namru", "Naval Medical", "U.S. Navy", "Department of Defense",
              "TCCC", "남루", "choij1104")
 LANGS = ("ko", "en", "ja")
@@ -43,7 +43,7 @@ src = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
 t = src
 
 # 1. Build marker ------------------------------------------------------------------------
-t = sub1('<meta charset="UTF-8">', '<meta charset="UTF-8">\n<meta name="homerx-build" content="store">',
+t = sub1('<meta charset="utf-8">', '<meta charset="utf-8">\n<meta name="homerx-build" content="store">',
          t, "charset meta")
 
 # 3. Guards ------------------------------------------------------------------------------
@@ -63,43 +63,47 @@ for bad in FORBIDDEN:
         die(f"forbidden text '{bad}' in index.html")
 
 # 4. Content parity ----------------------------------------------------------------------
-def block(name, nxt):
-    a, b = t.find(f"const {name} = "), t.find(f"const {nxt} = ")
-    if a < 0 or b < 0 or b < a:
-        die(f"data block {name} not found")
-    return t[a:b]
-
-counts = {}
-for name, nxt, fields in (("otc", "supplements", ("use", "safety")),
-                          ("supplements", "urgentLists", ("use", "safety", "evidence"))):
-    blk = block(name, nxt)
-    rows = [l for l in blk.splitlines() if l.startswith("  { ")]
-    counts[name] = len(rows)
-    for i, row in enumerate(rows):
-        for f in fields:
-            m = re.search(r"\b" + f + r': \{([^}]*)\}', row)
-            if not m:
-                die(f"{name}[{i}] has no '{f}' field")
+# v2 embeds all content as one JSON object: const DATA = {...};  (built by v2/build.py, which
+# already validates the schema). Re-check EN/KO/JA parity here so a store build can never ship
+# a field missing in one language.
+import json
+m = re.search(r"const DATA = (\{.*?\});\n", t, re.S)
+if not m:
+    die("const DATA block not found")
+DATA = json.loads(m.group(1))
+def walk(o, where):
+    if isinstance(o, dict):
+        if set(o.keys()) >= set(LANGS) and all(isinstance(o[l], str) for l in LANGS):
             for l in LANGS:
-                if not re.search(r"\b" + l + r': "[^"]+"', m.group(1)):
-                    die(f"{name}[{i}].{f} is missing '{l}'")
-
-i18n = block("i18n", "tabs")
-keysets = {}
-for l in LANGS:
-    m = re.search(r"\n  " + l + r": \{(.*?)\n  \}", i18n, re.S)
-    if not m:
-        die(f"i18n.{l} not found")
-    keysets[l] = set(re.findall(r"(?m)(?:^|,)\s*([A-Za-z0-9_]+): \"", m.group(1)))
-if not (keysets["ko"] == keysets["en"] == keysets["ja"]):
-    die("i18n key sets differ between ko/en/ja: "
+                if not o[l].strip():
+                    die(f"{where} is missing '{l}'")
+            return
+        for k, v in o.items():
+            walk(v, f"{where}.{k}")
+    elif isinstance(o, list):
+        for i, v in enumerate(o):
+            walk(v, f"{where}[{i}]")
+walk(DATA["entries"], "entries")
+walk(DATA.get("home", []), "home")
+kinds = {}
+for e in DATA["entries"]:
+    kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1
+# UI strings: evaluate the UI object with node and compare key sets.
+import subprocess
+a_ = t.find("const UI = "); b_ = t.find("const LEARN = ")
+if a_ < 0 or b_ < a_:
+    die("const UI block not found")
+js = t[a_:b_] + "\nconsole.log(JSON.stringify(Object.fromEntries(Object.entries(UI).map(([k,v])=>[k,Object.keys(v).sort()]))));"
+r = subprocess.run(["node", "-e", js], capture_output=True, text=True)
+if r.returncode != 0:
+    die("could not evaluate UI strings: " + r.stderr[-300:])
+uk = json.loads(r.stdout)
+keysets = {l: set(uk.get(l, [])) for l in LANGS}
+if not keysets["en"] or not (keysets["ko"] == keysets["en"] == keysets["ja"]):
+    die("UI string keys differ between ko/en/ja: "
         + str((keysets["ko"] ^ keysets["en"]) | (keysets["ko"] ^ keysets["ja"])))
-for name, nxt in (("tabs", "otc"), ("phrases", "cardLabels")):
-    for i, row in enumerate(l for l in block(name, nxt).splitlines() if l.startswith("  { ")):
-        for l in LANGS:
-            if not re.search(r"\b" + l + r': "[^"]+"', row):
-                die(f"{name}[{i}] is missing '{l}'")
-total = counts["otc"] + counts["supplements"]
+total = len(DATA["entries"])
+counts = kinds
 
 # Write ----------------------------------------------------------------------------------
 shutil.rmtree(OUT, ignore_errors=True)
@@ -110,10 +114,12 @@ for a in ASSETS:
     if not os.path.isfile(p):
         die(f"{a} missing in repository root")
     shutil.copy(p, os.path.join(OUT, a))
-for ref in re.findall(r'(?:src|href)="([^"#][^"]*)"', t):
+for ref in re.findall(r'(?:src|href)="([^"#$][^"]*)"', t):
+    if re.match(r"(tel|mailto|sms):", ref):
+        continue
     if not os.path.isfile(os.path.join(OUT, ref)):
         die(f"local reference '{ref}' not in the bundle")
 
-print(f"build-store: HomeRx written to {OUT} ({len(t)} bytes); entries {total} "
-      f"({counts['otc']} OTC + {counts['supplements']} supplements), EN/KO/JA parity "
-      f"{total}/{total}/{total}, UI strings {len(keysets['en'])} keys x 3 languages")
+print(f"build-store: HomeRx {DATA['version']} written to {OUT} ({len(t)} bytes); entries {total} "
+      f"{counts}, home-brand items {len(DATA.get('home', []))}, EN/KO/JA parity checked, "
+      f"UI strings {len(keysets['en'])} keys x 3 languages")

@@ -140,7 +140,7 @@
 "active": [
 {
 "ingredient": "nicotine",
-"strength": "21 mg (Step 1) or 14 mg (Step 2) per 24 hours",
+"strength": "21 mg (Step 1), 14 mg (Step 2) or 7 mg (Step 3) per 24 hours",
 "purpose": {
 "en": "Stop smoking aid",
 "ko": "금연 보조제",
@@ -149,32 +149,21 @@
 }
 ],
 "directions_adult": {
-"en": "Adults 18+: stop smoking completely when you start. More than 10 cigarettes a day — start with Step 1; 10 or fewer — start with Step 2. Follow the step schedule on the package. Put one new patch on clean, dry, hairless skin every 24 hours, pressing for 10 seconds; use a different site each day and wash hands after.",
-"ko": "18세 이상: 시작할 때 담배를 완전히 끊으세요. 하루 10개비 초과 — 1단계부터, 10개비 이하 — 2단계부터. 포장의 단계별 일정을 따르세요. 24시간마다 새 패치 1장을 깨끗하고 마른, 털 없는 피부에 10초간 눌러 붙이고, 매일 다른 곳에 붙인 뒤 손을 씻으세요.",
-"ja": "18歳以上: 始めるときにたばこを完全にやめる。1日10本超 — ステップ1から、10本以下 — ステップ2から。箱のステップ表に従う。24時間ごとに新しいパッチ1枚を、清潔で乾いた毛のない皮膚に10秒押して貼り、毎日場所を変え、貼った後は手を洗う。"
+"en": "Adults 18+: stop smoking completely when you start. More than 10 cigarettes a day: Step 1 for weeks 1–6, Step 2 for weeks 7–8, Step 3 for weeks 9–10. 10 or fewer a day: Step 2 for 6 weeks, then Step 3 for 2 weeks, then stop. Put one new patch on clean, dry, hairless skin every 24 hours, press for 10 seconds, and wash hands after.",
+"ko": "18세 이상: 시작할 때 담배를 완전히 끊으세요. 하루 10개비 초과: 1~6주 1단계, 7~8주 2단계, 9~10주 3단계. 10개비 이하: 2단계 6주, 3단계 2주 후 중단. 24시간마다 새 패치 1장을 깨끗하고 마른, 털 없는 피부에 10초간 눌러 붙이고 손을 씻으세요.",
+"ja": "18歳以上: 始めるときにたばこを完全にやめる。1日10本超: 1〜6週ステップ1、7〜8週ステップ2、9〜10週ステップ3。10本以下: ステップ2を6週、ステップ3を2週、その後終了。24時間ごとに新しいパッチ1枚を、清潔で乾いた毛のない皮膚に10秒押して貼り、手を洗う。"
 },
 "max_daily": {
-"en": "One patch at a time; never more than 24 hours. Do not cut patches.",
-"ko": "한 번에 1장, 24시간을 넘기지 마세요. 자르지 마세요.",
-"ja": "1回に1枚、24時間を超えないこと。切らないこと。"
+"en": "One patch at a time, a new one every 24 hours. Do not cut patches. Talk to your provider if you need it beyond the program.",
+"ko": "한 번에 1장, 24시간마다 새 패치. 자르지 마세요. 프로그램 이후에도 필요하면 의료인과 상의하세요.",
+"ja": "1回に1枚、24時間ごとに新しいもの。切らないこと。プログラム後も必要なら医療者に相談。"
 },
 "children": {
 "en": "Under 18: ask a doctor. Used and unused pieces/patches can poison children and pets — call Poison Control (1-800-222-1222).",
 "ko": "18세 미만: 의사에게 물어보세요. 쓴 것이든 새것이든 아이와 반려동물에게 중독을 일으킬 수 있습니다 — 중독센터(1-800-222-1222).",
 "ja": "18歳未満: 医師に相談。使用済み・未使用どちらも子どもやペットの中毒の原因になります — 中毒センター（1-800-222-1222）。"
 },
-"do_not_use": [
-{
-"en": "If you still smoke, chew tobacco or use snuff",
-"ko": "아직 담배를 피우거나 씹는 담배·코담배를 쓰는 경우",
-"ja": "まだ喫煙、かみたばこ、かぎたばこを使っている"
-},
-{
-"en": "With nicotine gum or any other nicotine product",
-"ko": "니코틴 껌이나 다른 니코틴 제품과 함께",
-"ja": "ニコチンガムや他のニコチン製品と一緒に"
-}
-],
+"do_not_use": [],
 "ask_doctor": [
 {
 "en": "Heart disease, a recent heart attack, or an irregular heartbeat; high blood pressure not controlled by medicine",
@@ -185,6 +174,11 @@
 "en": "Allergy to adhesive tape, or skin problems",
 "ko": "반창고 알레르기, 또는 피부 질환",
 "ja": "ばんそうこうアレルギー、または皮膚の病気"
+},
+{
+"en": "Stomach ulcer or diabetes; history of seizures",
+"ko": "위궤양 또는 당뇨; 경련 병력",
+"ja": "胃潰瘍または糖尿病；けいれん発作の既往"
 }
 ],
 "ask_pharmacist": [
@@ -204,12 +198,17 @@
 "en": "Irregular heartbeat or palpitations, or signs of too much nicotine: nausea, vomiting, dizziness, weakness, fast heartbeat",
 "ko": "부정맥·두근거림, 또는 니코틴 과다 증상: 메스꺼움, 구토, 어지러움, 쇠약감, 빠른 심장박동",
 "ja": "不整脈・動悸、またはニコチン過量の症状: 吐き気、嘔吐、めまい、脱力、速い脈"
+},
+{
+"en": "An allergic reaction",
+"ko": "알레르기 반응",
+"ja": "アレルギー反応"
 }
 ],
 "key_warning": {
-"en": "Do not smoke while using it. Vivid dreams or trouble sleeping: take the patch off at bedtime. Fold used patches sticky sides together — they can still poison children and pets.",
-"ko": "사용하는 동안 담배를 피우지 마세요. 생생한 꿈이나 수면 문제가 있으면 자기 전에 떼세요. 쓴 패치는 접착면끼리 접어 버리세요 — 아이와 반려동물에게 여전히 위험합니다.",
-"ja": "使用中は喫煙しないこと。鮮明な夢や不眠があれば就寝前にはがす。使用済みパッチは粘着面を合わせて折って捨てる — 子どもやペットには今でも危険です。"
+"en": "Vivid dreams or trouble sleeping: take the patch off at bedtime. Fold used patches sticky sides together and put them in the pouch — they can still poison children and pets.",
+"ko": "생생한 꿈이나 수면 문제가 있으면 자기 전에 떼세요. 쓴 패치는 접착면끼리 접어 파우치에 넣으세요 — 아이와 반려동물에게 여전히 위험합니다.",
+"ja": "鮮明な夢や不眠があれば就寝前にはがす。使用済みパッチは粘着面を合わせて折り、袋に入れる — 子どもやペットには今でも危険です。"
 },
 "older_adults": null,
 "pregnancy": {
@@ -218,10 +217,12 @@
 "ja": "医療者の助言があるときのみ使ってください。喫煙よりは安全と考えられていますが、赤ちゃんへのリスクは完全には分かっていません。"
 },
 "flags": [
-"heart",
 "bp",
+"children",
+"diabetes",
+"heart",
 "pregnancy",
-"children"
+"stomach"
 ],
 "classes": [],
 "supplement_note": null,
@@ -241,8 +242,8 @@
 },
 "sources": [
 {
-"title": "DailyMed — Nicotine Transdermal System Step 1 and Step 2 Drug Facts",
-"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f363ca90-6c4a-4d45-9b1d-3a6fb1cddecd"
+"title": "DailyMed — NicoDerm CQ (nicotine transdermal system) Drug Facts, rev. 7/2025",
+"url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=93b2d1b9-83c1-40b5-b6af-90c38c8d6cef&type=pdf"
 }
 ]
 },
@@ -437,9 +438,9 @@
 }
 ],
 "key_warning": {
-"en": "Can damage condoms and diaphragms, so they may not prevent pregnancy or STDs. Avoid tampons, douches and intercourse during treatment.",
-"ko": "콘돔과 페서리를 손상시켜 피임·성병 예방이 안 될 수 있습니다. 치료 중 탐폰, 질 세척, 성관계를 피하세요.",
-"ja": "コンドームやペッサリーを傷め、避妊や性感染症予防ができなくなることがあります。治療中はタンポン、膣洗浄、性交を避けてください。"
+"en": "Can damage condoms and diaphragms, so they may not prevent pregnancy or STDs. During treatment avoid tampons, douches, spermicides, other vaginal products and intercourse.",
+"ko": "콘돔과 페서리를 손상시켜 피임·성병 예방이 안 될 수 있습니다. 치료 중 탐폰, 질 세척, 살정제, 다른 질 제품, 성관계를 피하세요.",
+"ja": "コンドームやペッサリーを傷め、避妊や性感染症予防ができなくなることがあります。治療中はタンポン、膣洗浄、殺精子剤、他の膣用製品、性交を避けてください。"
 },
 "older_adults": null,
 "pregnancy": {

@@ -444,9 +444,9 @@
 "ja": "1日4回、歯科医・医師の指示がなければ7日まで。"
 },
 "children": {
-"en": "Ages 2–11: ask a doctor first and supervise use. Under 2: do not use. Never for teething.",
-"ko": "2~11세: 먼저 의사에게 묻고 사용을 지켜보세요. 2세 미만: 사용 금지. 이가 날 때 절대 사용 금지.",
-"ja": "2〜11歳: 先に医師に相談し、使用を見守る。2歳未満: 使用しない。歯が生えるときには使わない。"
+"en": "Ages 2–12: ask a doctor first and supervise use. Under 2: do not use. Never for teething.",
+"ko": "2~12세: 먼저 의사에게 묻고 사용을 지켜보세요. 2세 미만: 사용 금지. 이가 날 때 절대 사용 금지.",
+"ja": "2〜12歳: 先に医師に相談し、使用を見守る。2歳未満: 使用しない。歯が生えるときには使わない。"
 },
 "do_not_use": [
 {
@@ -480,11 +480,7 @@
 "ja": "ベンゾカインは以前使ったことがあっても、血液の酸素が大きく下がるメトヘモグロビン血症を起こすことがあります。青白い・灰色・青い肌、頭痛、速い脈、息切れ、めまい、だるさがあればすぐ救急へ。歯が生えるときには絶対に使わないでください。"
 },
 "older_adults": null,
-"pregnancy": {
-"en": "Ask a health professional before use.",
-"ko": "사용 전 의료인에게 물어보세요.",
-"ja": "使用前に医療専門家に相談してください。"
-},
+"pregnancy": null,
 "flags": [
 "children"
 ],

@@ -3,7 +3,7 @@
 Package `com.hakoya.homerx` · Free · Developer: HAKOYA LLC
 
 Every claim below was checked against the v2 app (index.html built by v2/build.py, version
-2.0.0, 82 entries, 12 Korea/Japan items). The listing never calls it medical advice, a diagnostic
+2.0.0, 98 entries, 12 Korea/Japan items). The listing never calls it medical advice, a diagnostic
 tool, or FDA approved/registered/cleared.
 
 ## App details
@@ -40,7 +40,7 @@ HomeRx explains the over-the-counter (OTC) medicines and dietary supplements sol
 It is made for immigrants, older adults, caregivers and students: anyone who stands in a pharmacy aisle and finds the labels hard to follow. HomeRx is an educational reference. It does not diagnose or prescribe, and it does not replace your pharmacist or doctor.
 
 DRUG FACTS, TRANSLATED
-• 82 entries: pain and fever, allergy, cold and cough, nose, eye and ear, stomach, constipation, motion sickness, skin, first aid, mouth, sleep, women's health, quitting smoking, vitamins, minerals and herbal supplements.
+• 98 entries: pain and fever, gout, allergy, cold and cough, nose, eye and ear, stomach, constipation, motion sickness, skin, first aid, mouth and teeth, sleep, women's health, children, quitting smoking, vitamins, minerals and herbal supplements.
 • Each medicine is summarized in the same order as the U.S. Drug Facts label: active ingredient, uses, warnings, directions, and when to stop and ask a doctor.
 • Every entry lists its sources (DailyMed labels, NIH Office of Dietary Supplements, NCCIH, CDC) and the date it was checked.
 • Supplements show the recommended amount, the upper limit, what the evidence says, and the medicines they interact with.

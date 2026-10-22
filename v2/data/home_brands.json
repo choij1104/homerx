@@ -1,0 +1,415 @@
+{
+"items": [
+{
+"country": "KR",
+"product": {
+"local": "타이레놀정500mg",
+"en": "Tylenol 500 mg (Korea)"
+},
+"maker": "Johnson & Johnson Korea",
+"ingredients": [
+{
+"name_en": "acetaminophen",
+"amount": "500 mg per tablet"
+}
+],
+"us_status": "same_ingredient_otc",
+"us_match": [
+"acetaminophen"
+],
+"note": {
+"en": "Same ingredient as U.S. Tylenol/acetaminophen. Korea's label also caps adults at 4 g (8 tablets) a day — U.S. Extra Strength labels set a lower daily maximum, so follow the U.S. package you buy.",
+"ko": "미국 타이레놀(아세트아미노펜)과 같은 성분입니다. 한국 라벨도 성인 하루 최대 4 g(8정)이지만, 미국 Extra Strength 라벨은 하루 최대량이 더 낮으니 미국에서 산 제품의 라벨을 따르세요.",
+"ja": "米国のタイレノール（アセトアミノフェン）と同じ成分です。韓国のラベルも成人1日最大4 g（8錠）ですが、米国のExtra Strengthのラベルは1日最大量がより低いので、購入した米国製品のラベルに従ってください。"
+},
+"sources": [
+{
+"title": "Korea Pharmaceutical Information Center (health.kr) — Tylenol Tab. 500mg",
+"url": "https://www.health.kr/searchDrug/result_drug.asp?drug_cd=2021082400002"
+}
+]
+},
+{
+"country": "KR",
+"product": {
+"local": "게보린정",
+"en": "Geworin Tab."
+},
+"maker": "Samjin Pharm",
+"ingredients": [
+{
+"name_en": "isopropylantipyrine",
+"amount": "150 mg"
+},
+{
+"name_en": "acetaminophen",
+"amount": "300 mg"
+},
+{
+"name_en": "caffeine anhydrous",
+"amount": "50 mg"
+}
+],
+"us_status": "similar_ingredient_otc",
+"us_match": [
+"acetaminophen",
+"caffeine"
+],
+"note": {
+"en": "Isopropylantipyrine (a pyrazolone) is not sold in U.S. OTC medicines. The acetaminophen and caffeine are. Do not add another acetaminophen product.",
+"ko": "이소프로필안티피린(피라졸론 계열)은 미국 일반약에 없습니다. 아세트아미노펜과 카페인은 있습니다. 다른 아세트아미노펜 제품을 함께 먹지 마세요.",
+"ja": "イソプロピルアンチピリン（ピラゾロン系）は米国の市販薬にはありません。アセトアミノフェンとカフェインはあります。他のアセトアミノフェン製品を重ねて飲まないでください。"
+},
+"sources": [
+{
+"title": "Korea Pharmaceutical Information Center (health.kr) — Geworin Tab.",
+"url": "https://www.health.kr/searchDrug/result_drug.asp?drug_cd=A11A1270A0060"
+}
+]
+},
+{
+"country": "KR",
+"product": {
+"local": "판콜에스내복액",
+"en": "Pancold-S Oral Solution"
+},
+"maker": "Dong Wha Pharm",
+"ingredients": [
+{
+"name_en": "acetaminophen",
+"amount": "300 mg / 30 mL"
+},
+{
+"name_en": "chlorpheniramine maleate",
+"amount": "2.5 mg"
+},
+{
+"name_en": "guaifenesin",
+"amount": "83.3 mg"
+},
+{
+"name_en": "dl-methylephedrine HCl",
+"amount": "17.5 mg"
+},
+{
+"name_en": "caffeine anhydrous",
+"amount": "30 mg"
+}
+],
+"us_status": "similar_ingredient_otc",
+"us_match": [
+"acetaminophen",
+"chlorpheniramine",
+"guaifenesin"
+],
+"note": {
+"en": "A multi-symptom cold liquid. dl-Methylephedrine is not used in U.S. OTC cold medicines; acetaminophen, chlorpheniramine and guaifenesin are. Causes drowsiness.",
+"ko": "종합 감기 물약입니다. dl-메틸에페드린은 미국 일반 감기약에 쓰이지 않으며, 아세트아미노펜·클로르페니라민·구아이페네신은 있습니다. 졸릴 수 있습니다.",
+"ja": "総合かぜ薬の液剤です。dl-メチルエフェドリンは米国の市販かぜ薬には使われず、アセトアミノフェン・クロルフェニラミン・グアイフェネシンはあります。眠くなります。"
+},
+"sources": [
+{
+"title": "Korea Pharmaceutical Information Center (health.kr) — Pan Cold-S Oral Solution",
+"url": "https://health.kr/searchDrug/result_drug.asp?drug_cd=A11A0570A0353"
+}
+]
+},
+{
+"country": "KR",
+"product": {
+"local": "이지엔6애니연질캡슐",
+"en": "EZN6 Any Soft Cap."
+},
+"maker": "Daewoong Pharmaceutical",
+"ingredients": [
+{
+"name_en": "ibuprofen",
+"amount": "200 mg per capsule"
+}
+],
+"us_status": "same_ingredient_otc",
+"us_match": [
+"ibuprofen"
+],
+"note": {
+"en": "Same ingredient and strength as U.S. ibuprofen 200 mg (Advil, Motrin). Do not combine with other NSAIDs.",
+"ko": "미국 이부프로펜 200 mg(애드빌, 모트린)과 같은 성분·함량입니다. 다른 소염진통제(NSAID)와 함께 먹지 마세요.",
+"ja": "米国のイブプロフェン200 mg（アドビル、モトリン）と同じ成分・量です。他のNSAIDと併用しないでください。"
+},
+"sources": [
+{
+"title": "Korea Pharmaceutical Information Center (health.kr) — EZN6any Soft Cap.",
+"url": "https://health.kr/searchDrug/result_drug.asp?drug_cd=A11APPPPP2807"
+}
+]
+},
+{
+"country": "KR",
+"product": {
+"local": "겔포스엠현탁액",
+"en": "Gelfos-M Suspension"
+},
+"maker": "",
+"ingredients": [
+{
+"name_en": "aluminum phosphate gel",
+"amount": "12.38 g / 20 g"
+},
+{
+"name_en": "magnesium hydroxide",
+"amount": "400 mg"
+},
+{
+"name_en": "simethicone",
+"amount": "40 mg"
+}
+],
+"us_status": "similar_ingredient_otc",
+"us_match": [
+"magnesium hydroxide",
+"simethicone",
+"aluminum hydroxide"
+],
+"note": {
+"en": "U.S. liquid antacids usually use aluminum hydroxide instead of aluminum phosphate, with magnesium hydroxide and simethicone (Maalox, Mylanta).",
+"ko": "미국 물 제산제는 보통 인산알루미늄 대신 수산화알루미늄에 수산화마그네슘·시메티콘을 함께 씁니다(마알록스, 마일란타).",
+"ja": "米国の液体制酸薬は通常、リン酸アルミニウムの代わりに水酸化アルミニウムと水酸化マグネシウム・シメチコンを使います（マーロックス、マイランタ）。"
+},
+"sources": [
+{
+"title": "Korea Pharmaceutical Information Center (health.kr) — Gelfos-M Suspension",
+"url": "https://health.kr/searchDrug/result_drug.asp?drug_cd=A11A0930A0424"
+}
+]
+},
+{
+"country": "KR",
+"product": {
+"local": "훼스탈플러스정",
+"en": "Festal Plus Tab."
+},
+"maker": "Handok",
+"ingredients": [
+{
+"name_en": "pancreatin",
+"amount": "315 mg"
+},
+{
+"name_en": "cellulase",
+"amount": "10 mg"
+},
+{
+"name_en": "ursodeoxycholic acid",
+"amount": "10 mg"
+},
+{
+"name_en": "simethicone",
+"amount": "30 mg"
+}
+],
+"us_status": "similar_ingredient_otc",
+"us_match": [
+"simethicone"
+],
+"note": {
+"en": "Digestive-enzyme tablets like this are not sold as U.S. OTC medicines (U.S. pancreatic enzyme products are prescription). Only the simethicone (gas relief) is OTC.",
+"ko": "이런 소화효소 정제는 미국에서 일반약으로 팔지 않습니다(미국 췌장효소제는 처방약). 시메티콘(가스 완화)만 일반약입니다.",
+"ja": "このような消化酵素錠は米国では市販薬として売られていません（米国の膵酵素製剤は処方薬）。シメチコン（ガス抜き）だけが市販薬です。"
+},
+"sources": [
+{
+"title": "Korea Pharmaceutical Information Center (health.kr) — Festal Plus Tab.",
+"url": "https://health.kr/searchDrug/result_drug.asp?drug_cd=A11A0740B0009"
+}
+]
+},
+{
+"country": "KR",
+"product": {
+"local": "지르텍정",
+"en": "Zyrtec Tab. (Korea)"
+},
+"maker": "",
+"ingredients": [
+{
+"name_en": "cetirizine HCl",
+"amount": "10 mg per tablet"
+}
+],
+"us_status": "same_ingredient_otc",
+"us_match": [
+"cetirizine"
+],
+"note": {
+"en": "Same ingredient and strength as U.S. Zyrtec (cetirizine 10 mg).",
+"ko": "미국 지르텍(세티리진 10 mg)과 같은 성분·함량입니다.",
+"ja": "米国のジルテック（セチリジン10 mg）と同じ成分・量です。"
+},
+"sources": [
+{
+"title": "Korea Pharmaceutical Information Center (health.kr) — Zyrtec Tab.",
+"url": "https://www.health.kr/searchDrug/result_drug.asp?drug_cd=A11ABBBBB2527"
+}
+]
+},
+{
+"country": "JP",
+"product": {
+"local": "ロキソニンS",
+"en": "Loxonin S"
+},
+"maker": "Daiichi Sankyo Healthcare",
+"ingredients": [
+{
+"name_en": "loxoprofen sodium hydrate",
+"amount": "68.1 mg (60 mg anhydrous) per tablet"
+}
+],
+"us_status": "not_otc",
+"us_match": [
+"ibuprofen",
+"naproxen sodium"
+],
+"note": {
+"en": "Loxoprofen is not sold in the U.S. The U.S. OTC drugs in the same family (NSAIDs) are ibuprofen and naproxen — pick one, never both, and not together with loxoprofen.",
+"ko": "록소프로펜은 미국에서 팔지 않습니다. 같은 계열(NSAID)의 미국 일반약은 이부프로펜과 나프록센이며, 하나만 고르고 함께 먹거나 록소프로펜과 겹쳐 먹지 마세요.",
+"ja": "ロキソプロフェンは米国では売られていません。同じ仲間（NSAID）の米国市販薬はイブプロフェンとナプロキセンで、どちらか1つにし、併用やロキソプロフェンとの重ね飲みはしないでください。"
+},
+"sources": [
+{
+"title": "Daiichi Sankyo Healthcare — Loxonin S product page",
+"url": "https://www.daiichisankyo-hc.co.jp/site_loxonin-s/naifuku/loxonin-s.html"
+}
+]
+},
+{
+"country": "JP",
+"product": {
+"local": "イブA錠",
+"en": "EVE A Tablets"
+},
+"maker": "SSP",
+"ingredients": [
+{
+"name_en": "ibuprofen",
+"amount": "150 mg per 2 tablets"
+},
+{
+"name_en": "allylisopropylacetylurea",
+"amount": "60 mg"
+},
+{
+"name_en": "caffeine anhydrous",
+"amount": "80 mg"
+}
+],
+"us_status": "similar_ingredient_otc",
+"us_match": [
+"ibuprofen",
+"caffeine"
+],
+"note": {
+"en": "Allylisopropylacetylurea (a sedative) is not in U.S. OTC medicines. U.S. ibuprofen tablets are 200 mg each.",
+"ko": "알릴이소프로필아세틸요소(진정 성분)는 미국 일반약에 없습니다. 미국 이부프로펜은 1정 200 mg입니다.",
+"ja": "アリルイソプロピルアセチル尿素（鎮静成分）は米国の市販薬にはありません。米国のイブプロフェンは1錠200 mgです。"
+},
+"sources": [
+{
+"title": "SSP — EVE A Tablets product page",
+"url": "https://www.ssp.co.jp/product/detail/evea/"
+}
+]
+},
+{
+"country": "JP",
+"product": {
+"local": "バファリンA",
+"en": "Bufferin A"
+},
+"maker": "Lion",
+"ingredients": [
+{
+"name_en": "aspirin",
+"amount": "660 mg per 2 tablets"
+},
+{
+"name_en": "synthetic hydrotalcite",
+"amount": "200 mg"
+}
+],
+"us_status": "similar_ingredient_otc",
+"us_match": [
+"aspirin"
+],
+"note": {
+"en": "Aspirin is sold OTC in the U.S. (often 325 mg tablets). Aspirin raises bleeding risk; children and teenagers should not take it.",
+"ko": "아스피린은 미국에서도 일반약입니다(보통 1정 325 mg). 출혈 위험을 높이며, 어린이·청소년은 먹지 않아야 합니다.",
+"ja": "アスピリンは米国でも市販薬です（多くは1錠325 mg）。出血の危険を高め、子どもや10代は飲まないでください。"
+},
+"sources": [
+{
+"title": "Lion — Bufferin A package insert (PDF)",
+"url": "https://doc.lion.co.jp/uploads/grn/block_content_image/file/1347/BufferinA.pdf"
+}
+]
+},
+{
+"country": "JP",
+"product": {
+"local": "ガスター10",
+"en": "Gaster 10"
+},
+"maker": "Daiichi Sankyo Healthcare",
+"ingredients": [
+{
+"name_en": "famotidine",
+"amount": "10 mg per tablet"
+}
+],
+"us_status": "same_ingredient_otc",
+"us_match": [
+"famotidine"
+],
+"note": {
+"en": "Same ingredient as U.S. Pepcid AC (famotidine 10 mg or 20 mg).",
+"ko": "미국 펩시드 AC(파모티딘 10 mg 또는 20 mg)와 같은 성분입니다.",
+"ja": "米国のペプシドAC（ファモチジン10 mgまたは20 mg）と同じ成分です。"
+},
+"sources": [
+{
+"title": "Daiichi Sankyo Healthcare — Gaster 10 product information",
+"url": "https://www.daiichisankyo-hc.co.jp/site_gaster10/products/"
+}
+]
+},
+{
+"country": "JP",
+"product": {
+"local": "アレグラFX",
+"en": "Allegra FX"
+},
+"maker": "Hisamitsu",
+"ingredients": [
+{
+"name_en": "fexofenadine HCl",
+"amount": "60 mg per tablet"
+}
+],
+"us_status": "same_ingredient_otc",
+"us_match": [
+"fexofenadine"
+],
+"note": {
+"en": "Same ingredient as U.S. Allegra (fexofenadine), which is sold as 60 mg and 180 mg tablets.",
+"ko": "미국 알레그라(펙소페나딘)와 같은 성분이며, 미국에서는 60 mg과 180 mg 정제로 팝니다.",
+"ja": "米国のアレグラ（フェキソフェナジン）と同じ成分で、米国では60 mgと180 mgの錠剤があります。"
+},
+"sources": [
+{
+"title": "Hisamitsu — Allegra FX dosage and precautions",
+"url": "https://www.allegra.jp/product.html"
+}
+]
+}
+]
+}

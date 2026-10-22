@@ -1,0 +1,861 @@
+{
+"entries": [
+{
+"aka": [
+"anti-itch cream",
+"Cortizone-10",
+"steroid cream",
+"가려움 연고",
+"かゆみ止め"
+],
+"brands": [
+"Cortizone-10",
+"store brand hydrocortisone 1%"
+],
+"active": [
+{
+"ingredient": "hydrocortisone",
+"strength": "1%",
+"purpose": {
+"en": "Anti-itch",
+"ko": "가려움 완화제",
+"ja": "かゆみ止め"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 2+: apply to the affected area no more than 3 to 4 times a day.",
+"ko": "성인 및 2세 이상: 하루 3~4번 이하로 해당 부위에 바르세요.",
+"ja": "大人と2歳以上: 患部に1日3〜4回まで塗る。"
+},
+"max_daily": {
+"en": "3 to 4 times a day.",
+"ko": "하루 3~4번.",
+"ja": "1日3〜4回。"
+},
+"children": {
+"en": "Under 2: do not use; ask a doctor. Anal itching under 12: ask a doctor.",
+"ko": "2세 미만: 사용하지 말고 의사에게. 12세 미만 항문 가려움: 의사에게.",
+"ja": "2歳未満: 使わず医師に相談。12歳未満の肛門のかゆみ: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "On diaper rash, unless a doctor says so",
+"ko": "의사 지시 없이 기저귀 발진에",
+"ja": "医師の指示なくおむつかぶれに"
+},
+{
+"en": "For external genital itching if there is vaginal discharge — see a doctor",
+"ko": "질 분비물이 있는데 외음부 가려움에 — 진료를",
+"ja": "おりものがあるときの外陰部のかゆみ — 受診を"
+},
+{
+"en": "Inside the rectum (with fingers or an applicator)",
+"ko": "직장 안(손가락이나 기구로)",
+"ja": "直腸の中（指や器具で）"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "The condition gets worse, lasts more than 7 days, or clears and comes back within a few days",
+"ko": "증상이 악화되거나 7일 넘게 지속되거나, 나았다가 며칠 안에 재발할 때",
+"ja": "悪化する、7日を超えて続く、または治っても数日で再発する"
+},
+{
+"en": "Bleeding (with anal use)",
+"ko": "출혈(항문 사용 시)",
+"ja": "出血（肛門に使った場合）"
+}
+],
+"key_warning": {
+"en": "For external use only. Keep out of the eyes. Do not use for more than 7 days without a doctor.",
+"ko": "외용으로만 쓰세요. 눈에 들어가지 않게 하세요. 의사 상담 없이 7일 넘게 쓰지 마세요.",
+"ja": "外用のみ。目に入らないようにしてください。医師に相談せず7日を超えて使わないでください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "hydrocortisone-cream",
+"kind": "otc",
+"category": "skin",
+"name": {
+"en": "Hydrocortisone 1% cream",
+"ko": "하이드로코르티손 1% 크림",
+"ja": "ヒドロコルチゾン1%クリーム"
+},
+"uses": {
+"en": "Temporarily relieves itching from minor skin irritation, inflammation and rashes — eczema, insect bites, poison ivy/oak/sumac, soaps, detergents, cosmetics, jewelry, seborrheic dermatitis, psoriasis, and external genital or anal itching.",
+"ko": "가벼운 피부 자극·염증·발진으로 인한 가려움을 일시적으로 완화합니다 — 습진, 벌레 물림, 옻나무류, 비누·세제·화장품·장신구, 지루성 피부염, 건선, 외음부·항문 가려움.",
+"ja": "軽い皮膚の刺激・炎症・発疹によるかゆみを一時的にやわらげます — 湿疹、虫さされ、ウルシ類、石けん・洗剤・化粧品・アクセサリー、脂漏性皮膚炎、乾癬、外陰部・肛門のかゆみ。"
+},
+"sources": [
+{
+"title": "DailyMed — CVS Health Hydrocortisone 1% Anti-Itch Cream Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=546a1b8a-8254-432a-85c4-38ebee5ad568"
+}
+]
+},
+{
+"aka": [
+"Neosporin",
+"antibiotic ointment",
+"후시딘 대신",
+"抗生物質軟膏"
+],
+"brands": [
+"Neosporin Original",
+"store brand triple antibiotic"
+],
+"active": [
+{
+"ingredient": "bacitracin zinc",
+"strength": "400 units per g",
+"purpose": {
+"en": "First aid antibiotic",
+"ko": "응급 항생제",
+"ja": "応急用抗生物質"
+}
+},
+{
+"ingredient": "neomycin sulfate",
+"strength": "3.5 mg per g",
+"purpose": {
+"en": "First aid antibiotic",
+"ko": "응급 항생제",
+"ja": "応急用抗生物質"
+}
+},
+{
+"ingredient": "polymyxin B sulfate",
+"strength": "5,000 units per g",
+"purpose": {
+"en": "First aid antibiotic",
+"ko": "응급 항생제",
+"ja": "応急用抗生物質"
+}
+}
+],
+"directions_adult": {
+"en": "Clean the area. Apply a small amount (about a fingertip) 1 to 3 times a day. May cover with a sterile bandage.",
+"ko": "상처를 깨끗이 하고 손가락 끝만큼 소량을 하루 1~3번 바르세요. 멸균 밴드로 덮어도 됩니다.",
+"ja": "傷をきれいにし、指先ほどの少量を1日1〜3回塗る。滅菌ばんそうこうで覆ってもよい。"
+},
+"max_daily": {
+"en": "3 times a day; no more than 1 week.",
+"ko": "하루 3번, 1주 이내.",
+"ja": "1日3回、1週間まで。"
+},
+"children": null,
+"do_not_use": [
+{
+"en": "If allergic to any ingredient",
+"ko": "성분에 알레르기가 있을 때",
+"ja": "成分にアレルギーがある"
+},
+{
+"en": "In the eyes",
+"ko": "눈에",
+"ja": "目に"
+},
+{
+"en": "Over large areas of the body",
+"ko": "몸의 넓은 부위에",
+"ja": "体の広い範囲に"
+}
+],
+"ask_doctor": [
+{
+"en": "Deep or puncture wounds, animal bites, or serious burns",
+"ko": "깊거나 찔린 상처, 동물에 물린 상처, 심한 화상",
+"ja": "深い傷や刺し傷、動物にかまれた傷、重いやけど"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "You need it for more than 1 week, or the wound does not improve or gets worse",
+"ko": "1주 넘게 필요하거나 상처가 낫지 않거나 악화될 때",
+"ja": "1週間を超えて必要、または傷が治らない・悪化する"
+},
+{
+"en": "A rash or other allergic reaction",
+"ko": "발진 등 알레르기 반응",
+"ja": "発疹などのアレルギー反応"
+}
+],
+"key_warning": {
+"en": "Animal bites, puncture wounds and serious burns need a doctor, not just ointment. Neomycin can cause skin allergy — stop if a rash appears.",
+"ko": "동물에 물린 상처, 찔린 상처, 심한 화상은 연고만으로 안 되고 진료가 필요합니다. 네오마이신은 피부 알레르기를 일으킬 수 있으니 발진이 생기면 중단하세요.",
+"ja": "動物にかまれた傷、刺し傷、重いやけどは軟膏だけでなく受診が必要です。ネオマイシンは皮膚アレルギーを起こすことがあり、発疹が出たら中止してください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "triple-antibiotic",
+"kind": "otc",
+"category": "first_aid",
+"name": {
+"en": "Triple antibiotic ointment",
+"ko": "3중 항생제 연고",
+"ja": "3種抗生物質軟膏"
+},
+"uses": {
+"en": "Helps prevent infection in minor cuts, scrapes and burns.",
+"ko": "가벼운 베인 상처, 긁힌 상처, 화상의 감염 예방을 돕습니다.",
+"ja": "軽い切り傷、すり傷、やけどの感染予防を助けます。"
+},
+"sources": [
+{
+"title": "DailyMed — Neosporin Original ointment Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a3e6fe2e-1b74-4f22-9c7c-a00057439690"
+}
+]
+},
+{
+"aka": [
+"Lotrimin AF",
+"athlete's foot",
+"무좀약",
+"水虫薬"
+],
+"brands": [
+"Lotrimin AF",
+"store brand athlete's foot cream"
+],
+"active": [
+{
+"ingredient": "clotrimazole",
+"strength": "1%",
+"purpose": {
+"en": "Antifungal",
+"ko": "항진균제",
+"ja": "抗真菌薬"
+}
+}
+],
+"directions_adult": {
+"en": "Wash and dry the area well. Apply a thin layer twice a day (morning and night) every day for 2 weeks. Not effective on scalp or nails.",
+"ko": "씻고 잘 말린 뒤 하루 2번(아침·저녁) 얇게 바르고 2주간 매일 사용하세요. 두피나 손발톱에는 효과가 없습니다.",
+"ja": "洗ってよく乾かし、1日2回（朝・夜）薄く塗り、2週間毎日使う。頭皮や爪には効きません。"
+},
+"max_daily": {
+"en": "Twice a day.",
+"ko": "하루 2번.",
+"ja": "1日2回。"
+},
+"children": {
+"en": "Under 2: only if a doctor directs. Supervise children who use it.",
+"ko": "2세 미만: 의사 지시가 있을 때만. 아이가 쓸 때는 지켜보세요.",
+"ja": "2歳未満: 医師の指示があるときのみ。子どもが使うときは見守る。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Irritation occurs, or no improvement within 2 weeks",
+"ko": "자극이 생기거나 2주 안에 나아지지 않을 때",
+"ja": "刺激が出る、または2週間で良くならない"
+}
+],
+"key_warning": {
+"en": "For external use only. Keep out of the eyes. Nail and scalp fungus need a doctor.",
+"ko": "외용으로만 쓰세요. 눈에 들어가지 않게 하세요. 손발톱·두피 곰팡이는 진료가 필요합니다.",
+"ja": "外用のみ。目に入らないようにしてください。爪や頭皮のカビは受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "clotrimazole-cream",
+"kind": "otc",
+"category": "skin",
+"name": {
+"en": "Clotrimazole 1% cream",
+"ko": "클로트리마졸 1% 크림",
+"ja": "クロトリマゾール1%クリーム"
+},
+"uses": {
+"en": "Cures most athlete's foot, jock itch and ringworm, and relieves the itching, burning, scaling and discomfort.",
+"ko": "대부분의 무좀, 사타구니 완선, 체부 백선을 치료하고 가려움·화끈거림·각질·불편감을 덜어 줍니다.",
+"ja": "ほとんどの水虫、いんきんたむし、ぜにたむしを治し、かゆみ・ヒリヒリ・皮むけ・不快感をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — up&up Athlete's Foot (clotrimazole 1%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52b61859-11ae-4990-aa0c-9dc1dd00adf4"
+}
+]
+},
+{
+"aka": [
+"Lamisil AT",
+"athlete's foot",
+"무좀약",
+"水虫薬"
+],
+"brands": [
+"Lamisil AT",
+"store brand terbinafine cream"
+],
+"active": [
+{
+"ingredient": "terbinafine hydrochloride",
+"strength": "1%",
+"purpose": {
+"en": "Antifungal",
+"ko": "항진균제",
+"ja": "抗真菌薬"
+}
+}
+],
+"directions_adult": {
+"en": "Ages 12+: wash and dry the area. Athlete's foot between the toes: twice a day for 1 week. Bottom or sides of the foot: twice a day for 2 weeks. Jock itch and ringworm: once a day for 1 week. Wash hands after use.",
+"ko": "12세 이상: 씻고 말린 뒤 — 발가락 사이 무좀: 하루 2번 1주. 발바닥·옆면: 하루 2번 2주. 완선·백선: 하루 1번 1주. 바른 뒤 손을 씻으세요.",
+"ja": "12歳以上: 洗って乾かす — 指の間の水虫: 1日2回1週間。足の裏・側面: 1日2回2週間。いんきん・ぜにたむし: 1日1回1週間。使用後は手を洗う。"
+},
+"max_daily": {
+"en": "Twice a day (once a day for jock itch and ringworm).",
+"ko": "하루 2번(완선·백선은 하루 1번).",
+"ja": "1日2回（いんきん・ぜにたむしは1日1回）。"
+},
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "On nails or scalp",
+"ko": "손발톱이나 두피에",
+"ja": "爪や頭皮に"
+},
+{
+"en": "In or near the mouth or eyes",
+"ko": "입이나 눈 안·근처에",
+"ja": "口や目の中・近くに"
+},
+{
+"en": "For vaginal yeast infections",
+"ko": "질 칸디다증에",
+"ja": "膣カンジダに"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Irritation is severe or gets worse",
+"ko": "자극이 심하거나 악화될 때",
+"ja": "刺激が強い・悪化する"
+}
+],
+"key_warning": {
+"en": "Shorter course than other antifungal creams — follow the weeks for your type of infection. Nail fungus needs a doctor.",
+"ko": "다른 무좀 크림보다 사용 기간이 짧습니다 — 부위별 기간을 지키세요. 손발톱 무좀은 진료가 필요합니다.",
+"ja": "他の水虫クリームより期間が短いです — 部位ごとの期間を守ってください。爪水虫は受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "terbinafine-cream",
+"kind": "otc",
+"category": "skin",
+"name": {
+"en": "Terbinafine 1% cream",
+"ko": "테르비나핀 1% 크림",
+"ja": "テルビナフィン1%クリーム"
+},
+"uses": {
+"en": "Treats most athlete's foot, jock itch and ringworm, and relieves itching, burning, cracking and scaling.",
+"ko": "대부분의 무좀, 사타구니 완선, 체부 백선을 치료하고 가려움·화끈거림·갈라짐·각질을 덜어 줍니다.",
+"ja": "ほとんどの水虫、いんきんたむし、ぜにたむしを治し、かゆみ・ヒリヒリ・ひび割れ・皮むけをやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Lamisil AT Cream (terbinafine HCl 1%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9dea4789-bf1c-1577-e053-2a95a90a5381"
+}
+]
+},
+{
+"aka": [
+"Orajel",
+"toothache gel",
+"치통약",
+"歯痛"
+],
+"brands": [
+"Orajel",
+"store brand oral pain relief gel"
+],
+"active": [
+{
+"ingredient": "benzocaine",
+"strength": "20%",
+"purpose": {
+"en": "Oral pain reliever",
+"ko": "구강 진통제",
+"ja": "口腔鎮痛薬"
+}
+},
+{
+"ingredient": "menthol",
+"strength": "0.26%",
+"purpose": {
+"en": "Oral pain reliever",
+"ko": "구강 진통제",
+"ja": "口腔鎮痛薬"
+}
+},
+{
+"ingredient": "zinc chloride",
+"strength": "0.15%",
+"purpose": {
+"en": "Oral astringent",
+"ko": "구강 수렴제",
+"ja": "口腔収れん薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 2+: apply to the affected area up to 4 times a day, or as a dentist or doctor directs.",
+"ko": "성인 및 2세 이상: 하루 최대 4번 해당 부위에 바르세요. 또는 치과의사·의사 지시대로.",
+"ja": "大人と2歳以上: 患部に1日4回まで塗る。または歯科医・医師の指示どおり。"
+},
+"max_daily": {
+"en": "4 times a day; no more than 7 days unless a dentist or doctor directs.",
+"ko": "하루 4번, 치과의사·의사 지시 없이 7일 이내.",
+"ja": "1日4回、歯科医・医師の指示がなければ7日まで。"
+},
+"children": {
+"en": "Ages 2–11: ask a doctor first and supervise use. Under 2: do not use. Never for teething.",
+"ko": "2~11세: 먼저 의사에게 묻고 사용을 지켜보세요. 2세 미만: 사용 금지. 이가 날 때 절대 사용 금지.",
+"ja": "2〜11歳: 先に医師に相談し、使用を見守る。2歳未満: 使用しない。歯が生えるときには使わない。"
+},
+"do_not_use": [
+{
+"en": "For teething, or in children under 2",
+"ko": "이가 날 때, 또는 2세 미만",
+"ja": "歯が生えるとき、または2歳未満"
+},
+{
+"en": "If allergic to 'caine' numbing medicines (procaine, butacaine, benzocaine and others)",
+"ko": "'-카인' 계열 마취제(프로카인, 부타카인, 벤조카인 등)에 알레르기가 있을 때",
+"ja": "「〜カイン」系の麻酔薬（プロカイン、ブタカイン、ベンゾカインなど）にアレルギーがある"
+},
+{
+"en": "More than directed, or for more than 7 days",
+"ko": "정해진 것보다 많이, 또는 7일 넘게",
+"ja": "決められた以上、または7日を超えて"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Symptoms do not improve in 7 days, or swelling, rash or fever develops, or irritation, pain or redness continues or worsens",
+"ko": "7일 안에 나아지지 않거나, 부기·발진·열이 생기거나, 자극·통증·발적이 계속·악화될 때",
+"ja": "7日で良くならない、腫れ・発疹・発熱が出る、刺激・痛み・赤みが続く・悪化する"
+}
+],
+"key_warning": {
+"en": "Benzocaine can cause methemoglobinemia, a serious drop in blood oxygen, even if you used it before. Get emergency help for pale, gray or blue skin, headache, fast heartbeat, shortness of breath, dizziness, or tiredness. Never use for teething.",
+"ko": "벤조카인은 이전에 써 봤어도 혈중 산소가 심하게 떨어지는 메트헤모글로빈혈증을 일으킬 수 있습니다. 창백하거나 회색·파란 피부, 두통, 빠른 심장박동, 숨참, 어지러움, 피로가 있으면 즉시 응급 도움을 받으세요. 이가 날 때는 절대 쓰지 마세요.",
+"ja": "ベンゾカインは以前使ったことがあっても、血液の酸素が大きく下がるメトヘモグロビン血症を起こすことがあります。青白い・灰色・青い肌、頭痛、速い脈、息切れ、めまい、だるさがあればすぐ救急へ。歯が生えるときには絶対に使わないでください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "benzocaine-oral-gel",
+"kind": "otc",
+"category": "oral",
+"name": {
+"en": "Benzocaine oral gel (toothache)",
+"ko": "벤조카인 구강 젤(치통)",
+"ja": "ベンゾカイン口腔ジェル（歯痛）"
+},
+"uses": {
+"en": "Temporarily relieves pain from minor irritation or injury of the mouth and gums.",
+"ko": "입안과 잇몸의 가벼운 자극이나 상처로 인한 통증을 일시적으로 완화합니다.",
+"ja": "口と歯ぐきの軽い刺激やけがによる痛みを一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Orajel 3X Medicated for Toothache & Gum (benzocaine 20%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99a2b061-0875-59a4-e053-2995a90ab373"
+}
+]
+},
+{
+"aka": [
+"Abreva",
+"cold sore",
+"fever blister",
+"입술포진",
+"口唇ヘルペス"
+],
+"brands": [
+"Abreva",
+"store brand docosanol"
+],
+"active": [
+{
+"ingredient": "docosanol",
+"strength": "10%",
+"purpose": {
+"en": "Cold sore/fever blister treatment",
+"ko": "입술 물집 치료제",
+"ja": "口唇ヘルペス治療薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: wash hands before and after. Start at the first tingle. Rub in gently but completely, 5 times a day until healed.",
+"ko": "12세 이상: 바르기 전후 손을 씻으세요. 따끔거림이 처음 느껴질 때 시작. 하루 5번, 나을 때까지 살살 완전히 문질러 바르세요.",
+"ja": "12歳以上: 塗る前後に手を洗う。ピリピリを感じたらすぐ始める。1日5回、治るまでやさしく完全にすり込む。"
+},
+"max_daily": {
+"en": "5 times a day.",
+"ko": "하루 5번.",
+"ja": "1日5回。"
+},
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "If allergic to any ingredient",
+"ko": "성분에 알레르기가 있을 때",
+"ja": "成分にアレルギーがある"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "The sore gets worse or is not healed within 10 days",
+"ko": "물집이 악화되거나 10일 안에 낫지 않을 때",
+"ja": "悪化する、または10日で治らない"
+}
+],
+"key_warning": {
+"en": "Do not share it — that can spread the infection. Keep away from the eyes.",
+"ko": "다른 사람과 같이 쓰지 마세요 — 감염이 옮을 수 있습니다. 눈에 닿지 않게 하세요.",
+"ja": "他の人と共有しないでください — 感染が広がります。目に入れないように。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "docosanol",
+"kind": "otc",
+"category": "skin",
+"name": {
+"en": "Docosanol 10% cold sore cream",
+"ko": "도코사놀 10% 입술 물집 크림",
+"ja": "ドコサノール10%口唇ヘルペスクリーム"
+},
+"uses": {
+"en": "Treats cold sores/fever blisters on the face or lips; shortens healing time and how long tingling, pain, burning and itching last.",
+"ko": "얼굴·입술의 입술 물집(구순포진)을 치료하고, 낫는 시간과 따끔거림·통증·화끈거림·가려움 기간을 줄입니다.",
+"ja": "顔や唇の口唇ヘルペスを治療し、治るまでの時間と、ピリピリ・痛み・ヒリヒリ・かゆみの期間を短くします。"
+},
+"sources": [
+{
+"title": "DailyMed — Abreva (docosanol 10%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c39b38a7-dcdd-4c32-8f35-b565c4d3cec6"
+}
+]
+},
+{
+"aka": [
+"acne",
+"PanOxyl",
+"여드름",
+"にきび"
+],
+"brands": [
+"PanOxyl",
+"Neutrogena On-the-Spot",
+"store brand acne gel"
+],
+"active": [
+{
+"ingredient": "benzoyl peroxide",
+"strength": "2.5% (also sold as 5% and 10%)",
+"purpose": {
+"en": "Acne treatment",
+"ko": "여드름 치료제",
+"ja": "にきび治療薬"
+}
+}
+],
+"directions_adult": {
+"en": "New users: test on 1 or 2 small areas for 3 days first. Clean the skin, apply a thin layer once a day, and increase to 2 or 3 times a day only if needed. If dryness or peeling bothers you, cut back to once a day or every other day.",
+"ko": "처음 쓰는 경우 3일간 작은 부위 1~2곳에 먼저 시험하세요. 피부를 씻고 하루 1번 얇게 바르고, 필요하면 하루 2~3번으로 늘리세요. 건조·각질이 불편하면 하루 1번 또는 이틀에 1번으로 줄이세요.",
+"ja": "初めての人は3日間、小さな部分1〜2か所で試す。肌を洗い、1日1回薄く塗り、必要なときだけ1日2〜3回に増やす。乾燥や皮むけがつらければ1日1回または1日おきに減らす。"
+},
+"max_daily": {
+"en": "3 times a day.",
+"ko": "하루 3번.",
+"ja": "1日3回。"
+},
+"children": null,
+"do_not_use": [
+{
+"en": "Very sensitive skin, or sensitivity to benzoyl peroxide",
+"ko": "매우 민감한 피부, 또는 과산화벤조일에 민감한 경우",
+"ja": "とても敏感な肌、または過酸化ベンゾイルに敏感な場合"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Irritation becomes severe",
+"ko": "자극이 심해질 때",
+"ja": "刺激が強くなる"
+}
+],
+"key_warning": {
+"en": "Can bleach hair, towels and colored fabric. Use sunscreen and avoid extra sun. Keep away from eyes, lips and mouth. Using other acne products at the same time increases dryness.",
+"ko": "머리카락, 수건, 색깔 옷감을 탈색시킬 수 있습니다. 자외선 차단제를 쓰고 햇빛을 피하세요. 눈·입술·입에 닿지 않게 하세요. 다른 여드름 약과 함께 쓰면 더 건조해집니다.",
+"ja": "髪、タオル、色物の布を脱色することがあります。日焼け止めを使い、日光を避けてください。目・唇・口に触れないように。他のにきび薬と併用すると乾燥が強まります。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "benzoyl-peroxide",
+"kind": "otc",
+"category": "skin",
+"name": {
+"en": "Benzoyl peroxide acne gel",
+"ko": "과산화벤조일 여드름 젤",
+"ja": "過酸化ベンゾイルにきびジェル"
+},
+"uses": {
+"en": "Treats acne.",
+"ko": "여드름을 치료합니다.",
+"ja": "にきびを治療します。"
+},
+"sources": [
+{
+"title": "DailyMed — Benzoyl Peroxide 2.5% gel Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ba5e88c-a4d5-4550-93fa-d3d7fee45f9f"
+}
+]
+},
+{
+"aka": [
+"Nix",
+"head lice",
+"머릿니",
+"アタマジラミ"
+],
+"brands": [
+"Nix Lice Killing Creme Rinse",
+"store brand lice treatment"
+],
+"active": [
+{
+"ingredient": "permethrin",
+"strength": "1%",
+"purpose": {
+"en": "Lice treatment",
+"ko": "머릿니 치료제",
+"ja": "シラミ駆除剤"
+}
+}
+],
+"directions_adult": {
+"en": "Wash hair with shampoo without conditioner and towel-dry. Shake, then soak the hair and scalp, starting behind the ears and at the back of the neck, keeping eyes tightly shut and covered. Leave on 10 minutes only, rinse with warm water, then comb out nits. If live lice are seen 7 or more days later, treat again.",
+"ko": "컨디셔너 없는 샴푸로 감고 수건으로 말리세요. 흔든 뒤 귀 뒤와 목덜미부터 머리와 두피를 흠뻑 적시고, 눈은 꼭 감고 가리세요. 정확히 10분 후 미지근한 물로 헹구고 서캐를 빗으로 빼세요. 7일 이상 지나 살아 있는 이가 보이면 한 번 더 치료하세요.",
+"ja": "コンディショナーなしのシャンプーで洗い、タオルで乾かす。よく振り、耳の後ろと首の後ろから髪と頭皮を十分ぬらし、目はしっかり閉じて覆う。10分だけ置いてぬるま湯で流し、卵をくしで取る。7日以上たって生きたシラミがいれば再治療。"
+},
+"max_daily": null,
+"children": {
+"en": "Do not use on babies under 2 months.",
+"ko": "생후 2개월 미만 아기에게 쓰지 마세요.",
+"ja": "生後2か月未満の赤ちゃんには使わないでください。"
+},
+"do_not_use": [
+{
+"en": "Near the eyes, or on eyebrows or eyelashes",
+"ko": "눈 근처, 눈썹·속눈썹",
+"ja": "目の近く、まゆ毛・まつ毛"
+},
+{
+"en": "Inside the nose, ears, mouth or vagina",
+"ko": "코·귀·입·질 안",
+"ja": "鼻・耳・口・膣の中"
+}
+],
+"ask_doctor": [
+{
+"en": "Ragweed allergy (may cause breathing trouble or an asthma attack)",
+"ko": "돼지풀 알레르기(호흡 곤란·천식 발작 가능)",
+"ja": "ブタクサアレルギー（呼吸困難やぜんそく発作の可能性）"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Breathing difficulty, eye irritation, or scalp irritation or infection that continues",
+"ko": "호흡 곤란, 눈 자극, 계속되는 두피 자극이나 감염",
+"ja": "呼吸困難、目の刺激、続く頭皮の刺激や感染"
+}
+],
+"key_warning": {
+"en": "Leave on for 10 minutes only. Protect the eyes; if it gets in, flush with lots of water.",
+"ko": "정확히 10분만 두세요. 눈을 보호하고, 들어가면 물로 충분히 씻어내세요.",
+"ja": "10分だけ置いてください。目を守り、入ったら大量の水で洗い流してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"asthma",
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "permethrin-lice",
+"kind": "otc",
+"category": "skin",
+"name": {
+"en": "Permethrin 1% lice treatment",
+"ko": "퍼메트린 1% 머릿니 치료제",
+"ja": "ペルメトリン1%シラミ駆除剤"
+},
+"uses": {
+"en": "Treats head lice.",
+"ko": "머릿니를 치료합니다.",
+"ja": "アタマジラミを駆除します。"
+},
+"sources": [
+{
+"title": "DailyMed — Nix Lice Killing Creme Rinse (permethrin 1%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf7c2429-9ae0-4435-b695-aafd5f207d27"
+}
+]
+},
+{
+"aka": [
+"poison ivy",
+"calamine",
+"옻",
+"かぶれ"
+],
+"brands": [
+"store brand calamine lotion"
+],
+"active": [
+{
+"ingredient": "calamine",
+"strength": "8%",
+"purpose": {
+"en": "Skin protectant",
+"ko": "피부 보호제",
+"ja": "皮膚保護剤"
+}
+},
+{
+"ingredient": "zinc oxide",
+"strength": "8%",
+"purpose": {
+"en": "Skin protectant",
+"ko": "피부 보호제",
+"ja": "皮膚保護剤"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 2+: shake well. Wash the skin with soap and water and let it dry, then apply with cotton or a soft cloth as often as needed.",
+"ko": "성인 및 2세 이상: 잘 흔드세요. 비누와 물로 씻고 말린 뒤, 솜이나 부드러운 천으로 필요할 때마다 바르세요.",
+"ja": "大人と2歳以上: よく振る。石けんと水で洗って乾かし、綿ややわらかい布で必要なだけ塗る。"
+},
+"max_daily": null,
+"children": {
+"en": "Under 2: ask a doctor.",
+"ko": "2세 미만: 의사에게 물어보세요.",
+"ja": "2歳未満: 医師に相談。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "The condition worsens or does not improve within 7 days",
+"ko": "악화되거나 7일 안에 나아지지 않을 때",
+"ja": "悪化する、または7日で良くならない"
+}
+],
+"key_warning": {
+"en": "For external use only. Keep away from eyes and the inside of the mouth or nose.",
+"ko": "외용으로만 쓰세요. 눈과 입·코 안에 닿지 않게 하세요.",
+"ja": "外用のみ。目や口・鼻の中に触れないように。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "calamine",
+"kind": "otc",
+"category": "skin",
+"name": {
+"en": "Calamine lotion",
+"ko": "칼라민 로션",
+"ja": "カラミンローション"
+},
+"uses": {
+"en": "Dries the oozing and weeping of poison ivy, poison oak and poison sumac.",
+"ko": "옻나무류(포이즌 아이비·오크·수맥)로 인한 진물을 말려 줍니다.",
+"ja": "ウルシ類（ポイズンアイビー・オーク・スマック）によるじくじくを乾かします。"
+},
+"sources": [
+{
+"title": "DailyMed — Calamine (calamine 8%, zinc oxide 8%) lotion Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=61929c97-bd6b-0d7c-e053-2991aa0aa571"
+}
+]
+}
+]
+}

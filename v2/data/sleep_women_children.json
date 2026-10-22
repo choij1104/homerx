@@ -1,0 +1,651 @@
+{
+"entries": [
+{
+"aka": [
+"Nicorette",
+"stop smoking",
+"금연껌",
+"禁煙ガム"
+],
+"brands": [
+"Nicorette",
+"store brand nicotine gum"
+],
+"active": [
+{
+"ingredient": "nicotine",
+"strength": "2 mg or 4 mg per piece (as nicotine polacrilex)",
+"purpose": {
+"en": "Stop smoking aid",
+"ko": "금연 보조제",
+"ja": "禁煙補助薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults 18+: stop smoking completely. First cigarette within 30 minutes of waking — use 4 mg; later than 30 minutes — use 2 mg. Weeks 1–6: 1 piece every 1–2 hours (at least 9 a day); weeks 7–9: every 2–4 hours; weeks 10–12: every 4–8 hours. Chew slowly until it tingles, then park it between cheek and gum; repeat for about 30 minutes. No food or drink 15 minutes before or while chewing.",
+"ko": "18세 이상: 담배를 완전히 끊으세요. 기상 후 30분 이내 첫 담배 — 4 mg, 30분 이후 — 2 mg. 1~6주: 1~2시간마다 1개(하루 9개 이상), 7~9주: 2~4시간마다, 10~12주: 4~8시간마다. 얼얼해질 때까지 천천히 씹고 볼과 잇몸 사이에 두기를 약 30분 반복. 씹기 15분 전과 씹는 동안 음식·음료 금지.",
+"ja": "18歳以上: たばこを完全にやめる。起床30分以内に1本目 — 4 mg、30分以降 — 2 mg。1〜6週: 1〜2時間ごとに1個（1日9個以上）、7〜9週: 2〜4時間ごと、10〜12週: 4〜8時間ごと。ピリッとするまでゆっくりかみ、頬と歯ぐきの間に置くのを約30分くり返す。かむ15分前とかんでいる間は飲食しない。"
+},
+"max_daily": {
+"en": "24 pieces a day; complete the 12-week program and talk to a health care provider if you need it longer.",
+"ko": "하루 24개. 12주 프로그램을 마치고, 더 필요하면 의료인과 상의하세요.",
+"ja": "1日24個まで。12週間を終え、さらに必要なら医療者に相談。"
+},
+"children": {
+"en": "Under 18: ask a doctor. Used and unused pieces/patches can poison children and pets — call Poison Control (1-800-222-1222).",
+"ko": "18세 미만: 의사에게 물어보세요. 쓴 것이든 새것이든 아이와 반려동물에게 중독을 일으킬 수 있습니다 — 중독센터(1-800-222-1222).",
+"ja": "18歳未満: 医師に相談。使用済み・未使用どちらも子どもやペットの中毒の原因になります — 中毒センター（1-800-222-1222）。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "A sodium-restricted diet",
+"ko": "나트륨 제한 식이",
+"ja": "塩分制限食"
+},
+{
+"en": "Heart disease, a recent heart attack, or an irregular heartbeat; high blood pressure not controlled by medicine",
+"ko": "심장병, 최근 심장마비, 부정맥; 약으로 조절되지 않는 고혈압",
+"ja": "心臓病、最近の心臓発作、不整脈；薬でコントロールできていない高血圧"
+},
+{
+"en": "A stomach ulcer or diabetes",
+"ko": "위궤양 또는 당뇨",
+"ja": "胃潰瘍または糖尿病"
+},
+{
+"en": "A history of seizures",
+"ko": "경련(발작) 병력",
+"ja": "けいれん発作の既往"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Another non-nicotine stop-smoking medicine, or prescription medicine for depression or asthma (the dose may need changing)",
+"ko": "니코틴 없는 다른 금연약, 또는 우울증·천식 처방약(용량 조절이 필요할 수 있음)",
+"ja": "ニコチンを含まない他の禁煙薬、またはうつ病・ぜんそくの処方薬（量の調整が必要なことがあります)"
+}
+],
+"stop_use": [
+{
+"en": "Mouth, teeth or jaw problems",
+"ko": "입, 치아, 턱 문제",
+"ja": "口・歯・あごの問題"
+},
+{
+"en": "Irregular heartbeat or palpitations, or signs of too much nicotine: nausea, vomiting, dizziness, weakness, fast heartbeat",
+"ko": "부정맥·두근거림, 또는 니코틴 과다 증상: 메스꺼움, 구토, 어지러움, 쇠약감, 빠른 심장박동",
+"ja": "不整脈・動悸、またはニコチン過量の症状: 吐き気、嘔吐、めまい、脱力、速い脈"
+},
+{
+"en": "An allergic reaction such as trouble breathing or rash",
+"ko": "호흡 곤란이나 발진 같은 알레르기 반응",
+"ja": "呼吸困難や発疹などのアレルギー反応"
+}
+],
+"key_warning": {
+"en": "Keep used and unused gum away from children and pets — it can poison them.",
+"ko": "쓴 껌이든 새 껌이든 아이와 반려동물이 닿지 않게 하세요 — 중독될 수 있습니다.",
+"ja": "使用済み・未使用のガムは子どもやペットから遠ざけてください — 中毒を起こします。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Use only on a health care provider's advice. It is believed safer than smoking, but risks to the baby are not fully known.",
+"ko": "의료인의 조언이 있을 때만 쓰세요. 흡연보다는 안전하다고 여겨지지만 아기에 대한 위험은 완전히 알려져 있지 않습니다.",
+"ja": "医療者の助言があるときのみ使ってください。喫煙よりは安全と考えられていますが、赤ちゃんへのリスクは完全には分かっていません。"
+},
+"flags": [
+"heart",
+"bp",
+"diabetes",
+"pregnancy",
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "nicotine-gum",
+"kind": "otc",
+"category": "quit_smoking",
+"name": {
+"en": "Nicotine gum",
+"ko": "니코틴 껌",
+"ja": "ニコチンガム"
+},
+"uses": {
+"en": "Reduces nicotine cravings and withdrawal symptoms when you quit smoking.",
+"ko": "금연할 때 니코틴 갈망과 금단 증상을 줄입니다.",
+"ja": "禁煙時のニコチンへの欲求と離脱症状をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Basic Care Nicotine Polacrilex Gum Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90f2da70-c58f-44fb-bdbd-5c95440c1198"
+}
+]
+},
+{
+"aka": [
+"NicoDerm CQ",
+"stop smoking",
+"금연패치",
+"禁煙パッチ"
+],
+"brands": [
+"NicoDerm CQ",
+"Habitrol",
+"store brand nicotine patch"
+],
+"active": [
+{
+"ingredient": "nicotine",
+"strength": "21 mg (Step 1) or 14 mg (Step 2) per 24 hours",
+"purpose": {
+"en": "Stop smoking aid",
+"ko": "금연 보조제",
+"ja": "禁煙補助薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults 18+: stop smoking completely when you start. More than 10 cigarettes a day — start with Step 1; 10 or fewer — start with Step 2. Follow the step schedule on the package. Put one new patch on clean, dry, hairless skin every 24 hours, pressing for 10 seconds; use a different site each day and wash hands after.",
+"ko": "18세 이상: 시작할 때 담배를 완전히 끊으세요. 하루 10개비 초과 — 1단계부터, 10개비 이하 — 2단계부터. 포장의 단계별 일정을 따르세요. 24시간마다 새 패치 1장을 깨끗하고 마른, 털 없는 피부에 10초간 눌러 붙이고, 매일 다른 곳에 붙인 뒤 손을 씻으세요.",
+"ja": "18歳以上: 始めるときにたばこを完全にやめる。1日10本超 — ステップ1から、10本以下 — ステップ2から。箱のステップ表に従う。24時間ごとに新しいパッチ1枚を、清潔で乾いた毛のない皮膚に10秒押して貼り、毎日場所を変え、貼った後は手を洗う。"
+},
+"max_daily": {
+"en": "One patch at a time; never more than 24 hours. Do not cut patches.",
+"ko": "한 번에 1장, 24시간을 넘기지 마세요. 자르지 마세요.",
+"ja": "1回に1枚、24時間を超えないこと。切らないこと。"
+},
+"children": {
+"en": "Under 18: ask a doctor. Used and unused pieces/patches can poison children and pets — call Poison Control (1-800-222-1222).",
+"ko": "18세 미만: 의사에게 물어보세요. 쓴 것이든 새것이든 아이와 반려동물에게 중독을 일으킬 수 있습니다 — 중독센터(1-800-222-1222).",
+"ja": "18歳未満: 医師に相談。使用済み・未使用どちらも子どもやペットの中毒の原因になります — 中毒センター（1-800-222-1222）。"
+},
+"do_not_use": [
+{
+"en": "If you still smoke, chew tobacco or use snuff",
+"ko": "아직 담배를 피우거나 씹는 담배·코담배를 쓰는 경우",
+"ja": "まだ喫煙、かみたばこ、かぎたばこを使っている"
+},
+{
+"en": "With nicotine gum or any other nicotine product",
+"ko": "니코틴 껌이나 다른 니코틴 제품과 함께",
+"ja": "ニコチンガムや他のニコチン製品と一緒に"
+}
+],
+"ask_doctor": [
+{
+"en": "Heart disease, a recent heart attack, or an irregular heartbeat; high blood pressure not controlled by medicine",
+"ko": "심장병, 최근 심장마비, 부정맥; 약으로 조절되지 않는 고혈압",
+"ja": "心臓病、最近の心臓発作、不整脈；薬でコントロールできていない高血圧"
+},
+{
+"en": "Allergy to adhesive tape, or skin problems",
+"ko": "반창고 알레르기, 또는 피부 질환",
+"ja": "ばんそうこうアレルギー、または皮膚の病気"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Another non-nicotine stop-smoking medicine, or prescription medicine for depression or asthma (the dose may need changing)",
+"ko": "니코틴 없는 다른 금연약, 또는 우울증·천식 처방약(용량 조절이 필요할 수 있음)",
+"ja": "ニコチンを含まない他の禁煙薬、またはうつ病・ぜんそくの処方薬（量の調整が必要なことがあります)"
+}
+],
+"stop_use": [
+{
+"en": "Skin redness that does not go away after 4 days, skin swelling, or rash",
+"ko": "4일이 지나도 사라지지 않는 피부 발적, 부기, 발진",
+"ja": "4日たっても消えない皮膚の赤み、腫れ、発疹"
+},
+{
+"en": "Irregular heartbeat or palpitations, or signs of too much nicotine: nausea, vomiting, dizziness, weakness, fast heartbeat",
+"ko": "부정맥·두근거림, 또는 니코틴 과다 증상: 메스꺼움, 구토, 어지러움, 쇠약감, 빠른 심장박동",
+"ja": "不整脈・動悸、またはニコチン過量の症状: 吐き気、嘔吐、めまい、脱力、速い脈"
+}
+],
+"key_warning": {
+"en": "Do not smoke while using it. Vivid dreams or trouble sleeping: take the patch off at bedtime. Fold used patches sticky sides together — they can still poison children and pets.",
+"ko": "사용하는 동안 담배를 피우지 마세요. 생생한 꿈이나 수면 문제가 있으면 자기 전에 떼세요. 쓴 패치는 접착면끼리 접어 버리세요 — 아이와 반려동물에게 여전히 위험합니다.",
+"ja": "使用中は喫煙しないこと。鮮明な夢や不眠があれば就寝前にはがす。使用済みパッチは粘着面を合わせて折って捨てる — 子どもやペットには今でも危険です。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Use only on a health care provider's advice. It is believed safer than smoking, but risks to the baby are not fully known.",
+"ko": "의료인의 조언이 있을 때만 쓰세요. 흡연보다는 안전하다고 여겨지지만 아기에 대한 위험은 완전히 알려져 있지 않습니다.",
+"ja": "医療者の助言があるときのみ使ってください。喫煙よりは安全と考えられていますが、赤ちゃんへのリスクは完全には分かっていません。"
+},
+"flags": [
+"heart",
+"bp",
+"pregnancy",
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "nicotine-patch",
+"kind": "otc",
+"category": "quit_smoking",
+"name": {
+"en": "Nicotine patch",
+"ko": "니코틴 패치",
+"ja": "ニコチンパッチ"
+},
+"uses": {
+"en": "Reduces withdrawal symptoms, including nicotine craving, when you quit smoking.",
+"ko": "금연할 때 니코틴 갈망을 포함한 금단 증상을 줄입니다.",
+"ja": "禁煙時のニコチンへの欲求を含む離脱症状をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Nicotine Transdermal System Step 1 and Step 2 Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f363ca90-6c4a-4d45-9b1d-3a6fb1cddecd"
+}
+]
+},
+{
+"aka": [
+"Unisom SleepTabs",
+"sleep aid",
+"수면제",
+"睡眠薬"
+],
+"brands": [
+"Unisom SleepTabs",
+"store brand nighttime sleep aid"
+],
+"active": [
+{
+"ingredient": "doxylamine",
+"strength": "25 mg (succinate) per tablet",
+"purpose": {
+"en": "Nighttime sleep aid",
+"ko": "야간 수면 보조제",
+"ja": "夜間睡眠補助薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12+: 1 tablet 30 minutes before bedtime, once a day, or as a doctor directs.",
+"ko": "12세 이상: 자기 30분 전 1정, 하루 1번, 또는 의사 지시대로.",
+"ja": "12歳以上: 就寝30分前に1錠、1日1回、または医師の指示どおり。"
+},
+"max_daily": {
+"en": "1 tablet a day.",
+"ko": "하루 1정.",
+"ja": "1日1錠。"
+},
+"children": {
+"en": "Under 12: do not use.",
+"ko": "12세 미만: 사용 금지.",
+"ja": "12歳未満: 使用しない。"
+},
+"do_not_use": [
+{
+"en": "With any other product containing doxylamine",
+"ko": "독실아민이 든 다른 제품과 함께",
+"ja": "ドキシラミンを含む他の製品と一緒に"
+},
+{
+"en": "Unless you have time for a full night's sleep",
+"ko": "밤새 충분히 잘 시간이 없을 때",
+"ja": "一晩しっかり眠る時間がないとき"
+}
+],
+"ask_doctor": [
+{
+"en": "Glaucoma; a breathing problem such as emphysema or chronic bronchitis; trouble urinating from an enlarged prostate",
+"ko": "녹내장, 폐기종·만성 기관지염 같은 호흡 문제, 전립선 비대로 인한 배뇨 곤란",
+"ja": "緑内障、肺気腫・慢性気管支炎などの呼吸の問題、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives or other sleep aids, tranquilizers, other antihistamines, or any other medicine",
+"ko": "진정제나 다른 수면제, 신경안정제, 다른 항히스타민제, 또는 다른 모든 약",
+"ja": "鎮静薬や他の睡眠薬、精神安定薬、他の抗ヒスタミン薬、その他の薬"
+}
+],
+"stop_use": [
+{
+"en": "Sleeplessness lasts more than 2 weeks — it can be a sign of a serious illness",
+"ko": "불면이 2주 넘게 지속될 때 — 심각한 질환의 신호일 수 있음",
+"ja": "不眠が2週間を超えて続く — 重い病気のサインのことがあります"
+}
+],
+"key_warning": {
+"en": "Take only at bedtime. Do not drink alcohol, drive or use machinery after taking it. Many night-time cold and pain products already contain a sleep antihistamine — do not double up.",
+"ko": "자기 직전에만 드세요. 복용 후 술, 운전, 기계 조작은 하지 마세요. 많은 야간용 감기약·진통제에 이미 수면 항히스타민이 들어 있으니 겹쳐 먹지 마세요.",
+"ja": "就寝前にだけ飲んでください。服用後の飲酒、運転、機械の操作はしないこと。夜用のかぜ薬・鎮痛薬の多くにはすでに眠くなる抗ヒスタミン薬が入っているので重ねて飲まないでください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"sedation",
+"glaucoma",
+"prostate",
+"alcohol",
+"children"
+],
+"classes": [
+"sedating_antihistamine",
+"sleep_aid"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "doxylamine",
+"kind": "otc",
+"category": "sleep",
+"name": {
+"en": "Doxylamine (sleep aid)",
+"ko": "독실아민(수면 보조제)",
+"ja": "ドキシラミン（睡眠補助薬）"
+},
+"uses": {
+"en": "Helps reduce difficulty falling asleep.",
+"ko": "잠들기 어려운 것을 줄이는 데 도움을 줍니다.",
+"ja": "寝つきの悪さをやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Unisom SleepTabs (doxylamine succinate 25 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f591d52f-5610-4517-a96f-1ed63deb00bc"
+}
+]
+},
+{
+"aka": [
+"Monistat",
+"yeast infection",
+"질염",
+"カンジダ"
+],
+"brands": [
+"Monistat 7",
+"store brand miconazole 7"
+],
+"active": [
+{
+"ingredient": "miconazole nitrate",
+"strength": "2%",
+"purpose": {
+"en": "Vaginal antifungal",
+"ko": "질 항진균제",
+"ja": "膣抗真菌薬"
+}
+}
+],
+"directions_adult": {
+"en": "Ages 12+: insert 1 applicatorful into the vagina at bedtime for 7 nights in a row. For itching outside, apply a small amount to the skin up to twice a day for up to 7 days.",
+"ko": "12세 이상: 7일 밤 연속, 자기 전 질 안에 어플리케이터 1개 분량을 넣으세요. 외부 가려움에는 피부에 소량을 하루 2번까지, 최대 7일.",
+"ja": "12歳以上: 7晩続けて就寝時に膣内へアプリケーター1本分を入れる。外側のかゆみには少量を1日2回まで、最長7日。"
+},
+"max_daily": null,
+"children": {
+"en": "Under 12: ask a doctor.",
+"ko": "12세 미만: 의사에게 물어보세요.",
+"ja": "12歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "If a doctor has never diagnosed you with a vaginal yeast infection",
+"ko": "의사에게 칸디다 질염 진단을 받은 적이 없을 때",
+"ja": "医師に膣カンジダと診断されたことがない"
+}
+],
+"ask_doctor": [
+{
+"en": "Vaginal itching or discomfort for the first time",
+"ko": "처음 생긴 질 가려움이나 불편감",
+"ja": "初めての膣のかゆみや不快感"
+},
+{
+"en": "Lower belly, back or shoulder pain, fever, chills, nausea, vomiting, or foul-smelling discharge",
+"ko": "아랫배·등·어깨 통증, 열, 오한, 메스꺼움, 구토, 악취 나는 분비물",
+"ja": "下腹部・背中・肩の痛み、発熱、寒気、吐き気、嘔吐、悪臭のあるおりもの"
+},
+{
+"en": "Frequent yeast infections; possible pregnancy; diabetes; a weak immune system or HIV exposure",
+"ko": "잦은 재발, 임신 가능성, 당뇨, 면역 저하 또는 HIV 노출",
+"ja": "くり返す感染、妊娠の可能性、糖尿病、免疫低下またはHIV曝露"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Warfarin (bleeding or bruising may occur)",
+"ko": "와파린(출혈·멍이 생길 수 있음)",
+"ja": "ワルファリン（出血やあざが出ることがあります）"
+}
+],
+"stop_use": [
+{
+"en": "No improvement in 3 days, or symptoms last more than 7 days",
+"ko": "3일 안에 나아지지 않거나 7일 넘게 지속될 때",
+"ja": "3日で良くならない、または7日を超えて続く"
+},
+{
+"en": "Rash, hives, belly pain, fever, chills, nausea, vomiting or foul-smelling discharge",
+"ko": "발진, 두드러기, 복통, 열, 오한, 메스꺼움, 구토, 악취 분비물",
+"ja": "発疹、じんましん、腹痛、発熱、寒気、吐き気、嘔吐、悪臭のあるおりもの"
+}
+],
+"key_warning": {
+"en": "Can damage condoms and diaphragms, so they may not prevent pregnancy or STDs. Avoid tampons, douches and intercourse during treatment.",
+"ko": "콘돔과 페서리를 손상시켜 피임·성병 예방이 안 될 수 있습니다. 치료 중 탐폰, 질 세척, 성관계를 피하세요.",
+"ja": "コンドームやペッサリーを傷め、避妊や性感染症予防ができなくなることがあります。治療中はタンポン、膣洗浄、性交を避けてください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"diabetes",
+"blood_thinner",
+"pregnancy"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "miconazole-vaginal",
+"kind": "otc",
+"category": "womens",
+"name": {
+"en": "Miconazole vaginal cream (yeast infection)",
+"ko": "미코나졸 질 크림(칸디다 질염)",
+"ja": "ミコナゾール膣クリーム（カンジダ）"
+},
+"uses": {
+"en": "Treats vaginal yeast infections and relieves the external itching and irritation.",
+"ko": "질 칸디다증을 치료하고 외부 가려움과 자극을 덜어 줍니다.",
+"ja": "膣カンジダを治療し、外側のかゆみと刺激をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Monistat 7 (miconazole nitrate 2%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c4b68aff-e95f-47ae-b190-6a671bef1877"
+}
+]
+},
+{
+"aka": [
+"Plan B One-Step",
+"morning-after pill",
+"응급피임약",
+"緊急避妊薬"
+],
+"brands": [
+"Plan B One-Step",
+"Take Action",
+"My Way",
+"store brand emergency contraceptive"
+],
+"active": [
+{
+"ingredient": "levonorgestrel",
+"strength": "1.5 mg per tablet",
+"purpose": {
+"en": "Emergency contraceptive",
+"ko": "응급 피임약",
+"ja": "緊急避妊薬"
+}
+}
+],
+"directions_adult": {
+"en": "Take 1 tablet as soon as possible within 72 hours (3 days) after unprotected sex. The sooner, the better it works. If you vomit within 2 hours, call a health care professional to ask whether to take another dose.",
+"ko": "피임하지 않은 성관계 후 72시간(3일) 이내 가능한 한 빨리 1정. 빠를수록 효과가 좋습니다. 2시간 안에 토하면 다시 먹어야 하는지 의료인에게 전화로 물어보세요.",
+"ja": "避妊しなかった性交から72時間（3日）以内、できるだけ早く1錠。早いほど効果的です。2時間以内に吐いたら、もう一度飲むべきか医療者に電話で確認してください。"
+},
+"max_daily": {
+"en": "1 tablet.",
+"ko": "1정.",
+"ja": "1錠。"
+},
+"children": null,
+"do_not_use": [
+{
+"en": "If you are already pregnant (it will not work)",
+"ko": "이미 임신한 경우(효과 없음)",
+"ja": "すでに妊娠している（効きません）"
+},
+{
+"en": "For regular birth control",
+"ko": "일반적인 피임 목적으로",
+"ja": "通常の避妊目的で"
+},
+{
+"en": "If you have had an allergic reaction to levonorgestrel",
+"ko": "레보노르게스트렐에 알레르기 반응이 있었던 경우",
+"ja": "レボノルゲストレルでアレルギー反応が出たことがある"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Efavirenz (HIV), rifampin (tuberculosis), or seizure medicine — these may make it work less well",
+"ko": "에파비렌즈(HIV), 리팜핀(결핵), 경련약 — 효과가 떨어질 수 있음",
+"ja": "エファビレンツ（HIV）、リファンピシン（結核）、てんかんの薬 — 効果が下がることがあります"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Does not protect against HIV or other sexually transmitted infections. Possible side effects: period changes, tiredness, breast pain, nausea, headache, vomiting, lower belly pain, dizziness.",
+"ko": "HIV나 다른 성병을 막지 못합니다. 생리 변화, 피로, 유방 통증, 메스꺼움, 두통, 구토, 아랫배 통증, 어지러움이 생길 수 있습니다.",
+"ja": "HIVや他の性感染症は防げません。生理の変化、だるさ、乳房の痛み、吐き気、頭痛、嘔吐、下腹部痛、めまいが出ることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Do not use if already pregnant.",
+"ko": "이미 임신했다면 쓰지 마세요.",
+"ja": "すでに妊娠している場合は使わないでください。"
+},
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "levonorgestrel-ec",
+"kind": "otc",
+"category": "womens",
+"name": {
+"en": "Levonorgestrel emergency contraceptive",
+"ko": "레보노르게스트렐 응급피임약",
+"ja": "レボノルゲストレル緊急避妊薬"
+},
+"uses": {
+"en": "Reduces the chance of pregnancy after unprotected sex (if a contraceptive failed or none was used).",
+"ko": "피임하지 않은 성관계 후(피임 실패 또는 미사용) 임신 가능성을 줄입니다.",
+"ja": "避妊しなかった性交の後（避妊の失敗や未使用）に妊娠の可能性を下げます。"
+},
+"sources": [
+{
+"title": "DailyMed — Plan B One-Step (levonorgestrel 1.5 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6ce6b40e-14ac-47bd-a648-ddf9e452e559"
+}
+]
+},
+{
+"aka": [
+"Desitin",
+"diaper rash",
+"기저귀 발진",
+"おむつかぶれ"
+],
+"brands": [
+"Desitin Maximum Strength",
+"store brand diaper rash paste"
+],
+"active": [
+{
+"ingredient": "zinc oxide",
+"strength": "40%",
+"purpose": {
+"en": "Skin protectant",
+"ko": "피부 보호제",
+"ja": "皮膚保護剤"
+}
+}
+],
+"directions_adult": {
+"en": "Change wet or soiled diapers promptly, clean the diaper area, and let it dry. Apply a generous layer as often as needed, especially at bedtime or when a wet diaper may stay on longer.",
+"ko": "젖거나 더러운 기저귀를 바로 갈고, 기저귀 부위를 닦아 말리세요. 필요할 때마다, 특히 자기 전이나 기저귀를 오래 찰 때 넉넉히 바르세요.",
+"ja": "ぬれた・汚れたおむつはすぐ替え、おむつの部分をきれいにして乾かす。必要なたびに、特に就寝前や長くおむつをつけるときにたっぷり塗る。"
+},
+"max_daily": null,
+"children": {
+"en": "Made for babies; follow the directions above.",
+"ko": "아기용 제품입니다. 위 용법을 따르세요.",
+"ja": "赤ちゃん用です。上の用法に従ってください。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "The rash gets worse, lasts more than 7 days, or clears and comes back within a few days",
+"ko": "발진이 악화되거나 7일 넘게 지속되거나, 나았다가 며칠 안에 재발할 때",
+"ja": "かぶれが悪化する、7日を超えて続く、または治っても数日で再発する"
+}
+],
+"key_warning": {
+"en": "For external use only; keep out of the eyes. If swallowed, call Poison Control (1-800-222-1222).",
+"ko": "외용으로만 쓰고 눈에 들어가지 않게 하세요. 삼켰다면 중독센터(1-800-222-1222)에 전화하세요.",
+"ja": "外用のみ。目に入れないように。飲み込んだら中毒センター（1-800-222-1222）へ。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "zinc-oxide-diaper",
+"kind": "otc",
+"category": "children",
+"name": {
+"en": "Zinc oxide diaper rash paste",
+"ko": "산화아연 기저귀 발진 연고",
+"ja": "酸化亜鉛おむつかぶれ軟膏"
+},
+"uses": {
+"en": "Treats and prevents diaper rash; protects chafed skin and helps seal out wetness.",
+"ko": "기저귀 발진을 치료·예방하고, 쓸린 피부를 보호하며 습기를 막아 줍니다.",
+"ja": "おむつかぶれを治療・予防し、こすれた肌を守り湿気を防ぎます。"
+},
+"sources": [
+{
+"title": "DailyMed — Desitin Maximum Strength (zinc oxide 40%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af64fc2f-c027-4a68-b368-ee06744a2452"
+}
+]
+}
+]
+}

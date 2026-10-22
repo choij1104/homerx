@@ -1,0 +1,734 @@
+{
+"entries": [
+{
+"aka": [
+"vitamin D3",
+"cholecalciferol",
+"비타민D",
+"ビタミンD"
+],
+"brands": [
+"Nature Made D3",
+"Kirkland D3",
+"store brand vitamin D3"
+],
+"active": [
+{
+"ingredient": "vitamin D",
+"strength": "varies by product (IU or mcg)",
+"purpose": {
+"en": "Vitamin",
+"ko": "비타민",
+"ja": "ビタミン"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "Upper limit for adults (food + supplements): 100 mcg (4,000 IU) a day, unless a clinician prescribes more for a deficiency.",
+"ko": "성인 상한(음식+보충제): 하루 100 mcg(4,000 IU). 결핍 치료로 의료인이 더 처방한 경우는 예외.",
+"ja": "成人の上限（食事+サプリ）: 1日100 mcg（4,000 IU）。欠乏の治療で医療者がそれ以上を処方した場合は別。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Orlistat (alli, Xenical), statins (atorvastatin, simvastatin, lovastatin), steroids such as prednisone, or thiazide water pills (high blood calcium risk)",
+"ko": "오를리스타트(알리, 제니칼), 스타틴(아토르바스타틴, 심바스타틴, 로바스타틴), 프레드니손 같은 스테로이드, 티아지드 이뇨제(혈중 칼슘 과다 위험)",
+"ja": "オルリスタット、スタチン（アトルバスタチン、シンバスタチン、ロバスタチン）、プレドニゾンなどのステロイド、チアジド系利尿薬（血中カルシウム過多の危険）"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "More is not better — stay under 4,000 IU a day unless your clinician prescribes a higher dose.",
+"ko": "많이 먹는다고 좋은 것이 아닙니다 — 의료인이 더 높은 용량을 처방하지 않았다면 하루 4,000 IU를 넘기지 마세요.",
+"ja": "多ければ良いわけではありません — 医療者がそれ以上を処方していなければ1日4,000 IUを超えないでください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"kidney"
+],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 15 mcg (600 IU) a day for adults 19–70, 20 mcg (800 IU) for 71+. Older adults, people with dark skin or little sun exposure, and people with Crohn's, celiac disease, ulcerative colitis, obesity or gastric bypass may need more. Too much (usually from supplements) can cause nausea, vomiting, weakness, confusion, thirst, kidney stones, and in extreme cases kidney failure and irregular heartbeat.",
+"ko": "권장량: 19~70세 하루 15 mcg(600 IU), 71세 이상 20 mcg(800 IU). 노인, 피부가 어둡거나 햇빛을 적게 쬐는 사람, 크론병·셀리악병·궤양성 대장염, 비만, 위우회술을 받은 사람은 더 필요할 수 있습니다. 너무 많으면(대개 보충제 때문) 메스꺼움, 구토, 쇠약, 혼란, 갈증, 신장결석, 극단적으로는 신부전과 부정맥이 생길 수 있습니다.",
+"ja": "推奨量: 19〜70歳は1日15 mcg（600 IU）、71歳以上は20 mcg（800 IU）。高齢者、肌の色が濃い・日光にあまり当たらない人、クローン病・セリアック病・潰瘍性大腸炎、肥満、胃バイパス術後の人はより多く必要なことがあります。とりすぎ（多くはサプリによる）で吐き気、嘔吐、脱力、混乱、のどの渇き、腎結石、極端な場合は腎不全や不整脈が起こります。"
+},
+"verified": "2026-10-22",
+"id": "vitamin-d",
+"category": "supplement_vitamin",
+"name": {
+"en": "Vitamin D",
+"ko": "비타민 D",
+"ja": "ビタミンD"
+},
+"uses": {
+"en": "Helps the body absorb calcium for bones.",
+"ko": "뼈를 위해 칼슘 흡수를 돕습니다.",
+"ja": "骨のためにカルシウムの吸収を助けます。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Vitamin D Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"calcium citrate",
+"calcium carbonate",
+"Citracal",
+"Caltrate",
+"칼슘",
+"カルシウム"
+],
+"brands": [
+"Caltrate",
+"Citracal",
+"store brand calcium"
+],
+"active": [
+{
+"ingredient": "calcium (carbonate or citrate)",
+"strength": "varies by product",
+"purpose": {
+"en": "Mineral",
+"ko": "미네랄",
+"ja": "ミネラル"
+}
+}
+],
+"directions_adult": {
+"en": "Take no more than 500 mg at one time; split larger amounts. Calcium carbonate is best absorbed with food; calcium citrate works with or without food and is easier to absorb if you have low stomach acid.",
+"ko": "한 번에 500 mg 이하로 드시고 그 이상은 나누어 드세요. 탄산칼슘은 음식과 함께 먹을 때 흡수가 잘 되고, 구연산칼슘은 공복에도 잘 흡수되며 위산이 적은 사람에게 더 낫습니다.",
+"ja": "1回500 mg以下にし、それ以上は分けて飲む。炭酸カルシウムは食事と一緒だとよく吸収され、クエン酸カルシウムは空腹時でも吸収され、胃酸が少ない人に向いています。"
+},
+"max_daily": {
+"en": "Upper limit (food + supplements): 2,500 mg a day for ages 19–50; 2,000 mg for 51+.",
+"ko": "상한(음식+보충제): 19~50세 하루 2,500 mg, 51세 이상 2,000 mg.",
+"ja": "上限（食事+サプリ）: 19〜50歳は1日2,500 mg、51歳以上は2,000 mg。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Levothyroxine (separate by 4 hours), quinolone antibiotics such as ciprofloxacin (separate by 2 hours), dolutegravir, or lithium",
+"ko": "레보티록신(4시간 간격), 시프로플록사신 같은 퀴놀론 항생제(2시간 간격), 돌루테그라비르, 리튬",
+"ja": "レボチロキシン（4時間あける）、シプロフロキサシンなどのキノロン系抗菌薬（2時間あける）、ドルテグラビル、リチウム"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Calcium blocks absorption of thyroid pills and some antibiotics — space them apart.",
+"ko": "칼슘은 갑상선약과 일부 항생제의 흡수를 막습니다 — 시간 간격을 두세요.",
+"ja": "カルシウムは甲状腺の薬や一部の抗菌薬の吸収を妨げます — 時間をあけてください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"thyroid",
+"kidney"
+],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 1,000 mg a day for adults 19–50 and men 51–70; 1,200 mg for women 51+ and everyone 71+ (from food and supplements together). Very high intakes may be linked to heart disease and prostate cancer risk in some studies.",
+"ko": "권장량(음식+보충제 합계): 19~50세와 51~70세 남성 하루 1,000 mg, 51세 이상 여성과 71세 이상 모두 1,200 mg. 일부 연구에서 매우 많은 섭취가 심장병·전립선암 위험과 관련될 수 있다고 합니다.",
+"ja": "推奨量（食事+サプリの合計）: 19〜50歳と51〜70歳男性は1日1,000 mg、51歳以上の女性と71歳以上は1,200 mg。とても多い摂取は一部の研究で心臓病や前立腺がんのリスクと関連する可能性があります。"
+},
+"verified": "2026-10-22",
+"id": "calcium-supplement",
+"category": "supplement_mineral",
+"name": {
+"en": "Calcium",
+"ko": "칼슘",
+"ja": "カルシウム"
+},
+"uses": {
+"en": "Builds and maintains bones and teeth.",
+"ko": "뼈와 치아를 만들고 유지합니다.",
+"ja": "骨と歯をつくり維持します。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Calcium Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/Calcium-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"cobalamin",
+"methylcobalamin",
+"cyanocobalamin",
+"비타민B12"
+],
+"brands": [
+"Nature Made B12",
+"store brand B12"
+],
+"active": [
+{
+"ingredient": "vitamin B12",
+"strength": "varies by product (mcg)",
+"purpose": {
+"en": "Vitamin",
+"ko": "비타민",
+"ja": "ビタミン"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "No upper limit has been set; B12 has not been shown to cause harm even at high doses.",
+"ko": "상한이 정해져 있지 않으며, 고용량에서도 해가 보고되지 않았습니다.",
+"ja": "上限は定められておらず、高用量でも害は示されていません。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Long-term acid reducers (omeprazole, lansoprazole, famotidine-type medicines) or metformin — they can lower B12; ask whether to check your level",
+"ko": "장기간 위산 억제제(오메프라졸, 란소프라졸 등) 또는 메트포르민 — B12를 낮출 수 있으니 수치 검사를 물어보세요",
+"ja": "胃酸を抑える薬（オメプラゾール、ランソプラゾールなど）の長期服用やメトホルミン — B12を下げることがあるので検査について相談を"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "If you take metformin or an acid reducer long term, ask your clinician about checking B12.",
+"ko": "메트포르민이나 위산 억제제를 오래 먹고 있다면 B12 검사를 의료인에게 물어보세요.",
+"ja": "メトホルミンや胃酸を抑える薬を長く飲んでいるなら、B12の検査を医療者に相談してください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"seniors",
+"diabetes"
+],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 2.4 mcg a day for adults. Low B12 is common in older adults (less stomach acid), people with pernicious anemia, atrophic gastritis, stomach or bowel surgery, celiac or Crohn's disease, and vegans or vegetarians.",
+"ko": "권장량: 성인 하루 2.4 mcg. 노인(위산 감소), 악성 빈혈, 위축성 위염, 위·장 수술, 셀리악병·크론병, 채식주의자에게 부족이 흔합니다.",
+"ja": "推奨量: 成人1日2.4 mcg。高齢者（胃酸の減少）、悪性貧血、萎縮性胃炎、胃や腸の手術後、セリアック病・クローン病、ベジタリアン・ヴィーガンで不足しがちです。"
+},
+"verified": "2026-10-22",
+"id": "vitamin-b12",
+"category": "supplement_vitamin",
+"name": {
+"en": "Vitamin B12",
+"ko": "비타민 B12",
+"ja": "ビタミンB12"
+},
+"uses": {
+"en": "Needed for nerves, blood cells and DNA.",
+"ko": "신경, 혈액 세포, DNA에 필요합니다.",
+"ja": "神経、血液細胞、DNAに必要です。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Vitamin B12 Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"ferrous sulfate",
+"iron pills",
+"철분제",
+"鉄剤"
+],
+"brands": [
+"Feosol",
+"Slow Fe",
+"store brand ferrous sulfate"
+],
+"active": [
+{
+"ingredient": "iron (ferrous sulfate and others)",
+"strength": "varies by product",
+"purpose": {
+"en": "Mineral",
+"ko": "미네랄",
+"ja": "ミネラル"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "Upper limit for adults (all sources): 45 mg a day, unless a doctor prescribes more for a short time to treat deficiency.",
+"ko": "성인 상한(모든 섭취원): 하루 45 mg. 결핍 치료로 의사가 잠시 더 처방한 경우는 예외.",
+"ja": "成人の上限（すべての摂取源）: 1日45 mg。欠乏の治療で医師が短期間それ以上を処方した場合は別。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Levothyroxine or levodopa (iron lowers their effect — space doses apart), acid reducers (PPIs), or calcium supplements (take at different times)",
+"ko": "레보티록신이나 레보도파(효과 감소 — 시간 간격), 위산 억제제(PPI), 칼슘 보충제(다른 시간에)",
+"ja": "レボチロキシンやレボドパ（効果が下がる — 時間をあける）、胃酸を抑える薬（PPI）、カルシウムサプリ（別の時間に）"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Accidental iron overdose is a leading cause of fatal poisoning in children under 6. Keep iron locked away from children.",
+"ko": "철분 과다 복용 사고는 6세 미만 아이의 치명적 중독의 주요 원인입니다. 아이 손이 닿지 않게 잠가 두세요.",
+"ja": "鉄の誤飲は6歳未満の子どもの死亡中毒の主な原因です。子どもの手の届かない所に保管してください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children",
+"thyroid",
+"stomach"
+],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 8 mg a day for men and for women 51+; 18 mg for women 19–50; 27 mg in pregnancy. Women with heavy periods, pregnant women, frequent blood donors, and people with cancer, bowel disorders or heart failure may need more. High doses can cause upset stomach, constipation, nausea, belly pain, vomiting and diarrhea. People with hemochromatosis should avoid iron supplements.",
+"ko": "권장량: 남성과 51세 이상 여성 하루 8 mg, 19~50세 여성 18 mg, 임신 중 27 mg. 생리량이 많은 여성, 임신부, 헌혈을 자주 하는 사람, 암·장 질환·심부전 환자는 더 필요할 수 있습니다. 고용량은 속 불편, 변비, 메스꺼움, 복통, 구토, 설사를 일으킬 수 있습니다. 혈색소증이 있으면 철분 보충제를 피하세요.",
+"ja": "推奨量: 男性と51歳以上の女性は1日8 mg、19〜50歳の女性は18 mg、妊娠中は27 mg。月経量の多い女性、妊婦、頻回の献血者、がん・腸の病気・心不全の人はより多く必要なことがあります。高用量では胃の不快感、便秘、吐き気、腹痛、嘔吐、下痢が起こります。ヘモクロマトーシスの人は鉄サプリを避けてください。"
+},
+"verified": "2026-10-22",
+"id": "iron-supplement",
+"category": "supplement_mineral",
+"name": {
+"en": "Iron",
+"ko": "철분",
+"ja": "鉄"
+},
+"uses": {
+"en": "Needed to make hemoglobin, which carries oxygen in the blood.",
+"ko": "혈액에서 산소를 운반하는 헤모글로빈을 만드는 데 필요합니다.",
+"ja": "血液で酸素を運ぶヘモグロビンをつくるのに必要です。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Iron Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"magnesium oxide",
+"magnesium citrate",
+"magnesium glycinate",
+"마그네슘"
+],
+"brands": [
+"Nature Made Magnesium",
+"store brand magnesium"
+],
+"active": [
+{
+"ingredient": "magnesium",
+"strength": "varies by product",
+"purpose": {
+"en": "Mineral",
+"ko": "미네랄",
+"ja": "ミネラル"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "Upper limit from supplements and medicines (not food): 350 mg a day for adults.",
+"ko": "보충제·약에서의 상한(음식 제외): 성인 하루 350 mg.",
+"ja": "サプリと薬からの上限（食事は除く）: 成人1日350 mg。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Osteoporosis medicines (bisphosphonates) or antibiotics — take them apart from magnesium; water pills; long-term acid-reflux medicine",
+"ko": "골다공증약(비스포스포네이트)이나 항생제 — 마그네슘과 시간 간격; 이뇨제; 장기간 역류성 식도염 약",
+"ja": "骨粗しょう症の薬（ビスホスホネート）や抗菌薬 — マグネシウムと時間をあける；利尿薬；長期の逆流性食道炎の薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Stay under 350 mg a day from supplements unless your clinician advises more.",
+"ko": "의료인의 권고가 없다면 보충제로는 하루 350 mg 이하로 드세요.",
+"ja": "医療者の助言がなければ、サプリでは1日350 mg以下にしてください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"kidney"
+],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount (all sources): 400–420 mg a day for men, 310–320 mg for women. Too much from supplements can cause diarrhea, nausea and cramping; extremely high intakes can cause irregular heartbeat.",
+"ko": "권장량(모든 섭취원): 남성 하루 400~420 mg, 여성 310~320 mg. 보충제로 너무 많이 먹으면 설사, 메스꺼움, 복부 경련이, 극단적으로 많으면 부정맥이 생길 수 있습니다.",
+"ja": "推奨量（すべての摂取源）: 男性1日400〜420 mg、女性310〜320 mg。サプリでとりすぎると下痢、吐き気、腹部のけいれん、極端に多いと不整脈が起こります。"
+},
+"verified": "2026-10-22",
+"id": "magnesium-supplement",
+"category": "supplement_mineral",
+"name": {
+"en": "Magnesium",
+"ko": "마그네슘",
+"ja": "マグネシウム"
+},
+"uses": {
+"en": "Needed for muscles, nerves, blood sugar, blood pressure and bones.",
+"ko": "근육, 신경, 혈당, 혈압, 뼈에 필요합니다.",
+"ja": "筋肉、神経、血糖、血圧、骨に必要です。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Magnesium Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/Magnesium-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"omega-3",
+"fish oil",
+"오메가3",
+"オメガ3"
+],
+"brands": [
+"Nature Made Fish Oil",
+"Nordic Naturals",
+"store brand fish oil"
+],
+"active": [
+{
+"ingredient": "EPA and DHA",
+"strength": "varies by product",
+"purpose": {
+"en": "Omega-3 fatty acids",
+"ko": "오메가-3 지방산",
+"ja": "オメガ3脂肪酸"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "FDA advises no more than 5 g a day of EPA + DHA from supplements.",
+"ko": "FDA는 보충제로 EPA+DHA를 하루 5 g 넘게 먹지 않도록 권고합니다.",
+"ja": "FDAはサプリからのEPA+DHAを1日5 g以下にするよう勧めています。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Warfarin or other blood thinners (high doses may increase bleeding)",
+"ko": "와파린 등 혈액 희석제(고용량은 출혈 증가 가능)",
+"ja": "ワルファリンなど血液をさらさらにする薬（高用量で出血が増えることがあります）"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "If you take a blood thinner, ask before using high-dose fish oil.",
+"ko": "혈액 희석제를 먹고 있다면 고용량 피시오일 전에 물어보세요.",
+"ja": "血液をさらさらにする薬を飲んでいれば、高用量のフィッシュオイルの前に相談を。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"bleeding",
+"blood_thinner"
+],
+"classes": [],
+"supplement_note": {
+"en": "The American Heart Association suggests about 1 g a day of EPA + DHA for people with heart disease, preferably from oily fish, and does not recommend supplements for people without high heart risk. Research on cancer, memory, dry eye and arthritis is mixed. Side effects are usually mild: bad taste, bad breath, heartburn, nausea, stomach upset, diarrhea, headache.",
+"ko": "미국심장협회는 심장병이 있는 사람에게 EPA+DHA 하루 약 1 g(가능하면 기름진 생선으로)을 제안하며, 심장 위험이 높지 않은 사람에게는 보충제를 권하지 않습니다. 암, 기억력, 안구건조, 관절염에 대한 연구 결과는 엇갈립니다. 부작용은 대개 가벼우며 입안의 불쾌한 맛, 입냄새, 속쓰림, 메스꺼움, 속 불편, 설사, 두통입니다.",
+"ja": "米国心臓協会は心臓病のある人にEPA+DHA 1日約1 g（できれば脂ののった魚から）を提案し、心臓リスクが高くない人にはサプリを勧めていません。がん、記憶、ドライアイ、関節炎の研究結果はまちまちです。副作用は多くは軽く、口の中の不快な味、口臭、胸やけ、吐き気、胃の不快感、下痢、頭痛です。"
+},
+"verified": "2026-10-22",
+"id": "fish-oil",
+"category": "supplement_other",
+"name": {
+"en": "Fish oil (omega-3: EPA and DHA)",
+"ko": "피시오일(오메가-3: EPA·DHA)",
+"ja": "フィッシュオイル（オメガ3: EPA・DHA）"
+},
+"uses": {
+"en": "Higher EPA and DHA lowers triglycerides. Eating fatty fish is linked to heart health.",
+"ko": "EPA·DHA를 더 많이 섭취하면 중성지방이 낮아집니다. 기름진 생선을 먹는 것은 심장 건강과 관련이 있습니다.",
+"ja": "EPA・DHAを多くとると中性脂肪が下がります。脂ののった魚を食べることは心臓の健康と関連しています。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"folate",
+"vitamin B9",
+"엽산",
+"葉酸"
+],
+"brands": [
+"Nature Made Folic Acid",
+"store brand folic acid"
+],
+"active": [
+{
+"ingredient": "folic acid",
+"strength": "varies by product (mcg DFE)",
+"purpose": {
+"en": "Vitamin",
+"ko": "비타민",
+"ja": "ビタミン"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "Upper limit from supplements and fortified foods: 1,000 mcg a day for adults.",
+"ko": "보충제·강화식품에서의 상한: 성인 하루 1,000 mcg.",
+"ja": "サプリと強化食品からの上限: 成人1日1,000 mcg。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Methotrexate, seizure medicines (phenytoin, carbamazepine, valproate), or sulfasalazine",
+"ko": "메토트렉세이트, 경련약(페니토인, 카르바마제핀, 발프로산), 설파살라진",
+"ja": "メトトレキサート、てんかんの薬（フェニトイン、カルバマゼピン、バルプロ酸）、スルファサラジン"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "If you take seizure medicine or methotrexate, ask before taking folic acid.",
+"ko": "경련약이나 메토트렉세이트를 먹고 있다면 엽산 전에 물어보세요.",
+"ja": "てんかんの薬やメトトレキサートを飲んでいれば、葉酸の前に相談を。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Recommended: 600 mcg DFE a day during pregnancy.",
+"ko": "임신 중 권장량: 하루 600 mcg DFE.",
+"ja": "妊娠中の推奨量: 1日600 mcg DFE。"
+},
+"flags": [
+"pregnancy"
+],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 400 mcg DFE a day for adults, 600 in pregnancy, 500 while breastfeeding. Women who could become pregnant should get 400 mcg of folic acid a day from supplements or fortified foods, in addition to food folate. Large doses can hide a B12 deficiency, which can lead to permanent nerve damage.",
+"ko": "권장량: 성인 하루 400 mcg DFE, 임신 중 600, 수유 중 500. 임신 가능성이 있는 여성은 음식 엽산 외에 보충제나 강화식품으로 하루 400 mcg 엽산을 섭취해야 합니다. 고용량은 B12 결핍을 가려 영구적인 신경 손상으로 이어질 수 있습니다.",
+"ja": "推奨量: 成人1日400 mcg DFE、妊娠中600、授乳中500。妊娠の可能性がある女性は、食事の葉酸に加えてサプリや強化食品から1日400 mcgの葉酸をとるべきです。大量に飲むとB12欠乏が隠れ、永続的な神経障害につながることがあります。"
+},
+"verified": "2026-10-22",
+"id": "folic-acid",
+"category": "supplement_vitamin",
+"name": {
+"en": "Folic acid (folate)",
+"ko": "엽산",
+"ja": "葉酸"
+},
+"uses": {
+"en": "Needed to make DNA and cells; helps prevent birth defects of the brain and spine.",
+"ko": "DNA와 세포를 만드는 데 필요하며, 뇌·척추 선천 결손 예방에 도움이 됩니다.",
+"ja": "DNAや細胞をつくるのに必要で、脳・脊椎の先天異常の予防に役立ちます。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Folate Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/Folate-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"ascorbic acid",
+"Emergen-C",
+"비타민C"
+],
+"brands": [
+"Emergen-C",
+"store brand vitamin C"
+],
+"active": [
+{
+"ingredient": "vitamin C (ascorbic acid)",
+"strength": "varies by product",
+"purpose": {
+"en": "Vitamin",
+"ko": "비타민",
+"ja": "ビタミン"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "Upper limit for adults (all sources): 2,000 mg a day.",
+"ko": "성인 상한(모든 섭취원): 하루 2,000 mg.",
+"ja": "成人の上限（すべての摂取源）: 1日2,000 mg。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Chemotherapy or radiation — check with your cancer team first; statin + niacin",
+"ko": "항암치료나 방사선 치료 — 먼저 담당 암 치료팀에 확인; 스타틴+니아신",
+"ja": "抗がん剤や放射線治療 — まずがん治療チームに確認；スタチン+ナイアシン"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "High-dose vitamin C does not cure colds and can upset the stomach.",
+"ko": "고용량 비타민 C는 감기를 낫게 하지 않으며 배탈을 일으킬 수 있습니다.",
+"ja": "高用量のビタミンCはかぜを治さず、おなかをこわすことがあります。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 90 mg a day for men, 75 mg for women; smokers add 35 mg. For most people it does not prevent colds; regular users may have slightly shorter or milder colds, and starting after symptoms begin does not appear to help. Too much can cause diarrhea, nausea and cramps; people with hemochromatosis should avoid high doses.",
+"ko": "권장량: 남성 하루 90 mg, 여성 75 mg, 흡연자는 35 mg 추가. 대부분의 사람에게 감기 예방 효과는 없으며, 꾸준히 먹는 사람은 감기가 약간 짧거나 가벼울 수 있고, 증상이 시작된 뒤 먹는 것은 도움이 되지 않는 것으로 보입니다. 너무 많으면 설사, 메스꺼움, 복부 경련이 생기며 혈색소증 환자는 고용량을 피해야 합니다.",
+"ja": "推奨量: 男性1日90 mg、女性75 mg、喫煙者は35 mg追加。多くの人でかぜの予防効果はなく、日常的に飲む人はかぜが少し短く軽くなる可能性がありますが、症状が出てから飲み始めても役立たないようです。とりすぎると下痢、吐き気、腹部のけいれん。ヘモクロマトーシスの人は高用量を避けてください。"
+},
+"verified": "2026-10-22",
+"id": "vitamin-c",
+"category": "supplement_vitamin",
+"name": {
+"en": "Vitamin C",
+"ko": "비타민 C",
+"ja": "ビタミンC"
+},
+"uses": {
+"en": "An antioxidant needed for skin, wound healing and iron absorption.",
+"ko": "피부, 상처 회복, 철분 흡수에 필요한 항산화제입니다.",
+"ja": "皮膚、傷の治り、鉄の吸収に必要な抗酸化物質です。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Vitamin C Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/"
+}
+],
+"kind": "supplement"
+},
+{
+"aka": [
+"zinc lozenges",
+"Cold-EEZE",
+"아연",
+"亜鉛"
+],
+"brands": [
+"Cold-EEZE",
+"store brand zinc"
+],
+"active": [
+{
+"ingredient": "zinc",
+"strength": "varies by product",
+"purpose": {
+"en": "Mineral",
+"ko": "미네랄",
+"ja": "ミネラル"
+}
+}
+],
+"directions_adult": {
+"en": "No single label dose — follow your product's label and your clinician.",
+"ko": "정해진 하나의 용량이 없습니다 — 제품 라벨과 담당 의료인의 안내를 따르세요.",
+"ja": "決まった1つの量はありません — 製品のラベルと担当の医療者に従ってください。"
+},
+"max_daily": {
+"en": "Upper limit for adults (all sources): 40 mg a day.",
+"ko": "성인 상한(모든 섭취원): 하루 40 mg.",
+"ja": "成人の上限（すべての摂取源）: 1日40 mg。"
+},
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [
+{
+"en": "Quinolone or tetracycline antibiotics (take the antibiotic 2 hours before or 4–6 hours after zinc), penicillamine, or thiazide water pills",
+"ko": "퀴놀론·테트라사이클린 항생제(아연 2시간 전 또는 4~6시간 후에 항생제), 페니실라민, 티아지드 이뇨제",
+"ja": "キノロン系・テトラサイクリン系抗菌薬（亜鉛の2時間前か4〜6時間後に抗菌薬）、ペニシラミン、チアジド系利尿薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Stay under 40 mg a day. Separate zinc from antibiotics.",
+"ko": "하루 40 mg 이하로 드시고, 항생제와 시간 간격을 두세요.",
+"ja": "1日40 mg以下に。抗菌薬とは時間をあけてください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": {
+"en": "Recommended amount: 11 mg a day for men, 8 mg for women. Some studies suggest zinc lozenges or syrup started at the first sign of a cold speed recovery, but they do not seem to make symptoms milder. Too much causes nausea, dizziness, headache, vomiting and loss of appetite; long-term excess can lower copper and immunity.",
+"ko": "권장량: 남성 하루 11 mg, 여성 8 mg. 일부 연구에서 감기 초기에 아연 트로키나 시럽을 시작하면 회복이 빨라진다고 하지만 증상을 가볍게 하지는 않는 것 같습니다. 너무 많으면 메스꺼움, 어지러움, 두통, 구토, 식욕 저하가 생기고, 오래 과다하면 구리와 면역이 떨어질 수 있습니다.",
+"ja": "推奨量: 男性1日11 mg、女性8 mg。かぜのひき始めに亜鉛トローチやシロップを始めると回復が早まるとする研究もありますが、症状を軽くはしないようです。とりすぎると吐き気、めまい、頭痛、嘔吐、食欲低下。長期の過剰で銅や免疫が低下することがあります。"
+},
+"verified": "2026-10-22",
+"id": "zinc-supplement",
+"category": "supplement_mineral",
+"name": {
+"en": "Zinc",
+"ko": "아연",
+"ja": "亜鉛"
+},
+"uses": {
+"en": "Needed for immunity, wound healing, and taste and smell.",
+"ko": "면역, 상처 회복, 미각과 후각에 필요합니다.",
+"ja": "免疫、傷の治り、味覚と嗅覚に必要です。"
+},
+"sources": [
+{
+"title": "NIH Office of Dietary Supplements — Zinc Fact Sheet for Consumers",
+"url": "https://ods.od.nih.gov/factsheets/Zinc-Consumer/"
+}
+],
+"kind": "supplement"
+}
+]
+}

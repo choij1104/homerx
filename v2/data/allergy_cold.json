@@ -1,0 +1,2454 @@
+{
+"entries": [
+{
+"aka": [
+"클라리틴",
+"クラリチン",
+"non-drowsy antihistamine"
+],
+"brands": [
+"Claritin",
+"Alavert",
+"store brand loratadine"
+],
+"active": [
+{
+"ingredient": "loratadine",
+"strength": "10 mg",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 6 and over: 1 tablet once a day.",
+"ko": "성인 및 6세 이상: 하루 1번 1정.",
+"ja": "成人と6歳以上: 1日1回1錠。"
+},
+"max_daily": {
+"en": "No more than 1 tablet in 24 hours.",
+"ko": "24시간에 1정까지.",
+"ja": "24時間で1錠まで。"
+},
+"children": {
+"en": "Under 6: ask a doctor (children's products exist).",
+"ko": "6세 미만: 의사에게 물어보세요 (어린이용 제품이 따로 있습니다).",
+"ja": "6歳未満: 医師に相談（子ども用製品があります）。"
+},
+"do_not_use": [
+{
+"en": "If you have had an allergic reaction to this product",
+"ko": "이 제품에 알레르기 반응이 있었던 적이 있으면",
+"ja": "この製品でアレルギー反応が出たことがある場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver or kidney disease — your doctor decides whether you need a different dose",
+"ko": "간·신장 질환 — 용량 조절이 필요한지 의사가 정합니다",
+"ja": "肝臓・腎臓の病気 — 用量の調整が必要か医師が判断します"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "An allergic reaction occurs — get medical help right away",
+"ko": "알레르기 반응이 생기면 — 즉시 진료를 받으세요",
+"ja": "アレルギー反応が出た — すぐに受診してください"
+}
+],
+"key_warning": {
+"en": "Usually non-drowsy, but taking more than directed can cause drowsiness.",
+"ko": "보통 졸리지 않지만, 정해진 양보다 많이 먹으면 졸릴 수 있습니다.",
+"ja": "通常は眠くなりにくいですが、決められた量を超えると眠くなることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"liver",
+"kidney"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "loratadine",
+"kind": "otc",
+"category": "allergy",
+"name": {
+"en": "Loratadine",
+"ko": "로라타딘",
+"ja": "ロラタジン"
+},
+"uses": {
+"en": "Temporarily relieves hay fever and other upper respiratory allergy symptoms: runny nose, sneezing, itchy or watery eyes, itchy nose or throat.",
+"ko": "꽃가루 알레르기 등 호흡기 알레르기 증상(콧물, 재채기, 눈 가려움·눈물, 코·목 가려움)을 일시적으로 덜어 줍니다.",
+"ja": "花粉症などの鼻・のどのアレルギー症状（鼻水、くしゃみ、目のかゆみ・涙、鼻やのどのかゆみ）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Claritin (loratadine 10 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ac32d6f9-f553-4d5c-ad36-575af5ea56de"
+}
+]
+},
+{
+"aka": [
+"지르텍",
+"ジルテック"
+],
+"brands": [
+"Zyrtec",
+"store brand cetirizine"
+],
+"active": [
+{
+"ingredient": "cetirizine",
+"strength": "10 mg (HCl)",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 6 to 64: one 10 mg tablet once a day; a 5 mg product may be enough for milder symptoms.",
+"ko": "성인 및 6~64세: 하루 1번 10 mg 1정. 증상이 가벼우면 5 mg 제품으로 충분할 수 있습니다.",
+"ja": "成人と6〜64歳: 1日1回10 mg 1錠。軽い症状なら5 mg製品で足りることもあります。"
+},
+"max_daily": {
+"en": "No more than one 10 mg tablet in 24 hours.",
+"ko": "24시간에 10 mg 1정까지.",
+"ja": "24時間で10 mg 1錠まで。"
+},
+"children": {
+"en": "Under 6: ask a doctor.",
+"ko": "6세 미만: 의사에게 물어보세요.",
+"ja": "6歳未満: 医師に相談してください。"
+},
+"do_not_use": [
+{
+"en": "If you have had an allergic reaction to this product or to hydroxyzine",
+"ko": "이 제품이나 하이드록시진에 알레르기 반응이 있었으면",
+"ja": "この製品やヒドロキシジンでアレルギー反応が出たことがある場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver or kidney disease",
+"ko": "간·신장 질환",
+"ja": "肝臓・腎臓の病気"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives or tranquilizers",
+"ko": "진정제나 신경안정제",
+"ja": "鎮静薬や精神安定薬"
+}
+],
+"stop_use": [
+{
+"en": "An allergic reaction occurs — get medical help right away",
+"ko": "알레르기 반응이 생기면 — 즉시 진료를 받으세요",
+"ja": "アレルギー反応が出た — すぐに受診してください"
+}
+],
+"key_warning": {
+"en": "Drowsiness may occur. Avoid alcohol; be careful driving or using machinery. Alcohol, sedatives and tranquilizers make drowsiness worse.",
+"ko": "졸릴 수 있습니다. 술을 피하고 운전·기계 조작에 주의하세요. 술, 진정제, 신경안정제는 졸음을 더 심하게 합니다.",
+"ja": "眠くなることがあります。飲酒を避け、運転や機械の操作に注意してください。酒、鎮静薬、精神安定薬は眠気を強めます。"
+},
+"older_adults": {
+"en": "The label says adults 65 and over should ask a doctor before use.",
+"ko": "라벨은 65세 이상은 사용 전 의사에게 물어보라고 합니다.",
+"ja": "ラベルは65歳以上は使用前に医師に相談するよう記載しています。"
+},
+"pregnancy": {
+"en": "If pregnant, ask a health professional. Breast-feeding is not recommended.",
+"ko": "임신 중이면 의료인에게 물어보세요. 수유 중에는 권장되지 않습니다.",
+"ja": "妊娠中は医療専門家に相談。授乳中は勧められません。"
+},
+"flags": [
+"liver",
+"kidney",
+"sedation",
+"seniors",
+"pregnancy",
+"alcohol"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "cetirizine",
+"kind": "otc",
+"category": "allergy",
+"name": {
+"en": "Cetirizine",
+"ko": "세티리진",
+"ja": "セチリジン"
+},
+"uses": {
+"en": "Temporarily relieves hay fever and other upper respiratory allergy symptoms: runny nose, sneezing, itchy or watery eyes, itchy nose or throat.",
+"ko": "꽃가루 알레르기 등 호흡기 알레르기 증상(콧물, 재채기, 눈 가려움·눈물, 코·목 가려움)을 일시적으로 덜어 줍니다.",
+"ja": "花粉症などの鼻・のどのアレルギー症状（鼻水、くしゃみ、目のかゆみ・涙、鼻やのどのかゆみ）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Zyrtec Allergy (cetirizine 10 mg) Drug Facts",
+"url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5490c38a-91d7-9ee1-e063-6394a90a1ea5"
+}
+]
+},
+{
+"aka": [
+"씨잘",
+"ザイザル"
+],
+"brands": [
+"Xyzal Allergy 24HR"
+],
+"active": [
+{
+"ingredient": "levocetirizine",
+"strength": "5 mg (dihydrochloride)",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Ages 12 to 64: 1 tablet (5 mg) once a day in the evening; half a tablet may be enough for milder symptoms.",
+"ko": "12~64세: 저녁에 하루 1번 1정(5 mg). 증상이 가벼우면 반 정으로 충분할 수 있습니다.",
+"ja": "12〜64歳: 1日1回夜に1錠（5 mg）。軽い症状なら半錠で足りることも。"
+},
+"max_daily": {
+"en": "No more than 1 tablet in 24 hours.",
+"ko": "24시간에 1정까지.",
+"ja": "24時間で1錠まで。"
+},
+"children": {
+"en": "Ages 6–11: half a tablet (2.5 mg) once in the evening, as printed on the label. Under 6: do not use.",
+"ko": "6~11세: 라벨대로 저녁에 반 정(2.5 mg) 1번. 6세 미만: 쓰지 마세요.",
+"ja": "6〜11歳: ラベル通り夜に半錠（2.5 mg）1回。6歳未満: 使用しないでください。"
+},
+"do_not_use": [
+{
+"en": "If you have kidney disease",
+"ko": "신장 질환이 있으면",
+"ja": "腎臓病がある場合"
+},
+{
+"en": "If you have had an allergic reaction to this product or to cetirizine",
+"ko": "이 제품이나 세티리진에 알레르기 반응이 있었으면",
+"ja": "この製品やセチリジンでアレルギー反応が出たことがある場合"
+}
+],
+"ask_doctor": [
+{
+"en": "You have ever had trouble urinating or emptying your bladder",
+"ko": "소변보기나 방광을 비우기 어려웠던 적이 있으면",
+"ja": "排尿や膀胱を空にするのが難しかったことがある"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Trouble urinating or emptying your bladder",
+"ko": "소변보기·방광 비우기가 어려울 때",
+"ja": "排尿しにくい、膀胱が空にならない"
+},
+{
+"en": "An allergic reaction occurs — get medical help right away",
+"ko": "알레르기 반응이 생기면 — 즉시 진료를 받으세요",
+"ja": "アレルギー反応が出た — すぐに受診してください"
+}
+],
+"key_warning": {
+"en": "Drowsiness may occur. Avoid alcohol; be careful driving or using machinery. Alcohol, sedatives and tranquilizers make drowsiness worse.",
+"ko": "졸릴 수 있습니다. 술을 피하고 운전·기계 조작에 주의하세요. 술, 진정제, 신경안정제는 졸음을 더 심하게 합니다.",
+"ja": "眠くなることがあります。飲酒を避け、運転や機械の操作に注意してください。酒、鎮静薬、精神安定薬は眠気を強めます。"
+},
+"older_adults": {
+"en": "The label says adults 65 and over should ask a doctor before use.",
+"ko": "라벨은 65세 이상은 사용 전 의사에게 물어보라고 합니다.",
+"ja": "ラベルは65歳以上は使用前に医師に相談するよう記載しています。"
+},
+"pregnancy": {
+"en": "If pregnant, ask a health professional. Breast-feeding is not recommended.",
+"ko": "임신 중이면 의료인에게 물어보세요. 수유 중에는 권장되지 않습니다.",
+"ja": "妊娠中は医療専門家に相談。授乳中は勧められません。"
+},
+"flags": [
+"kidney",
+"prostate",
+"sedation",
+"seniors",
+"pregnancy",
+"alcohol"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "levocetirizine",
+"kind": "otc",
+"category": "allergy",
+"name": {
+"en": "Levocetirizine",
+"ko": "레보세티리진",
+"ja": "レボセチリジン"
+},
+"uses": {
+"en": "Temporarily relieves hay fever and other upper respiratory allergy symptoms: runny nose, sneezing, itchy or watery eyes, itchy nose or throat.",
+"ko": "꽃가루 알레르기 등 호흡기 알레르기 증상(콧물, 재채기, 눈 가려움·눈물, 코·목 가려움)을 일시적으로 덜어 줍니다.",
+"ja": "花粉症などの鼻・のどのアレルギー症状（鼻水、くしゃみ、目のかゆみ・涙、鼻やのどのかゆみ）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Xyzal Allergy 24HR (levocetirizine 5 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8be45c2a-1eca-4a00-81b9-f7babdbdcd41"
+}
+]
+},
+{
+"aka": [
+"알레그라",
+"アレグラ"
+],
+"brands": [
+"Allegra Allergy",
+"store brand fexofenadine"
+],
+"active": [
+{
+"ingredient": "fexofenadine",
+"strength": "180 mg (HCl)",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12 and over: one 180 mg tablet with water once a day. Do not take it with fruit juice or at the same time as aluminum or magnesium antacids.",
+"ko": "성인 및 12세 이상: 하루 1번 180 mg 1정을 물과 함께. 과일 주스와 함께 먹거나 알루미늄·마그네슘 제산제와 동시에 먹지 마세요.",
+"ja": "成人と12歳以上: 1日1回180 mg 1錠を水で。果汁と一緒に、またはアルミニウム・マグネシウム制酸薬と同時に飲まないでください。"
+},
+"max_daily": {
+"en": "No more than 1 tablet in 24 hours.",
+"ko": "24시간에 1정까지.",
+"ja": "24時間で1錠まで。"
+},
+"children": {
+"en": "Under 12: do not use this 180 mg product (children's products exist).",
+"ko": "12세 미만: 이 180 mg 제품은 쓰지 마세요 (어린이용 제품이 따로 있습니다).",
+"ja": "12歳未満: この180 mg製品は使わないでください（子ども用製品があります）。"
+},
+"do_not_use": [
+{
+"en": "If you have had an allergic reaction to this product",
+"ko": "이 제품에 알레르기 반응이 있었으면",
+"ja": "この製品でアレルギー反応が出たことがある場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Kidney disease",
+"ko": "신장 질환",
+"ja": "腎臓病"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "An allergic reaction occurs — get medical help right away",
+"ko": "알레르기 반응이 생기면 — 즉시 진료를 받으세요",
+"ja": "アレルギー反応が出た — すぐに受診してください"
+}
+],
+"key_warning": {
+"en": "Take it with water, not fruit juice, and not at the same time as Maalox- or Mylanta-type antacids — both can stop it working.",
+"ko": "과일 주스가 아닌 물과 함께 드시고, 마알록스·마일란타 같은 제산제와 동시에 먹지 마세요. 둘 다 효과를 떨어뜨립니다.",
+"ja": "果汁ではなく水で飲み、マーロックスやマイランタのような制酸薬と同時に飲まないでください。どちらも効果を弱めます。"
+},
+"older_adults": {
+"en": "The label says adults 65 and over should ask a doctor before use.",
+"ko": "라벨은 65세 이상은 사용 전 의사에게 물어보라고 합니다.",
+"ja": "ラベルは65歳以上は使用前に医師に相談するよう記載しています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"kidney",
+"seniors"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "fexofenadine",
+"kind": "otc",
+"category": "allergy",
+"name": {
+"en": "Fexofenadine",
+"ko": "펙소페나딘",
+"ja": "フェキソフェナジン"
+},
+"uses": {
+"en": "Temporarily relieves hay fever and other upper respiratory allergy symptoms: runny nose, sneezing, itchy or watery eyes, itchy nose or throat.",
+"ko": "꽃가루 알레르기 등 호흡기 알레르기 증상(콧물, 재채기, 눈 가려움·눈물, 코·목 가려움)을 일시적으로 덜어 줍니다.",
+"ja": "花粉症などの鼻・のどのアレルギー症状（鼻水、くしゃみ、目のかゆみ・涙、鼻やのどのかゆみ）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Allegra Allergy (fexofenadine 180 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8a00fa1-79af-4ce6-885f-0ce12c5da836"
+}
+]
+},
+{
+"aka": [
+"Benadryl",
+"베나드릴",
+"ベナドリル",
+"drowsy antihistamine"
+],
+"brands": [
+"Benadryl Allergy",
+"store brand diphenhydramine"
+],
+"active": [
+{
+"ingredient": "diphenhydramine",
+"strength": "25 mg (HCl)",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12 and over: 1 to 2 tablets (25–50 mg) every 4 to 6 hours.",
+"ko": "성인 및 12세 이상: 4~6시간마다 1~2정(25~50 mg).",
+"ja": "成人と12歳以上: 4〜6時間ごとに1〜2錠（25〜50 mg）。"
+},
+"max_daily": {
+"en": "Do not take more than 6 doses in 24 hours.",
+"ko": "24시간에 6번을 넘기지 마세요.",
+"ja": "24時間で6回を超えないでください。"
+},
+"children": {
+"en": "Ages 6 to under 12: 1 tablet per dose, as printed on the label. Under 6: do not use. Never use it to make a child sleepy.",
+"ko": "6~12세 미만: 라벨대로 1회 1정. 6세 미만: 쓰지 마세요. 아이를 재우려고 쓰면 절대 안 됩니다.",
+"ja": "6〜12歳未満: ラベル通り1回1錠。6歳未満: 使用不可。子どもを眠らせる目的で絶対に使わないでください。"
+},
+"do_not_use": [
+{
+"en": "To make a child sleepy",
+"ko": "아이를 재우려는 목적으로",
+"ja": "子どもを眠らせる目的で"
+},
+{
+"en": "With any other diphenhydramine product, even one used on the skin",
+"ko": "다른 디펜히드라민 제품(피부에 바르는 것 포함)과 함께",
+"ja": "他のジフェンヒドラミン製品（皮膚に塗るものも含む）と一緒に"
+}
+],
+"ask_doctor": [
+{
+"en": "Glaucoma; a breathing problem such as emphysema or chronic bronchitis; trouble urinating from an enlarged prostate",
+"ko": "녹내장, 폐기종·만성 기관지염 같은 호흡 문제, 전립선 비대로 인한 배뇨 곤란",
+"ja": "緑内障、肺気腫・慢性気管支炎などの呼吸の問題、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives or tranquilizers",
+"ko": "진정제나 신경안정제",
+"ja": "鎮静薬や精神安定薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Causes marked drowsiness. It is also the active ingredient in many 'PM' and sleep products — check labels so you do not take it twice.",
+"ko": "심하게 졸립니다. 여러 'PM' 제품과 수면제에도 같은 성분이 들어 있으니 두 번 먹지 않도록 라벨을 확인하세요.",
+"ja": "強い眠気が出ます。多くの「PM」製品や睡眠薬にも同じ成分が入っているので、重ねて飲まないようラベルを確認してください。"
+},
+"older_adults": {
+"en": "A first-generation (drowsy) antihistamine. The American Geriatrics Society Beers Criteria lists diphenhydramine and chlorpheniramine among medicines older adults should avoid.",
+"ko": "1세대(졸리는) 항히스타민제입니다. 미국노인의학회 Beers 기준은 디펜히드라민과 클로르페니라민을 노인이 피해야 할 약으로 올려 두었습니다.",
+"ja": "第一世代（眠くなる）抗ヒスタミン薬です。米国老年医学会のBeers基準はジフェンヒドラミンとクロルフェニラミンを高齢者が避けるべき薬に挙げています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"glaucoma",
+"prostate",
+"sedation",
+"seniors",
+"alcohol",
+"children"
+],
+"classes": [
+"sedating_antihistamine"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "diphenhydramine",
+"kind": "otc",
+"category": "allergy",
+"name": {
+"en": "Diphenhydramine",
+"ko": "디펜히드라민",
+"ja": "ジフェンヒドラミン"
+},
+"uses": {
+"en": "Temporarily relieves allergy symptoms (runny nose, sneezing, itchy watery eyes, itchy nose or throat) and runny nose and sneezing from the common cold.",
+"ko": "알레르기 증상(콧물, 재채기, 눈 가려움·눈물, 코·목 가려움)과 감기의 콧물·재채기를 일시적으로 덜어 줍니다.",
+"ja": "アレルギー症状（鼻水、くしゃみ、目のかゆみ・涙、鼻やのどのかゆみ）と、かぜの鼻水・くしゃみを一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Benadryl Allergy (diphenhydramine 25 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c46c01c0-29f4-400c-bef5-14b3eb944c51"
+},
+{
+"title": "AGS Health in Aging Foundation — Alternatives for Medications Listed in the AGS Beers Criteria (April 2023)",
+"url": "https://www.healthinaging.org/sites/default/files/media/pdf/HIA-LearnMore-BEERS-alternatives23.pdf"
+}
+]
+},
+{
+"aka": [
+"Chlor-Trimeton",
+"drowsy antihistamine"
+],
+"brands": [
+"Chlor-Trimeton",
+"Allergy (chlorpheniramine 4 mg)"
+],
+"active": [
+{
+"ingredient": "chlorpheniramine",
+"strength": "4 mg (maleate)",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12 and over: 1 tablet every 4 to 6 hours.",
+"ko": "성인 및 12세 이상: 4~6시간마다 1정.",
+"ja": "成人と12歳以上: 4〜6時間ごとに1錠。"
+},
+"max_daily": {
+"en": "No more than 6 tablets in 24 hours.",
+"ko": "24시간에 6정까지.",
+"ja": "24時間で6錠まで。"
+},
+"children": {
+"en": "Ages 6 to under 12: half a tablet per dose, no more than 3 tablets in 24 hours, as printed on the label. Under 6: do not use.",
+"ko": "6~12세 미만: 라벨대로 1회 반 정, 24시간에 3정까지. 6세 미만: 쓰지 마세요.",
+"ja": "6〜12歳未満: ラベル通り1回半錠、24時間で3錠まで。6歳未満: 使用不可。"
+},
+"do_not_use": [
+{
+"en": "To make a child sleepy",
+"ko": "아이를 재우려는 목적으로",
+"ja": "子どもを眠らせる目的で"
+}
+],
+"ask_doctor": [
+{
+"en": "Glaucoma; a breathing problem such as emphysema or chronic bronchitis; trouble urinating from an enlarged prostate",
+"ko": "녹내장, 폐기종·만성 기관지염 같은 호흡 문제, 전립선 비대로 인한 배뇨 곤란",
+"ja": "緑内障、肺気腫・慢性気管支炎などの呼吸の問題、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives or tranquilizers",
+"ko": "진정제나 신경안정제",
+"ja": "鎮静薬や精神安定薬"
+}
+],
+"stop_use": [],
+"key_warning": {
+"en": "Drowsiness may occur. Avoid alcohol; be careful driving or using machinery. Alcohol, sedatives and tranquilizers make drowsiness worse.",
+"ko": "졸릴 수 있습니다. 술을 피하고 운전·기계 조작에 주의하세요. 술, 진정제, 신경안정제는 졸음을 더 심하게 합니다.",
+"ja": "眠くなることがあります。飲酒を避け、運転や機械の操作に注意してください。酒、鎮静薬、精神安定薬は眠気を強めます。"
+},
+"older_adults": {
+"en": "A first-generation (drowsy) antihistamine. The American Geriatrics Society Beers Criteria lists diphenhydramine and chlorpheniramine among medicines older adults should avoid.",
+"ko": "1세대(졸리는) 항히스타민제입니다. 미국노인의학회 Beers 기준은 디펜히드라민과 클로르페니라민을 노인이 피해야 할 약으로 올려 두었습니다.",
+"ja": "第一世代（眠くなる）抗ヒスタミン薬です。米国老年医学会のBeers基準はジフェンヒドラミンとクロルフェニラミンを高齢者が避けるべき薬に挙げています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"glaucoma",
+"prostate",
+"sedation",
+"seniors",
+"alcohol",
+"children"
+],
+"classes": [
+"sedating_antihistamine"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "chlorpheniramine",
+"kind": "otc",
+"category": "allergy",
+"name": {
+"en": "Chlorpheniramine",
+"ko": "클로르페니라민",
+"ja": "クロルフェニラミン"
+},
+"uses": {
+"en": "Temporarily relieves hay fever and other upper respiratory allergy symptoms: runny nose, sneezing, itchy or watery eyes, itchy nose or throat.",
+"ko": "꽃가루 알레르기 등 호흡기 알레르기 증상(콧물, 재채기, 눈 가려움·눈물, 코·목 가려움)을 일시적으로 덜어 줍니다.",
+"ja": "花粉症などの鼻・のどのアレルギー症状（鼻水、くしゃみ、目のかゆみ・涙、鼻やのどのかゆみ）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Allergy (chlorpheniramine maleate 4 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0aa4ac07-bd02-46b2-9cf0-0643e0e1a2da"
+},
+{
+"title": "AGS Health in Aging Foundation — Alternatives for Medications Listed in the AGS Beers Criteria (April 2023)",
+"url": "https://www.healthinaging.org/sites/default/files/media/pdf/HIA-LearnMore-BEERS-alternatives23.pdf"
+}
+]
+},
+{
+"aka": [
+"Sudafed",
+"behind the counter decongestant",
+"코막힘약"
+],
+"brands": [
+"Sudafed 12 Hour",
+"Sudafed Sinus Congestion"
+],
+"active": [
+{
+"ingredient": "pseudoephedrine",
+"strength": "120 mg (HCl) per 12-hour tablet",
+"purpose": {
+"en": "Nasal decongestant",
+"ko": "코막힘 완화제",
+"ja": "鼻づまり改善薬"
+}
+}
+],
+"directions_adult": {
+"en": "12-hour tablet, adults and children 12 and over: 1 tablet every 12 hours. You must ask at the pharmacy counter and show a photo ID; federal law limits how much you can buy and the sale is recorded.",
+"ko": "12시간 정제, 성인 및 12세 이상: 12시간마다 1정. 약국 카운터에서 요청하고 사진 신분증을 보여야 하며, 연방법에 따라 구매량이 제한되고 판매가 기록됩니다.",
+"ja": "12時間錠、成人と12歳以上: 12時間ごとに1錠。薬局のカウンターで頼み、写真付き身分証を見せる必要があり、連邦法で購入量が制限され販売が記録されます。"
+},
+"max_daily": {
+"en": "No more than 2 tablets (12-hour, 120 mg) in 24 hours.",
+"ko": "24시간에 2정(12시간용 120 mg)까지.",
+"ja": "24時間で2錠（12時間用120 mg）まで。"
+},
+"children": {
+"en": "This 12-hour product: under 12 do not use.",
+"ko": "이 12시간 제품: 12세 미만은 쓰지 마세요.",
+"ja": "この12時間製品: 12歳未満は使用不可。"
+},
+"do_not_use": [
+{
+"en": "If you take a prescription MAOI (certain medicines for depression, psychiatric conditions or Parkinson's disease), or within 2 weeks after stopping one. Ask a pharmacist if you are not sure.",
+"ko": "처방받은 MAOI(일부 우울증·정신과·파킨슨병 약)를 먹고 있거나 끊은 지 2주가 안 됐으면. 잘 모르면 약사에게 물어보세요.",
+"ja": "処方のMAOI（一部のうつ病・精神科・パーキンソン病の薬）を使用中、または中止後2週間以内の場合。わからなければ薬剤師に。"
+}
+],
+"ask_doctor": [
+{
+"en": "Heart disease, high blood pressure, thyroid disease, diabetes, or trouble urinating from an enlarged prostate",
+"ko": "심장 질환, 고혈압, 갑상선 질환, 당뇨, 전립선 비대로 인한 배뇨 곤란",
+"ja": "心臓病、高血圧、甲状腺の病気、糖尿病、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Nervousness, dizziness or sleeplessness",
+"ko": "불안, 어지러움, 잠을 못 잠",
+"ja": "神経過敏、めまい、眠れない"
+},
+{
+"en": "Symptoms do not get better within 7 days or come with fever",
+"ko": "7일 안에 나아지지 않거나 열이 함께 있을 때",
+"ja": "7日以内に良くならない、または発熱を伴う"
+}
+],
+"key_warning": {
+"en": "It can raise blood pressure and heart rate. If you have high blood pressure, heart disease, thyroid disease, diabetes or prostate trouble, ask first.",
+"ko": "혈압과 심박수를 올릴 수 있습니다. 고혈압, 심장 질환, 갑상선 질환, 당뇨, 전립선 문제가 있으면 먼저 물어보세요.",
+"ja": "血圧や心拍数を上げることがあります。高血圧、心臓病、甲状腺の病気、糖尿病、前立腺の問題があれば先に相談を。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"bp",
+"heart",
+"thyroid",
+"diabetes",
+"prostate"
+],
+"classes": [
+"decongestant"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "pseudoephedrine",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Pseudoephedrine",
+"ko": "슈도에페드린",
+"ja": "プソイドエフェドリン"
+},
+"uses": {
+"en": "Temporary relief of nasal and sinus congestion and pressure from colds, hay fever or other upper respiratory allergies.",
+"ko": "감기, 꽃가루 알레르기 등으로 인한 코막힘과 부비동 압박을 일시적으로 덜어 줍니다.",
+"ja": "かぜや花粉症などによる鼻づまり・副鼻腔の圧迫感を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Sudafed Sinus Congestion 12 Hour (pseudoephedrine 120 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d600b5d5-7d95-4ad6-a95b-6d73502743d7"
+},
+{
+"title": "FDA — Legal Requirements for the Sale and Purchase of Drug Products Containing Pseudoephedrine",
+"url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/legal-requirements-sale-and-purchase-drug-products-containing-pseudoephedrine-ephedrine-and"
+}
+]
+},
+{
+"aka": [
+"Sudafed PE",
+"PE",
+"decongestant"
+],
+"brands": [
+"Sudafed PE",
+"many 'PE' cold and sinus products"
+],
+"active": [
+{
+"ingredient": "phenylephrine",
+"strength": "10 mg (HCl) typical oral dose",
+"purpose": {
+"en": "Nasal decongestant",
+"ko": "코막힘 완화제",
+"ja": "鼻づまり改善薬"
+}
+}
+],
+"directions_adult": {
+"en": "Follow the package directions of your specific product.",
+"ko": "가지고 계신 제품의 포장 지시를 따르세요.",
+"ja": "お手持ちの製品の表示に従ってください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Congestion does not get better within 7 days or comes with fever",
+"ko": "7일 안에 코막힘이 나아지지 않거나 열이 함께 있을 때",
+"ja": "7日以内に鼻づまりが良くならない、または発熱を伴う"
+}
+],
+"key_warning": {
+"en": "FDA has proposed removing oral phenylephrine because its review found it is not effective as a nasal decongestant when taken by mouth. Products can still be sold until a final order. Nasal-spray phenylephrine is not affected. Ask a pharmacist about other options.",
+"ko": "FDA는 먹는 페닐에프린이 코막힘약으로 효과가 없다고 보고 퇴출을 제안했습니다. 최종 결정 전까지는 판매될 수 있습니다. 코 스프레이 페닐에프린은 해당되지 않습니다. 다른 방법은 약사에게 물어보세요.",
+"ja": "FDAは内服のフェニレフリンは鼻づまりに効果がないとして除外を提案しました。最終決定までは販売が続くことがあります。点鼻スプレーのフェニレフリンは対象外です。他の方法は薬剤師に相談を。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"bp",
+"heart"
+],
+"classes": [
+"decongestant"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "phenylephrine-oral",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Phenylephrine (oral)",
+"ko": "페닐에프린 (먹는 약)",
+"ja": "フェニレフリン（内服）"
+},
+"uses": {
+"en": "Sold as a nasal decongestant in many cold and sinus products marked 'PE'.",
+"ko": "'PE'라고 표시된 여러 감기·축농증 제품에 코막힘약으로 들어 있습니다.",
+"ja": "「PE」と表示された多くのかぜ・副鼻腔用製品に鼻づまり薬として入っています。"
+},
+"sources": [
+{
+"title": "FDA — Key Information about Nonprescription (OTC) Oral Phenylephrine",
+"url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/key-information-about-nonprescription-over-counter-otc-oral-phenylephrine"
+}
+]
+},
+{
+"aka": [
+"DM",
+"cough suppressant",
+"기침약"
+],
+"brands": [
+"Delsym",
+"Robitussin DM (with guaifenesin)",
+"store brand cough DM"
+],
+"active": [
+{
+"ingredient": "dextromethorphan",
+"strength": "15 mg (HBr) per caplet",
+"purpose": {
+"en": "Cough suppressant",
+"ko": "기침 억제제",
+"ja": "せき止め"
+}
+}
+],
+"directions_adult": {
+"en": "Delsym Cough caplets (15 mg), adults and children 12 and over: 2 caplets every 6 to 8 hours as needed. Liquid and extended-release forms have different directions — follow your package.",
+"ko": "델심 기침 캐플릿(15 mg), 성인 및 12세 이상: 필요할 때 6~8시간마다 2정. 시럽·서방형은 용법이 다르니 포장을 따르세요.",
+"ja": "デルシム（15 mg）、成人と12歳以上: 必要時6〜8時間ごとに2錠。シロップや徐放型は用法が異なるので表示に従ってください。"
+},
+"max_daily": {
+"en": "No more than 8 caplets (15 mg) in 24 hours.",
+"ko": "24시간에 8정(15 mg)까지.",
+"ja": "24時間で8錠（15 mg）まで。"
+},
+"children": {
+"en": "These caplets: under 12 do not use.",
+"ko": "이 캐플릿: 12세 미만은 쓰지 마세요.",
+"ja": "この錠剤: 12歳未満は使用不可。"
+},
+"do_not_use": [
+{
+"en": "If you take a prescription MAOI (certain medicines for depression, psychiatric conditions or Parkinson's disease), or within 2 weeks after stopping one. Ask a pharmacist if you are not sure.",
+"ko": "처방받은 MAOI(일부 우울증·정신과·파킨슨병 약)를 먹고 있거나 끊은 지 2주가 안 됐으면. 잘 모르면 약사에게 물어보세요.",
+"ja": "処方のMAOI（一部のうつ病・精神科・パーキンソン病の薬）を使用中、または中止後2週間以内の場合。わからなければ薬剤師に。"
+}
+],
+"ask_doctor": [
+{
+"en": "A long-lasting cough (smoking, asthma, chronic bronchitis, emphysema) or a cough with a lot of mucus",
+"ko": "오래가는 기침(흡연, 천식, 만성 기관지염, 폐기종) 또는 가래가 많은 기침",
+"ja": "長引くせき（喫煙、ぜんそく、慢性気管支炎、肺気腫）や痰の多いせき"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Cough lasts more than 7 days, keeps coming back, or comes with fever, rash or a headache that won't go away",
+"ko": "기침이 7일 넘게 가거나, 자꾸 재발하거나, 열·발진·계속되는 두통이 함께 있을 때",
+"ja": "せきが7日以上続く、繰り返す、発熱・発疹・続く頭痛を伴う"
+}
+],
+"key_warning": {
+"en": "Dangerous with MAOI medicines. DM is also inside many multi-symptom cold products — check labels so you do not double up.",
+"ko": "MAOI 약과 함께 쓰면 위험합니다. DM은 여러 종합감기약에도 들어 있으니 중복되지 않게 라벨을 확인하세요.",
+"ja": "MAOIの薬と併用すると危険です。DMは多くの総合かぜ薬にも入っているので、重複しないようラベルを確認してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"asthma"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "dextromethorphan",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Dextromethorphan",
+"ko": "덱스트로메토르판",
+"ja": "デキストロメトルファン"
+},
+"uses": {
+"en": "Temporarily relieves cough from minor throat and bronchial irritation (common cold, inhaled irritants) and helps you sleep.",
+"ko": "감기나 자극물로 인한 목·기관지의 가벼운 자극성 기침을 일시적으로 덜어 주고 잠들 수 있게 돕습니다.",
+"ja": "かぜや刺激物によるのど・気管支の軽い刺激のせきを一時的にやわらげ、眠れるようにします。"
+},
+"sources": [
+{
+"title": "DailyMed — Delsym Cough (dextromethorphan 15 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a43d59f9-3a6c-4a7c-b98d-b86d6035f716"
+}
+]
+},
+{
+"aka": [
+"expectorant",
+"Mucinex",
+"가래약"
+],
+"brands": [
+"Mucinex",
+"Robitussin Chest Congestion",
+"store brand guaifenesin ER"
+],
+"active": [
+{
+"ingredient": "guaifenesin",
+"strength": "600 mg extended-release tablet",
+"purpose": {
+"en": "Expectorant",
+"ko": "거담제",
+"ja": "去痰薬"
+}
+}
+],
+"directions_adult": {
+"en": "600 mg extended-release, adults and children 12 and over: 1 or 2 tablets every 12 hours with a full glass of water. Do not crush, chew or break.",
+"ko": "600 mg 서방정, 성인 및 12세 이상: 12시간마다 1~2정을 물 한 컵과 함께. 부수거나 씹거나 쪼개지 마세요.",
+"ja": "600 mg徐放錠、成人と12歳以上: 12時間ごとに1〜2錠をコップ1杯の水で。砕いたり噛んだり割ったりしないでください。"
+},
+"max_daily": {
+"en": "No more than 4 tablets (600 mg) in 24 hours.",
+"ko": "24시간에 4정(600 mg)까지.",
+"ja": "24時間で4錠（600 mg）まで。"
+},
+"children": {
+"en": "This product: under 12 do not use.",
+"ko": "이 제품: 12세 미만은 쓰지 마세요.",
+"ja": "この製品: 12歳未満は使用不可。"
+},
+"do_not_use": [
+{
+"en": "In children under 12",
+"ko": "12세 미만 어린이",
+"ja": "12歳未満の子ども"
+}
+],
+"ask_doctor": [
+{
+"en": "A long-lasting cough (smoking, asthma, chronic bronchitis, emphysema) or a cough with a lot of mucus",
+"ko": "오래가는 기침(흡연, 천식, 만성 기관지염, 폐기종) 또는 가래가 많은 기침",
+"ja": "長引くせき（喫煙、ぜんそく、慢性気管支炎、肺気腫）や痰の多いせき"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Cough lasts more than 7 days, keeps coming back, or comes with fever, rash or a headache that won't go away",
+"ko": "기침이 7일 넘게 가거나, 자꾸 재발하거나, 열·발진·계속되는 두통이 함께 있을 때",
+"ja": "せきが7日以上続く、繰り返す、発熱・発疹・続く頭痛を伴う"
+}
+],
+"key_warning": {
+"en": "Drink plenty of water. A cough that lasts more than 7 days or comes with fever needs a doctor.",
+"ko": "물을 충분히 드세요. 기침이 7일 넘게 가거나 열이 있으면 진료가 필요합니다.",
+"ja": "水分を十分にとってください。7日以上続くせきや発熱を伴うせきは受診が必要です。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"asthma"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "guaifenesin",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Guaifenesin",
+"ko": "구아이페네신",
+"ja": "グアイフェネシン"
+},
+"uses": {
+"en": "Loosens mucus (phlegm) and thins bronchial secretions so coughs bring it up more easily.",
+"ko": "가래를 묽게 하여 기침으로 쉽게 뱉어낼 수 있게 합니다.",
+"ja": "痰をやわらかくして、せきで出しやすくします。"
+},
+"sources": [
+{
+"title": "DailyMed — Mucinex (guaifenesin 600 mg ER) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd379cdd-90ab-42e0-ad89-f50d3220f611"
+}
+]
+},
+{
+"aka": [
+"Mucinex D"
+],
+"brands": [
+"Mucinex D"
+],
+"active": [
+{
+"ingredient": "guaifenesin",
+"strength": "600 mg",
+"purpose": {
+"en": "Expectorant",
+"ko": "거담제",
+"ja": "去痰薬"
+}
+},
+{
+"ingredient": "pseudoephedrine",
+"strength": "60 mg (HCl)",
+"purpose": {
+"en": "Nasal decongestant",
+"ko": "코막힘 완화제",
+"ja": "鼻づまり改善薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12 and over: 2 tablets every 12 hours with a full glass of water. Do not crush, chew or break. Sold behind the pharmacy counter with photo ID.",
+"ko": "성인 및 12세 이상: 12시간마다 2정을 물 한 컵과 함께. 부수거나 씹지 마세요. 약국 카운터에서 사진 신분증을 보여주고 삽니다.",
+"ja": "成人と12歳以上: 12時間ごとに2錠をコップ1杯の水で。砕いたり噛んだりしないでください。薬局カウンターで写真付き身分証を示して購入します。"
+},
+"max_daily": {
+"en": "No more than 4 tablets in 24 hours.",
+"ko": "24시간에 4정까지.",
+"ja": "24時間で4錠まで。"
+},
+"children": {
+"en": "Under 12: do not use.",
+"ko": "12세 미만: 쓰지 마세요.",
+"ja": "12歳未満: 使用不可。"
+},
+"do_not_use": [
+{
+"en": "If you take a prescription MAOI (certain medicines for depression, psychiatric conditions or Parkinson's disease), or within 2 weeks after stopping one. Ask a pharmacist if you are not sure.",
+"ko": "처방받은 MAOI(일부 우울증·정신과·파킨슨병 약)를 먹고 있거나 끊은 지 2주가 안 됐으면. 잘 모르면 약사에게 물어보세요.",
+"ja": "処方のMAOI（一部のうつ病・精神科・パーキンソン病の薬）を使用中、または中止後2週間以内の場合。わからなければ薬剤師に。"
+}
+],
+"ask_doctor": [
+{
+"en": "Heart disease, high blood pressure, thyroid disease, diabetes, or trouble urinating from an enlarged prostate",
+"ko": "심장 질환, 고혈압, 갑상선 질환, 당뇨, 전립선 비대로 인한 배뇨 곤란",
+"ja": "心臓病、高血圧、甲状腺の病気、糖尿病、前立腺肥大による排尿困難"
+},
+{
+"en": "A long-lasting cough (smoking, asthma, chronic bronchitis, emphysema) or a cough with a lot of mucus",
+"ko": "오래가는 기침(흡연, 천식, 만성 기관지염, 폐기종) 또는 가래가 많은 기침",
+"ja": "長引くせき（喫煙、ぜんそく、慢性気管支炎、肺気腫）や痰の多いせき"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Nervousness, dizziness or sleeplessness",
+"ko": "불안, 어지러움, 잠을 못 잠",
+"ja": "神経過敏、めまい、眠れない"
+},
+{
+"en": "Cough lasts more than 7 days, keeps coming back, or comes with fever, rash or a headache that won't go away",
+"ko": "기침이 7일 넘게 가거나, 자꾸 재발하거나, 열·발진·계속되는 두통이 함께 있을 때",
+"ja": "せきが7日以上続く、繰り返す、発熱・発疹・続く頭痛を伴う"
+}
+],
+"key_warning": {
+"en": "Contains pseudoephedrine, which can raise blood pressure and heart rate — do not add another decongestant.",
+"ko": "혈압과 심박수를 올릴 수 있는 슈도에페드린이 들어 있습니다. 다른 코막힘약을 더하지 마세요.",
+"ja": "血圧や心拍数を上げるプソイドエフェドリンが入っています。他の鼻づまり薬を重ねないでください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"bp",
+"heart",
+"thyroid",
+"diabetes",
+"prostate",
+"asthma"
+],
+"classes": [
+"decongestant"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "guaifenesin-pseudoephedrine",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Guaifenesin + pseudoephedrine",
+"ko": "구아이페네신 + 슈도에페드린",
+"ja": "グアイフェネシン＋プソイドエフェドリン"
+},
+"uses": {
+"en": "Loosens mucus and relieves nasal and sinus congestion and pressure from colds and allergies.",
+"ko": "가래를 묽게 하고 감기·알레르기로 인한 코막힘과 부비동 압박을 덜어 줍니다.",
+"ja": "痰をやわらかくし、かぜ・アレルギーによる鼻づまりと副鼻腔の圧迫感をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Mucinex D Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d5f046c0-66b9-4cdc-9a1e-8e2cb5ece84f"
+},
+{
+"title": "FDA — Legal Requirements for the Sale and Purchase of Drug Products Containing Pseudoephedrine",
+"url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/legal-requirements-sale-and-purchase-drug-products-containing-pseudoephedrine-ephedrine-and"
+}
+]
+},
+{
+"aka": [
+"NyQuil",
+"나이퀼",
+"multi-symptom"
+],
+"brands": [
+"Vicks NyQuil Cold & Flu",
+"store brand nighttime cold & flu"
+],
+"active": [
+{
+"ingredient": "acetaminophen",
+"strength": "650 mg per 30 mL",
+"purpose": {
+"en": "Pain reliever / fever reducer",
+"ko": "진통·해열제",
+"ja": "鎮痛・解熱薬"
+}
+},
+{
+"ingredient": "dextromethorphan",
+"strength": "30 mg (HBr) per 30 mL",
+"purpose": {
+"en": "Cough suppressant",
+"ko": "기침 억제제",
+"ja": "せき止め"
+}
+},
+{
+"ingredient": "doxylamine",
+"strength": "12.5 mg (succinate) per 30 mL",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12 and over: 30 mL in the dose cup every 6 hours. Use only the cup that comes with it.",
+"ko": "성인 및 12세 이상: 6시간마다 계량컵으로 30 mL. 동봉된 컵만 쓰세요.",
+"ja": "成人と12歳以上: 6時間ごとに付属カップで30 mL。付属のカップだけを使用。"
+},
+"max_daily": {
+"en": "No more than 4 doses (120 mL) in 24 hours.",
+"ko": "24시간에 4회(120 mL)까지.",
+"ja": "24時間で4回（120 mL）まで。"
+},
+"children": {
+"en": "Ages 4 to under 12: ask a doctor. Under 4: do not use.",
+"ko": "4~12세 미만: 의사에게 물어보세요. 4세 미만: 쓰지 마세요.",
+"ja": "4〜12歳未満: 医師に相談。4歳未満: 使用不可。"
+},
+"do_not_use": [
+{
+"en": "With any other medicine containing acetaminophen",
+"ko": "아세트아미노펜이 든 다른 약과 함께",
+"ja": "アセトアミノフェンを含む他の薬と一緒に"
+},
+{
+"en": "If you take a prescription MAOI (certain medicines for depression, psychiatric conditions or Parkinson's disease), or within 2 weeks after stopping one. Ask a pharmacist if you are not sure.",
+"ko": "처방받은 MAOI(일부 우울증·정신과·파킨슨병 약)를 먹고 있거나 끊은 지 2주가 안 됐으면. 잘 모르면 약사에게 물어보세요.",
+"ja": "処方のMAOI（一部のうつ病・精神科・パーキンソン病の薬）を使用中、または中止後2週間以内の場合。わからなければ薬剤師に。"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver disease, glaucoma, trouble urinating from an enlarged prostate",
+"ko": "간 질환, 녹내장, 전립선 비대로 인한 배뇨 곤란",
+"ja": "肝臓病、緑内障、前立腺肥大による排尿困難"
+},
+{
+"en": "A long-lasting cough (smoking, asthma, chronic bronchitis, emphysema) or a cough with a lot of mucus",
+"ko": "오래가는 기침(흡연, 천식, 만성 기관지염, 폐기종) 또는 가래가 많은 기침",
+"ja": "長引くせき（喫煙、ぜんそく、慢性気管支炎、肺気腫）や痰の多いせき"
+}
+],
+"ask_pharmacist": [
+{
+"en": "Sedatives or tranquilizers; the blood thinner warfarin",
+"ko": "진정제·신경안정제, 혈액 희석제 와파린",
+"ja": "鎮静薬・精神安定薬、ワルファリン"
+}
+],
+"stop_use": [
+{
+"en": "Pain or cough lasts more than 7 days, fever more than 3 days, or new symptoms",
+"ko": "통증·기침 7일, 열 3일 넘게 지속, 또는 새 증상",
+"ja": "痛み・せき7日以上、熱3日以上、または新しい症状"
+},
+{
+"en": "Severe sore throat lasting more than 2 days, or with fever, headache, rash, nausea or vomiting — see a doctor promptly",
+"ko": "심한 인후통이 2일 넘게 가거나 열·두통·발진·구역·구토가 함께 있으면 바로 진료",
+"ja": "強いのどの痛みが2日以上、または発熱・頭痛・発疹・吐き気・嘔吐を伴う — すぐ受診"
+}
+],
+"key_warning": {
+"en": "Three medicines in one cup: it already contains acetaminophen (liver warning) and a drowsy antihistamine. Do not add Tylenol, another cold medicine or a sleep aid. Avoid alcohol.",
+"ko": "한 컵에 약 세 가지가 들어 있습니다. 이미 아세트아미노펜(간 경고)과 졸리는 항히스타민제가 있으니 타이레놀, 다른 감기약, 수면제를 더하지 마세요. 술을 피하세요.",
+"ja": "1杯に3つの薬が入っています。すでにアセトアミノフェン（肝臓の警告）と眠くなる抗ヒスタミン薬を含むので、タイレノールや他のかぜ薬・睡眠薬を重ねないでください。飲酒は避けて。"
+},
+"older_adults": {
+"en": "Contains a drowsy (first-generation) antihistamine; the American Geriatrics Society lists first-generation antihistamines among medicines older adults should avoid.",
+"ko": "졸리는 1세대 항히스타민제가 들어 있습니다. 미국노인의학회는 1세대 항히스타민제를 노인이 피해야 할 약으로 분류합니다.",
+"ja": "眠くなる第一世代抗ヒスタミン薬を含みます。米国老年医学会は第一世代抗ヒスタミン薬を高齢者が避けるべき薬としています。"
+},
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"liver",
+"alcohol",
+"glaucoma",
+"prostate",
+"sedation",
+"seniors",
+"blood_thinner",
+"asthma",
+"children"
+],
+"classes": [
+"acetaminophen",
+"sedating_antihistamine"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "nighttime-cold-flu",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Nighttime cold & flu liquid",
+"ko": "야간용 종합감기약 (시럽)",
+"ja": "夜用総合かぜ薬（液体）"
+},
+"uses": {
+"en": "Temporarily relieves cold and flu symptoms at night: cough, sore throat, headache, minor aches, fever, runny nose and sneezing.",
+"ko": "밤에 감기·독감 증상(기침, 인후통, 두통, 몸살, 열, 콧물, 재채기)을 일시적으로 덜어 줍니다.",
+"ja": "夜のかぜ・インフルエンザの症状（せき、のどの痛み、頭痛、軽い痛み、発熱、鼻水、くしゃみ）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Vicks NyQuil Cold & Flu (liquid) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc9a6f7e-32c1-9ded-e053-6294a90a9dcc"
+},
+{
+"title": "AGS Health in Aging Foundation — Alternatives for Medications Listed in the AGS Beers Criteria (April 2023)",
+"url": "https://www.healthinaging.org/sites/default/files/media/pdf/HIA-LearnMore-BEERS-alternatives23.pdf"
+}
+]
+},
+{
+"aka": [
+"DayQuil",
+"데이퀼",
+"multi-symptom"
+],
+"brands": [
+"Vicks DayQuil Cold & Flu",
+"store brand daytime cold & flu"
+],
+"active": [
+{
+"ingredient": "acetaminophen",
+"strength": "325 mg per LiquiCap",
+"purpose": {
+"en": "Pain reliever / fever reducer",
+"ko": "진통·해열제",
+"ja": "鎮痛・解熱薬"
+}
+},
+{
+"ingredient": "dextromethorphan",
+"strength": "10 mg (HBr)",
+"purpose": {
+"en": "Cough suppressant",
+"ko": "기침 억제제",
+"ja": "せき止め"
+}
+},
+{
+"ingredient": "phenylephrine",
+"strength": "5 mg (HCl)",
+"purpose": {
+"en": "Nasal decongestant",
+"ko": "코막힘 완화제",
+"ja": "鼻づまり改善薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12 and over: 2 LiquiCaps with water every 4 hours.",
+"ko": "성인 및 12세 이상: 4시간마다 2캡슐을 물과 함께.",
+"ja": "成人と12歳以上: 4時間ごとに2カプセルを水で。"
+},
+"max_daily": {
+"en": "No more than 8 LiquiCaps in 24 hours.",
+"ko": "24시간에 8캡슐까지.",
+"ja": "24時間で8カプセルまで。"
+},
+"children": {
+"en": "Ages 4 to under 12: ask a doctor. Under 4: do not use.",
+"ko": "4~12세 미만: 의사에게 물어보세요. 4세 미만: 쓰지 마세요.",
+"ja": "4〜12歳未満: 医師に相談。4歳未満: 使用不可。"
+},
+"do_not_use": [
+{
+"en": "With any other medicine containing acetaminophen",
+"ko": "아세트아미노펜이 든 다른 약과 함께",
+"ja": "アセトアミノフェンを含む他の薬と一緒に"
+},
+{
+"en": "If you take a prescription MAOI, or within 2 weeks after stopping one. Ask a pharmacist if you are not sure.",
+"ko": "처방받은 MAOI를 먹고 있거나 끊은 지 2주가 안 됐으면. 잘 모르면 약사에게.",
+"ja": "処方のMAOIを使用中、または中止後2週間以内。わからなければ薬剤師に。"
+}
+],
+"ask_doctor": [
+{
+"en": "Liver disease, heart disease, high blood pressure, thyroid disease, diabetes, trouble urinating from an enlarged prostate, or a long-lasting cough or a cough with a lot of mucus",
+"ko": "간 질환, 심장 질환, 고혈압, 갑상선 질환, 당뇨, 전립선 비대로 인한 배뇨 곤란, 오래가는 기침이나 가래가 많은 기침",
+"ja": "肝臓病、心臓病、高血圧、甲状腺の病気、糖尿病、前立腺肥大による排尿困難、長引くせきや痰の多いせき"
+}
+],
+"ask_pharmacist": [
+{
+"en": "The blood thinner warfarin",
+"ko": "혈액 희석제 와파린",
+"ja": "ワルファリン"
+}
+],
+"stop_use": [
+{
+"en": "Nervousness, dizziness or sleeplessness",
+"ko": "불안, 어지러움, 잠을 못 잠",
+"ja": "神経過敏、めまい、眠れない"
+},
+{
+"en": "Symptoms last more than 7 days, fever more than 3 days, or new symptoms",
+"ko": "증상 7일, 열 3일 넘게 지속, 또는 새 증상",
+"ja": "症状7日以上、熱3日以上、または新しい症状"
+}
+],
+"key_warning": {
+"en": "Already contains acetaminophen — do not add Tylenol or NyQuil-type products in the same 24 hours without counting the total. Its decongestant is oral phenylephrine, which FDA has proposed removing as ineffective.",
+"ko": "이미 아세트아미노펜이 들어 있습니다. 같은 24시간에 타이레놀이나 나이퀼 같은 약을 총량 계산 없이 더하지 마세요. 코막힘 성분은 먹는 페닐에프린으로, FDA가 효과가 없다며 퇴출을 제안했습니다.",
+"ja": "すでにアセトアミノフェンを含みます。同じ24時間にタイレノールやナイキル類を総量を数えずに重ねないでください。鼻づまり成分は内服のフェニレフリンで、FDAは効果がないとして除外を提案しています。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"liver",
+"alcohol",
+"bp",
+"heart",
+"thyroid",
+"diabetes",
+"prostate",
+"blood_thinner",
+"asthma"
+],
+"classes": [
+"acetaminophen",
+"decongestant"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "daytime-cold-flu",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Daytime cold & flu",
+"ko": "주간용 종합감기약",
+"ja": "昼用総合かぜ薬"
+},
+"uses": {
+"en": "Temporary relief of cold and flu symptoms: nasal congestion, cough, sore throat, headache, minor aches and fever.",
+"ko": "감기·독감 증상(코막힘, 기침, 인후통, 두통, 몸살, 열)을 일시적으로 덜어 줍니다.",
+"ja": "かぜ・インフルエンザの症状（鼻づまり、せき、のどの痛み、頭痛、軽い痛み、発熱）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Vicks DayQuil Cold & Flu LiquiCaps Drug Facts",
+"url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efb982d4-93d0-815f-e053-2995a90a82dd"
+},
+{
+"title": "FDA — Key Information about OTC Oral Phenylephrine",
+"url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/key-information-about-nonprescription-over-counter-otc-oral-phenylephrine"
+}
+]
+},
+{
+"aka": [
+"Flonase",
+"steroid nasal spray",
+"플로나제"
+],
+"brands": [
+"Flonase Allergy Relief",
+"store brand fluticasone"
+],
+"active": [
+{
+"ingredient": "fluticasone propionate",
+"strength": "50 mcg per spray",
+"purpose": {
+"en": "Allergy symptom reliever (steroid)",
+"ko": "알레르기 증상 완화제 (스테로이드)",
+"ja": "アレルギー症状改善薬（ステロイド）"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 12 and over: week 1, 2 sprays in each nostril once a day; then 1 or 2 sprays in each nostril once a day as needed. Shake gently first. After 6 months of daily use, ask your doctor.",
+"ko": "성인 및 12세 이상: 첫 주는 하루 1번 양쪽 코에 2번씩, 그 후 필요하면 하루 1번 양쪽 1~2번씩. 사용 전 가볍게 흔드세요. 매일 6개월 썼으면 의사와 상의하세요.",
+"ja": "成人と12歳以上: 1週目は1日1回左右に2噴霧ずつ、その後は必要に応じて1日1回左右1〜2噴霧。使う前に軽く振る。毎日6か月使ったら医師に相談。"
+},
+"max_daily": {
+"en": "Once a day only.",
+"ko": "하루 1번만.",
+"ja": "1日1回のみ。"
+},
+"children": {
+"en": "Ages 4–11: 1 spray in each nostril once a day with adult help, no more than 2 months a year. Under 4: do not use.",
+"ko": "4~11세: 어른이 도와 하루 1번 양쪽 1번씩, 1년에 2개월 이내. 4세 미만: 쓰지 마세요.",
+"ja": "4〜11歳: 大人の補助で1日1回左右1噴霧、年2か月まで。4歳未満: 使用不可。"
+},
+"do_not_use": [
+{
+"en": "To treat asthma, or if a nose injury or surgery has not healed",
+"ko": "천식 치료용으로, 또는 코 부상·수술이 아직 낫지 않았으면",
+"ja": "ぜんそくの治療に、または鼻のけが・手術が治っていない場合"
+}
+],
+"ask_doctor": [
+{
+"en": "Glaucoma or cataracts (now or in the past)",
+"ko": "녹내장이나 백내장 (현재 또는 과거)",
+"ja": "緑内障や白内障（現在または過去）"
+}
+],
+"ask_pharmacist": [
+{
+"en": "HIV medicine such as ritonavir, ketoconazole tablets, or another steroid for asthma, allergy or skin rash",
+"ko": "리토나비르 같은 HIV 약, 케토코나졸 정제, 천식·알레르기·피부용 다른 스테로이드",
+"ja": "リトナビルなどのHIV薬、ケトコナゾール錠、ぜんそく・アレルギー・皮膚用の他のステロイド"
+}
+],
+"stop_use": [
+{
+"en": "No improvement in 7 days, severe facial pain or thick nasal discharge",
+"ko": "7일 안에 나아지지 않거나 심한 얼굴 통증, 진한 콧물",
+"ja": "7日で改善しない、強い顔の痛み、濃い鼻水"
+},
+{
+"en": "Vision changes, severe or frequent nosebleeds, or a whistling sound from the nose",
+"ko": "시력 변화, 심하거나 잦은 코피, 코에서 휘파람 소리",
+"ja": "視力の変化、ひどい・頻繁な鼻血、鼻から笛のような音"
+},
+{
+"en": "You have or were exposed to chickenpox, measles or tuberculosis",
+"ko": "수두·홍역·결핵에 걸렸거나 노출되었을 때",
+"ja": "水ぼうそう・はしか・結核にかかった、またはうつされた"
+}
+],
+"key_warning": {
+"en": "It works best used every day and may take several days to help. Children's growth may slow with long use.",
+"ko": "매일 써야 효과가 좋고 효과가 나기까지 며칠 걸릴 수 있습니다. 오래 쓰면 아이의 성장이 느려질 수 있습니다.",
+"ja": "毎日使うと効果的で、効くまで数日かかることがあります。長く使うと子どもの成長が遅れることがあります。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"glaucoma",
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "fluticasone-nasal",
+"kind": "otc",
+"category": "nasal",
+"name": {
+"en": "Fluticasone nasal spray",
+"ko": "플루티카손 코 스프레이",
+"ja": "フルチカゾン点鼻薬"
+},
+"uses": {
+"en": "Temporary relief of hay fever and other upper-airway allergy symptoms: stuffy, itchy or runny nose, sneezing, itchy watery eyes.",
+"ko": "꽃가루 알레르기 등 코 알레르기 증상(코막힘, 코 가려움, 콧물, 재채기, 눈 가려움·눈물)을 일시적으로 덜어 줍니다.",
+"ja": "花粉症などの鼻のアレルギー症状（鼻づまり、鼻のかゆみ、鼻水、くしゃみ、目のかゆみ・涙）を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Flonase Allergy Relief (fluticasone propionate) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6134ba0-b70a-4eac-9a82-cef64b242c1d"
+}
+]
+},
+{
+"aka": [
+"Afrin",
+"아프린",
+"decongestant spray"
+],
+"brands": [
+"Afrin Original",
+"store brand 12-hour nasal spray"
+],
+"active": [
+{
+"ingredient": "oxymetazoline",
+"strength": "0.05% (HCl)",
+"purpose": {
+"en": "Nasal decongestant",
+"ko": "코막힘 완화제",
+"ja": "鼻づまり改善薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 6 and over (children with adult help): 2 or 3 sprays in each nostril, not more often than every 10 to 12 hours.",
+"ko": "성인 및 6세 이상(어린이는 어른이 도와): 양쪽 코에 2~3번씩, 10~12시간 간격보다 자주 쓰지 마세요.",
+"ja": "成人と6歳以上（子どもは大人の補助で）: 左右に2〜3噴霧、10〜12時間より短い間隔で使わない。"
+},
+"max_daily": {
+"en": "No more than 2 doses in 24 hours, and no more than 3 days in a row.",
+"ko": "24시간에 2회, 연속 3일까지.",
+"ja": "24時間で2回まで、連続3日まで。"
+},
+"children": {
+"en": "Under 6: ask a doctor.",
+"ko": "6세 미만: 의사에게 물어보세요.",
+"ja": "6歳未満: 医師に相談。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Heart disease, high blood pressure, diabetes, thyroid disease, or trouble urinating from an enlarged prostate",
+"ko": "심장 질환, 고혈압, 당뇨, 갑상선 질환, 전립선 비대로 인한 배뇨 곤란",
+"ja": "心臓病、高血圧、糖尿病、甲状腺の病気、前立腺肥大による排尿困難"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Symptoms do not go away",
+"ko": "증상이 계속될 때",
+"ja": "症状が続く"
+}
+],
+"key_warning": {
+"en": "Do not use for more than 3 days: longer or frequent use can make the stuffiness come back worse (rebound congestion). Do not share the bottle.",
+"ko": "3일 넘게 쓰지 마세요. 오래 또는 자주 쓰면 코막힘이 더 심하게 다시 생깁니다(반동성 코막힘). 병을 같이 쓰지 마세요.",
+"ja": "3日を超えて使わないでください。長く・頻繁に使うと鼻づまりがかえって悪化します（リバウンド）。容器を共有しないでください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"bp",
+"heart",
+"diabetes",
+"thyroid",
+"prostate"
+],
+"classes": [
+"decongestant"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "oxymetazoline",
+"kind": "otc",
+"category": "nasal",
+"name": {
+"en": "Oxymetazoline nasal spray",
+"ko": "옥시메타졸린 코 스프레이",
+"ja": "オキシメタゾリン点鼻薬"
+},
+"uses": {
+"en": "Temporary relief of nasal and sinus congestion from colds, hay fever or allergies.",
+"ko": "감기·꽃가루 알레르기로 인한 코막힘과 부비동 압박을 일시적으로 덜어 줍니다.",
+"ja": "かぜ・花粉症などによる鼻づまりと副鼻腔の圧迫感を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Afrin Original (oxymetazoline 0.05%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89c165ba-3ad5-49b5-a5bb-423dc8e15bad"
+}
+]
+},
+{
+"aka": [
+"neti pot",
+"NeilMed",
+"salt water rinse",
+"코 세척"
+],
+"brands": [
+"Ocean saline spray",
+"NeilMed Sinus Rinse",
+"Neti pot"
+],
+"active": [],
+"directions_adult": {
+"en": "For rinse devices (neti pot, squeeze bottle) use only distilled or sterile water, tap water boiled 3–5 minutes and cooled to lukewarm (use within 24 hours), or water through a filter made to trap germs. Wash and dry the device after each use.",
+"ko": "코 세척 기구(네티팟, 짜는 병)에는 증류수·멸균수, 또는 3~5분 끓여 미지근하게 식힌 수돗물(24시간 안에 사용), 또는 세균을 거르는 필터를 통과한 물만 쓰세요. 쓸 때마다 기구를 씻어 말리세요.",
+"ja": "鼻うがい器具（ネティポット、ボトル）には蒸留水・滅菌水、3〜5分煮沸してぬるく冷ました水道水（24時間以内に使用）、または菌を除くフィルターを通した水だけを使い、使うたびに洗って乾かしてください。"
+},
+"max_daily": null,
+"children": {
+"en": "Some children as young as 2 may use a rinse if their pediatrician recommends it; ask first.",
+"ko": "소아과 의사가 권하면 2세부터 쓰는 아이도 있습니다. 먼저 물어보세요.",
+"ja": "小児科医が勧めれば2歳から使う子もいます。まず相談を。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Symptoms do not improve or get worse, or fever, nosebleeds or headaches occur",
+"ko": "나아지지 않거나 나빠지거나, 열·코피·두통이 생기면",
+"ja": "改善しない・悪化する、発熱・鼻血・頭痛が出る"
+}
+],
+"key_warning": {
+"en": "Never use plain tap water in a sinus rinse: it can contain organisms that are harmless to swallow but cause rare, serious infections in the nose.",
+"ko": "코 세척에 그냥 수돗물을 쓰지 마세요. 마셔도 괜찮은 미생물이 코에서는 드물지만 심각한 감염을 일으킬 수 있습니다.",
+"ja": "鼻うがいに水道水をそのまま使わないでください。飲んでも害のない微生物が、鼻ではまれに重い感染を起こすことがあります。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "saline-rinse",
+"kind": "guide",
+"category": "nasal",
+"name": {
+"en": "Saline nasal spray & sinus rinse",
+"ko": "식염수 코 스프레이·코 세척",
+"ja": "生理食塩水の点鼻・鼻うがい"
+},
+"uses": {
+"en": "Salt-water sprays and rinses moisten the nose and wash out mucus and allergens. They contain no medicine.",
+"ko": "소금물 스프레이와 세척은 코를 촉촉하게 하고 콧물과 알레르기 물질을 씻어냅니다. 약 성분은 없습니다.",
+"ja": "食塩水のスプレーや鼻うがいは鼻をうるおし、鼻水やアレルギー物質を洗い流します。薬の成分は入っていません。"
+},
+"sources": [
+{
+"title": "FDA — Is Rinsing Your Sinuses With Neti Pots Safe?",
+"url": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe"
+}
+]
+},
+{
+"aka": [
+"NasalCrom"
+],
+"brands": [
+"NasalCrom",
+"store brand cromolyn"
+],
+"active": [
+{
+"ingredient": "cromolyn sodium",
+"strength": "5.2 mg per spray",
+"purpose": {
+"en": "Nasal allergy symptom controller",
+"ko": "코 알레르기 증상 조절제",
+"ja": "鼻アレルギー症状コントロール薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 2 and over: 1 spray in each nostril 3 to 4 times a day (every 4–6 hours), up to 6 times a day if needed. Start up to a week before allergy season. It can take several days, and 1–2 weeks for the full effect.",
+"ko": "성인 및 2세 이상: 양쪽 코에 1번씩 하루 3~4번(4~6시간마다), 필요하면 하루 6번까지. 알레르기 철 시작 일주일 전부터 쓰면 좋습니다. 효과가 나는 데 며칠, 충분한 효과는 1~2주 걸립니다.",
+"ja": "成人と2歳以上: 左右に1噴霧を1日3〜4回（4〜6時間ごと）、必要なら1日6回まで。花粉の季節の1週間前から始めると良い。効くまで数日、十分な効果は1〜2週間。"
+},
+"max_daily": {
+"en": "Up to 6 times a day.",
+"ko": "하루 6번까지.",
+"ja": "1日6回まで。"
+},
+"children": {
+"en": "Under 2: only if a doctor directs. Young children need adult supervision.",
+"ko": "2세 미만: 의사 지시가 있을 때만. 어린아이는 어른이 지켜보세요.",
+"ja": "2歳未満: 医師の指示がある場合のみ。小さな子は大人が見守る。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Fever, discolored nasal discharge, sinus pain or wheezing",
+"ko": "열, 색깔 있는 콧물, 부비동 통증, 쌕쌕거림",
+"ja": "発熱、色のついた鼻水、副鼻腔の痛み、ぜーぜーする呼吸"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Shortness of breath, wheezing, chest tightness, hives or mouth/throat swelling",
+"ko": "숨참, 쌕쌕거림, 가슴 답답함, 두드러기, 입·목 붓기",
+"ja": "息切れ、ぜーぜー、胸の締めつけ、じんましん、口・のどの腫れ"
+},
+{
+"en": "No improvement in 2 weeks, or you need it for more than 12 weeks",
+"ko": "2주 안에 나아지지 않거나 12주 넘게 써야 할 때",
+"ja": "2週間で改善しない、または12週間を超えて必要"
+}
+],
+"key_warning": {
+"en": "A slow, preventive spray — not for sinus infections, colds or asthma.",
+"ko": "천천히 듣는 예방용 스프레이입니다. 축농증, 감기, 천식 치료용이 아닙니다.",
+"ja": "ゆっくり効く予防用スプレーです。副鼻腔炎、かぜ、ぜんそくの治療用ではありません。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"asthma"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "cromolyn-nasal",
+"kind": "otc",
+"category": "nasal",
+"name": {
+"en": "Cromolyn nasal spray",
+"ko": "크로몰린 코 스프레이",
+"ja": "クロモリン点鼻薬"
+},
+"uses": {
+"en": "Prevents and relieves nasal allergy symptoms: runny or itchy nose, sneezing, allergy stuffiness.",
+"ko": "코 알레르기 증상(콧물, 코 가려움, 재채기, 코막힘)을 예방하고 덜어 줍니다.",
+"ja": "鼻アレルギー症状（鼻水、鼻のかゆみ、くしゃみ、鼻づまり）を予防しやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — NasalCrom (cromolyn sodium) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b34d36ca-4df4-458c-af0f-c0d0c9a025d9"
+}
+]
+},
+{
+"aka": [
+"Zaditor",
+"Alaway",
+"allergy eye drops"
+],
+"brands": [
+"Zaditor",
+"Alaway",
+"store brand eye itch relief"
+],
+"active": [
+{
+"ingredient": "ketotifen",
+"strength": "0.025% (as fumarate 0.035%)",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 3 and over: 1 drop in the affected eye(s) twice a day, every 8 to 12 hours. Remove contact lenses first and wait at least 10 minutes before putting them back.",
+"ko": "성인 및 3세 이상: 가려운 눈에 하루 2번, 8~12시간마다 1방울. 콘택트렌즈는 먼저 빼고 넣은 뒤 10분 이상 기다렸다 끼세요.",
+"ja": "成人と3歳以上: 1日2回、8〜12時間ごとに1滴。コンタクトレンズは外し、10分以上待ってから戻してください。"
+},
+"max_daily": {
+"en": "No more than twice a day.",
+"ko": "하루 2번까지.",
+"ja": "1日2回まで。"
+},
+"children": {
+"en": "Under 3: ask a doctor.",
+"ko": "3세 미만: 의사에게 물어보세요.",
+"ja": "3歳未満: 医師に相談。"
+},
+"do_not_use": [
+{
+"en": "If the solution changes color or becomes cloudy",
+"ko": "약이 색이 변하거나 뿌옇게 되면",
+"ja": "液が変色したり濁ったりした場合"
+},
+{
+"en": "To treat contact-lens irritation",
+"ko": "콘택트렌즈 자극 치료용으로",
+"ja": "コンタクトレンズによる刺激の治療に"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Eye pain, vision changes, redness, or itching that gets worse or lasts more than 72 hours",
+"ko": "눈 통증, 시력 변화, 충혈, 또는 가려움이 심해지거나 72시간 넘게 지속",
+"ja": "目の痛み、視力の変化、充血、またはかゆみが悪化・72時間以上続く"
+}
+],
+"key_warning": {
+"en": "Do not let the tip touch anything, including your eye, to keep the bottle clean.",
+"ko": "약병 끝이 눈을 포함해 어디에도 닿지 않게 하세요.",
+"ja": "容器の先が目を含めどこにも触れないようにしてください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "ketotifen-eye",
+"kind": "otc",
+"category": "eye_ear",
+"name": {
+"en": "Ketotifen eye drops",
+"ko": "케토티펜 안약",
+"ja": "ケトチフェン点眼薬"
+},
+"uses": {
+"en": "Temporarily relieves itchy eyes from pollen, ragweed, grass, animal hair and dander.",
+"ko": "꽃가루, 돼지풀, 풀, 동물 털·비듬으로 인한 눈 가려움을 일시적으로 덜어 줍니다.",
+"ja": "花粉、ブタクサ、草、動物の毛やふけによる目のかゆみを一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Zaditor (ketotifen) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ac66b1e4-c2b0-a4c3-09e3-ebd44a2f7c9f"
+}
+]
+},
+{
+"aka": [
+"Debrox",
+"earwax drops",
+"귀지"
+],
+"brands": [
+"Debrox",
+"store brand earwax removal drops"
+],
+"active": [
+{
+"ingredient": "carbamide peroxide",
+"strength": "6.5%",
+"purpose": {
+"en": "Earwax removal aid",
+"ko": "귀지 제거 보조제",
+"ja": "耳あか除去補助薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children over 12: tilt the head, put 5 to 10 drops in the ear without putting the tip in the canal, and keep them in for several minutes. Up to twice a day for up to 4 days. Leftover wax may be flushed gently with warm water and a soft rubber bulb syringe.",
+"ko": "12세 초과: 머리를 기울이고, 끝을 귀 안에 넣지 말고 5~10방울을 넣은 뒤 몇 분간 유지. 하루 2번, 최대 4일. 남은 귀지는 미지근한 물과 부드러운 고무 주사기로 살살 씻어낼 수 있습니다.",
+"ja": "12歳超: 頭を傾け、先を耳に入れずに5〜10滴入れて数分保つ。1日2回まで、最長4日。残った耳あかはぬるま湯とやわらかいゴム製スポイトでやさしく流せます。"
+},
+"max_daily": {
+"en": "Twice a day, for no more than 4 days.",
+"ko": "하루 2번, 4일까지.",
+"ja": "1日2回、4日まで。"
+},
+"children": {
+"en": "12 and under: ask a doctor.",
+"ko": "12세 이하: 의사에게 물어보세요.",
+"ja": "12歳以下: 医師に相談。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Ear drainage, ear pain, irritation or rash, dizziness, an eardrum injury or hole, or recent ear surgery",
+"ko": "귀 분비물, 귀 통증, 자극·발진, 어지러움, 고막 손상·천공, 최근 귀 수술",
+"ja": "耳だれ、耳の痛み、刺激・発疹、めまい、鼓膜の損傷・穴、最近の耳の手術"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "You need it for more than 4 days, or wax remains",
+"ko": "4일 넘게 필요하거나 귀지가 남아 있을 때",
+"ja": "4日を超えて必要、または耳あかが残る"
+}
+],
+"key_warning": {
+"en": "Do not use if you might have a hole in the eardrum or ear pain or drainage — see a doctor.",
+"ko": "고막 천공 가능성, 귀 통증이나 분비물이 있으면 쓰지 말고 진료를 받으세요.",
+"ja": "鼓膜の穴の可能性、耳の痛みや耳だれがあれば使わず受診してください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "carbamide-peroxide-ear",
+"kind": "otc",
+"category": "eye_ear",
+"name": {
+"en": "Carbamide peroxide ear drops",
+"ko": "카바마이드 과산화물 귀약",
+"ja": "過酸化尿素の点耳薬"
+},
+"uses": {
+"en": "Occasional use to soften, loosen and remove excess earwax.",
+"ko": "가끔 많아진 귀지를 부드럽게 하고 떼어내는 데 씁니다.",
+"ja": "ときどき多くなった耳あかをやわらかくして取り除くのに使います。"
+},
+"sources": [
+{
+"title": "DailyMed — Debrox (carbamide peroxide 6.5%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43649ba3-75e0-4dcf-9172-23767dbaeda6"
+}
+]
+},
+{
+"aka": [
+"allergy eye drops",
+"Naphcon-A",
+"Opcon-A",
+"알레르기 안약"
+],
+"brands": [
+"Visine Allergy Eye Relief Multi-Action",
+"Naphcon-A",
+"Opcon-A"
+],
+"active": [
+{
+"ingredient": "naphazoline",
+"strength": "0.025%",
+"purpose": {
+"en": "Redness reliever",
+"ko": "충혈 완화제",
+"ja": "充血除去薬"
+}
+},
+{
+"ingredient": "pheniramine",
+"strength": "0.3%",
+"purpose": {
+"en": "Antihistamine",
+"ko": "항히스타민제",
+"ja": "抗ヒスタミン薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 6 and older: 1 or 2 drops in the affected eye(s) up to 4 times a day.",
+"ko": "성인 및 6세 이상: 해당 눈에 1~2방울, 하루 최대 4번.",
+"ja": "大人と6歳以上: 患部の目に1〜2滴、1日4回まで。"
+},
+"max_daily": {
+"en": "4 times a day.",
+"ko": "하루 4번.",
+"ja": "1日4回。"
+},
+"children": {
+"en": "Under 6: ask a doctor.",
+"ko": "6세 미만: 의사에게 물어보세요.",
+"ja": "6歳未満: 医師に相談。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Heart disease, high blood pressure, narrow-angle glaucoma, or trouble urinating",
+"ko": "심장병, 고혈압, 좁은앞방각 녹내장, 배뇨 곤란",
+"ja": "心臓病、高血圧、閉塞隅角緑内障、排尿困難"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Eye pain, vision changes, redness or irritation that continues, or the condition gets worse or lasts more than 72 hours",
+"ko": "눈 통증, 시력 변화, 계속되는 충혈·자극, 또는 증상이 나빠지거나 72시간 넘게 지속될 때",
+"ja": "目の痛み、見え方の変化、続く充血・刺激、または悪化するか72時間を超えて続く"
+}
+],
+"key_warning": {
+"en": "For short-term use. Pupils may get larger for a while (light may bother you). Overuse may cause more redness. Take out contact lenses first. Do not use if the liquid changes color or turns cloudy. If a child swallows eye drops, get medical help or call Poison Control (1-800-222-1222) right away.",
+"ko": "짧게 쓰는 약입니다. 동공이 잠시 커질 수 있습니다(빛이 눈부심). 너무 자주 쓰면 오히려 더 충혈될 수 있습니다. 콘택트렌즈는 먼저 빼세요. 약이 변색되거나 뿌옇게 되면 쓰지 마세요. 아이가 안약을 삼키면 즉시 진료를 받거나 중독센터(1-800-222-1222)에 전화하세요.",
+"ja": "短期間用です。瞳孔が一時的に大きくなることがあります（まぶしく感じる）。使いすぎるとかえって充血します。コンタクトレンズは先に外してください。液の色が変わったり濁ったら使わないでください。子どもが目薬を飲んだら、すぐ受診するか中毒センター（1-800-222-1222）に電話してください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"heart",
+"bp",
+"glaucoma",
+"prostate",
+"children"
+],
+"classes": [
+"decongestant"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "naphazoline-pheniramine-eye",
+"kind": "otc",
+"category": "eye_ear",
+"name": {
+"en": "Naphazoline + pheniramine eye drops",
+"ko": "나파졸린+페니라민 안약",
+"ja": "ナファゾリン+フェニラミン点眼薬"
+},
+"uses": {
+"en": "Temporarily relieves itchy, red eyes caused by pollen, ragweed, grass, and animal hair and dander.",
+"ko": "꽃가루, 돼지풀, 풀, 동물 털·비듬으로 인한 가렵고 충혈된 눈을 일시적으로 완화합니다.",
+"ja": "花粉、ブタクサ、草、動物の毛・フケによる目のかゆみと充血を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Visine Allergy Eye Relief Multi-Action (naphazoline 0.025%, pheniramine 0.3%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=125fbc97-5bc8-436e-9ee9-e5a44384e260"
+}
+]
+},
+{
+"aka": [
+"red eye drops",
+"Visine",
+"충혈 안약"
+],
+"brands": [
+"Visine Red Eye Comfort",
+"store brand redness reliever eye drops"
+],
+"active": [
+{
+"ingredient": "tetrahydrozoline",
+"strength": "0.05%",
+"purpose": {
+"en": "Redness reliever",
+"ko": "충혈 완화제",
+"ja": "充血除去薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 6 and older: 1 or 2 drops in the affected eye(s) up to 4 times a day.",
+"ko": "성인 및 6세 이상: 해당 눈에 1~2방울, 하루 최대 4번.",
+"ja": "大人と6歳以上: 患部の目に1〜2滴、1日4回まで。"
+},
+"max_daily": {
+"en": "4 times a day.",
+"ko": "하루 4번.",
+"ja": "1日4回。"
+},
+"children": {
+"en": "Under 6: ask a doctor. Under 2: do not use.",
+"ko": "6세 미만: 의사에게 물어보세요. 2세 미만: 사용 금지.",
+"ja": "6歳未満: 医師に相談。2歳未満: 使用しない。"
+},
+"do_not_use": [],
+"ask_doctor": [
+{
+"en": "Narrow-angle glaucoma",
+"ko": "좁은앞방각 녹내장",
+"ja": "閉塞隅角緑内障"
+}
+],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Eye pain, vision changes, redness or irritation that continues, or the condition gets worse or lasts more than 72 hours",
+"ko": "눈 통증, 시력 변화, 계속되는 충혈·자극, 또는 증상이 나빠지거나 72시간 넘게 지속될 때",
+"ja": "目の痛み、見え方の変化、続く充血・刺激、または悪化するか72時間を超えて続く"
+}
+],
+"key_warning": {
+"en": "Pupils may get larger for a while (light may bother you). Overuse may cause more redness. Take out contact lenses first. Do not use if the liquid changes color or turns cloudy. If a child swallows eye drops, get medical help or call Poison Control (1-800-222-1222) right away.",
+"ko": "동공이 잠시 커질 수 있습니다(빛이 눈부심). 너무 자주 쓰면 오히려 더 충혈될 수 있습니다. 콘택트렌즈는 먼저 빼세요. 약이 변색되거나 뿌옇게 되면 쓰지 마세요. 아이가 안약을 삼키면 즉시 진료를 받거나 중독센터(1-800-222-1222)에 전화하세요.",
+"ja": "瞳孔が一時的に大きくなることがあります（まぶしく感じる）。使いすぎるとかえって充血します。コンタクトレンズは先に外してください。液の色が変わったり濁ったら使わないでください。子どもが目薬を飲んだら、すぐ受診するか中毒センター（1-800-222-1222）に電話してください。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"glaucoma",
+"children"
+],
+"classes": [
+"decongestant"
+],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "tetrahydrozoline-eye",
+"kind": "otc",
+"category": "eye_ear",
+"name": {
+"en": "Tetrahydrozoline eye drops",
+"ko": "테트라히드로졸린 안약",
+"ja": "テトラヒドロゾリン点眼薬"
+},
+"uses": {
+"en": "Relieves redness of the eye due to minor eye irritations.",
+"ko": "가벼운 눈 자극으로 인한 충혈을 완화합니다.",
+"ja": "軽い目の刺激による充血をやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Visine Red Eye Comfort (tetrahydrozoline 0.05%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d7abd7cb-e094-481f-bea5-a5983e2c9ef4&type=display"
+}
+]
+},
+{
+"aka": [
+"dry eye drops",
+"lubricant eye drops",
+"인공눈물",
+"目薬 ドライアイ"
+],
+"brands": [
+"Systane",
+"Refresh",
+"store brand lubricant eye drops"
+],
+"active": [
+{
+"ingredient": "polyethylene glycol 400",
+"strength": "0.4%",
+"purpose": {
+"en": "Lubricant",
+"ko": "윤활제",
+"ja": "潤滑剤"
+}
+},
+{
+"ingredient": "propylene glycol",
+"strength": "0.3%",
+"purpose": {
+"en": "Lubricant",
+"ko": "윤활제",
+"ja": "潤滑剤"
+}
+}
+],
+"directions_adult": {
+"en": "1 or 2 drops in the affected eye(s) as needed. Single-use vials: throw away after opening; do not reuse.",
+"ko": "필요할 때 해당 눈에 1~2방울. 일회용 용기는 연 뒤 버리고 다시 쓰지 마세요.",
+"ja": "必要なときに患部の目に1〜2滴。使い切り容器は開けたら捨て、再使用しないでください。"
+},
+"max_daily": null,
+"children": null,
+"do_not_use": [
+{
+"en": "If the solution changes color or becomes cloudy",
+"ko": "약이 변색되거나 뿌옇게 되었을 때",
+"ja": "液の色が変わったり濁っているとき"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Eye pain, vision changes, redness or irritation that continues, or the condition gets worse or lasts more than 72 hours",
+"ko": "눈 통증, 시력 변화, 계속되는 충혈·자극, 또는 증상이 나빠지거나 72시간 넘게 지속될 때",
+"ja": "目の痛み、見え方の変化、続く充血・刺激、または悪化するか72時間を超えて続く"
+}
+],
+"key_warning": {
+"en": "Do not let the tip touch your eye or any surface, to keep it clean. Ingredients differ by product — this summary is one common formula.",
+"ko": "오염을 막기 위해 끝이 눈이나 다른 곳에 닿지 않게 하세요. 제품마다 성분이 다르며, 이 내용은 흔한 한 가지 처방입니다.",
+"ja": "汚染を防ぐため、先が目や他の物に触れないようにしてください。成分は製品ごとに違い、これは一般的な一例です。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "artificial-tears",
+"kind": "otc",
+"category": "eye_ear",
+"name": {
+"en": "Artificial tears (lubricant eye drops)",
+"ko": "인공눈물(윤활 안약)",
+"ja": "人工涙液（潤滑点眼薬）"
+},
+"uses": {
+"en": "Temporary relief of burning and irritation due to dryness of the eye.",
+"ko": "눈 건조로 인한 화끈거림과 자극을 일시적으로 완화합니다.",
+"ja": "目の乾きによるヒリヒリ感や刺激を一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Systane Original PF (polyethylene glycol 400 0.4%, propylene glycol 0.3%) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14916d2c-a63d-491e-bd91-a61f300af38a"
+}
+]
+},
+{
+"aka": [
+"throat lozenge",
+"sore throat drops",
+"목캔디 진통",
+"トローチ"
+],
+"brands": [
+"Cepacol Extra Strength",
+"store brand sore throat lozenges"
+],
+"active": [
+{
+"ingredient": "benzocaine",
+"strength": "15 mg per lozenge",
+"purpose": {
+"en": "Oral pain reliever",
+"ko": "구강 진통제",
+"ja": "口腔鎮痛薬"
+}
+},
+{
+"ingredient": "menthol",
+"strength": "3.6 mg per lozenge",
+"purpose": {
+"en": "Oral pain reliever",
+"ko": "구강 진통제",
+"ja": "口腔鎮痛薬"
+}
+}
+],
+"directions_adult": {
+"en": "Adults and children 5 and older: let one lozenge dissolve slowly in the mouth. May repeat every 2 hours as needed, or as a doctor or dentist directs.",
+"ko": "성인 및 5세 이상: 1정을 입에서 천천히 녹여 드세요. 필요하면 2시간마다 반복, 또는 의사·치과의사 지시대로.",
+"ja": "大人と5歳以上: 1錠を口の中でゆっくり溶かします。必要なら2時間ごとに繰り返す、または医師・歯科医の指示どおり。"
+},
+"max_daily": {
+"en": "No more often than every 2 hours; do not exceed the label directions.",
+"ko": "2시간보다 자주 쓰지 말고, 표시된 용법을 넘기지 마세요.",
+"ja": "2時間より短い間隔で使わず、表示の用法を超えないでください。"
+},
+"children": {
+"en": "Under 5: do not use. Never use for teething.",
+"ko": "5세 미만: 사용 금지. 이가 날 때(치아 발육통)에는 절대 쓰지 마세요.",
+"ja": "5歳未満: 使用しない。歯が生えるときの痛みには使わないでください。"
+},
+"do_not_use": [
+{
+"en": "For teething",
+"ko": "이가 날 때 통증",
+"ja": "歯が生えるときの痛み"
+},
+{
+"en": "In children under 5",
+"ko": "5세 미만 아이",
+"ja": "5歳未満の子ども"
+},
+{
+"en": "If you have had an allergy to 'caine' numbing medicines (procaine, butacaine, benzocaine and others)",
+"ko": "'-카인' 계열 마취제(프로카인, 부타카인, 벤조카인 등)에 알레르기가 있었던 경우",
+"ja": "「〜カイン」系の麻酔薬（プロカイン、ブタカイン、ベンゾカインなど）にアレルギーがあった場合"
+}
+],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Sore throat is severe, lasts more than 2 days, or comes with fever, headache, rash, swelling, nausea or vomiting — see a doctor promptly",
+"ko": "인후통이 심하거나 2일 넘게 지속되거나 열·두통·발진·부기·메스꺼움·구토가 동반될 때 — 빨리 진료",
+"ja": "のどの痛みが強い、2日を超える、または発熱・頭痛・発疹・腫れ・吐き気・嘔吐を伴う — すぐ受診"
+},
+{
+"en": "Mouth soreness does not improve in 7 days, or irritation, pain or redness continues or worsens, or swelling, rash or fever develops",
+"ko": "입안 통증이 7일 안에 좋아지지 않거나, 자극·통증·발적이 계속·악화되거나, 부기·발진·열이 생길 때",
+"ja": "口の痛みが7日で良くならない、刺激・痛み・赤みが続く・悪化する、腫れ・発疹・発熱が出る"
+}
+],
+"key_warning": {
+"en": "Benzocaine can cause methemoglobinemia, a serious drop in blood oxygen, even if you used it before. Get emergency help for pale, gray or blue skin, headache, fast heartbeat, shortness of breath, dizziness, or unusual tiredness.",
+"ko": "벤조카인은 이전에 써 본 적이 있어도 혈중 산소가 심하게 떨어지는 메트헤모글로빈혈증을 일으킬 수 있습니다. 창백하거나 회색·파란 피부, 두통, 빠른 심장박동, 숨참, 어지러움, 이상한 피로가 있으면 즉시 응급 도움을 받으세요.",
+"ja": "ベンゾカインは以前使ったことがあっても、血液の酸素が大きく下がるメトヘモグロビン血症を起こすことがあります。青白い・灰色・青い肌、頭痛、速い脈、息切れ、めまい、異常なだるさがあればすぐ救急へ。"
+},
+"older_adults": null,
+"pregnancy": {
+"en": "Ask a health professional before use.",
+"ko": "사용 전 의료인에게 물어보세요.",
+"ja": "使用前に医療専門家に相談してください。"
+},
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "benzocaine-lozenge",
+"kind": "otc",
+"category": "cold_cough",
+"name": {
+"en": "Benzocaine + menthol sore-throat lozenges",
+"ko": "벤조카인+멘톨 인후 트로키",
+"ja": "ベンゾカイン+メントールのどトローチ"
+},
+"uses": {
+"en": "Temporarily relieves occasional minor irritation and pain from sore throat, sore mouth and canker sores.",
+"ko": "인후통, 입안 통증, 구내염으로 인한 가벼운 자극과 통증을 일시적으로 완화합니다.",
+"ja": "のどの痛み、口の痛み、口内炎による軽い刺激と痛みを一時的にやわらげます。"
+},
+"sources": [
+{
+"title": "DailyMed — Cepacol Extra Strength Sore Throat (benzocaine 15 mg, menthol 3.6 mg) Drug Facts",
+"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=941e36dd-d8d0-4e5c-8585-10e8f06bf8f0"
+}
+]
+},
+{
+"aka": [
+"conjunctivitis",
+"pink eye",
+"결막염",
+"눈병",
+"結膜炎"
+],
+"brands": [],
+"active": [],
+"directions_adult": {
+"en": "Cold compresses and artificial tears can ease swelling and dryness. Stop wearing contact lenses until symptoms are gone, or until your eye doctor says it is safe.",
+"ko": "냉찜질과 인공눈물이 부기와 건조함을 덜어 줍니다. 증상이 사라질 때까지(또는 안과 의사가 괜찮다고 할 때까지) 콘택트렌즈를 끼지 마세요.",
+"ja": "冷たいタオルと人工涙液で腫れや乾きがやわらぎます。症状がなくなるまで（または眼科医が良いと言うまで）コンタクトレンズはやめてください。"
+},
+"max_daily": null,
+"children": {
+"en": "A newborn with any pink eye signs needs a doctor right away.",
+"ko": "신생아에게 결막염 증상이 있으면 즉시 진료를 받으세요.",
+"ja": "新生児に結膜炎の症状があれば、すぐ受診してください。"
+},
+"do_not_use": [],
+"ask_doctor": [],
+"ask_pharmacist": [],
+"stop_use": [
+{
+"en": "Eye pain, sensitivity to light, or blurred vision that does not clear when you wipe away discharge",
+"ko": "눈 통증, 빛에 예민함, 눈곱을 닦아도 나아지지 않는 흐린 시야",
+"ja": "目の痛み、光がまぶしい、目やにを拭いても治らないかすみ目"
+},
+{
+"en": "Intense redness, or symptoms that get worse or do not improve",
+"ko": "심한 충혈, 또는 증상이 악화되거나 나아지지 않을 때",
+"ja": "強い充血、または症状が悪化する・良くならない"
+},
+{
+"en": "A weakened immune system",
+"ko": "면역력이 약한 경우",
+"ja": "免疫が弱っている場合"
+},
+{
+"en": "Bacterial pink eye not better after 24 hours of antibiotics",
+"ko": "항생제 24시간 후에도 나아지지 않는 세균성 결막염",
+"ja": "抗菌薬を24時間使っても良くならない細菌性結膜炎"
+}
+],
+"key_warning": {
+"en": "See a doctor for eye pain, light sensitivity, blurred vision, or intense redness — these are not home-care symptoms.",
+"ko": "눈 통증, 빛 예민, 흐린 시야, 심한 충혈은 집에서 돌볼 증상이 아닙니다 — 진료를 받으세요.",
+"ja": "目の痛み、まぶしさ、かすみ目、強い充血は家で様子を見る症状ではありません — 受診してください。"
+},
+"older_adults": null,
+"pregnancy": null,
+"flags": [
+"children"
+],
+"classes": [],
+"supplement_note": null,
+"verified": "2026-10-22",
+"id": "pink-eye",
+"kind": "guide",
+"category": "eye_ear",
+"name": {
+"en": "Pink eye (conjunctivitis) — home care",
+"ko": "눈병(결막염) — 집에서 돌보기",
+"ja": "はやり目・結膜炎 — 家でのケア"
+},
+"uses": {
+"en": "Pink eye can be viral, bacterial or allergic. Viral pink eye usually clears on its own in 7 to 14 days and antibiotics do not help it. Mild bacterial pink eye often clears in 2 to 5 days; a doctor may prescribe antibiotic drops. Allergic pink eye improves when you avoid the trigger; allergy eye drops can help. Viral and bacterial pink eye spread easily.",
+"ko": "결막염은 바이러스, 세균, 알레르기로 생깁니다. 바이러스성은 보통 7~14일이면 저절로 낫고 항생제는 효과가 없습니다. 가벼운 세균성은 2~5일이면 낫는 경우가 많고, 의사가 항생제 안약을 처방할 수 있습니다. 알레르기성은 원인을 피하면 좋아지고 알레르기 안약이 도움이 됩니다. 바이러스성과 세균성은 쉽게 옮습니다.",
+"ja": "結膜炎にはウイルス性、細菌性、アレルギー性があります。ウイルス性は通常7〜14日で自然に治り、抗生物質は効きません。軽い細菌性は2〜5日で治ることが多く、医師が抗菌目薬を処方することがあります。アレルギー性は原因を避けると良くなり、アレルギー用目薬が役立ちます。ウイルス性と細菌性はうつりやすいです。"
+},
+"sources": [
+{
+"title": "CDC — Treatment of Pink Eye (Conjunctivitis)",
+"url": "https://www.cdc.gov/conjunctivitis/treatment/index.html"
+}
+]
+}
+]
+}

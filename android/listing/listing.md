@@ -3,7 +3,7 @@
 Package `com.hakoya.homerx` · Free · Developer: HAKOYA LLC
 
 Every claim below was checked against the v2 app (index.html built by v2/build.py, version
-2.0.0, 81 entries, 12 Korea/Japan items). The listing never calls it medical advice, a diagnostic
+2.0.0, 82 entries, 12 Korea/Japan items). The listing never calls it medical advice, a diagnostic
 tool, or FDA approved/registered/cleared.
 
 ## App details
@@ -40,7 +40,7 @@ HomeRx explains the over-the-counter (OTC) medicines and dietary supplements sol
 It is made for immigrants, older adults, caregivers and students: anyone who stands in a pharmacy aisle and finds the labels hard to follow. HomeRx is an educational reference. It does not diagnose or prescribe, and it does not replace your pharmacist or doctor.
 
 DRUG FACTS, TRANSLATED
-• 81 entries: pain and fever, allergy, cold and cough, nose, eye and ear, stomach, constipation, motion sickness, skin, first aid, mouth, sleep, women's health, quitting smoking, vitamins, minerals and herbal supplements.
+• 82 entries: pain and fever, allergy, cold and cough, nose, eye and ear, stomach, constipation, motion sickness, skin, first aid, mouth, sleep, women's health, quitting smoking, vitamins, minerals and herbal supplements.
 • Each medicine is summarized in the same order as the U.S. Drug Facts label: active ingredient, uses, warnings, directions, and when to stop and ask a doctor.
 • Every entry lists its sources (DailyMed labels, NIH Office of Dietary Supplements, NCCIH, CDC) and the date it was checked.
 • Supplements show the recommended amount, the upper limit, what the evidence says, and the medicines they interact with.
@@ -76,13 +76,14 @@ Made by HAKOYA LLC, Texas.
 | Feature graphic 1024×500 | `feature-1024x500.png` | HomeRx wordmark, language buttons and a real screen from the store build |
 | Phone screenshots 1080×1920 (9:16) | `screenshots/` | Captured from the store build (android/www) at 360×640 dp, ×3 |
 
-Screenshots, in upload order:
-1. `2-home-en.png` — home screen, emergency line, purpose
-2. `3-search-entry-en.png` — search "ibuprofen", entry opened
-3. `4-category-ko.png` — Sleep category in Korean, entry opened
-4. `5-supplement-ja.png` — Omega-3 / Fish oil supplement in Japanese, evidence badge and safety check
-5. `6-phrases-en.png` — English phrases to show a pharmacist
-6. `1-disclaimer-en.png` — the disclaimer shown before first use
+Screenshots, in upload order (store build, 360×640 dp ×3 = 1080×1920):
+1. `1-find-en.png` — Find screen, categories, emergency numbers
+2. `2-drugfacts-en.png` — Acetaminophen, translated Drug Facts panel
+3. `3-cabinet-en.png` — My cabinet warning about acetaminophen twice and two NSAIDs
+4. `4-from-home-ko.png` — Korean medicines and their U.S. equivalents (Korean UI)
+5. `5-supplement-ja.png` — Vitamin D supplement facts in Japanese
+6. `6-learn-en.png` — How to read a Drug Facts label
+7. `7-notice-en.png` — the notice shown before first use
 
 ## Privacy policy
 

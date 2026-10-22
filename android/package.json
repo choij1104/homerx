@@ -1,0 +1,16 @@
+{
+  "name": "homerx-android",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Google Play build of HomeRx, wrapped with Capacitor. The web bundle (android/www) is built from the repository's index.html by scripts/build-store.py.",
+  "scripts": {
+    "build:www": "python3 scripts/build-store.py"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}

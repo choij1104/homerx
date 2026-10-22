@@ -1,0 +1,15 @@
+{
+  "appId": "com.hakoya.homerx",
+  "appName": "HomeRx",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#FAFAF7",
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "LIGHT"
+    }
+  }
+}
